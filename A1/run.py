@@ -1,6 +1,6 @@
 import subprocess as sp 
 import sys
-# Used https://www.geeksforgeeks.org/python-subprocess-module/ to learn about the subprocess module 
+# Used https://www.geeksforgeeks.org/python-subprocess-module/ to learn about the subprocess module and the syntax for the try-except blocks
 
 file1 = open('/home/ecelias/cs3640/A1/output.txt', 'w+')
 file1.write('ecelias Elizabeth Elias')
@@ -31,12 +31,16 @@ if len(sys.argv) == 2:
             to_output_file(f'[Error] Command: <{command}> failed with return code: {e.returncode}')
             print(f'[Error] Command <{command}> failed with return code: {e.returncode}')
 
-elif len(sys.argv) < 2:
+elif len(sys.argv) == 2:
     to_output_file('[Error] No IP address found in system input. Please try again.')
     print('[Error] No IP address found in system input. Please try again.')
     
 elif len(sys.argv) > 2:
     to_output_file('[Error] Too many arguments detected. Please try again.')
     print('[Error] No IP address found in system input. Please try again.')
+
+elif len(sys.argv) < 1:
+    to_output_file('[Error] Script name and IP address not defined. Please try again.')
+    print('[Error] Script name and IP address not defined. Please try again.')
 
 file1.close()
