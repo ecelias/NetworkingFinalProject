@@ -37,7 +37,7 @@ elif len(sys.argv) == 2:
     
 elif len(sys.argv) > 2:
     to_output_file('[Error] Too many arguments detected. Please try again.')
-    print('[Error] No IP address found in system input. Please try again.')
+    print('[Error]Too many arguments detected. Please try again.')
 
 elif len(sys.argv) < 1:
     to_output_file('[Error] Script name and IP address not defined. Please try again.')
