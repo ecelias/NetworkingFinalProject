@@ -7,49 +7,36 @@ file1.write('ecelias Elizabeth Elias')
 file1.write('\n')
 file1.write('\n')
 
-
 def to_output_file(new_line):
     file1.write('\n*****\n')
     file1.write(new_line)
+    
         
 if len(sys.argv) == 2:
     ip_address = sys.argv[1]
-    print(ip_address)
     
-    try:
-        current_date = sp.run(['date'], capture_output=True, text=True)
-        to_output_file(f'Command: <date> {current_date.stdout}')
-    except sp.CalledProcessError as e:
-        to_output_file(f'[Error] Command: <date> failed with return code: {e.returncode}')
-        print(f'[Error] Command <date> failed with return code: {e.returncode}')
+    commands = [
+    ['date'],
+    ['whoami'],
+    ['ifconfig'],
+    ['ping', ip_address, '-c', '10'],
+    ['traceroute', ip_address, '-m', '10'],
+    ]  
     
-    try:
-        current_user = sp.run(['whoami'], capture_output=True, text=True)
-        to_output_file(f'Command: <whoami> {current_user.stdout}')
-    except sp.CalledProcessError as e:
-        to_output_file(f'[Error] Command: <whoami> failed with return code: {e.returncode}')
-        print(f'[Error] Command <whoami> failed with return code: {e.returncode}')
+    for command in commands:
+        try:
+            current_command = sp.run(command, capture_output=True, text=True)
+            to_output_file(f'Command: <{command}> {current_command.stdout}')
+        except sp.CalledProcessError as e:
+            to_output_file(f'[Error] Command: <{command}> failed with return code: {e.returncode}')
+            print(f'[Error] Command <{command}> failed with return code: {e.returncode}')
+
+elif len(sys.argv) < 2:
+    to_output_file('[Error] No IP address found in system input. Please try again.')
+    print('[Error] No IP address found in system input. Please try again.')
     
-    try:
-        current_ifconfig = sp.run(['ifconfig'], capture_output=True, text=True)
-        to_output_file(f'Command: <ifconfig> {current_ifconfig.stdout}')
-    except sp.CalledProcessError as e:
-        to_output_file(f'[Error] Command: <ifconfig> failed with return code: {e.returncode}')
-        print(f'[Error] Command <ifconfig> failed with return code: {e.returncode}')
-            
-    try:
-        current_ping = sp.run(['ping', ip_address, '-c', '10'], capture_output=True, text=True)
-        to_output_file(f'Command: <ping {ip_address} -c 10> {current_ping.stdout}')
-    except sp.CalledProcessError as e:
-        to_output_file(f'[Error] Command: <ping {ip_address} -c 10> failed with return code: {e.returncode}')
-        print(f'[Error] Command <ping {ip_address} -c 10> failed with return code: {e.returncode}')
-                    
-    try:
-        current_trace = sp.run(['traceroute', ip_address, '-m', '10'], capture_output=True, text=True)
-        to_output_file(f'Command: <traceroute> {ip_address} -m 10> {current_trace.stdout}')
-    except sp.CalledProcessError as e:
-        to_output_file(f'[Error] Command: <traceroute> {ip_address} -m 10> failed with return code: {e.returncode}')
-        print(f'[Error] Command <traceroute> {ip_address} -m 10> failed with return code: {e.returncode}')
-    
+elif len(sys.argv) > 2:
+    to_output_file('[Error] Too many arguments detected. Please try again.')
+    print('[Error] No IP address found in system input. Please try again.')
 
 file1.close()
