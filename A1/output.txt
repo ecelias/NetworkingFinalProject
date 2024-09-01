@@ -2,13 +2,13 @@ ecelias Elizabeth Elias
 
 
 *****
-Command: <['date']> Sun Sep  1 05:10:03 PM UTC 2024
+Command: ['date'] Sun Sep  1 05:50:12 PM UTC 2024
 
 *****
-Command: <['whoami']> ecelias
+Command: ['whoami'] ecelias
 
 *****
-Command: <['ifconfig']> docker0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+Command: ['ifconfig'] docker0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
         inet 172.17.0.1  netmask 255.255.0.0  broadcast 172.17.255.255
         ether 02:42:14:df:8e:21  txqueuelen 0  (Ethernet)
         RX packets 0  bytes 0 (0.0 B)
@@ -20,41 +20,41 @@ enp0s3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 10.0.2.15  netmask 255.255.255.0  broadcast 10.0.2.255
         inet6 fe80::a00:27ff:fe3e:4a08  prefixlen 64  scopeid 0x20<link>
         ether 08:00:27:3e:4a:08  txqueuelen 1000  (Ethernet)
-        RX packets 72577  bytes 13241681 (13.2 MB)
+        RX packets 99382  bytes 16674595 (16.6 MB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 50068  bytes 16191301 (16.1 MB)
+        TX packets 68908  bytes 20653374 (20.6 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
         inet 127.0.0.1  netmask 255.0.0.0
         inet6 ::1  prefixlen 128  scopeid 0x10<host>
         loop  txqueuelen 1000  (Local Loopback)
-        RX packets 86049  bytes 18695571 (18.6 MB)
+        RX packets 122096  bytes 24245671 (24.2 MB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 86049  bytes 18695571 (18.6 MB)
+        TX packets 122096  bytes 24245671 (24.2 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 
 *****
-Command: <['ping', 'sparta.cs.uiowa.edu', '-c', '10']> PING vitalstatistix.cs.uiowa.edu (128.255.96.116) 56(84) bytes of data.
-64 bytes from vitalstatistix.cs.uiowa.edu (128.255.96.116): icmp_seq=1 ttl=49 time=17.6 ms
-64 bytes from vitalstatistix.cs.uiowa.edu (128.255.96.116): icmp_seq=2 ttl=49 time=116 ms
-64 bytes from vitalstatistix.cs.uiowa.edu (128.255.96.116): icmp_seq=3 ttl=49 time=18.5 ms
-64 bytes from vitalstatistix.cs.uiowa.edu (128.255.96.116): icmp_seq=4 ttl=49 time=17.2 ms
-64 bytes from vitalstatistix.cs.uiowa.edu (128.255.96.116): icmp_seq=5 ttl=49 time=16.6 ms
-64 bytes from vitalstatistix.cs.uiowa.edu (128.255.96.116): icmp_seq=6 ttl=49 time=16.0 ms
-64 bytes from vitalstatistix.cs.uiowa.edu (128.255.96.116): icmp_seq=7 ttl=49 time=16.5 ms
-64 bytes from vitalstatistix.cs.uiowa.edu (128.255.96.116): icmp_seq=8 ttl=49 time=17.8 ms
-64 bytes from vitalstatistix.cs.uiowa.edu (128.255.96.116): icmp_seq=9 ttl=49 time=16.8 ms
-64 bytes from vitalstatistix.cs.uiowa.edu (128.255.96.116): icmp_seq=10 ttl=49 time=18.1 ms
+Command: ['ping', '8.8.8.8', '-c', '10'] PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=112 time=31.1 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=112 time=30.3 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=112 time=32.4 ms
+64 bytes from 8.8.8.8: icmp_seq=4 ttl=112 time=31.7 ms
+64 bytes from 8.8.8.8: icmp_seq=5 ttl=112 time=30.0 ms
+64 bytes from 8.8.8.8: icmp_seq=6 ttl=112 time=32.3 ms
+64 bytes from 8.8.8.8: icmp_seq=7 ttl=112 time=31.4 ms
+64 bytes from 8.8.8.8: icmp_seq=8 ttl=112 time=30.9 ms
+64 bytes from 8.8.8.8: icmp_seq=9 ttl=112 time=31.3 ms
+64 bytes from 8.8.8.8: icmp_seq=10 ttl=112 time=28.3 ms
 
---- vitalstatistix.cs.uiowa.edu ping statistics ---
-10 packets transmitted, 10 received, 0% packet loss, time 9270ms
-rtt min/avg/max/mdev = 15.977/27.120/116.113/29.673 ms
+--- 8.8.8.8 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9065ms
+rtt min/avg/max/mdev = 28.277/30.971/32.410/1.156 ms
 
 *****
-Command: <['traceroute', 'sparta.cs.uiowa.edu', '-m', '10']> traceroute to vitalstatistix.cs.uiowa.edu (128.255.96.116), 10 hops max
-  1   10.0.2.2  0.899ms  0.520ms  0.905ms 
+Command: ['traceroute', '8.8.8.8', '-m', '10'] traceroute to 8.8.8.8 (8.8.8.8), 10 hops max
+  1   10.0.2.2  1.284ms  0.008ms  0.934ms 
   2   *  *  * 
   3   *  *  * 
   4   *  *  * 
