@@ -31,7 +31,7 @@ if len(sys.argv) == 2:
             to_output_file(f'[Error] Command: <{command}> failed with return code: {e.returncode}')
             print(f'[Error] Command <{command}> failed with return code: {e.returncode}')
 
-elif len(sys.argv) == 2:
+elif len(sys.argv) == 1:
     to_output_file('[Error] No IP address found in system input. Please try again.')
     print('[Error] No IP address found in system input. Please try again.')
     
