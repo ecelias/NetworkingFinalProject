@@ -13,7 +13,7 @@ def recv_thread(cli_socket):
             data = cli_socket.recv(1024)
             if data == DISCONNECT_MESSAGE:
                 break
-            print(f"\nReceived from server: {data.decode(FORMAT)}")
+            print(f"\n{data.decode(FORMAT)}")
         except:
             break
         

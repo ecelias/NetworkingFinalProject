@@ -34,9 +34,10 @@ def threaded(connection):
         else:
             for client in clients:
                 if client != connection:
-                    sent_msg = f'Message from {connection} sent: {data}'
-                    write_to_file(sent_msg)
+                    sent_msg = f'\nMessage received from {connection}'
+                    write_to_file(f"{data}{sent_msg}")
                     client.send(data)
+                    client.send(sent_msg.encode(FORMAT))
     connection.close()
 
 def main():
