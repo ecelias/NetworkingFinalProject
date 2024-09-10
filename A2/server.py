@@ -7,6 +7,7 @@ import threading
 ## used https://www.geeksforgeeks.org/socket-programming-python/ to learn more about the syntax for socket programming 
 
 file1 = open('/home/ecelias/cs3640/A2/output.txt', 'w+')
+file1.write('ecelias Elizabeth Elias')
 file1.write('\n')
 file1.write('\n')
 
@@ -33,13 +34,14 @@ def threaded(connection):
             print("Goodbye")
             quit_msg = f'\n{connection_name} has left the chat.'
             write_to_file(quit_msg)
+            clients.remove(connection)
             break
         else:
             write_to_file(recv_msg)
             for client in clients:
                 if client != connection:
                     client_name = client.getpeername()[1]
-                    sent_msg = f'\nMessage from user [{connection_name}] sent to user [{connection_name}]'
+                    sent_msg = f'\nMessage from user [{connection_name}] sent to user [{client_name}]'
                     write_to_file(sent_msg)
                     #client.send(data.encode(FORMAT))
                     client.send(recv_msg.encode(FORMAT))
@@ -67,7 +69,7 @@ def main():
     
         while True:
             connection, address = tcp.accept()
-            conn_accepted_msg = f'User {address[1]} has joined the chat. '
+            conn_accepted_msg = f'\nUser {address[1]} has joined the chat. '
             file1.write(conn_accepted_msg)
             print(conn_accepted_msg)
 
