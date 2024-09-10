@@ -12,6 +12,7 @@ You will be prompted to enter a message you wish to send to the server. To quit,
 
 
 Resources:
+<br>
 Basic syntax for socket programming:
 https://www.geeksforgeeks.org/socket-programming-python/ 
 

@@ -13,7 +13,7 @@ def recv_thread(cli_socket):
             data = cli_socket.recv(1024)
             if data == DISCONNECT_MESSAGE:
                 break
-            print(f"Received from server: {data.decode(FORMAT)}")
+            print(f"\nReceived from server: {data.decode(FORMAT)}")
         except:
             break
         
@@ -32,7 +32,7 @@ def main():
         start_new_thread(recv_thread, (client,))
         
         while True:
-            msg = input("Input message: ")
+            msg = input(f"Input message: ")
             start_new_thread(send_thread, (msg, client,))
             
             if msg == DISCONNECT_MESSAGE:
