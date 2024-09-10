@@ -13,7 +13,8 @@ def recv_thread(cli_socket):
             data = cli_socket.recv(1024)
             if data == DISCONNECT_MESSAGE:
                 break
-            print(f"\n{data.decode(FORMAT)}")
+            print(f"{data.decode(FORMAT)}")
+            print("Reply on the line below (or type /quit to leave the chat):")
         except:
             break
         
@@ -26,13 +27,18 @@ def main():
         host_name = str(sys.argv[1])
     
         client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    
-        client.connect((host_name, port))
         
+        try: 
+            client.connect((host_name, port))
+            print("Successfully connected to the server!")
+        except: 
+            print("Error connecting to server. Please check port and try again")
+            
         start_new_thread(recv_thread, (client,))
+        print("Type your first message on the line below (or type /quit to leave the chat):")
         
         while True:
-            msg = input(f"Input message: ")
+            msg = input()
             start_new_thread(send_thread, (msg, client,))
             
             if msg == DISCONNECT_MESSAGE:

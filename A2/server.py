@@ -22,22 +22,27 @@ clients = set()
     
 def threaded(connection):
     clients.add(connection)
+    connection_string = connection.getpeername()
+    connection_name = connection_string[1]
+    
     while True:
         data = connection.recv(1024)
-        recv_msg = f'Message received from {connection}: {data}'
-        write_to_file(recv_msg)
+        data = data.decode(FORMAT)
+        recv_msg = f'\nMessage from user [{connection_name}]: {data}'
         if not data:
             print("Goodbye")
-            quit_msg = f'{connection} has disconnected.'
+            quit_msg = f'\n{connection_name} has left the chat.'
             write_to_file(quit_msg)
             break
         else:
+            write_to_file(recv_msg)
             for client in clients:
                 if client != connection:
-                    sent_msg = f'\nMessage received from {connection}'
-                    write_to_file(f"{data}{sent_msg}")
-                    client.send(data)
-                    client.send(sent_msg.encode(FORMAT))
+                    client_name = client.getpeername()[1]
+                    sent_msg = f'\nMessage from user [{connection_name}] sent to user [{connection_name}]'
+                    write_to_file(sent_msg)
+                    #client.send(data.encode(FORMAT))
+                    client.send(recv_msg.encode(FORMAT))
     connection.close()
 
 def main():
@@ -62,7 +67,7 @@ def main():
     
         while True:
             connection, address = tcp.accept()
-            conn_accepted_msg = f'Connection from {address} received.'
+            conn_accepted_msg = f'User {address[1]} has joined the chat. '
             file1.write(conn_accepted_msg)
             print(conn_accepted_msg)
 

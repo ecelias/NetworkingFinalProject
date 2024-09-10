@@ -1,10 +1,28 @@
 
 
-Connection from ('127.0.0.1', 56754) received.Message received from <socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 5000), raddr=('127.0.0.1', 56754)>: b'hi'
-Connection from ('127.0.0.1', 56762) received.Message received from <socket.socket fd=6, family=2, type=1, proto=0, laddr=('127.0.0.1', 5000), raddr=('127.0.0.1', 56762)>: b'hi'
-b'hi'
-Message received from <socket.socket fd=6, family=2, type=1, proto=0, laddr=('127.0.0.1', 5000), raddr=('127.0.0.1', 56762)>
-Message received from <socket.socket fd=6, family=2, type=1, proto=0, laddr=('127.0.0.1', 5000), raddr=('127.0.0.1', 56762)>: b''
-<socket.socket fd=6, family=2, type=1, proto=0, laddr=('127.0.0.1', 5000), raddr=('127.0.0.1', 56762)> has disconnected.
-Message received from <socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 5000), raddr=('127.0.0.1', 56754)>: b''
-<socket.socket fd=5, family=2, type=1, proto=0, laddr=('127.0.0.1', 5000), raddr=('127.0.0.1', 56754)> has disconnected.
+User 55216 has joined the chat. 
+Message from user [55216]: hi
+User 43934 has joined the chat. 
+Message from user [43934]: hello!
+
+Message from user [43934] sent to user [43934]
+
+Message from user [55216]: hi 43934
+
+Message from user [55216] sent to user [55216]
+
+Message from user [43934]: hello 55216!
+
+Message from user [43934] sent to user [43934]
+
+Message from user [55216]: gtg! bye
+
+Message from user [55216] sent to user [55216]
+
+Message from user [55216]: 
+
+55216 has left the chat.
+
+Message from user [43934]: 
+
+43934 has left the chat.
