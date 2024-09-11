@@ -1,37 +1,41 @@
 ecelias Elizabeth Elias
 
+User 35490 has joined the chat.
 
-User 51916 has joined the chat. 
-Message from user [51916]: hi!
+Message from user [35490]: This is a test for CS3640 Assignment 2.
 
-User 51830 has joined the chat. 
-User 51846 has joined the chat. 
-Message from user [51846]: hi everyone!
+User 48722 has joined the chat.
 
-Message from user [51846] sent to user [51830]
+User 48726 has joined the chat.
 
-Message from user [51846] sent to user [51916]
+Message from user [48726]: Hello!
+Message from user [48726] sent to user [35490]
+Message from user [48726] sent to user [48722]
 
-Message from user [51830]: hello user 51846
+Message from user [35490]: Hello user 48726
+Message from user [35490] sent to user [48726]
+Message from user [35490] sent to user [48722]
 
-Message from user [51830] sent to user [51916]
+Message from user [48722]: Hello users 35490 and 48726
+Message from user [48722] sent to user [35490]
+Message from user [48722] sent to user [48726]
 
-Message from user [51830] sent to user [51846]
+Message from user [35490]: I have to go, nice to meet you all!
+Message from user [35490] sent to user [48726]
+Message from user [35490] sent to user [48722]
 
-Message from user [51916]: hi users 51846 and 51830
+Message from user [48726]: Goodbye user 35490!
+Message from user [48726] sent to user [35490]
+Message from user [48726] sent to user [48722]
 
-Message from user [51916] sent to user [51830]
+User 35490 has left the chat.
 
-Message from user [51916] sent to user [51846]
+Message from user [48722]: bye user 35490!
+Message from user [48722] sent to user [48726]
 
-Message from user [51846]: got to go! bye!
+Message from user [48722]: I have to head out too, bye user 48726
+Message from user [48722] sent to user [48726]
 
-Message from user [51846] sent to user [51830]
+User 48722 has left the chat.
 
-Message from user [51846] sent to user [51916]
-
-51846 has left the chat.
-
-51830 has left the chat.
-
-51916 has left the chat.
+User 48726 has left the chat.

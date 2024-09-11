@@ -9,11 +9,9 @@ import threading
 file1 = open('/home/ecelias/cs3640/A2/output.txt', 'w+')
 file1.write('ecelias Elizabeth Elias')
 file1.write('\n')
-file1.write('\n')
 
 def write_to_file(message):
     file1.write(message)
-    file1.write('\n')
 
 HEADER = 64
 FORMAT = 'ascii'
@@ -32,8 +30,9 @@ def threaded(connection):
         recv_msg = f'\nMessage from user [{connection_name}]: {data}'
         if not data:
             print("Goodbye")
-            quit_msg = f'\n{connection_name} has left the chat.'
+            quit_msg = f'\nUser {connection_name} has left the chat.'
             write_to_file(quit_msg)
+            write_to_file(f'\n')
             clients.remove(connection)
             break
         else:
@@ -45,6 +44,7 @@ def threaded(connection):
                     write_to_file(sent_msg)
                     #client.send(data.encode(FORMAT))
                     client.send(recv_msg.encode(FORMAT))
+            write_to_file(f'\n')
     connection.close()
 
 def main():
@@ -69,10 +69,10 @@ def main():
     
         while True:
             connection, address = tcp.accept()
-            conn_accepted_msg = f'\nUser {address[1]} has joined the chat. '
-            file1.write(conn_accepted_msg)
+            conn_accepted_msg = f'\nUser {address[1]} has joined the chat.'
+            write_to_file(conn_accepted_msg)
+            write_to_file(f'\n')
             print(conn_accepted_msg)
-
             start_new_thread(threaded, (connection,))
             #print(f'Current active connections: {threading.active_count()}')
             
