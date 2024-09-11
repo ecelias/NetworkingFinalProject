@@ -6,7 +6,7 @@ import threading
 ## used https://www.geeksforgeeks.org/socket-programming-multi-threading-python/ to learn syntax for multi-threading
 ## used https://www.geeksforgeeks.org/socket-programming-python/ to learn more about the syntax for socket programming 
 
-file1 = open('/home/ecelias/cs3640/A2/output.txt', 'w+')
+file1 = open('output.txt', 'w+')
 file1.write('ecelias Elizabeth Elias')
 file1.write('\n')
 
