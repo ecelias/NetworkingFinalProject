@@ -1,41 +1,39 @@
 ecelias Elizabeth Elias
 
-User 35490 has joined the chat.
+User 35276 has joined the chat.
 
-Message from user [35490]: This is a test for CS3640 Assignment 2.
+Message from user [35276]: This is a test for CS3640 Assignment 2
 
-User 48722 has joined the chat.
+User 56602 has joined the chat.
 
-User 48726 has joined the chat.
+User 54264 has joined the chat.
 
-Message from user [48726]: Hello!
-Message from user [48726] sent to user [35490]
-Message from user [48726] sent to user [48722]
+Message from user [54264]: hi everyone!
+Message from user [54264] sent to user [35276]
+Message from user [54264] sent to user [56602]
 
-Message from user [35490]: Hello user 48726
-Message from user [35490] sent to user [48726]
-Message from user [35490] sent to user [48722]
+Message from user [56602]: hello user 54264
+Message from user [56602] sent to user [35276]
+Message from user [56602] sent to user [54264]
 
-Message from user [48722]: Hello users 35490 and 48726
-Message from user [48722] sent to user [35490]
-Message from user [48722] sent to user [48726]
+Message from user [35276]: hello users 52464 and 56602
+Message from user [35276] sent to user [54264]
+Message from user [35276] sent to user [56602]
 
-Message from user [35490]: I have to go, nice to meet you all!
-Message from user [35490] sent to user [48726]
-Message from user [35490] sent to user [48722]
+Message from user [56602]: nice to meet everyone, I have to go
+Message from user [56602] sent to user [35276]
+Message from user [56602] sent to user [54264]
 
-Message from user [48726]: Goodbye user 35490!
-Message from user [48726] sent to user [35490]
-Message from user [48726] sent to user [48722]
+User 56602 has left the chat.
 
-User 35490 has left the chat.
+Message from user [54264]: bye user 56602
+Message from user [54264] sent to user [35276]
 
-Message from user [48722]: bye user 35490!
-Message from user [48722] sent to user [48726]
+Message from user [35276]: I'm leaving too
+Message from user [35276] sent to user [54264]
 
-Message from user [48722]: I have to head out too, bye user 48726
-Message from user [48722] sent to user [48726]
+User 35276 has left the chat.
 
-User 48722 has left the chat.
+Message from user [54264]: See you guys later 
 
-User 48726 has left the chat.
+User 54264 has left the chat.

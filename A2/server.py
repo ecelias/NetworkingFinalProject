@@ -9,9 +9,12 @@ import threading
 file1 = open('output.txt', 'w+')
 file1.write('ecelias Elizabeth Elias')
 file1.write('\n')
+file1.close()
 
 def write_to_file(message):
+    file1 = open('output.txt', 'w+')
     file1.write(message)
+    file1.close()
 
 HEADER = 64
 FORMAT = 'ascii'
