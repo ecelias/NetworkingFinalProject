@@ -1,39 +1,35 @@
 ecelias Elizabeth Elias
 
-User 35276 has joined the chat.
+User 51030 has joined the chat.
 
-Message from user [35276]: This is a test for CS3640 Assignment 2
+Message from user [51030]: This is a test for CS3640 assignment 2
 
-User 56602 has joined the chat.
+User 43636 has joined the chat.
 
-User 54264 has joined the chat.
+Message from user [43636]: hello everyone!
+Message from user [43636] sent to user [51030]
 
-Message from user [54264]: hi everyone!
-Message from user [54264] sent to user [35276]
-Message from user [54264] sent to user [56602]
+User 49430 has joined the chat.
 
-Message from user [56602]: hello user 54264
-Message from user [56602] sent to user [35276]
-Message from user [56602] sent to user [54264]
+Message from user [49430]: hello!
+Message from user [49430] sent to user [51030]
+Message from user [49430] sent to user [43636]
 
-Message from user [35276]: hello users 52464 and 56602
-Message from user [35276] sent to user [54264]
-Message from user [35276] sent to user [56602]
+Message from user [51030]: hi users 43636 and 49430
+Message from user [51030] sent to user [49430]
+Message from user [51030] sent to user [43636]
 
-Message from user [56602]: nice to meet everyone, I have to go
-Message from user [56602] sent to user [35276]
-Message from user [56602] sent to user [54264]
+Message from user [43636]: nice to meet you, got to go
+Message from user [43636] sent to user [51030]
+Message from user [43636] sent to user [49430]
 
-User 56602 has left the chat.
+User 43636 has left the chat.
 
-Message from user [54264]: bye user 56602
-Message from user [54264] sent to user [35276]
+Message from user [49430]: i'm leaving too
+Message from user [49430] sent to user [51030]
 
-Message from user [35276]: I'm leaving too
-Message from user [35276] sent to user [54264]
+User 49430 has left the chat.
 
-User 35276 has left the chat.
+Message from user [51030]: bye!
 
-Message from user [54264]: See you guys later 
-
-User 54264 has left the chat.
+User 51030 has left the chat.

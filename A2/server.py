@@ -3,18 +3,12 @@ import socket
 from _thread import *
 import threading
 
-## used https://www.geeksforgeeks.org/socket-programming-multi-threading-python/ to learn syntax for multi-threading
-## used https://www.geeksforgeeks.org/socket-programming-python/ to learn more about the syntax for socket programming 
-
 file1 = open('output.txt', 'w+')
-file1.write('ecelias Elizabeth Elias')
-file1.write('\n')
-file1.close()
 
 def write_to_file(message):
-    file1 = open('output.txt', 'w+')
     file1.write(message)
-    file1.close()
+    
+write_to_file('ecelias Elizabeth Elias\n')
 
 HEADER = 64
 FORMAT = 'ascii'
@@ -31,7 +25,7 @@ def threaded(connection):
         data = connection.recv(1024)
         data = data.decode(FORMAT)
         recv_msg = f'\nMessage from user [{connection_name}]: {data}'
-        if not data:
+        if not data or data == DISCONNECT_MESSAGE:
             print("Goodbye")
             quit_msg = f'\nUser {connection_name} has left the chat.'
             write_to_file(quit_msg)
@@ -76,10 +70,14 @@ def main():
             write_to_file(conn_accepted_msg)
             write_to_file(f'\n')
             print(conn_accepted_msg)
-            start_new_thread(threaded, (connection,))
+            new_thread = threading.Thread(target = threaded, args= (connection,))
+            new_thread.start()
             #print(f'Current active connections: {threading.active_count()}')
             
     tcp.close()
         
 if __name__ == "__main__":
     main()
+
+
+file1.close()

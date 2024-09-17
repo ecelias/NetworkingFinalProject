@@ -33,13 +33,17 @@ def main():
             print("Successfully connected to the server!")
         except: 
             print("Error connecting to server. Please check port and try again")
-            
-        start_new_thread(recv_thread, (client,))
+        
+        recvd_thread = threading.Thread(target = recv_thread, args= ((client,)))
+        recvd_thread.start()
+        #start_new_thread(recv_thread, (client,))
         print("Type your first message on the line below (or type /quit to leave the chat):")
         
         while True:
             msg = input()
-            start_new_thread(send_thread, (msg, client,))
+            sent_thread = threading.Thread(target = send_thread, args= (msg,client,))
+            sent_thread.start()
+            #start_new_thread(send_thread, (msg, client,))
             
             if msg == DISCONNECT_MESSAGE:
                 break
