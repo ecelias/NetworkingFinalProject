@@ -1,7 +1,6 @@
 ## network_bottleneck
 
-#!/usr/bin/python                                                                            
-                                                                                             
+#!/usr/bin/python                                                                                                                                                                      
 import Topo
 import Mininet
 import dumpNodeConnections
@@ -38,7 +37,7 @@ def run_topology_tests(bw_bottleneck, bw_other):
     "Create and test a simple network"
     topo = BottleneckTopo()
     net = Mininet (topo=topo,
-	           host=CPULimitedHost, link=TCLink )
+	host=CPULimitedHost, link=TCLink )
     net.start()
     print( "Dumping host connections" )
     dumpNodeConnections(net.hosts)
@@ -53,20 +52,22 @@ def run_topology_tests(bw_bottleneck, bw_other):
 def main():
     #take in arguments
     parser = argparse.ArgumentParser(description ='Process parameters' )
-    parser.add_argument('-bw_other', default=100)
+    parser.add_argument('-bw_other', type=int, default=100)
     parser.add_argument('-time', default = 10)
-    parser.add_argument('–bw_bottleneck', default=10)
+    parser.add_argument('–bw_bottleneck', type=int, default=10)
+    args = parser.parse_args()
+    args_dict = vars(args)
 
+    # get bottleneck bandwidth and other bandwidth from command line inputs       
+    bw_bt = args_dict['bw_bottleneck']
+    bw_o = args_dict['bw_other']
+    
     # Tell mininet to print useful information
     setLogLevel('info')
-    run_topology_tests(bw_bottleneck, bw_other) 
+    run_topology_tests(bw_bt, bw_o) 
     while validInt ==  False: 
-        print('Enter bandwidth of the bottleneck link (in Mbps): ')
-        -bw_bottleneck = input()
-        print('Enter bandwidth of the other links (in Mbps): ')
-        -bw_other = input()
-        if (-bw_bottleneck) < (-bw_other):
-            if (type(-bw_bottleneck)) and (type(-bw_other)) == '<class 'int'>':
+        if (bw_bt) < (bw_o):
+            if (isinstance(bw_bt, int)) and (isinstance(bw_o, int)):
                 validInt = True
 
 
