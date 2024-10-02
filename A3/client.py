@@ -1,8 +1,9 @@
-import iperf3
+
 import argparse 
+import iperf3
 
 def run_client(client_args):
-    client=iperf3.Client()
+    client= iperf3.Client()
     client.duration = client_args["duration"]
     client.bind_address = client_args["ip"]
     client.server_hostname = client_args["server_ip"]
@@ -11,6 +12,7 @@ def run_client(client_args):
     client.protocol = client_args["test"]
 
     client_result = client.run()
+    print(client_result)
     return client_result
 
 

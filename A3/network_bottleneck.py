@@ -1,12 +1,12 @@
 #!/usr/bin python                                                                                                                                                                     
-from mininet.topo import Topo
-from mininet.net import Mininet
+from mininet.topo import Topo  
+from mininet.net import Mininet  
 from mininet.node import CPULimitedHost
 from mininet.node import Host
 from mininet.cli import CLI
 from mininet.link import TCLink
 from mininet.util import dumpNodeConnections
-from mininet.log import setLogLevel
+from mininet.log import setLogLevel   
 import argparse
 import subprocess
 import json
@@ -170,7 +170,7 @@ def main():
     
     # Tell mininet to print useful information
     setLogLevel('info')
-    #run_topology_tests(bw_bottleneck, bw_other) 
+    run_topology_tests(bw_bottleneck, bw_other) 
     validInt = False
     while validInt ==  False: 
         if (bw_bottleneck) < (bw_other):
