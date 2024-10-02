@@ -64,9 +64,8 @@ def run_topology_tests(bw_bottleneck, bw_other):
     topo = BottleneckTopo(bw_bottleneck=bw_bottleneck, bw_other=bw_other)
 
     # net = Mininet(topo=topo, host=CPULimitedHost, link=TCLink)
-    # modified for testing purposes because I didn't have cgroup v1 mounted and didn't want to do that right now
+    # ???? modified for testing purposes because I didn't have cgroup v1 mounted and didn't want to do that right now
     net = Mininet(topo=topo, host=Host, link=TCLink)
-
     net.start()
     print( "Dumping host connections" )
     dumpNodeConnections(net.hosts)
@@ -98,13 +97,30 @@ def run_topology_tests(bw_bottleneck, bw_other):
 
 # should be called by main
 def run_perf_tests(bw_bottleneck, bw_other):
+
+    # initialize a mininet object
+    topo = BottleneckTopo(bw_bottleneck=bw_bottleneck, bw_other=bw_other)
+    net = Mininet(topo=topo, host=Host, link=TCLink)
+    net.start()
+    print( "Dumping host connections" )
+    dumpNodeConnections(net.hosts)
+    
+    tcp_src_ip = net.hosts[0].IP()
+    tcp_dest_ip = net.hosts[2].IP()
+
+    udp_src_ip = net.hosts[1].IP()
+    udp_dest_ip = net.hosts[3].IP()
+
     # command line inputs to run the iperf tests
-    tcp_test_command = "python3 client.py -ip h1 -port 5000 -server_ip h3 -test tcp"
-    udp_test_command = "python3 client.py -ip h2 -port 5000 -server_ip h4 -test udp" 
+    tcp_test_command = f"python3 client.py -ip {tcp_src_ip} -port 5000 -server_ip {tcp_dest_ip} -test tcp"
+    udp_test_command = f"python3 client.py -ip {udp_src_ip} -port 5000 -server_ip {udp_dest_ip} -test udp" 
 
     # run the tcp and udp tests
-    tcp_test = subprocess.run(tcp_test_command, shell=True, capture_output=True, text=True)
-    udp_test = subprocess.run(udp_test_command, shell=True, capture_output=True, text=True)
+    tcp_test = net.hosts[0].cmd(tcp_test_command)
+    udp_test = net.hosts[1].cmd(udp_test_command)
+    print(tcp_test)
+    #tcp_test = subprocess.run(tcp_test_command, shell=True, capture_output=True, text=True
+    #udp_test = subprocess.run(udp_test_command, shell=True, capture_output=True, text=True)
 
     # capture bytes sent and recieved by each test
     tcp_bytes_sent = tcp_test.sent_bytes
@@ -154,13 +170,13 @@ def main():
     
     # Tell mininet to print useful information
     setLogLevel('info')
-    run_topology_tests(bw_bottleneck, bw_other) 
+    #run_topology_tests(bw_bottleneck, bw_other) 
     validInt = False
     while validInt ==  False: 
         if (bw_bottleneck) < (bw_other):
             if (isinstance(bw_bottleneck, int)) and (isinstance(bw_other, int)):
                 validInt = True
-
+    run_perf_tests(bw_bottleneck, bw_other)
 
 if __name__ == '__main__':
     main()
