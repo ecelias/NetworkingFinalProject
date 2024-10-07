@@ -31,6 +31,7 @@ def main():
     client_args = vars(args)
 
     run_client_test = run_client(client_args)
+    return run_client_test
 
 if __name__ == '__main__':
     main()

@@ -111,20 +111,24 @@ def run_perf_tests(bw_bottleneck, bw_other):
     udp_src_ip = net.hosts[1].IP()
     udp_dest_ip = net.hosts[3].IP()
 
-    # command line inputs to run the iperf tests
-    tcp_test_command = f"python3 client.py -ip {tcp_src_ip} -port 5000 -server_ip {tcp_dest_ip} -test tcp"
-    udp_test_command = f"python3 client.py -ip {udp_src_ip} -port 5000 -server_ip {udp_dest_ip} -test udp" 
+    # command line inputs to run the iperf tests and start the server
+    server_cmd = f"python3 server.py -ip 127.0.0.1 -port 5000"
+    tcp_test_cmd = f"python3 client.py -ip {tcp_src_ip} -port 5000 -server_ip {tcp_dest_ip} -test tcp"
+    udp_test_cmd = f"python3 client.py -ip {udp_src_ip} -port 5000 -server_ip {udp_dest_ip} -test udp" 
 
-    # run the tcp and udp tests
-    tcp_test = net.hosts[0].cmd(tcp_test_command)
-    udp_test = net.hosts[1].cmd(udp_test_command)
-    print(tcp_test)
-    #tcp_test = subprocess.run(tcp_test_command, shell=True, capture_output=True, text=True
-    #udp_test = subprocess.run(udp_test_command, shell=True, capture_output=True, text=True)
+    subprocess.run(server_cmd, shell=True, capture_output=True, text=True)
+    tcp_test = subprocess.run(tcp_test_cmd, shell=True, capture_output=True, text=True)
+    udp_test = subprocess.run(udp_test_cmd, shell=True, capture_output=True, text=True)
+
+    print(f"\nClient and server running")
+
+    # start the server and run the tcp and udp tests
+    tcp_test = tcp_test.stdout
+    udp_test = udp_test.stdout
 
     # capture bytes sent and recieved by each test
-    tcp_bytes_sent = tcp_test.sent_bytes
-    tcp_bytes_recv = tcp_test.recieved_bytes
+    tcp_bytes_sent = tcp_test
+    tcp_bytes_recv = tcp_test
 
     # udp test doesn't have parameters for sent and recieved bytes
     # will need to manually calculate but this will server as a placeholder for now
@@ -170,13 +174,13 @@ def main():
     
     # Tell mininet to print useful information
     setLogLevel('info')
-    run_topology_tests(bw_bottleneck, bw_other) 
+    # run_topology_tests(bw_bottleneck, bw_other) 
+    run_perf_tests(bw_bottleneck, bw_other)
     validInt = False
     while validInt ==  False: 
         if (bw_bottleneck) < (bw_other):
             if (isinstance(bw_bottleneck, int)) and (isinstance(bw_other, int)):
                 validInt = True
-    run_perf_tests(bw_bottleneck, bw_other)
 
 if __name__ == '__main__':
     main()

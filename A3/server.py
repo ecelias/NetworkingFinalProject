@@ -6,7 +6,11 @@ def run_server(ip, port):
     server.bind_address = ip
     server.port = port
     server.verbose = False
+    i = 1
     while True:
+        if i == 1:
+            print("Server connected")
+        i+=1
         server.run()
 
 def main():
