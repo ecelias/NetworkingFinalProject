@@ -2,6 +2,6 @@
       "tcp_test": "tcp",
       "tcp_bottleneck_bw": 10,
       "tcp_other_bw": 100,
-      "tcp_bytes_sent": "",
-      "tcp_bytes_received": ""
+      "tcp_bytes_sent": "Error running iperf3 client: unable to connect to server - server may have stopped running or use a different port, firewall issue, etc.: Cannot assign requested address\n",
+      "tcp_bytes_received": "Error running iperf3 client: unable to connect to server - server may have stopped running or use a different port, firewall issue, etc.: Cannot assign requested address\n"
 }

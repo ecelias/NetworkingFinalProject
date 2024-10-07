@@ -10,6 +10,7 @@ from mininet.log import setLogLevel
 import argparse
 import subprocess
 import json
+import threading
 
 f = open("output-network-config.txt", "w+")
 
@@ -36,26 +37,27 @@ class BottleneckTopo(Topo):
 def validateInput(validInt, bw_bottleneck, bw_other):
    while validInt == False:
        try:
-           bw_bottleneck = bw_bottleneck
+            bw_bottleneck = bw_bottleneck
        except ValueError:
-           print("Please enter a valid integer. ")
-           continue
+            print("Please enter a valid integer. ")
+            continue
        try:
-           bw_other = bw_other
+            bw_other = bw_other
        except ValueError:
-           print("Please enter a valid integer. ")
-           continue
+            print("Please enter a valid integer. ")
+            continue
 
        if bw_bottleneck < 0 | bw_other < 0:
-           print("Sorry, your response must not be negative.")
-           continue
+            print("Sorry, your response must not be negative.")
+            continue
 
        if bw_bottleneck >= bw_other:
-           print("Bottleneck bandwidth must be less than other. Please try again. ")
-           continue
+            print("Bottleneck bandwidth must be less than other. Please try again. ")
+            continue
        else:
-           #bw was successfully parsed
-           validInt == True
+            #bw was successfully parsed
+            validInt = True
+            return validInt
 
 # method to call the ifconfig commands on all hosts in a mininet object and write the output to a file
 def call_ifconfig(mininetObj):
@@ -118,6 +120,10 @@ def run_topology_tests(bw_bottleneck, bw_other):
     #runTopOutput = subprocess.BottleneckTopo.build(bw_bottleneck, bw_other)
     #f.write(runTopOutput)
 
+def get_server_command(ip_address):
+    server_command = f"python3 server.py -ip {ip_address} -port 5000"
+    return server_command
+
 # should be called by main
 def run_perf_tests(bw_bottleneck, bw_other):
 
@@ -134,32 +140,27 @@ def run_perf_tests(bw_bottleneck, bw_other):
     udp_src_ip = net.hosts[1].IP()
     udp_dest_ip = net.hosts[3].IP()
 
-    # command line inputs to run the iperf tests and start the server
-    server_cmd = f"python3 server.py -ip 127.0.0.1 -port 5000"
-    tcp_test_cmd = f"python3 client.py -ip {tcp_src_ip} -port 5000 -server_ip {tcp_dest_ip} -test tcp"
-    udp_test_cmd = f"python3 client.py -ip {udp_src_ip} -port 5000 -server_ip {udp_dest_ip} -test udp" 
-
-    subprocess.run(server_cmd, shell=True, capture_output=True, text=True)
+    # command line inputs to run the tcp iperf tests and start the tcp server
+    tcp_server_cmd = get_server_command(tcp_src_ip)
+    subprocess.run(tcp_server_cmd, shell=True, capture_output=True, text=True)
+    tcp_test_cmd = f"python3 client.py -ip {tcp_dest_ip} -port 5000 -server_ip {tcp_src_ip} -test tcp"
     tcp_test = subprocess.run(tcp_test_cmd, shell=True, capture_output=True, text=True)
+
+    # command line inputs the run the udp iperf test and start a udp server
+    udp_server_cmd = get_server_command(udp_src_ip)
+    subprocess.run(udp_server_cmd, shell=True, capture_output=True, text=True)
+    udp_test_cmd = f"python3 client.py -ip {udp_dest_ip} -port 5001 -server_ip {udp_src_ip} -test udp" 
     udp_test = subprocess.run(udp_test_cmd, shell=True, capture_output=True, text=True)
-    #tcp_test = net.hosts[0].cmd(tcp_test_cmd)
-    #udp_test = net.hosts[1].cmd(udp_test_cmd)
 
-    print(f"\nClient and server running")
-
-    # start the server and run the tcp and udp tests
-    tcp_test = tcp_test.stdout
-    udp_test = udp_test.stdout
-
-    # leaving parameters out for now
+    # ???? leaving parameters out for now
     # capture bytes sent and recieved by each test
-    tcp_bytes_sent = tcp_test
-    tcp_bytes_recv = tcp_test
+    tcp_bytes_sent = tcp_test.stdout
+    tcp_bytes_recv = tcp_test.stdout
 
-    # udp test doesn't have parameters for sent and recieved bytes
+    # ???? udp test doesn't have parameters for sent and recieved bytes
     # will need to manually calculate but this will server as a placeholder for now
-    udp_bytes_sent = udp_test
-    udp_bytes_recv = udp_test
+    udp_bytes_sent = udp_test.stdout
+    udp_bytes_recv = udp_test.stdout
 
     # configure info as dictionary to dump into json file for both tests
     tcp_results = {
@@ -200,14 +201,13 @@ def main():
     # Tell mininet to print useful information
     setLogLevel('info')
     validInt = False
-    validateInput(validInt, bw_bottleneck, bw_other)
     while validInt ==  False: 
         if (bw_bottleneck) < (bw_other):
             if (isinstance(bw_bottleneck, int)) and (isinstance(bw_other, int)):
-                validInt = True
-    run_topology_tests(bw_bottleneck, bw_other) 
+                validInt = validateInput(validInt, bw_bottleneck, bw_other)
+    #run_topology_tests(bw_bottleneck, bw_other) 
     run_perf_tests(bw_bottleneck, bw_other)
-    
+
 if __name__ == '__main__':
     main()
 

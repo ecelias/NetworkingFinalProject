@@ -1,5 +1,6 @@
 <strong>Assignment 3 for CS3640</strong> <br>
-<em>Group members:</em><ul>
+<em>Group members:</em>
+<ul>
 <li>Madeline Harbaugh (mharbaugh)
 <li> Kristin To (kto)
 <li>Elizabeth Elias (ecelias)
@@ -12,3 +13,4 @@
 <li> [Plotting with Python](https://www.w3schools.com/python/matplotlib_pyplot.asp)
 <li> [iPerf implementation](https://iperf.fr/iperf-doc.php#3doc)
 <li> [iPerf implementation](https://iperf3-python.readthedocs.io/en/latest/modules.html)
+</ul>

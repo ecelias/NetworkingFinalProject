@@ -2,6 +2,6 @@
       "udp_test": "udp",
       "udp_bottleneck_bw": 10,
       "udp_other_bw": 100,
-      "udp_bytes_sent": "",
-      "udp_bytes_received": ""
+      "udp_bytes_sent": "Error running iperf3 client: unable to connect to server - server may have stopped running or use a different port, firewall issue, etc.: Cannot assign requested address\n",
+      "udp_bytes_received": "Error running iperf3 client: unable to connect to server - server may have stopped running or use a different port, firewall issue, etc.: Cannot assign requested address\n"
 }
