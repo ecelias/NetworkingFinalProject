@@ -140,8 +140,10 @@ def run_perf_tests(bw_bottleneck, bw_other):
     udp_src_ip = net.hosts[1].IP()
     udp_dest_ip = net.hosts[3].IP()
 
-    # command line inputs to run the tcp iperf tests and start the tcp server
+    # command line input to start tcp server on the first host 
     tcp_server_cmd = get_server_command(tcp_src_ip)
+    #net.hosts[0].cmd(tcp_server_cmd)
+    # command line inputs to run the tcp iperf tests and start the tcp server
     subprocess.run(tcp_server_cmd, shell=True, capture_output=True, text=True)
     tcp_test_cmd = f"python3 client.py -ip {tcp_dest_ip} -port 5000 -server_ip {tcp_src_ip} -test tcp"
     tcp_test = subprocess.run(tcp_test_cmd, shell=True, capture_output=True, text=True)
