@@ -11,8 +11,6 @@ import argparse
 import subprocess
 import json
 
-validInt = False
-
 f = open("output-network-config.txt", "w+")
 
 
@@ -33,6 +31,31 @@ class BottleneckTopo(Topo):
         self.addLink(switch1,switch2, bw=bw_bottleneck) #bottleneck link
         self.addLink(switch2,server1, bw=bw_other)
         self.addLink(switch2,server2, bw =bw_other)
+
+# validates user input
+def validateInput(validInt, bw_bottleneck, bw_other):
+   while validInt == False:
+       try:
+           bw_bottleneck = bw_bottleneck
+       except ValueError:
+           print("Please enter a valid integer. ")
+           continue
+       try:
+           bw_other = bw_other
+       except ValueError:
+           print("Please enter a valid integer. ")
+           continue
+
+       if bw_bottleneck < 0 | bw_other < 0:
+           print("Sorry, your response must not be negative.")
+           continue
+
+       if bw_bottleneck >= bw_other:
+           print("Bottleneck bandwidth must be less than other. Please try again. ")
+           continue
+       else:
+           #bw was successfully parsed
+           validInt == True
 
 # method to call the ifconfig commands on all hosts in a mininet object and write the output to a file
 def call_ifconfig(mininetObj):
@@ -119,6 +142,8 @@ def run_perf_tests(bw_bottleneck, bw_other):
     subprocess.run(server_cmd, shell=True, capture_output=True, text=True)
     tcp_test = subprocess.run(tcp_test_cmd, shell=True, capture_output=True, text=True)
     udp_test = subprocess.run(udp_test_cmd, shell=True, capture_output=True, text=True)
+    #tcp_test = net.hosts[0].cmd(tcp_test_cmd)
+    #udp_test = net.hosts[1].cmd(udp_test_cmd)
 
     print(f"\nClient and server running")
 
@@ -126,14 +151,15 @@ def run_perf_tests(bw_bottleneck, bw_other):
     tcp_test = tcp_test.stdout
     udp_test = udp_test.stdout
 
+    # leaving parameters out for now
     # capture bytes sent and recieved by each test
     tcp_bytes_sent = tcp_test
     tcp_bytes_recv = tcp_test
 
     # udp test doesn't have parameters for sent and recieved bytes
     # will need to manually calculate but this will server as a placeholder for now
-    udp_bytes_sent = udp_test.bytes
-    udp_bytes_recv = udp_test.bytes
+    udp_bytes_sent = udp_test
+    udp_bytes_recv = udp_test
 
     # configure info as dictionary to dump into json file for both tests
     tcp_results = {
@@ -166,7 +192,6 @@ def main():
     parser.add_argument('-time', default = 10)
     parser.add_argument('-bw_bottleneck', type=int, default=10)
     args = parser.parse_args()
-    args_dict = vars(args)
 
     # get bottleneck bandwidth and other bandwidth from command line inputs       
     bw_bottleneck = args.bw_bottleneck
@@ -174,14 +199,15 @@ def main():
     
     # Tell mininet to print useful information
     setLogLevel('info')
-    # run_topology_tests(bw_bottleneck, bw_other) 
-    run_perf_tests(bw_bottleneck, bw_other)
     validInt = False
+    validateInput(validInt, bw_bottleneck, bw_other)
     while validInt ==  False: 
         if (bw_bottleneck) < (bw_other):
             if (isinstance(bw_bottleneck, int)) and (isinstance(bw_other, int)):
                 validInt = True
-
+    run_topology_tests(bw_bottleneck, bw_other) 
+    run_perf_tests(bw_bottleneck, bw_other)
+    
 if __name__ == '__main__':
     main()
 
