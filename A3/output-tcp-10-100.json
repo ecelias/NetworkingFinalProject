@@ -1,0 +1,7 @@
+{
+      "tcp_test": "tcp",
+      "tcp_bottleneck_bw": 10,
+      "tcp_other_bw": 100,
+      "tcp_bytes_sent": "",
+      "tcp_bytes_received": ""
+}

@@ -1,4 +1,4 @@
-#!/usr/bin python                                                                                                                                                                     
+#!/usr/bin/env python3                                                                                                                                                                
 from mininet.topo import Topo  
 from mininet.net import Mininet  
 from mininet.node import CPULimitedHost

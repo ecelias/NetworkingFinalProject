@@ -1,4 +1,4 @@
-
+#!/usr/bin/env python3
 import argparse 
 import iperf3
 
@@ -23,7 +23,7 @@ def main():
     parser.add_argument("-server_ip", help = "accepts server IP address from command line", required=True)
     parser.add_argument("-test", help = "accepts type of test client server from command line", required=True)
     ## will default the duration to 60 seconds but can be altered in command line
-    parser.add_argument("-duration", default=60)
+    parser.add_argument("-duration", default=5)
     ## can use the command line to not create a JSON output but will default to have JSON output when unspecified
     parser.add_argument("-json_output", default=True)
     args = parser.parse_args()
