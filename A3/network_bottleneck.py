@@ -121,7 +121,7 @@ def run_topology_tests(bw_bottleneck, bw_other):
     #f.write(runTopOutput)
 
 def get_server_command(ip_address):
-    server_command = f"python3 server.py -ip {ip_address} -port 5000"
+    server_command = ["python3", "server.py", "-ip", ip_address, "-port", "5000"]
     return server_command
 
 # should be called by main
@@ -144,13 +144,13 @@ def run_perf_tests(bw_bottleneck, bw_other):
     tcp_server_cmd = get_server_command(tcp_src_ip)
     #net.hosts[0].cmd(tcp_server_cmd)
     # command line inputs to run the tcp iperf tests and start the tcp server
-    subprocess.run(tcp_server_cmd, shell=True, capture_output=True, text=True)
+    subprocess.run(tcp_server_cmd, shell=False, capture_output=True, text=True)
     tcp_test_cmd = f"python3 client.py -ip {tcp_dest_ip} -port 5000 -server_ip {tcp_src_ip} -test tcp"
     tcp_test = subprocess.run(tcp_test_cmd, shell=True, capture_output=True, text=True)
 
     # command line inputs the run the udp iperf test and start a udp server
     udp_server_cmd = get_server_command(udp_src_ip)
-    subprocess.run(udp_server_cmd, shell=True, capture_output=True, text=True)
+    subprocess.run(udp_server_cmd, shell=False, capture_output=True, text=True)
     udp_test_cmd = f"python3 client.py -ip {udp_dest_ip} -port 5001 -server_ip {udp_src_ip} -test udp" 
     udp_test = subprocess.run(udp_test_cmd, shell=True, capture_output=True, text=True)
 

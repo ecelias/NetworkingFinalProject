@@ -9,7 +9,7 @@ def run_server(ip, port):
     server.port = port
     server.verbose = False
     while True:
-        server.run()
+        server.run
 
 def main():
     parser = argparse.ArgumentParser(description='Process server parameters')
