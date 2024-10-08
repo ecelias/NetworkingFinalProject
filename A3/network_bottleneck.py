@@ -202,8 +202,8 @@ def main():
     while validInt ==  False: 
         if (bw_bottleneck) < (bw_other):
             if (isinstance(bw_bottleneck, int)) and (isinstance(bw_other, int) and isinstance(time, int)):
-                validInt = validateInput(validInt, bw_bottleneck, bw_other)
-    run_topology_tests(bw_bottleneck, bw_other) 
+                validInt = validateInput(validInt, bw_bottleneck, bw_other, time)
+    #run_topology_tests(bw_bottleneck, bw_other) 
     run_perf_tests(bw_bottleneck, bw_other)
 
 if __name__ == '__main__':
