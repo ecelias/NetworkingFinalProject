@@ -16,10 +16,10 @@ This will ensure that the Mininet's network is clear and prevent errrors in crea
 Then, run the following command: <br>
 <code>sudo python3 network_bottleneck.py -bw_other {bandwidth of non-bottleneck links} -bw_bottleneck {bandwidth of bottleneck link} -time {an integer specifying duration of traffic stimulation} </code> <br> 
 You must prepend this command with <code> sudo </code> as mininet must run from root. <br> <br>
-If you run into errors using <code>network_bottleneck.py</code>, you can take the following steps to ensure <code>server.py</code> and <code>client.py</code> are running correctly. 
+If you run into errors using <code>network_bottleneck.py</code>, you can take the following steps to ensure <code>server.py</code> and <code>client.py</code> are running correctly. <br> 
 Open a bash terminal and run: <br>
 <code> python3 server.py -ip {ip_address} -port {port_number} </code> <br>
-Then, in a new bash terminal, run:
+Then, in a new bash terminal, run: <br>
 <code>python3 client.py -ip {client ip address} -port {port_number} -server_ip {ip address of server} -test {network protocol}</code> <br>
 <br>
 <em>Credit Reel:</em>
