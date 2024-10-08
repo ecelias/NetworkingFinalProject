@@ -34,28 +34,34 @@ class BottleneckTopo(Topo):
         self.addLink(s2,h4, bw =bw_other)
 
 # validates user input
-def validateInput(validInt, bw_bottleneck, bw_other):
+def validateInput(validInt, bw_bottleneck, bw_other, time):
    while validInt == False:
-       try:
-            bw_bottleneck = bw_bottleneck
-       except ValueError:
-            print("Please enter a valid integer. ")
+        try:
+            isinstance(bw_bottleneck, int)
+        except ValueError:
+            print("Please enter a valid integer for -bw_bandwidth.")
             continue
-       try:
-            bw_other = bw_other
-       except ValueError:
-            print("Please enter a valid integer. ")
+        try:
+           isinstance(bw_other, int)
+        except ValueError:
+            print("Please enter a valid integer for -bw_other.")
+            continue
+        try:
+           isinstance(time, int)
+        except ValueError:
+            print("Please enter a valid integer for -time.")
+            continue
+       
+        if bw_bottleneck < 0 | bw_other < 0:
+            print("Sorry, your response must not be negative. Please try again")
             continue
 
-       if bw_bottleneck < 0 | bw_other < 0:
-            print("Sorry, your response must not be negative.")
+        if bw_bottleneck >= bw_other:
+            print("Bottleneck bandwidth must be less than other bandwidth. Please try again. ")
             continue
-
-       if bw_bottleneck >= bw_other:
-            print("Bottleneck bandwidth must be less than other. Please try again. ")
-            continue
-       else:
+        else:
             #bw was successfully parsed
+            print("Valid inputs. Starting network stimulation tests.")
             validInt = True
             return validInt
 
@@ -181,20 +187,21 @@ def main():
     #take in arguments
     parser = argparse.ArgumentParser(description ='Process parameters' )
     parser.add_argument('-bw_other', type=int, default=100)
-    parser.add_argument('-time', default = 10)
+    parser.add_argument('-time', type=int, default=10)
     parser.add_argument('-bw_bottleneck', type=int, default=10)
     args = parser.parse_args()
 
     # get bottleneck bandwidth and other bandwidth from command line inputs       
     bw_bottleneck = args.bw_bottleneck
     bw_other = args.bw_other
+    time = args.time
     
     # Tell mininet to print useful information
     setLogLevel('info')
     validInt = False
     while validInt ==  False: 
         if (bw_bottleneck) < (bw_other):
-            if (isinstance(bw_bottleneck, int)) and (isinstance(bw_other, int)):
+            if (isinstance(bw_bottleneck, int)) and (isinstance(bw_other, int) and isinstance(time, int)):
                 validInt = validateInput(validInt, bw_bottleneck, bw_other)
     run_topology_tests(bw_bottleneck, bw_other) 
     run_perf_tests(bw_bottleneck, bw_other)
