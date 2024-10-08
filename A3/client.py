@@ -27,7 +27,7 @@ def main():
     parser.add_argument("-test", help = "accepts type of test client server from command line", required=True)
     ## will default the duration to 60 seconds but can be altered in command line
     ## ???? make sure you change this back to 60
-    parser.add_argument("-duration", default=5)
+    parser.add_argument("-duration", default=1)
     ## can use the command line to not create a JSON output but will default to have JSON output when unspecified
     parser.add_argument("-json_output", type=bool, default=True)
     args = parser.parse_args()
@@ -35,7 +35,8 @@ def main():
     client_args = vars(args)
 
     result = run_client(client_args)
-    return result
+    print(result.text)
+    return result.json
 
 if __name__ == '__main__':
     main()
