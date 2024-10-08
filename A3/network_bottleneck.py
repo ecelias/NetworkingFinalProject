@@ -2,7 +2,7 @@
 from mininet.topo import Topo  
 from mininet.net import Mininet  
 from mininet.node import CPULimitedHost
-from mininet.node import Host
+from mininet.node import Host, Controller, OVSController, OVSSwitch
 from mininet.cli import CLI
 from mininet.link import TCLink
 from mininet.util import dumpNodeConnections
@@ -10,7 +10,7 @@ from mininet.log import setLogLevel
 import argparse
 import subprocess
 import json
-import threading
+import time
 
 f = open("output-network-config.txt", "w+")
 
@@ -19,19 +19,19 @@ class BottleneckTopo(Topo):
     #"Single switch connected to n hosts."  
     def build(self, bw_bottleneck, bw_other):
         # Topo.build(self)
-        client1= self.addHost('h1')
-        client2 = self.addHost('h2')
-        server1 = self.addHost('h3')
-        server2= self.addHost('h4')
+        h1= self.addHost( 'h1', ip='10.0.0.1' )
+        h2 = self.addHost( 'h2', ip='10.0.0.2' )
+        h3 = self.addHost( 'h3', ip='10.0.0.3' )
+        h4 = self.addHost( 'h4', ip='10.0.0.4' )
         
-        switch1 = self.addSwitch('s1')
-        switch2 = self.addSwitch('s2')
+        s1 = self.addSwitch('s1')
+        s2 = self.addSwitch('s2')
         
-        self.addLink(client1,switch1, bw=bw_other)
-        self.addLink(client2,switch1,bw =bw_other)
-        self.addLink(switch1,switch2, bw=bw_bottleneck) #bottleneck link
-        self.addLink(switch2,server1, bw=bw_other)
-        self.addLink(switch2,server2, bw =bw_other)
+        self.addLink(h1,s1, bw=bw_other)
+        self.addLink(h2,s1,bw =bw_other)
+        self.addLink(s1,s2, bw=bw_bottleneck) #bottleneck link
+        self.addLink(s2,h3, bw=bw_other)
+        self.addLink(s2,h4, bw =bw_other)
 
 # validates user input
 def validateInput(validInt, bw_bottleneck, bw_other):
@@ -99,7 +99,7 @@ def run_topology_tests(bw_bottleneck, bw_other):
     call_ifconfig(net)
 
     # ???? commented out for now MAKE USRE TO UNCOMMENT BEFORE SUBMISSION
-    #call_ping(net)
+    call_ping(net)
 
     # write details of hosts, switches, and links to output-network-config.txt file
     # ???? may need more info here?? I'm unsure of what "details" all need to be written
@@ -120,74 +120,63 @@ def run_topology_tests(bw_bottleneck, bw_other):
     #runTopOutput = subprocess.BottleneckTopo.build(bw_bottleneck, bw_other)
     #f.write(runTopOutput)
 
-def get_server_command(ip_address):
-    server_command = ["python3", "server.py", "-ip", ip_address, "-port", "5000"]
-    return server_command
-
 # should be called by main
 def run_perf_tests(bw_bottleneck, bw_other):
-
-    # initialize a mininet object
+    # initialize a topo and mininet object
     topo = BottleneckTopo(bw_bottleneck=bw_bottleneck, bw_other=bw_other)
     net = Mininet(topo=topo, host=Host, link=TCLink)
     net.start()
+
+    # dump host connections, will help check if mininet was created correctly 
     print( "Dumping host connections" )
     dumpNodeConnections(net.hosts)
-    
-    tcp_src_ip = net.hosts[0].IP()
-    tcp_dest_ip = net.hosts[2].IP()
 
-    udp_src_ip = net.hosts[1].IP()
-    udp_dest_ip = net.hosts[3].IP()
+    # get all of the hosts from the network 
+    h1 = net.get("h1")
+    h2 = net.get("h2")
+    h3 = net.get("h3")
+    h4 = net.get("h4")
 
-    # command line input to start tcp server on the first host 
-    tcp_server_cmd = get_server_command(tcp_src_ip)
-    #net.hosts[0].cmd(tcp_server_cmd)
-    # command line inputs to run the tcp iperf tests and start the tcp server
-    subprocess.run(tcp_server_cmd, shell=False, capture_output=True, text=True)
-    tcp_test_cmd = f"python3 client.py -ip {tcp_dest_ip} -port 5000 -server_ip {tcp_src_ip} -test tcp"
-    tcp_test = subprocess.run(tcp_test_cmd, shell=True, capture_output=True, text=True)
+    # initiliaze a tcp server on the h3 node
+    tcp_server = h3.cmd('sudo python3 server.py -ip 10.0.0.3 -port 5201 &')
+    # run the tcp test on the h1 node
+    tcp_test = h1.cmd('sudo python3 client.py -ip 10.0.0.1 -port 5201 -server_ip 10.0.0.3 -test tcp')
 
-    # command line inputs the run the udp iperf test and start a udp server
-    udp_server_cmd = get_server_command(udp_src_ip)
-    subprocess.run(udp_server_cmd, shell=False, capture_output=True, text=True)
-    udp_test_cmd = f"python3 client.py -ip {udp_dest_ip} -port 5001 -server_ip {udp_src_ip} -test udp" 
-    udp_test = subprocess.run(udp_test_cmd, shell=True, capture_output=True, text=True)
-
-    # ???? leaving parameters out for now
-    # capture bytes sent and recieved by each test
-    tcp_bytes_sent = tcp_test.stdout
-    tcp_bytes_recv = tcp_test.stdout
-
-    # ???? udp test doesn't have parameters for sent and recieved bytes
-    # will need to manually calculate but this will server as a placeholder for now
-    udp_bytes_sent = udp_test.stdout
-    udp_bytes_recv = udp_test.stdout
-
-    # configure info as dictionary to dump into json file for both tests
+    # configure info as dictionary to dump into json file for the tcp tests
+    # ???? this needs to be formatted correctly
     tcp_results = {
         "tcp_test": "tcp",
         "tcp_bottleneck_bw": bw_bottleneck, 
         "tcp_other_bw": bw_other, 
-        "tcp_bytes_sent": tcp_bytes_sent,
-        "tcp_bytes_received": tcp_bytes_recv
-    }
+        "tcp_bytes_sent": tcp_test,
+        "tcp_bytes_received": "please say this works"
+        }
+    
+    # dump test info into tcp json file
+    with open(f"output-tcp-{bw_bottleneck}-{bw_other}.json", "w") as tcp_file:
+            json.dump(tcp_results, tcp_file, indent=6)               
+    
+    # initiliaze a udp server on the h4 node
+    udp_server = h4.cmd('sudo python3 server.py -ip 10.0.0.4 -port 5202 &')
+    # run the tcp test on the h1 node
+    udp_test = h2.cmd('sudo python3 client.py -ip 10.0.0.2 -port 5202 -server_ip 10.0.0.4 -test udp')
+    print(udp_test)
 
+    # configure info as dictionary to dump into json file for the udp tests
+    # ???? this needs to be formatted correctly
     udp_results = {
         "udp_test": "udp",
         "udp_bottleneck_bw": bw_bottleneck, 
         "udp_other_bw": bw_other, 
-        "udp_bytes_sent": udp_bytes_sent,
-        "udp_bytes_received": udp_bytes_recv
-    }
-
-    # dump test info into respective json files
-    with open(f"output-tcp-{bw_bottleneck}-{bw_other}.json", "w") as tcp_file:
-        json.dump(tcp_results, tcp_file, indent=6)
-    with open(f"output-udp-{bw_bottleneck}-{bw_other}.json", "w") as udp_file:
-        json.dump(udp_results, udp_file, indent=6)
-
+        "udp_bytes_sent": udp_test,
+        "udp_bytes_received": "please say this works"
+        }
     
+    # dump test info into udp json files
+    with open(f"output-udp-{bw_bottleneck}-{bw_other}.json", "w") as udp_file:
+            json.dump(udp_results, udp_file, indent=6)               
+
+
 def main():
     #take in arguments
     parser = argparse.ArgumentParser(description ='Process parameters' )
@@ -207,7 +196,7 @@ def main():
         if (bw_bottleneck) < (bw_other):
             if (isinstance(bw_bottleneck, int)) and (isinstance(bw_other, int)):
                 validInt = validateInput(validInt, bw_bottleneck, bw_other)
-    #run_topology_tests(bw_bottleneck, bw_other) 
+    run_topology_tests(bw_bottleneck, bw_other) 
     run_perf_tests(bw_bottleneck, bw_other)
 
 if __name__ == '__main__':

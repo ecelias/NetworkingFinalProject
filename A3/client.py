@@ -35,8 +35,8 @@ def main():
     client_args = vars(args)
 
     result = run_client(client_args)
-    print(result.text)
-    return result.json
+    print(result.protocol)
+    return result
 
 if __name__ == '__main__':
     main()
