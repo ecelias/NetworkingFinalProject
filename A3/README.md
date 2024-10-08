@@ -6,11 +6,22 @@
 <li>Elizabeth Elias (ecelias)
 <li>Maria Gauna (mgauna)
 </ul>
-<em>Code Test Run Instructions:</em>
+<em>Code Test Run Instructions:</em> <br>
+In order to run this code, please ensure that you have Mininet and iPerf properly installed. <br>
+All of the functionality needed to iPerf tests on a Mininet object can be accessed from network_bottleneck.py, 
+you should not need to enter the server.py or client.py scripts. <br> <br>
+Begin by opening a bash terminal and run the following command: <br>
+<code> sudo mn -c </code> <br>
+This will ensure that the Mininet's network is clear and prevent errrors in creation and configuration of a new network.<br>
+Then, run the following command: <br>
+<code>sudo python3 network_bottleneck.py -bw_other {bandwidth of non-bottleneck links} -bw_bottleneck {bandwidth of bottleneck link} -time {an integer specifying duration of traffic stimulation} </code> <br>
+<br>
 <em>Credit Reel:</em>
 <ul>
 <li> [Mininet definitions and implementation](https://mininet.org/api/classmininet_1_1node_1_1Node.html)
 <li> [Plotting with Python](https://www.w3schools.com/python/matplotlib_pyplot.asp)
 <li> [iPerf implementation](https://iperf.fr/iperf-doc.php#3doc)
 <li> [iPerf implementation](https://iperf3-python.readthedocs.io/en/latest/modules.html)
+<li> [iPerf and Mininet Debugging](https://github.com/mininet/mininet/tree/master/examples)
+<li> [Anonymous Poet on this Piazza Post for iPerf Debugging](https://piazza.com/class/m03njulygss731/post/60)
 </ul>
