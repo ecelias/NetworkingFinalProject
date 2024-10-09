@@ -2,8 +2,7 @@
 from mininet.topo import Topo  
 from mininet.net import Mininet  
 from mininet.node import CPULimitedHost
-from mininet.node import Host, Controller, OVSController, OVSSwitch
-from mininet.cli import CLI
+from mininet.node import Host
 from mininet.link import TCLink
 from mininet.util import dumpNodeConnections
 from mininet.log import setLogLevel   
@@ -69,12 +68,11 @@ def validateInput(validInt, bw_bottleneck, bw_other, time):
 def call_ifconfig(mininetObj):
     for host in mininetObj.hosts:
         host_file = open(f"output-ifconfig-{host}.txt", "w+")
+        # for each host in current mininet, call the ifconfig command
         current_host_config = host.cmd('ifconfig')
         host_file.write(current_host_config)
 
 # method to call the ping commands on all hosts in a mininet object and write the output to a file
-# ???? this method takes a while to run, maybe there's a way to speed it up
-# ???? i commented out this method call in the "run_topology_tests" for now bc it takes a decent chunk of time to run
 def call_ping(mininetObj):
     for src in mininetObj.hosts:
         host_file = open(f"output-ping-{src}.txt", "w+")
@@ -126,6 +124,22 @@ def run_topology_tests(bw_bottleneck, bw_other):
     #runTopOutput = subprocess.BottleneckTopo.build(bw_bottleneck, bw_other)
     #f.write(runTopOutput)
 
+# the output of the .pexec() funtion calling client.py is a string of everything printed to console
+# need to parse this string to remove \n and space characters
+#returns a list containing bytes sent and recv
+def tcp_bytes_sent_recv(tcp_out):
+    tcp_out = tcp_out.strip()
+    tcp_sent_recv = tcp_out.split()
+    return tcp_sent_recv
+
+# the output of the .pexec() funtion calling client.py is a string of everything printed to console
+# need to parse this string to remove \n and space characters
+#returns a list containing packets transmitted and packets lsot
+def udp_packets_sent_lost(udp_out):
+    udp_out = udp_out.strip()
+    udp_sent_recv = udp_out.split()
+    return udp_sent_recv
+
 # should be called by main
 def run_perf_tests(bw_bottleneck, bw_other):
     # initialize a topo and mininet object
@@ -144,44 +158,64 @@ def run_perf_tests(bw_bottleneck, bw_other):
     h4 = net.get("h4")
 
     # initiliaze a tcp server on the h3 node
-    tcp_server = h3.cmd('sudo python3 server.py -ip 10.0.0.3 -port 5201 &')
+    tcp_server = h3.cmd('sudo python3 server.py -ip 10.0.0.3 -port 5203 &')
     # run the tcp test on the h1 node
-    tcp_test = h1.cmd('sudo python3 client.py -ip 10.0.0.1 -port 5201 -server_ip 10.0.0.3 -test tcp')
+    tcp_test = h1.pexec('sudo python3 client.py -ip 10.0.0.1 -port 5203 -server_ip 10.0.0.3 -test tcp')
+
+    # check if an error occured while creating the tcp test
+    if tcp_test[2] != 0:
+        print(f"An error occured. [Error code {tcp_test[2]}] {tcp_test[1]}")
+        return
+    
+    # parse the output of the tcp and return of list containing bytes sent and recieved
+    tcp_out = tcp_bytes_sent_recv(tcp_test[0])
 
     # configure info as dictionary to dump into json file for the tcp tests
-    # ???? this needs to be formatted correctly
     tcp_results = {
         "tcp_test": "tcp",
         "tcp_bottleneck_bw": bw_bottleneck, 
         "tcp_other_bw": bw_other, 
-        "tcp_bytes_sent": tcp_test,
-        "tcp_bytes_received": "please say this works"
+        "tcp_bytes_sent": tcp_out[0],
+        "tcp_bytes_received": tcp_out[1]
         }
     
     # dump test info into tcp json file
-    with open(f"output-tcp-{bw_bottleneck}-{bw_other}.json", "w") as tcp_file:
+    with open(f"output-tcp-{bw_bottleneck}-{bw_other}.json", "w+") as tcp_file:
             json.dump(tcp_results, tcp_file, indent=6)               
     
+    tcp_file.close()
     # initiliaze a udp server on the h4 node
-    udp_server = h4.cmd('sudo python3 server.py -ip 10.0.0.4 -port 5202 &')
+    udp_server = h4.cmd('sudo python3 server.py -ip 10.0.0.4 -port 5204 &')
     # run the tcp test on the h1 node
-    udp_test = h2.cmd('sudo python3 client.py -ip 10.0.0.2 -port 5202 -server_ip 10.0.0.4 -test udp')
-    print(udp_test)
+    udp_test = h2.pexec('sudo python3 client.py -ip 10.0.0.2 -port 5204 -server_ip 10.0.0.4 -test udp')
+    
+    # check if an error occured while creating the udp test
+    if udp_test[2] != 0:
+        print(f"An error occured. [Error code {udp_test[2]}] {udp_test[1]}")
+        return
+    
+    # parse the output of the udp and return of list containing total packets sent and lost
+    udp_out = udp_packets_sent_lost(udp_test[0])
 
+    # calculate the number of bytes based on packets sent and lost
+    # assuming each packet = 1470 bytes
+    bytes_sent = (int(udp_out[0]) * 1470)
+    bytes_recv = (int(udp_out[0]) * 1470) - (int(udp_out[1]) * 1470)
+    
     # configure info as dictionary to dump into json file for the udp tests
-    # ???? this needs to be formatted correctly
     udp_results = {
         "udp_test": "udp",
         "udp_bottleneck_bw": bw_bottleneck, 
         "udp_other_bw": bw_other, 
-        "udp_bytes_sent": udp_test,
-        "udp_bytes_received": "please say this works"
+        "udp_bytes_sent": bytes_sent,
+        "udp_bytes_received": bytes_recv
         }
     
     # dump test info into udp json files
-    with open(f"output-udp-{bw_bottleneck}-{bw_other}.json", "w") as udp_file:
+    with open(f"output-udp-{bw_bottleneck}-{bw_other}.json", "w+") as udp_file:
             json.dump(udp_results, udp_file, indent=6)               
 
+    udp_file.close()
 
 def main():
     #take in arguments

@@ -25,12 +25,35 @@ Open a bash terminal and run: <br>
 Then, in a new bash terminal, run: <br>
 <code>python3 client.py -ip {client ip address} -port {port_number} -server_ip {ip address of server} -test {network protocol}</code> <br>
 <br>
-<em>Credit Reel:</em>
+**Credit Reel:**
+<em>Madeline Harbaugh (mharbaugh) contributions:</em> <ul>
+<li> Completed Task 3:  Analyzing Network Performance 
+</ul>
+<em>Kristin To (kto) contributions: </em> <ul>
+<li> Completed Task 1:  Creating a network topology in Mininet
+</ul>
+<em>Elizabeth Elias (ecelias) contributions: </em> <ul>
+<li> Did part of Task 2:  Simulating Traffic with iPerf, inluding: <ul>
+<li> Installing iPerf3 and it’s Python bindings.
+<li> Creating iPerf servers.
+<li> Did the ReadMe Instructions
+</ul>
+</ul>
+<em>Maria Gauna (mgauna) contributions: </em> <ul>
+<li> Did part of Task 2: Simulating Traffic with iPerf, inluding: <ul>
+<li> Creating iPerf clients. 
+<li>Running performance tests.
+<li>Did the ReadMe Credit Reel
+</ul>
+</ul>
+
 <ul>
 <li> [Mininet definitions and implementation](https://mininet.org/api/classmininet_1_1node_1_1Node.html)
 <li> [Plotting with Python](https://www.w3schools.com/python/matplotlib_pyplot.asp)
 <li> [iPerf implementation](https://iperf.fr/iperf-doc.php#3doc)
 <li> [iPerf implementation](https://iperf3-python.readthedocs.io/en/latest/modules.html)
 <li> [iPerf and Mininet Debugging](https://github.com/mininet/mininet/tree/master/examples)
-<li> [Anonymous Poet on this Piazza Post for iPerf Debugging](https://piazza.com/class/m03njulygss731/post/60)
+<li> [Anonymous Post on this Piazza Post for iPerf Debugging](https://piazza.com/class/m03njulygss731/post/60)
+<li>[Used this to find the default byte length of a packet] (https://iperf.fr/iperf-doc.php#:~:text=read%20or%20write.-,iPerf%20works%20by%20writing%20an%20array%20of%20len%20bytes%20a,TCP%2C%201470%20bytes%20for%20UDP.)
+<li> [Implemention of mathplotlib] https://www.geeksforgeeks.org/data-visualization-using-matplotlib/
 </ul>
