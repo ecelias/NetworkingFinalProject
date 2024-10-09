@@ -44,7 +44,6 @@ def main():
 
     with open('output-udp-32-100.json', 'r') as file:
         udp_test_32 = json.load(file)
-        print(udp_test_32)
     file.close()
 
     with open('output-udp-64-100.json', 'r') as file:
@@ -78,6 +77,7 @@ def main():
     plt.xlabel('Bottleneck Bandwidth Set (Mbps)')
     plt.ylabel('Measured Throughput (Mbps)')
     plt.xticks(bottleneck_bandwidths)
+    plt.legend(['TCP', 'UDP'], loc='lower right')
     
     # Save the plot to analysis.png
     plt.savefig('analysis.png')

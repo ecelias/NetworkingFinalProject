@@ -158,9 +158,9 @@ def run_perf_tests(bw_bottleneck, bw_other):
     h4 = net.get("h4")
 
     # initiliaze a tcp server on the h3 node
-    tcp_server = h3.cmd('sudo python3 server.py -ip 10.0.0.3 -port 5203 &')
+    tcp_server = h3.cmd('sudo python3 server.py -ip 10.0.0.3 -port 5201 &')
     # run the tcp test on the h1 node
-    tcp_test = h1.pexec('sudo python3 client.py -ip 10.0.0.1 -port 5203 -server_ip 10.0.0.3 -test tcp')
+    tcp_test = h1.pexec('sudo python3 client.py -ip 10.0.0.1 -port 5201 -server_ip 10.0.0.3 -test tcp')
 
     # check if an error occured while creating the tcp test
     if tcp_test[2] != 0:
@@ -185,9 +185,10 @@ def run_perf_tests(bw_bottleneck, bw_other):
     
     tcp_file.close()
     # initiliaze a udp server on the h4 node
-    udp_server = h4.cmd('sudo python3 server.py -ip 10.0.0.4 -port 5204 &')
+    udp_server = h4.cmd('sudo python3 server.py -ip 10.0.0.4 -port 5202 &')
     # run the tcp test on the h1 node
-    udp_test = h2.pexec('sudo python3 client.py -ip 10.0.0.2 -port 5204 -server_ip 10.0.0.4 -test udp')
+    udp_test = h2.pexec('sudo python3 client.py -ip 10.0.0.2 -port 5202 -server_ip 10.0.0.4 -test udp')
+    print(udp_test)
     
     # check if an error occured while creating the udp test
     if udp_test[2] != 0:

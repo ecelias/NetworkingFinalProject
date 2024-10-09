@@ -2,6 +2,6 @@
       "tcp_test": "tcp",
       "tcp_bottleneck_bw": 64,
       "tcp_other_bw": 100,
-      "tcp_bytes_sent": "369754112",
-      "tcp_bytes_received": "368574464"
+      "tcp_bytes_sent": "427032576",
+      "tcp_bytes_received": "426246144"
 }

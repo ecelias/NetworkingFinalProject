@@ -2,6 +2,6 @@
       "udp_test": "udp",
       "udp_bottleneck_bw": 8,
       "udp_other_bw": 100,
-      "udp_bytes_sent": 26460,
-      "udp_bytes_received": 26460
+      "udp_bytes_sent": 1314180,
+      "udp_bytes_received": 1314180
 }
