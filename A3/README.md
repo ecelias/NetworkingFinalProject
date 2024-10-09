@@ -25,7 +25,7 @@ Open a bash terminal and run: <br>
 Then, in a new bash terminal, run: <br>
 <code>python3 client.py -ip {client ip address} -port {port_number} -server_ip {ip address of server} -test {network protocol}</code> <br>
 <br>
-**Credit Reel:**
+<strong>Credit Reel:</strong> <br>
 <em>Madeline Harbaugh (mharbaugh) contributions:</em> <ul>
 <li> Completed Task 3:  Analyzing Network Performance 
 </ul>
@@ -33,14 +33,14 @@ Then, in a new bash terminal, run: <br>
 <li> Completed Task 1:  Creating a network topology in Mininet
 </ul>
 <em>Elizabeth Elias (ecelias) contributions: </em> <ul>
-<li> Did part of Task 2:  Simulating Traffic with iPerf, inluding: <ul>
+<li> Did part of Task 2:  Simulating Traffic with iPerf, including: <ul>
 <li> Installing iPerf3 and it’s Python bindings.
 <li> Creating iPerf servers.
 <li> Did the ReadMe Instructions
 </ul>
 </ul>
 <em>Maria Gauna (mgauna) contributions: </em> <ul>
-<li> Did part of Task 2: Simulating Traffic with iPerf, inluding: <ul>
+<li> Did part of Task 2: Simulating Traffic with iPerf, including: <ul>
 <li> Creating iPerf clients. 
 <li>Running performance tests.
 <li>Did the ReadMe Credit Reel
