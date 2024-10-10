@@ -10,7 +10,7 @@
 In order to run this code, please ensure that you have Mininet and iPerf properly installed. <br> 
 You can check this by running: <br>
 <code>sudo mn --version</code> <br>
-<code>pip show iperf3</code> <br>
+<code>pip show iperf3</code> <br> <br>
 All functionality needed to run iPerf tests on a Mininet object can be accessed from <code>network_bottleneck.py</code>, you should not need to enter the <code>server.py</code> or <code>client.py</code> scripts. <br> 
 <br> Begin by navigating to to A3 directory. <br> <br>
 The virtual environment used to create this code should be stored in the repository and can be activated with: <br>
@@ -41,15 +41,15 @@ You can run <code>analyze_perf.py</code> and get the network analysis in one of 
 <em>Elizabeth Elias (ecelias) contributions: </em> <ul>
 <li> Did part of Task 2:  Simulating Traffic with iPerf, including: <ul>
 <li> Installing iPerf3 and it’s Python bindings.
-<li> Creating iPerf servers.
-<li> Did the ReadMe Instructions
+<li> Wrote <code>run_perf_tests()</code>
+<li> Wrote the ReadMe Instructions
 </ul>
 </ul>
 <em>Maria Gauna (mgauna) contributions: </em> <ul>
 <li> Did part of Task 2: Simulating Traffic with iPerf, including: <ul>
 <li> Creating iPerf clients. 
-<li>Running performance tests.
-<li>Did the ReadMe Credit Reel
+<li> Creating iPerf servers.
+<li> Wrote the ReadMe Credit Reel
 </ul>
 </ul>
 
