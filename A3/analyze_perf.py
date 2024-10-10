@@ -10,6 +10,7 @@ def main():
     udp_throughput = []
 
     # Run network_bottleneck.py for each bandwidth
+
     for each in bottleneck_bandwidths:
         print(f"Running network_bottleneck.py with {each} Mbps...")
         # ensure that the Mininet's network is clear and prevent errrors in creation and configuration of a new network
@@ -66,9 +67,9 @@ def main():
     tcp_32_throughput = int(tcp_test_32.get("tcp_bytes_received"))/int(tcp_test_32.get("tcp_seconds"))
     tcp_64_throughput = int(tcp_test_64.get("tcp_bytes_received"))/int(tcp_test_64.get("tcp_seconds"))
 
-    udp_8_throughput = int(udp_test_8.get("udp_bytes_received"))/int(udp_test_8.get("udp_seconds"))
-    udp_32_throughput = int(udp_test_32.get("udp_bytes_received"))/int(udp_test_32.get("udp_seconds"))
-    udp_64_throughput = int(udp_test_64.get("udp_bytes_received"))/int(udp_test_64.get("udp_seconds"))
+    udp_8_throughput = int(udp_test_8.get("udp_bytes_transmitted"))/int(udp_test_8.get("udp_seconds"))
+    udp_32_throughput = int(udp_test_32.get("udp_bytes_transmitted"))/int(udp_test_32.get("udp_seconds"))
+    udp_64_throughput = int(udp_test_64.get("udp_bytes_transmitted"))/int(udp_test_64.get("udp_seconds"))
     
     # add the tcp throughput values for all 3 tests to a dictionary
     tcp_throughput.append(tcp_8_throughput)

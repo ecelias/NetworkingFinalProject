@@ -23,7 +23,7 @@ def run_client(client_args):
             print(client_result.sent_bytes, client_result.received_bytes, client_result.duration)
         # if the test type is udp, get the sent_bytes and received bytes from the TestResult object
         elif client_args["test"] == "udp": 
-            print(client_result.packets, client_result.lost_packets, client_result.duration)
+            print(client_result.bytes, client_result.duration)
         # if the test type is not TCP or UDP, throw an exception and exit the client
         else:
             raise Exception(f"Invalid test type used. Exiting program...")
