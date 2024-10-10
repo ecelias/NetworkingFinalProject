@@ -2,6 +2,7 @@
       "udp_test": "udp",
       "udp_bottleneck_bw": 10,
       "udp_other_bw": 100,
-      "udp_bytes_sent": 141120,
-      "udp_bytes_received": 141120
+      "udp_bytes_sent": 1622880,
+      "udp_bytes_received": 1622880,
+      "udp_seconds": "60"
 }

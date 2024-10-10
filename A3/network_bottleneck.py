@@ -11,8 +11,7 @@ import subprocess
 import json
 import time
 
-f = open("output-network-config.txt", "w+")
-
+net_config_file = open("output-network-config.txt", "w")
 
 class BottleneckTopo(Topo):
     #"Single switch connected to n hosts."  
@@ -89,11 +88,9 @@ def call_ping(mininetObj):
 #need to add error handling if user doesn't input a valid int
 def run_topology_tests(bw_bottleneck, bw_other):
     #"Create and test a simple network"
-    # ???? not sure how to use BottleneckTopo.build() here but instructions say we should
     topo = BottleneckTopo(bw_bottleneck=bw_bottleneck, bw_other=bw_other)
 
-    # net = Mininet(topo=topo, host=CPULimitedHost, link=TCLink)
-    # ???? modified for testing purposes because I didn't have cgroup v1 mounted and didn't want to do that right now
+    # Create the mininet object
     net = Mininet(topo=topo, host=Host, link=TCLink)
     net.start()
     print( "Dumping host connections" )
@@ -102,19 +99,19 @@ def run_topology_tests(bw_bottleneck, bw_other):
     # call the method to write the "ifconfig" command on all hosts to a file
     call_ifconfig(net)
 
-    # ???? commented out for now MAKE USRE TO UNCOMMENT BEFORE SUBMISSION
+    # call the method to write the "ping" command on all hosts to a file
     call_ping(net)
 
     # write details of hosts, switches, and links to output-network-config.txt file
     # ???? may need more info here?? I'm unsure of what "details" all need to be written
-    f.write("Nodes:\n")
+    net_config_file.write("Nodes:\n")
     for host in net.hosts:
-        f.write(f"  -Host: {host.name}\n")
+        net_config_file.write(f"  -Host: {host.name}\n")
     for switch in net.switches:
-        f.write(f"  -Switch: {switch.name}\n")
-    f.write("Links:\n")
+        net_config_file.write(f"  -Switch: {switch.name}\n")
+    net_config_file.write("Links:\n")
     for link in net.links:
-        f.write(f"  -Link: {link}\n")
+        net_config_file.write(f"  -Link: {link}\n")
 
     print( "Testing network connectivity" )
     net.pingAll()
@@ -158,9 +155,9 @@ def run_perf_tests(bw_bottleneck, bw_other):
     h4 = net.get("h4")
 
     # initiliaze a tcp server on the h3 node
-    tcp_server = h3.cmd('sudo python3 server.py -ip 10.0.0.3 -port 5201 &')
+    tcp_server = h3.cmd('sudo python3 server.py -ip 10.0.0.3 -port 5210 &')
     # run the tcp test on the h1 node
-    tcp_test = h1.pexec('sudo python3 client.py -ip 10.0.0.1 -port 5201 -server_ip 10.0.0.3 -test tcp')
+    tcp_test = h1.pexec('sudo python3 client.py -ip 10.0.0.1 -port 5210 -server_ip 10.0.0.3 -test tcp')
 
     # check if an error occured while creating the tcp test
     if tcp_test[2] != 0:
@@ -176,7 +173,8 @@ def run_perf_tests(bw_bottleneck, bw_other):
         "tcp_bottleneck_bw": bw_bottleneck, 
         "tcp_other_bw": bw_other, 
         "tcp_bytes_sent": tcp_out[0],
-        "tcp_bytes_received": tcp_out[1]
+        "tcp_bytes_received": tcp_out[1],
+        "tcp_seconds": tcp_out[2]
         }
     
     # dump test info into tcp json file
@@ -185,10 +183,9 @@ def run_perf_tests(bw_bottleneck, bw_other):
     
     tcp_file.close()
     # initiliaze a udp server on the h4 node
-    udp_server = h4.cmd('sudo python3 server.py -ip 10.0.0.4 -port 5202 &')
+    udp_server = h4.cmd('sudo python3 server.py -ip 10.0.0.4 -port 5211 &')
     # run the tcp test on the h1 node
-    udp_test = h2.pexec('sudo python3 client.py -ip 10.0.0.2 -port 5202 -server_ip 10.0.0.4 -test udp')
-    print(udp_test)
+    udp_test = h2.pexec('sudo python3 client.py -ip 10.0.0.2 -port 5211 -server_ip 10.0.0.4 -test udp')
     
     # check if an error occured while creating the udp test
     if udp_test[2] != 0:
@@ -209,7 +206,8 @@ def run_perf_tests(bw_bottleneck, bw_other):
         "udp_bottleneck_bw": bw_bottleneck, 
         "udp_other_bw": bw_other, 
         "udp_bytes_sent": bytes_sent,
-        "udp_bytes_received": bytes_recv
+        "udp_bytes_received": bytes_recv,
+        "udp_seconds": udp_out[2]
         }
     
     # dump test info into udp json files
@@ -238,10 +236,10 @@ def main():
         if (bw_bottleneck) < (bw_other):
             if (isinstance(bw_bottleneck, int)) and (isinstance(bw_other, int) and isinstance(time, int)):
                 validInt = validateInput(validInt, bw_bottleneck, bw_other, time)
-    #run_topology_tests(bw_bottleneck, bw_other) 
+    run_topology_tests(bw_bottleneck, bw_other) 
     run_perf_tests(bw_bottleneck, bw_other)
 
 if __name__ == '__main__':
     main()
 
-f.close()
+net_config_file.close()

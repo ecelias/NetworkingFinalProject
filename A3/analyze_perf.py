@@ -51,13 +51,24 @@ def main():
     file.close()
 
     # calculate the throughput for all the bytes sent and recieved with each type of network
-    tcp_8_throughput = int(tcp_test_8.get("tcp_bytes_received"))/int(tcp_test_8.get("tcp_bytes_sent"))
-    tcp_32_throughput = int(tcp_test_32.get("tcp_bytes_received"))/int(tcp_test_32.get("tcp_bytes_sent"))
-    tcp_64_throughput = int(tcp_test_64.get("tcp_bytes_received"))/int(tcp_test_64.get("tcp_bytes_sent"))
+    # tcp_8_throughput = int(tcp_test_8.get("tcp_bytes_received"))/int(tcp_test_8.get("tcp_bytes_sent"))
+    # tcp_32_throughput = int(tcp_test_32.get("tcp_bytes_received"))/int(tcp_test_32.get("tcp_bytes_sent"))
+    # tcp_64_throughput = int(tcp_test_64.get("tcp_bytes_received"))/int(tcp_test_64.get("tcp_bytes_sent"))
 
-    udp_8_throughput = int(udp_test_8.get("udp_bytes_received"))/int(udp_test_8.get("udp_bytes_sent"))
-    udp_32_throughput = int(udp_test_32.get("udp_bytes_received"))/int(udp_test_32.get("udp_bytes_sent"))
-    udp_64_throughput = int(udp_test_64.get("udp_bytes_received"))/int(udp_test_64.get("udp_bytes_sent"))
+    # udp_8_throughput = int(udp_test_8.get("udp_bytes_received"))/int(udp_test_8.get("udp_bytes_sent"))
+    # udp_32_throughput = int(udp_test_32.get("udp_bytes_received"))/int(udp_test_32.get("udp_bytes_sent"))
+    # udp_64_throughput = int(udp_test_64.get("udp_bytes_received"))/int(udp_test_64.get("udp_bytes_sent"))
+
+    # calculate the throughput for each test and bottleneck bandwitdth
+    # as bytes_recieved/test duration
+    
+    tcp_8_throughput = int(tcp_test_8.get("tcp_bytes_received"))/int(tcp_test_8.get("tcp_seconds"))
+    tcp_32_throughput = int(tcp_test_32.get("tcp_bytes_received"))/int(tcp_test_32.get("tcp_seconds"))
+    tcp_64_throughput = int(tcp_test_64.get("tcp_bytes_received"))/int(tcp_test_64.get("tcp_seconds"))
+
+    udp_8_throughput = int(udp_test_8.get("udp_bytes_received"))/int(udp_test_8.get("udp_seconds"))
+    udp_32_throughput = int(udp_test_32.get("udp_bytes_received"))/int(udp_test_32.get("udp_seconds"))
+    udp_64_throughput = int(udp_test_64.get("udp_bytes_received"))/int(udp_test_64.get("udp_seconds"))
     
     # add the tcp throughput values for all 3 tests to a dictionary
     tcp_throughput.append(tcp_8_throughput)
@@ -71,13 +82,13 @@ def main():
 
     # Create the plot
     plt.figure(figsize=(5, 4))
-    plt.plot(bottleneck_bandwidths, tcp_throughput, marker='o', label='TCP Throughput (Mbps)')
-    plt.plot(bottleneck_bandwidths, udp_throughput, marker='o', label='UDP Throughput (Mbps)')
+    plt.plot(bottleneck_bandwidths, tcp_throughput, marker='o', label='TCP Throughput (Bps)')
+    plt.plot(bottleneck_bandwidths, udp_throughput, marker='o', label='UDP Throughput (Bps)')
     plt.title('Measured Throughput vs Bottleneck Bandwidth')
     plt.xlabel('Bottleneck Bandwidth Set (Mbps)')
-    plt.ylabel('Measured Throughput (Mbps)')
+    plt.ylabel('Measured Throughput (Bps)')
     plt.xticks(bottleneck_bandwidths)
-    plt.legend(['TCP', 'UDP'], loc='lower right')
+    plt.legend(['TCP', 'UDP'], loc='upper left')
     
     # Save the plot to analysis.png
     plt.savefig('analysis.png')
