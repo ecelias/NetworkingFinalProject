@@ -11,8 +11,8 @@ In order to run this code, please ensure that you have Mininet and iPerf properl
 You can check this by running: <br>
 <code>sudo mn --version</code> <br>
 <code>pip show iperf3</code> <br>
-All functionality needed to run iPerf tests on a Mininet object can be accessed from <code>network_bottleneck.py</code>, you should not need to enter the <code>server.py</code> or <code>client.py</code> scripts. <br> <br>
-<br> Begin by navigating to to A3 directory. <br>
+All functionality needed to run iPerf tests on a Mininet object can be accessed from <code>network_bottleneck.py</code>, you should not need to enter the <code>server.py</code> or <code>client.py</code> scripts. <br> 
+<br> Begin by navigating to to A3 directory. <br> <br>
 The virtual environment used to create this code should be stored in the repository and can be activated with: <br>
 <code> source ~/cs3640/A3/bin/activate </code> <br>
 Open a bash terminal and run the following command: <br>
@@ -60,6 +60,6 @@ You can run <code>analyze_perf.py</code> and get the network analysis in one of 
 <li> [iPerf implementation](https://iperf3-python.readthedocs.io/en/latest/modules.html)
 <li> [iPerf and Mininet Debugging](https://github.com/mininet/mininet/tree/master/examples)
 <li> [Anonymous Post on this Piazza Post for iPerf Debugging](https://piazza.com/class/m03njulygss731/post/60)
-<li>[Used this to find the default byte length of a packet] (https://iperf.fr/iperf-doc.php#:~:text=read%20or%20write.-,iPerf%20works%20by%20writing%20an%20array%20of%20len%20bytes%20a,TCP%2C%201470%20bytes%20for%20UDP.)
-<li> [Implemention of mathplotlib] https://www.geeksforgeeks.org/data-visualization-using-matplotlib/
+<li> [Used this to find the default byte length of a packet](https://iperf.fr/iperf-doc.php#:~:text=read%20or%20write.-,iPerf%20works%20by%20writing%20an%20array%20of%20len%20bytes%20a,TCP%2C%201470%20bytes%20for%20UDP.)
+<li> [Implemention of mathplotlib](https://www.geeksforgeeks.org/data-visualization-using-matplotlib/)
 </ul>
