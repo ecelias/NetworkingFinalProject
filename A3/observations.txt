@@ -1,5 +1,5 @@
 Our generated graph showed a linear positive correlative relationship between bottleneck bandwidth set and 
-measured throughput in TCP trials. This makes sense in the context of what we understand about TCP transmissions; 
+measured throughput in TCP and UDP trials. This makes sense in the context of what we understand about TCP transmissions; 
 TCP is more useful for file transfer, where accuracy and in-order delivery is more important than speed, and 
 increasing the size of the file(s) increases the time it takes to complete. In contrast, the measured throughput 
 in UDP trials grew more slowly between trials of increasing bandwidth. This is because UDP facilitates faster, 
