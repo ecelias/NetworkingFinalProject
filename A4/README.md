@@ -25,4 +25,6 @@
 <h4><strong>Credit Reel:</strong></h4> <ul>
 <li>[Creating an ICMP server in Python](https://stackoverflow.com/questions/8245344/python-icmp-socket-server-not-tcp-udp)
 <li>[ICMP Echo DPKT Tutorial](https://jon.oberheide.org/blog/2008/08/25/dpkt-tutorial-1-icmp-echo/)
+<li>[Running a ping command with an ICMP server](https://github.com/WarlonZeng/CS4793-Computer-Networking/blob/master/python%20icmp%20traceroute/icmp_pinger.py)
+<li>[Running a ping command with an ICMP server](https://github.com/insomniacslk/dpkt/blob/master/examples/ping.py)
 </ul>
