@@ -4,7 +4,7 @@ import argparse
 import sys
 import time
 import struct
-import ctypes
+import dpkt
 
 # Constants
 ICMP_ECHO_REQUEST = 8
@@ -41,11 +41,11 @@ def checksum(source_string):
     answer = answer >> 8 | (answer << 8 & 0xff00)
     return answer
 
-def make_icmp_socket(ttl, timeout):
+def make_icmp_socket(ttl):
     """Creates a raw ICMP socket."""
     s = socket.socket(socket.AF_INET, socket.SOCK_RAW, socket.IPPROTO_ICMP)
     s.setsockopt(socket.SOL_IP, socket.IP_TTL, ttl)
-    s.settimeout(timeout)
+
     try:
         host_ip = socket.gethostbyname("127.0.0.1")
     except socket.gaierror:
@@ -53,29 +53,28 @@ def make_icmp_socket(ttl, timeout):
         sys.exit()
     return s, host_ip
 
-#problem: code is not using dpkt module
-def send_icmp_echo(socket, payload, id, seq, destination):
-    """Construct and send an ICMP echo request."""
+def send_icmp_echo(sock, payload, id, seq, destination):
+    """Craft and send an ICMP echo request using dpkt."""
+    
+    # Encode the payload
     payload = payload.encode()
-    
-    # Build the ICMP Echo Request header
-    header = struct.pack('!BBHHH', ICMP_ECHO_REQUEST, 0, 0, id, seq)
-    
-    # Data to be sent (encoded payload)
-    data = struct.pack("d", time.time()) + payload
-    
-    # Calculate the checksum -- Needs valid checksum to send
-    packet = header + data
-    chksum = checksum(packet)
-    
-    # Rebuild the header with the correct checksum
-    header = struct.pack('!BBHHH', ICMP_ECHO_REQUEST, 0, chksum, id, seq)
-    
-    # Final packet (header + data)
-    packet = header + data
+
+    # Create the ICMP Echo Request
+    echo_request = dpkt.icmp.ICMP.Echo(id=id, seq=seq, data=payload)
+
+    # Create the ICMP packet and set its type to ICMP_ECHO
+    icmp_packet = dpkt.icmp.ICMP(type=dpkt.icmp.ICMP_ECHO, data=echo_request)
+
+    # Convert the ICMP packet to bytes
+    icmp_bytes = bytes(icmp_packet)
 
     # Send the packet to the destination
-    socket.sendto(packet, (destination, 1))
+    sock.sendto(icmp_bytes, (destination, 1))
+
+    # Record the time of sending for RTT calculation
+    start_time = time.time()
+    
+    return start_time
 
 def recv_icmp_response(sd, destination, icmp_seq, icmp_id, start_time):
     """Receive and parse the ICMP response, calculate RTT and print details."""
@@ -113,17 +112,16 @@ def recv_icmp_response(sd, destination, icmp_seq, icmp_id, start_time):
 
 def main():
 
-    #command to run: sudo python script_name.py -ttl 64 -timeout 1 -destination 8.8.8.8 -n 3
+    #command to run: sudo python3 pingDraft.py -ttl 64 -timeout 1 -destination 8.8.8.8 -n 3
 
     parser = argparse.ArgumentParser(description='ICMP server parameters')
     parser.add_argument('-ttl', type=int, required=True, help="Time-to-Live for the ICMP packet")
-    parser.add_argument('-timeout', type=int, default=1, help="Timeout for the ICMP socket")
     parser.add_argument('-destination', type=str, required=True, help="IP address of the destination")
     parser.add_argument('-n', type=int, required=True, help="Number of packets to send")
     args = parser.parse_args()
 
     payload = "hello"
-    new_socket, host_ip = make_icmp_socket(args.ttl, args.timeout)
+    new_socket, host_ip = make_icmp_socket(args.ttl)
 
     for i in range(args.n):
         # Record time when sending the packet
