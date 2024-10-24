@@ -113,7 +113,7 @@ def recv_icmp_response(sd, destination, icmp_seq, icmp_id, start_time):
 
 def main():
 
-    #command to run: python script_name.py -ttl 64 -timeout 1 -destination 8.8.8.8 -n 3
+    #command to run: sudo python script_name.py -ttl 64 -timeout 1 -destination 8.8.8.8 -n 3
 
     parser = argparse.ArgumentParser(description='ICMP server parameters')
     parser.add_argument('-ttl', type=int, required=True, help="Time-to-Live for the ICMP packet")
