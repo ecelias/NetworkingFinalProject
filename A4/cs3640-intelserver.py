@@ -33,8 +33,12 @@ def handle_client(client_socket):
 
 def process_diagnostics(request):
     # Perform diagnostic analysis based on the received request
-    # Each implemented as a single request
 
+    # extract domain and service requested from json file
+    domain = request.domain
+    service = request.service
+
+    # Each implemented as a single request
     def IPV4_ADDR(domain):
         try:
             # Use DNS resolver to get the IPv4 address of the domain
@@ -42,7 +46,7 @@ def process_diagnostics(request):
             return v4_Address_Success
         except:
             return "Error: Unable to resolve domain"
-    if request == IPV4_ADDR:
+    if service == IPV4_ADDR:
         IPV4_ADDR(domain)
     
     def IPV6_ADDR(domain):
@@ -52,14 +56,14 @@ def process_diagnostics(request):
             return v6_Address_Success
         except:
             return "Error: Unable to resolve domain"
-    if request == IPV6_ADDR:
+    if service == IPV6_ADDR:
         IPV6_ADDR(domain)
     
     def TLS_CERT(domain):
         #return the TLS/SSL certificate associated with the queried domain or return an error message ("certificate cannot be retrieved" or similar)
         #use python's ssl module to retrieve certificate
         return
-    if request == TLS_CERT:
+    if service == TLS_CERT:
         TLS_CERT(domain)
     
     def HOSTING_AS(domain): 
@@ -68,7 +72,7 @@ def process_diagnostics(request):
         #domain and then use a WHOIS service to obtain the AS information. If the AS cannot be
         #determined, the server must return an appropriate error message.
         return
-    if request == HOSTING_AS:
+    if service == HOSTING_AS:
         HOSTING_AS(domain)
     
     def ORGANIZATION(domain): 
@@ -77,7 +81,7 @@ def process_diagnostics(request):
         #Name from the certificate. If the organization cannot be determined, the server must return
         #an appropriate error message.
         return
-    if request == ORGANIZATION:
+    if service == ORGANIZATION:
         ORGANIZATION(domain)
     
     return {"status": "success", "message": "Diagnostics completed"}

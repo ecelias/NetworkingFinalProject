@@ -12,6 +12,13 @@ IP_MAXPACKET = 65535
 IP4_HDRLEN = 20  # IPv4 header length
 ICMP_HDRLEN = 8  # ICMP header length
 
+# create global variables for ttl and timeout
+ttl = 100
+ttl = 100
+
+# create default payload data
+PAYLOAD_DATA = "CS3640 Assignment 4"
+
 # Store RTTs for calculating average
 rtts = []
 successful_pings = 0
@@ -19,32 +26,33 @@ successful_pings = 0
 
 #might not be the right way to calculate checksum?
 def checksum(source_string):
-    """Calculate the checksum of the input string."""
-    sum = 0
+    # calculate a checksum for the header
+    csum = 0
     countTo = (len(source_string) // 2) * 2
     count = 0
 
     while count < countTo:
-        thisVal = source_string[count + 1] * 256 + source_string[count]
-        sum = sum + thisVal
-        sum = sum & 0xffffffff
+        thisVal =  ord(str[count+1]) * 256 + ord(str[count])
+        csum += thisVal
+        csum = csum & 0xffffffff
         count = count + 2
 
     if countTo < len(source_string):
-        sum = sum + source_string[len(source_string) - 1]
-        sum = sum & 0xffffffff
+        csum = csum + ord(str[len(str) - 1])
+        csum = csum & 0xffffffff
 
-    sum = (sum >> 16) + (sum & 0xffff)
-    sum = sum + (sum >> 16)
-    answer = ~sum
+    csum = (csum >> 16) + (csum & 0xffff)
+    csum = csum + (csum >> 16)
+    answer = ~csum
     answer = answer & 0xffff
     answer = answer >> 8 | (answer << 8 & 0xff00)
     return answer
 
-def make_icmp_socket(ttl):
-    """Creates a raw ICMP socket."""
+def make_icmp_socket(ttl, timeout):
+    # create a raw server with ICMP protocol
     s = socket.socket(socket.AF_INET, socket.SOCK_RAW, socket.IPPROTO_ICMP)
     s.setsockopt(socket.SOL_IP, socket.IP_TTL, ttl)
+    s.settimeout(timeout)
 
     try:
         host_ip = socket.gethostbyname("127.0.0.1")
@@ -54,30 +62,21 @@ def make_icmp_socket(ttl):
     return s, host_ip
 
 def send_icmp_echo(sock, payload, id, seq, destination):
-    """Craft and send an ICMP echo request using dpkt."""
-    
     # Encode the payload
     payload = payload.encode()
-
     # Create the ICMP Echo Request
     echo_request = dpkt.icmp.ICMP.Echo(id=id, seq=seq, data=payload)
-
     # Create the ICMP packet and set its type to ICMP_ECHO
     icmp_packet = dpkt.icmp.ICMP(type=dpkt.icmp.ICMP_ECHO, data=echo_request)
-
     # Convert the ICMP packet to bytes
     icmp_bytes = bytes(icmp_packet)
-
     # Send the packet to the destination
     sock.sendto(icmp_bytes, (destination, 1))
-
     # Record the time of sending for RTT calculation
     start_time = time.time()
-    
     return start_time
 
 def recv_icmp_response(sd, destination, icmp_seq, icmp_id, start_time):
-    """Receive and parse the ICMP response, calculate RTT and print details."""
     global rtts, successful_pings
     
     try:
@@ -101,7 +100,7 @@ def recv_icmp_response(sd, destination, icmp_seq, icmp_id, start_time):
         icmp_header = struct.unpack('!BBHHH', rec_data[IP4_HDRLEN:IP4_HDRLEN + ICMP_HDRLEN])
         icmp_type = icmp_header[0]
 
-        # TTL (Time-To-Live)
+        # TTL (Time-To-Live)5
         ttl = ip_header[5]
 
         # Print the required information
@@ -110,18 +109,30 @@ def recv_icmp_response(sd, destination, icmp_seq, icmp_id, start_time):
     except socket.error as err:
         print(f"recvfrom() failed: {err}")
 
+def calc_avg_rtt(rtts, num_pings):
+    if rtts:
+        avg_rtt = sum(rtts) / len(rtts)
+        print(f"Average rtt: {avg_rtt:.1f} ms; {successful_pings}/{num_pings} successful pings.")
+    else:
+        print(f"0/{num_pings} successful pings.")
+
 def main():
-
+    global ttl, timeout
     #command to run: sudo python3 pingDraft.py -ttl 64 -timeout 1 -destination 8.8.8.8 -n 3
-
     parser = argparse.ArgumentParser(description='ICMP server parameters')
     parser.add_argument('-ttl', type=int, required=True, help="Time-to-Live for the ICMP packet")
+    parser.add_argument('-timeout', type=int, default=100, help="Time-to-Live for the ICMP packet")
     parser.add_argument('-destination', type=str, required=True, help="IP address of the destination")
     parser.add_argument('-n', type=int, required=True, help="Number of packets to send")
     args = parser.parse_args()
 
-    payload = "hello"
-    new_socket, host_ip = make_icmp_socket(args.ttl)
+    payload = PAYLOAD_DATA
+    ttl = args.ttl
+
+    if args.timeout:
+        timeout = args.timeout
+    
+    new_socket, host_ip = make_icmp_socket(args.ttl, args.timeout)
 
     for i in range(args.n):
         # Record time when sending the packet
@@ -141,11 +152,7 @@ def main():
     new_thread.join()
 
     # Calculate and print average RTT
-    if rtts:
-        avg_rtt = sum(rtts) / len(rtts)
-        print(f"Average rtt: {avg_rtt:.1f} ms; {successful_pings}/{args.n} successful pings.")
-    else:
-        print(f"0/{args.n} successful pings.")
+    calc_avg_rtt(rtts, args.n)
 
 if __name__ == "__main__":
     main()
