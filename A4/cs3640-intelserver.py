@@ -1,8 +1,11 @@
 import socket
 import json
 import dns.resolver
+import ssl
+import urllib.request
 
 ##credit reel: https://www.geeksforgeeks.org/network-programming-in-python-dns-look-up/ - used for IP address retrieval 
+##credit reel: https://thelinuxforum.com/articles/180-python-ssl-example - used for TSL/SSL certificate retrieval
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
@@ -60,9 +63,12 @@ def process_diagnostics(request):
         IPV6_ADDR(domain)
     
     def TLS_CERT(domain):
-        #return the TLS/SSL certificate associated with the queried domain or return an error message ("certificate cannot be retrieved" or similar)
-        #use python's ssl module to retrieve certificate
-        return
+        try: 
+            parsed_url = urllib.parse.urlparse(str(domain))
+            return (ssl.get_server_certificate((parsed_url.hostname, 443)))
+        except: 
+            return "Error: Unable to retrieve certificate"
+
     if service == TLS_CERT:
         TLS_CERT(domain)
     
