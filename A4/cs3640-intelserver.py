@@ -2,8 +2,9 @@ import socket
 import json
 import dns.resolver
 import ssl
-import urllib.request
 from ipwhois import IPWhois
+
+s = ""
 
 ##credit reel: https://www.geeksforgeeks.org/network-programming-in-python-dns-look-up/ - used for IP address retrieval 
 ##credit reel: https://thelinuxforum.com/articles/180-python-ssl-example - used for TSL/SSL certificate retrieval
@@ -43,12 +44,22 @@ def IPV6_ADDR(domain):
     except:
         return "Error: Unable to resolve domain"
     
-def TLS_CERT(domain):
-    try: 
-        parsed_url = urllib.parse.urlparse(str(domain))
-        return (ssl.get_server_certificate((parsed_url.hostname, 443)))
-    except: 
+def TLS_CERT(domain, s):
+    try:
+        #Create an SSL context
+        sslContext = ssl.SSLContext();
+
+        #Get an instance of SSLSocket
+        wrappedS = sslContext.wrap_socket(s);
+
+        #Get and return certificate associated with domain
+        wrappedS.connect((domain, 443));
+        cert = wrappedS.getpeercert();
+
+        return cert
+    except:
         return "Error: Unable to retrieve certificate"
+        
     
 def HOSTING_AS(domain): 
     #The server should return the Autonomous System (AS) that
