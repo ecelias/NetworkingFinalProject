@@ -1,20 +1,13 @@
 import socket
 import json
-import dns.resolver
 import argparse
 
 HOST = '127.0.0.1'
 PORT = 5555
-valid_Request = False
-request_Options = ["IPV4_ADDR", "IPV6_ADDR", "TLS_CERT", "HOSTING_AS", "ORGANIZATION"]
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect((HOST, PORT))
-print(s.recv(1024))
 
 def send_request(server_addr, server_port, domain, service):
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    s.connect(server_addr, server_port)
+    s.connect((server_addr, server_port))
     print(s.recv(1024))
     
     # create a dictionary containing the domain queried and service requested
@@ -27,7 +20,11 @@ def send_request(server_addr, server_port, domain, service):
 
     # Receive the response
     response = s.recv(1024).decode('utf-8')
-    print("Received response:", json.loads(response))
+    try:
+        response_json = json.loads(response)
+        print("Received response:", response_json)
+    except json.JSONDecodeError:
+        print("Error: Invalid response received from server.")
 
     s.close()
 
@@ -47,6 +44,9 @@ def main():
     
     # parse command line arguments for the program
     args = parser.parse_args()
+
+    valid_Request = False
+    request_Options = ["IPV4_ADDR", "IPV6_ADDR", "TLS_CERT", "HOSTING_AS", "ORGANIZATION"]
 
     # make sure the service requested is valid
     while valid_Request == False:

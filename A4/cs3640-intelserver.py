@@ -9,15 +9,6 @@ from ipwhois import IPWhois
 ##credit reel: https://thelinuxforum.com/articles/180-python-ssl-example - used for TSL/SSL certificate retrieval
 ##credit reel: https://stackoverflow.com/questions/28997623/how-to-parse-text-in-python-with-ipwhois - used for finding information about AS
 
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-
-host = '127.0.0.1'
-port = 5555
-domain = ""
-
-s.bind((host, port))
-s.listen(5)
-
 def handle_client(client_socket):
     while True:
         data = client_socket.recv(1024).decode('utf-8')
@@ -90,8 +81,8 @@ def process_diagnostics(request):
     # Perform diagnostic analysis based on the received request
 
     # extract domain and service requested from json file
-    domain = request.domain
-    service = request.service
+    domain = request.get("domain")
+    service = request.get("service")
 
     # Each implemented as a single request
     if service == "IPV4_ADDR":
@@ -108,12 +99,17 @@ def process_diagnostics(request):
         return {"error": "Invalid service requested"}
     
 def main ():
+    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    host = '127.0.0.1'
+    port = 5555
+    s.bind((host, port))
+    s.listen(5)
+    print("Server listening on " + str(host))
+
     while True:
-        print("Server listening on " + str(host))
         c, addr = s.accept()
         print("Connected to %s" % str(addr))
-        c.send("Hello socket")
-
+        
         handle_client(c)
         c.close()
 
