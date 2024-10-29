@@ -8,7 +8,7 @@ PORT = 5555
 def send_request(server_addr, server_port, domain, service):
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.connect((server_addr, server_port))
-    print(s.recv(1024))
+    #print(s.recv(4096).decode('utf-8'))
     
     # create a dictionary containing the domain queried and service requested
     # this will be sent to the server as a json file
@@ -16,10 +16,10 @@ def send_request(server_addr, server_port, domain, service):
         "domain": domain, 
         "service": service
     }
-    s.send(json.dumps(request_payload).encode('utf-8'))
+    s.sendall(json.dumps(request_payload).encode('utf-8'))
 
     # Receive the response
-    response = s.recv(1024).decode('utf-8')
+    response = s.recv(4096).decode('utf-8')
     try:
         response_json = json.loads(response)
         print("Received response:", response_json)
@@ -44,18 +44,17 @@ def main():
     
     # parse command line arguments for the program
     args = parser.parse_args()
+    print(f"Arguments received - Server Address: {args.intel_server_addr}, Port: {args.intel_server_port}, Domain: {args.domain}, Service: {args.service}")
+   
 
-    valid_Request = False
     request_Options = ["IPV4_ADDR", "IPV6_ADDR", "TLS_CERT", "HOSTING_AS", "ORGANIZATION"]
 
-    # make sure the service requested is valid
-    while valid_Request == False:
-        request = args.service
-        if request not in request_Options:
-            print("Invalid request, please try again.")
-            continue
-        else:
-            valid_Request = True
+     # make sure the service requested is valid
+    request = args.service
+    if request not in request_Options:
+        print("Invalid request, please try again.")
+        return
+    
     # send the request to the server
     send_request(args.intel_server_addr, args.intel_server_port, args.domain, request)
 
