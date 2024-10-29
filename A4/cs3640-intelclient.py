@@ -1,6 +1,6 @@
 import socket
 import json
-import dnspython
+import dns.resolver
 import argparse
 
 HOST = '127.0.0.1'
