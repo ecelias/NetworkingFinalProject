@@ -56,4 +56,7 @@ You can run this command as many times as you want with all different domaians a
 <li>[ICMP Echo DPKT Tutorial](https://jon.oberheide.org/blog/2008/08/25/dpkt-tutorial-1-icmp-echo/)
 <li>[Running a ping command with an ICMP server and checksum calculator](https://github.com/WarlonZeng/CS4793-Computer-Networking/blob/master/python%20icmp%20traceroute/icmp_pinger.py)
 <li>[Running a ping command with an ICMP server](https://github.com/insomniacslk/dpkt/blob/master/examples/ping.py)
+<li>[Client-Server IP addressal retrieval and response](https://www.geeksforgeeks.org/network-programming-in-python-dns-look-up/)
+<li>[Client-Server TSL/SSL certificate retrieval and response](https://pythontic.com/ssl/sslsocket/getpeercert)
+<li>[Client-Server hosting AS information](https://stackoverflow.com/questions/28997623/how-to-parse-text-in-python-with-ipwhois)
 </ul>
