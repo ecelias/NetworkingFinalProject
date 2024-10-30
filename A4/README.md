@@ -1,8 +1,9 @@
 <h1><strong>CS3640 Assignment 4</strong></h1> <br>
 <h4><strong>Instructions for running assignment 4</strong></h4> <br>
-In order to run this code, make sure you have dpkt, dnspython python-whois, and ipwhois  properly installed. <br>
+In order to run this code, make sure you have dpkt, dnspython python-whois, ipwhois, OpenSSl  properly installed. <br>
 You can check this by running: <br>
 <code>pip install dpkt</code> <br>
+<code>pip install OpenSSl</code> <br>
 <code>pip install dnspython python-whois</code> <br> 
 <code>pip install ipwhois</code> <br> <br>
 <br> Begin by navigating to to A4 directory. <br> <br>
@@ -19,7 +20,7 @@ Then, to test cs3640-traceroute run the following command: <br>
 (1)Open a bash terminal, and run the following command: 
 <code> python cs3640-intelserver.py <code> <br>
 (2) open a new bash terminal and run the following command: 
-<code> sudo python3 cs3640-intelclient.py -domain {Insert domain to query} -service {The service you want to run} < br>
+<code> python3 cs3640-intelclient.py -domain {Insert domain to query} -service {The service you want to run} < br>
 You can run this command as many times as you want with all different domaians and services through the server. <br> <br>
 
 <code>python3 analyze_perf.py</code> <br> <br>

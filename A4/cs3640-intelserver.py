@@ -54,6 +54,7 @@ def IPV6_ADDR(domain):
         return "Error: Unable to resolve domain"
     
 def TLS_CERT(domain):
+def TLS_CERT(domain):
     try:
         certificate = get_certificate(domain)
         x509 = OpenSSL.crypto.load_certificate(OpenSSL.crypto.FILETYPE_PEM, certificate)
