@@ -20,7 +20,7 @@ Then, to test cs3640-traceroute run the following command: <br>
 (1)Open a bash terminal, and run the following command: 
 <code> python cs3640-intelserver.py </code> <br>
 (2) open a new bash terminal and run the following command: 
-<code> python3 cs3640-intelclient.py -domain {Insert domain to query} -service {The service you want to run} < br>
+<code> python3 cs3640-intelclient.py -domain {Insert domain to query} -service {The service you want to run}</code> <br>
 You can run this command as many times as you want with all different domaians and services through the server. <br> <br>
 
 <code>python3 analyze_perf.py</code> <br> <br>
