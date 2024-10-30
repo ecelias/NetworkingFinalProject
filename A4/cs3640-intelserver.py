@@ -3,7 +3,11 @@ import json
 import dns.resolver
 import ssl
 from ipwhois import IPWhois
+import OpenSSL
+from pprint import pprint
+from datetime import datetime
 
+ORG_PORT = 443
 s = ""
 
 ##credit reel: https://www.geeksforgeeks.org/network-programming-in-python-dns-look-up/ - used for IP address retrieval 
@@ -27,6 +31,17 @@ def handle_client(client_socket):
 
         except Exception as e:
             print("Error processing request:", e)
+
+def get_certificate(host, port=443, timeout=10):
+    context = ssl.create_default_context()
+    conn = socket.create_connection((host, port))
+    sock = context.wrap_socket(conn, server_hostname=host)
+    sock.settimeout(timeout)
+    try:
+        der_cert = sock.getpeercert(True)
+    finally:
+        sock.close()
+    return ssl.DER_cert_to_PEM_cert(der_cert)
 
 def IPV4_ADDR(domain):
     try:
@@ -84,9 +99,15 @@ def ORGANIZATION(domain):
     #Name from the certificate. If the organization cannot be determined, the server must return
     #an appropriate error message.
     try:
-        return
-    except:
-        return "Error: Unable to obtain organization information"
+        certificate = get_certificate(domain)
+        x509 = OpenSSL.crypto.load_certificate(OpenSSL.crypto.FILETYPE_PEM, certificate)
+
+        result = {
+            'issuer': dict(x509.get_issuer().get_components()),
+        }
+        return result
+    except Exception as e:
+        return f"Error: Unable to obtain organization information: {e}"
 
 def process_diagnostics(request):
     # Perform diagnostic analysis based on the received request
