@@ -101,11 +101,15 @@ def ORGANIZATION(domain):
     try:
         certificate = get_certificate(domain)
         x509 = OpenSSL.crypto.load_certificate(OpenSSL.crypto.FILETYPE_PEM, certificate)
+        components = dict(x509.get_issuer().get_components())
 
-        result = {
-            'issuer': dict(x509.get_issuer().get_components()),
-        }
-        return result
+        for key in components.keys():
+            current_key = key.decode('utf-8')
+            current_value = components.get(key)
+            if current_key == 'O':
+                return current_value.decode('utf-8')
+
+        return "Error: Organization information unavailable in certifacte"
     except Exception as e:
         return f"Error: Unable to obtain organization information: {e}"
 
@@ -147,7 +151,3 @@ def main ():
 
 if __name__ == "__main__":
     main()
-    
-
-
-
