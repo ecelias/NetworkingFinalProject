@@ -4,15 +4,12 @@ import dns.resolver
 import ssl
 from ipwhois import IPWhois
 import OpenSSL
-from pprint import pprint
+import threading
 from datetime import datetime
+import os
 
 ORG_PORT = 443
 s = ""
-
-##credit reel: https://www.geeksforgeeks.org/network-programming-in-python-dns-look-up/ - used for IP address retrieval 
-##credit reel: https://thelinuxforum.com/articles/180-python-ssl-example - used for TSL/SSL certificate retrieval
-##credit reel: https://stackoverflow.com/questions/28997623/how-to-parse-text-in-python-with-ipwhois - used for finding information about AS
 
 def handle_client(client_socket):
     while True:
@@ -31,16 +28,13 @@ def handle_client(client_socket):
 
         except Exception as e:
             print("Error processing request:", e)
+    client_socket.close()
 
-def get_certificate(host, port=443, timeout=10):
+def get_certificate(host, port=443):
     context = ssl.create_default_context()
     conn = socket.create_connection((host, port))
     sock = context.wrap_socket(conn, server_hostname=host)
-    sock.settimeout(timeout)
-    try:
-        der_cert = sock.getpeercert(True)
-    finally:
-        sock.close()
+    der_cert = sock.getpeercert(True)
     return ssl.DER_cert_to_PEM_cert(der_cert)
 
 def IPV4_ADDR(domain):
@@ -59,19 +53,37 @@ def IPV6_ADDR(domain):
     except:
         return "Error: Unable to resolve domain"
     
-def TLS_CERT(domain, s):
+def TLS_CERT(domain):
     try:
-        #Create an SSL context
-        sslContext = ssl.SSLContext();
+        certificate = get_certificate(domain)
+        x509 = OpenSSL.crypto.load_certificate(OpenSSL.crypto.FILETYPE_PEM, certificate)
 
-        #Get an instance of SSLSocket
-        wrappedS = sslContext.wrap_socket(s);
+        sub = dict(x509.get_subject().get_components())
+        comp = dict(x509.get_issuer().get_components())
+        ver = x509.get_version()
+        ser = x509.get_serial_number()
 
-        #Get and return certificate associated with domain
-        wrappedS.connect((domain, 443));
-        cert = wrappedS.getpeercert();
+        decode_subjects = {}
+        decode_components = {}
 
-        return cert
+        for key in sub.keys():
+            current_key = key.decode('utf-8')
+            current_value = sub.get(key)
+            decode_subjects[current_key] = current_value.decode('utf-8')
+
+        for key in comp.keys():
+            current_key = key.decode('utf-8')
+            current_value = comp.get(key)
+            decode_components[current_key] = current_value.decode('utf-8')
+
+
+        decoded_results = {
+            'subject': decode_subjects,
+            'issuer': decode_components,
+            'version': str(ver),
+            'serial_number': str(ser),
+        }
+        return decoded_results
     except:
         return "Error: Unable to retrieve certificate"
         
@@ -145,9 +157,12 @@ def main ():
     while True:
         c, addr = s.accept()
         print("Connected to %s" % str(addr))
-        
         handle_client(c)
         c.close()
+
+
+        # new_thread = threading.Thread(target = handle_client, args= (c,))
+        # new_thread.start()
 
 if __name__ == "__main__":
     main()

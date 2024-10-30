@@ -12,7 +12,7 @@ Remember before running any commands in the terminals for all the code except fo
 Also after inputting a sudo command, remember you might have to input your computer password. <br>
 For testing cs3640-ping.py: <br>
 Open a bash terminal and run the following command: <br>
-<code>python3 cs3640-ping.py -destination {IP Address Destination} -n {Number of packets you want to send} -ttl {Time-to-Live for the ICMP packet} <code> <br>
+<code>python3 cs3640-ping.py -destination {IP Address Destination} -n {Number of packets you want to send} -ttl {Time-to-Live for the ICMP packet} </code> <br>
 Then, to test cs3640-traceroute run the following command: <br>
 <code>python3 cs3640-traceroute.py -destination {IP Address Destinaton} -n_hops {number of hops}</code> <br> 
 <br> Finally, to test the intelligence server and client: <br> <br>
@@ -59,4 +59,5 @@ You can run this command as many times as you want with all different domaians a
 <li>[Client-Server IP addressal retrieval and response](https://www.geeksforgeeks.org/network-programming-in-python-dns-look-up/)
 <li>[Client-Server TSL/SSL certificate retrieval and response](https://pythontic.com/ssl/sslsocket/getpeercert)
 <li>[Client-Server hosting AS information](https://stackoverflow.com/questions/28997623/how-to-parse-text-in-python-with-ipwhois)
+<li>[Getting TLS Certificate Information](https://stackoverflow.com/questions/7689941/how-can-i-retrieve-the-tls-ssl-peer-certificate-of-a-remote-host-using-python)
 </ul>
