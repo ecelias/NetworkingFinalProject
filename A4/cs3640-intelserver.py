@@ -53,7 +53,7 @@ def IPV6_ADDR(domain):
     except:
         return "Error: Unable to resolve domain"
     
-def TLS_CERT(domain):
+
 def TLS_CERT(domain):
     try:
         certificate = get_certificate(domain)
