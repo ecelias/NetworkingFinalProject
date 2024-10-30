@@ -56,23 +56,23 @@ def IPV6_ADDR(domain):
 
 def TLS_CERT(domain):
     try:
-        ##### Prints full cert to server
-        # Create a raw socket and connect to the server
-        raw_socket = socket.create_connection((domain, 443))
+        # ##### Prints full cert to server
+        # # Create a raw socket and connect to the server
+        # raw_socket = socket.create_connection((domain, 443))
         
-        # Create an SSL context and configure it for hostname verification
-        sslContext = ssl.SSLContext(ssl.PROTOCOL_TLS_CLIENT)
-        sslContext.check_hostname = True
-        sslContext.verify_mode = ssl.CERT_REQUIRED
+        # # Create an SSL context and configure it for hostname verification
+        # sslContext = ssl.SSLContext(ssl.PROTOCOL_TLS_CLIENT)
+        # sslContext.check_hostname = True
+        # sslContext.verify_mode = ssl.CERT_REQUIRED
         
-        # Wrap the raw socket with SSL and get the certificate
-        wrapped_socket = sslContext.wrap_socket(raw_socket, server_hostname=domain)
-        cert = wrapped_socket.getpeercert()
+        # # Wrap the raw socket with SSL and get the certificate
+        # wrapped_socket = sslContext.wrap_socket(raw_socket, server_hostname=domain)
+        # cert = wrapped_socket.getpeercert()
         
-        # Close the SSL socket after retrieving the certificate
-        wrapped_socket.close()
-        print (cert)
-        ######
+        # # Close the SSL socket after retrieving the certificate
+        # wrapped_socket.close()
+        # print (cert)
+        # ######
 
         ###### returns parsed parts to client
         certificate = get_certificate(domain)

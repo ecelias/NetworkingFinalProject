@@ -44,7 +44,7 @@ def main():
     
     # parse command line arguments for the program
     args = parser.parse_args()
-    print(f"Arguments received - Server Address: {args.intel_server_addr}, Port: {args.intel_server_port}, Domain: {args.domain}, Service: {args.service}")
+    #print(f"Arguments received - Server Address: {args.intel_server_addr}, Port: {args.intel_server_port}, Domain: {args.domain}, Service: {args.service}")
    
 
     request_Options = ["IPV4_ADDR", "IPV6_ADDR", "TLS_CERT", "HOSTING_AS", "ORGANIZATION"]
