@@ -59,19 +59,24 @@ def IPV6_ADDR(domain):
     except:
         return "Error: Unable to resolve domain"
     
-def TLS_CERT(domain, s):
+def TLS_CERT(domain):
     try:
-        #Create an SSL context
-        sslContext = ssl.SSLContext();
-
-        #Get an instance of SSLSocket
-        wrappedS = sslContext.wrap_socket(s);
-
-        #Get and return certificate associated with domain
-        wrappedS.connect((domain, 443));
-        cert = wrappedS.getpeercert();
-
-        return cert
+        # Create a raw socket and connect to the server
+        raw_socket = socket.create_connection((domain, 443))
+        
+        # Create an SSL context and configure it for hostname verification
+        sslContext = ssl.SSLContext(ssl.PROTOCOL_TLS_CLIENT)
+        sslContext.check_hostname = True
+        sslContext.verify_mode = ssl.CERT_REQUIRED
+        
+        # Wrap the raw socket with SSL and get the certificate
+        wrapped_socket = sslContext.wrap_socket(raw_socket, server_hostname=domain)
+        cert = wrapped_socket.getpeercert()
+        
+        # Close the SSL socket after retrieving the certificate
+        wrapped_socket.close()
+        print (cert)
+        return 
     except:
         return "Error: Unable to retrieve certificate"
         
