@@ -23,7 +23,6 @@ Then, to test cs3640-traceroute run the following command: <br>
 <code> python3 cs3640-intelclient.py -domain {Insert domain to query} -service {The service you want to run}</code> <br>
 You can run this command as many times as you want with all different domaians and services through the server. <br> <br>
 
-<code>python3 analyze_perf.py</code> <br> <br>
 <h4><strong>Group Members</strong></h4> <ul>
 <li> Elizabeth Elias, ecelias
 <li> Maria Gauna, mgauna
