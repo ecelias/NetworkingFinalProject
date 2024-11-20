@@ -4,21 +4,25 @@
 In the <code>~/cs3640</code> directory, run <code>source ~/cs3640/A3/bin/activate</code>
 
 <h5>Install dependencies</h5> 
+<strong>Installing Playwright</strong> <br>
+Install Playwright with <code>pip install pytest-playwright</code>. <br>
+Then install the required playwright browsers with <code>playwright install</code>. <br>
+You may need to also run <code>sudo apt-get install libasound2t64</code>. <br> <br>
 
-<strong>Installing PoliPy</strong> <br>
-Install PoliPy with <code>pip install polipy</code>
+<strong>Installing BeautifulSoup</strong> <br>
+Install BeautifulSoup4 with <code>pip install beautifulsoup4</code>. <br><br>
 
-<strong>Installing FireFox Browser</strong> <br>
-Install Mozilla Firefox Browser for Ubuntu with <code>sudo apt install firefox -y</code>. You can verify installation with <code>firefox --version</code>. <br><br>
-
-Navigate to the <code>~/cs3640/A5</code> directory <br><br>
-
-<strong>Installing Geckodeck driver</strong> <br>
-Download the correct Geckodeck driver for your machine [here](https://github.com/mozilla/geckodriver/releases) 
-and add the .tar.gz file to the A5 directory. <br>
-Install the Geckodeck driver with <code>tar -xvzf geckodriver-*.tar.gz</code>. <br>
-Move the GeckoDeck driver to the desired path with <code>sudo mv geckodriver /usr/local/bin/</code>. You can verify installation with <code>which geckodriver</code>
-
+<strong>Installing requests</strong> <br>
+Install requests with <code>pip install requests</code>. 
 
 <h5>Run Crawler.py</h5> 
-Navigate to the <code>~/cs3640/A5/crawler</code> directory <br>
+Navigate to the <code>cd ~/cs3640/A5/crawler</code> directory <br> and, in the terminal, run <code>python3 crawler.py<code> or
+in /
+
+
+<h5>Resources</h5>
+<ul>
+<li>[Using BeautifulSoup](https://oxylabs.io/blog/beautiful-soup-parsing-tutorial)
+<li>[BeautifulSoup find_all method](https://scrapeops.io/python-web-scraping-playbook/python-beautifulsoup-findall/)
+<li>[Using Playwright](https://www.roborabbit.com/blog/web-scraping-with-playwright-in-python/)
+</ul>
