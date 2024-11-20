@@ -1,31 +1,32 @@
-CS3640 Assignment 5 
-Instructions for running assignment 5: 
-
-Group Members 
- Elizabeth Elias, ecelias
-
- Maria Gauna, mgauna
-
- Madeline Harbaugh, mharbaugh
-
- Kristin To, kto
+<h1><strong>CS3640 Assignment 5</strong></h1> <br>
+<h4><strong>Instructions for running assignment 5</strong></h4> <br>
 
 
-Group Member Contributions 
+<h4><strong>Group Members</strong></h4><br>
+ Elizabeth Elias, ecelias <br>
 
-Madeline Harbaugh (mharbaugh) contributions: 
+ Maria Gauna, mgauna <br>
 
+ Madeline Harbaugh, mharbaugh <br>
 
-Kristin To (kto) contributions:  
-
-
-Elizabeth Elias (ecelias) contributions:  
-
-
-Maria Gauna (mgauna) contributions:  
+ Kristin To, kto <br>
 
 
+<h4><strong>Group Member Contributions</strong></h4><br>
+
+Madeline Harbaugh (mharbaugh) contributions:<br>
 
 
-Credit Reel: 
+Kristin To (kto) contributions:<br>
+
+
+Elizabeth Elias (ecelias) contributions:<br>
+
+
+Maria Gauna (mgauna) contributions:<br>
+
+
+
+
+<h4><strong>Credit Reel:</strong></h4> <br>
 [PoliPy Web Scraper tool](https://github.com/blues-lab/polipy)
