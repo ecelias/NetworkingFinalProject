@@ -1,9 +1,9 @@
-<h3>Instructions for running <code>crawler.py</code></h3>
+<h2>Instructions for running <code>crawler.py</code></h2>
 
-<h5>Activate the environment</h5> 
+<h4>Activate the environment</h4> 
 In the <code>~/cs3640</code> directory, run <code>source ~/cs3640/A3/bin/activate</code>
 
-<h5>Install dependencies</h5> 
+<h4>Install dependencies</h4> 
 <strong>Installing Playwright</strong> <br>
 Install Playwright with <code>pip install pytest-playwright</code>. <br>
 Then install the required playwright browsers with <code>playwright install</code>. <br>
@@ -15,11 +15,11 @@ Install BeautifulSoup4 with <code>pip install beautifulsoup4</code>. <br><br>
 <strong>Installing requests</strong> <br>
 Install requests with <code>pip install requests</code>. 
 
-<h5>Run Crawler.py</h5> 
-Navigate to the <code>cd ~/cs3640/A5/crawler</code> directory <br> and, in the terminal, run <code>python3 crawler.py</code> or, in the <code>~/cs3640/A5</code>directory, run <code>python3 crawler/crawler.py</code> in the terminal. 
+<h4>Run Crawler.py</h4> 
+Navigate to the <code>cd ~/cs3640/A5/crawler</code> directory <b> and, in the terminal, run <code>python3 crawler.py</code> or, in the <code>~/cs3640/A5</code>directory, run <code>python3 crawler/crawler.py</code> in the terminal. 
 
 
-<h5>Resources</h5>
+<h4>Resources</h4>
 <ul>
 <li>[Using BeautifulSoup](https://oxylabs.io/blog/beautiful-soup-parsing-tutorial)
 <li>[BeautifulSoup find_all method](https://scrapeops.io/python-web-scraping-playbook/python-beautifulsoup-findall/)
