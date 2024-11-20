@@ -16,8 +16,7 @@ Install BeautifulSoup4 with <code>pip install beautifulsoup4</code>. <br><br>
 Install requests with <code>pip install requests</code>. 
 
 <h5>Run Crawler.py</h5> 
-Navigate to the <code>cd ~/cs3640/A5/crawler</code> directory <br> and, in the terminal, run <code>python3 crawler.py<code> or
-in /
+Navigate to the <code>cd ~/cs3640/A5/crawler</code> directory <br> and, in the terminal, run <code>python3 crawler.py</code> or, in the <code>~/cs3640/A5</code>directory, run <code>python3 crawler/crawler.py</code> in the terminal. 
 
 
 <h5>Resources</h5>
