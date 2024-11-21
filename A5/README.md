@@ -2,19 +2,20 @@
 <h4><strong>Instructions for running assignment 5</strong></h4> <br>
 
 
-<h4><strong>Group Members</strong></h4><br>
- Elizabeth Elias, ecelias <br>
+<h4><strong>Group Members</strong></h4>
 
- Maria Gauna, mgauna <br>
+ Elizabeth Elias, <em>ecelias</em> <br>
 
- Madeline Harbaugh, mharbaugh <br>
+ Maria Gauna, <em>mgauna</em> <br>
 
- Kristin To, kto <br>
+ Madeline Harbaugh, <em>mharbaugh</em> <br>
+
+ Kristin To, <em>kto</em> <br>
 
 
 <h4><strong>Group Member Contributions</strong></h4><br>
 
-Madeline Harbaugh (mharbaugh) contributions:<br>
+Madeline Harbaugh (mharbaugh)_ contributions:<br>
 
 
 Kristin To (kto) contributions:<br>
@@ -29,4 +30,3 @@ Maria Gauna (mgauna) contributions:<br>
 
 
 <h4><strong>Credit Reel:</strong></h4> <br>
-[PoliPy Web Scraper tool](https://github.com/blues-lab/polipy)
