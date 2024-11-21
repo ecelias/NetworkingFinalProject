@@ -6,10 +6,9 @@
 Clone in the following repository: <code>git clone https://github.com/benandow/HtmlToPlaintext</code> and navigate to the directory <code>cd ~/HtmlToPlaintext</code>. <br> <br>
 
 Make the following directories inside HtmlToPlaintext: <code>./ext/html_policies</code> and <code>./ext/plaintext_policies</code> <br><br>
-
 Install and run docker with the [setup guide](https://docs.docker.com/engine/install/ubuntu/) 
 
-<h5>Running HtmlToPlaintext<h5>
+<h5>Running HtmlToPlaintext</h5>
 Ensure all html files are located in <code>cd ~/HtmlToPlaintext/ext/html_policies</code> <br><br>
 In the terminal, navigate to <code>cd ~/HtmlToPlaintext</code>. <br><br>
 In the terminal run, <code>sudo ./build.sh </code><br><br>
