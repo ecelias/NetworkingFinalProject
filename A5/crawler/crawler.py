@@ -71,7 +71,7 @@ def scrape_homepages_for_privacy_policy_pages(filename):
     return privacy_page_hyperlinks
 
 
-def scrape_for_priv_policy(homepage, policypage):
+def scrape_for_priv_policy(homepage, policypage, current_policy_page):
     page_name = homepage + policypage
     with sync_playwright() as p:
         browser = p.firefox.launch()
@@ -80,6 +80,9 @@ def scrape_for_priv_policy(homepage, policypage):
         page.goto(page_name)
         html_content = page.content()
         browser.close()
+        html_file_name = "data/" + homepage.split(".")[1] + "_" + str(current_policy_page) +".html"
+        with open(html_file_name, "w") as f:
+            f.write(html_content)
         return page_name, html_content
 
 
@@ -118,9 +121,11 @@ def main():
 
     for website, priv_policy_pages in privacy_page_urls.items():
         for page_info in priv_policy_pages:
+            current_page_index = 0;
             for category, priv_policy_page in page_info.items():
-                page_name, priv_html_content = scrape_for_priv_policy(website, priv_policy_page)
+                page_name, priv_html_content = scrape_for_priv_policy(website, priv_policy_page, current_page_index)
                 privacy_policy_content[website + ", " + page_name] = inspect_privacy_policy_html(priv_html_content)
+                current_page_index += 1
 
     json_filename = f"privacy_policy_data.json"
     # Dump the dictionary to a JSON file
