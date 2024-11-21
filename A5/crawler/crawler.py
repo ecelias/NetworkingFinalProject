@@ -35,10 +35,15 @@ def inspect_homepage_html(html_file):
         data_analytics = link.get('data-analytics-title')
         data_aa = link.get('data-aa-analytics')
         category = data_analytics if data_analytics else data_aa
+
+        privacy_terms = ["privacy", "cookie", "terms", "user agreement", 
+                    "service agreement", "conditions of use", "terms of usage",
+                    "privacy notice", "privacy policy", "privacy cookies"]
+
         if category:
             link_data = {category: current_link}
             hyperlinks.append(link_data)
-        elif ("privacy" in current_link.lower()) or ("cookie" in current_link.lower()):
+        elif any(term.lower() in current_link.lower() for term in privacy_terms):
             # link not contained to specific category
             # setting to homepage + index keeps unique title in dictionary
             link_data = {f"homepage{link_num}": current_link}
@@ -49,11 +54,16 @@ def inspect_homepage_html(html_file):
 
 def filter_for_privacy_page(hyperlink_dictionary):
     privacy_pages = {}
+
+    privacy_terms = ["privacy", "cookie", "terms", "user agreement", 
+                    "service agreement", "conditions of use", "terms of usage",
+                    "privacy notice", "privacy policy", "privacy cookies"]
+
     for url, categories in hyperlink_dictionary.items():
         hyperlinks = []
         for category in categories:
             for key, value in category.items():
-                if "privacy" in key.lower() or "privacy" in value.lower():
+                if any(term.lower() in key.lower() or term.lower() in value.lower() for term in privacy_terms):
                     hyperlinks.append(category)
         privacy_pages[url] = hyperlinks    
     return privacy_pages
