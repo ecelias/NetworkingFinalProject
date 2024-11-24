@@ -1,14 +1,14 @@
 Luxury Clothing
 Gucci - www.gucci.com
 Prada - www.prada.com
-Louis Vuitton - www.louisvuitton.com
-Burberry - www.burberry.com
+Louis Vuitton - www.louisvuitton.com DID NOT WORK
+Burberry - www.burberry.com DID NOT WORK
 Saint Laurent - www.ysl.com
-Versace - www.versace.com
+Versace - www.versace.com DID NOT WORK
 Balenciaga - www.balenciaga.com
-Fendi - www.fendi.com
+Fendi - www.fendi.com DID NOT WORK
 Alexander McQueen - www.alexandermcqueen.com
-Dior - www.dior.com
+Dior - www.dior.com DID NOT WORK
 Chanel - www.chanel.com
 Givenchy - www.givenchy.com
 Hermès - www.hermes.com

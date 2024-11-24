@@ -13,14 +13,21 @@ EXTRA_HEADERS = {
 
 # scrape a website and return the html contents of the page
 def scrape_hyperlinks(url):
-    with sync_playwright() as p:
-        browser = p.firefox.launch()
-        context = browser.new_context(user_agent=USER_HEADERS, extra_http_headers=EXTRA_HEADERS)
-        page = context.new_page()
-        page.goto(url)
-        html_content = page.content()
-        browser.close()
-        return html_content
+    try:
+        with sync_playwright() as p:
+            browser = p.firefox.launch()
+            context = browser.new_context(user_agent=USER_HEADERS, extra_http_headers=EXTRA_HEADERS)
+            page = context.new_page()
+            page.goto(url, timeout=300000)
+            html_content = page.content()
+            browser.close()
+            return html_content
+    except TimeoutError:
+        print(f"Timeout occurred for {url} after {timeout / 1000} seconds.")
+        return None
+    except Exception as e:
+        print(f"An error occurred for {url}: {e}")
+        return None
 
 # inspect 
 def inspect_homepage_html(html_file):
@@ -83,17 +90,29 @@ def scrape_homepages_for_privacy_policy_pages(filename):
 
 def scrape_for_priv_policy(homepage, policypage, current_policy_page):
     page_name = homepage + policypage
-    with sync_playwright() as p:
-        browser = p.firefox.launch()
-        context = browser.new_context(user_agent=USER_HEADERS, extra_http_headers=EXTRA_HEADERS)
-        page = context.new_page()
-        page.goto(page_name)
-        html_content = page.content()
-        browser.close()
-        html_file_name = "data/" + homepage.split(".")[1] + "_" + str(current_policy_page) +".html"
-        with open(html_file_name, "w") as f:
-            f.write(html_content)
-        return page_name, html_content
+    if "https" in policypage:
+        page_name = policypage
+    try:
+        with sync_playwright() as p:
+            browser = p.firefox.launch()
+            context = browser.new_context(user_agent=USER_HEADERS, extra_http_headers=EXTRA_HEADERS)
+            page = context.new_page()
+            page.goto(page_name, timeout=300000)
+            html_content = page.content()
+            browser.close()
+            html_file_name = "analysis/HtmlToPlaintext/ext/html_policies/" + homepage.split(".")[1] + "_" + str(current_policy_page) +".html"
+            html_file_name2 = "data/" + homepage.split(".")[1] + "_" + str(current_policy_page) +".html"
+            with open(html_file_name, "w") as f:
+                f.write(html_content)
+            with open(html_file_name2, "w") as f2:
+                f2.write(html_content)
+            return page_name, html_content
+    except TimeoutError:
+        print(f"Timeout occurred for {page_name} after {30000 / 1000} seconds.")
+        return None
+    except Exception as e:
+        print(f"An error occurred for {page_name}: {e}")
+        return None
 
 
 def inspect_privacy_policy_html(html_file):
@@ -118,30 +137,37 @@ def inspect_privacy_policy_html(html_file):
 
 
 def main():
-    hyperlinks_in_url = {}
-    privacy_page_hyperlinks = {}
-    file = open('A5/raw_website_links.txt', 'r+')
+    file = open('raw_website_links.txt', 'r+')
     for line_number, link in enumerate(file, start=1):
+        hyperlinks_in_url = {}
+        privacy_page_hyperlinks = {}
         link = link.strip()
         html_content = scrape_hyperlinks(link)
-        hyperlinks_in_url[link] = inspect_homepage_html(html_content)
+        if html_content is not None:
+            hyperlinks_in_url[link] = inspect_homepage_html(html_content)
 
-    privacy_page_urls = filter_for_privacy_page(hyperlinks_in_url)  
-    privacy_policy_content = {}
+            privacy_page_urls = filter_for_privacy_page(hyperlinks_in_url)  
+            privacy_policy_content = {}
 
-    for website, priv_policy_pages in privacy_page_urls.items():
-        current_page_index = 0;
-        for page_info in priv_policy_pages:
-            for category, priv_policy_page in page_info.items():
-                page_name, priv_html_content = scrape_for_priv_policy(website, priv_policy_page, current_page_index)
-                privacy_policy_content[website + ", " + page_name] = inspect_privacy_policy_html(priv_html_content)
-                current_page_index += 1
+            for website, priv_policy_pages in privacy_page_urls.items():
+                current_page_index = 0;
+                for page_info in priv_policy_pages:
+                    for category, priv_policy_page in page_info.items():
+                        priv_page_info = scrape_for_priv_policy(website, priv_policy_page, current_page_index)
+                        if priv_page_info is not None:
+                            privacy_policy_content[website + ", " + priv_page_info[0]] = inspect_privacy_policy_html(priv_page_info[1])
+                            current_page_index += 1
+                        else: 
+                            with open('links_that_donot_work.txt', "w") as bad:
+                                bad.write(website + "\n")
 
-    json_filename = "analysis/privacy_policy_data.json"
-    # Dump the dictionary to a JSON file
-    with open(json_filename, 'w+') as json_file:
-        json.dump(privacy_policy_content, json_file, indent=4)  # Use indent for pretty formatting
-
+            json_filename = "analysis/privacy_policy_data.json"
+            # Dump the dictionary to a JSON file
+            with open(json_filename, 'w+') as json_file:
+                json.dump(privacy_policy_content, json_file, indent=4)  # Use indent for pretty formatting
+        else: 
+            with open('links_that_donot_work.txt', "w") as bad:
+                bad.write(website + "\n")
 if __name__ == "__main__":
     main()
 
