@@ -120,7 +120,7 @@ def inspect_privacy_policy_html(html_file):
 def main():
     hyperlinks_in_url = {}
     privacy_page_hyperlinks = {}
-    file = open('example.txt', 'r+')
+    file = open('A5/raw_website_links.txt', 'r+')
     for line_number, link in enumerate(file, start=1):
         link = link.strip()
         html_content = scrape_hyperlinks(link)
