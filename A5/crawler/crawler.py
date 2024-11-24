@@ -120,14 +120,14 @@ def main():
     privacy_policy_content = {}
 
     for website, priv_policy_pages in privacy_page_urls.items():
+        current_page_index = 0;
         for page_info in priv_policy_pages:
-            current_page_index = 0;
             for category, priv_policy_page in page_info.items():
                 page_name, priv_html_content = scrape_for_priv_policy(website, priv_policy_page, current_page_index)
                 privacy_policy_content[website + ", " + page_name] = inspect_privacy_policy_html(priv_html_content)
                 current_page_index += 1
 
-    json_filename = f"privacy_policy_data.json"
+    json_filename = "analysis/privacy_policy_data.json"
     # Dump the dictionary to a JSON file
     with open(json_filename, 'w+') as json_file:
         json.dump(privacy_policy_content, json_file, indent=4)  # Use indent for pretty formatting
