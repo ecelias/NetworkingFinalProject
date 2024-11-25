@@ -1,0 +1,50 @@
+This Guide is intended for law enforcement agencies outside of the Mainland People's Republic of China ("PRC") seeking user information regarding users of AIiExpress.com ("Users"), which is a part of the Alibaba International Digital Commerce Group ("AIDC") ("User Information"). Some of AIDC's principal business operations and operating subsidiaries are based in the PRC, though our websites and certain products and services may be available in other jurisdictions around the world.
+This Guide is subject to change without notice and applies only to requests from law enforcement agencies. Nothing in this Guide shall be used to create or be construed as impacting any legal obligations or any enforceable rights against AIDC, or otherwise alter AIDC's legal and equitable defenses. AIDC reserves all rights of interpretation and application of this Guide.
+1.
+General
+AIDC understands that there will be times when our assistance will be required to help law enforcement agencies perform their duties. AIDC is committed to high standards of business conduct in our relationships with our users, customers, suppliers, business partners, and stakeholders. We strive to be a good global citizen, and will conduct ourselves in accordance with all applicable laws and regulations while respecting the privacy of our users, customers, suppliers, and business partners.
+In observing the above values and principles, except as provided below, AIDC will not disclose or release User Information without a valid, legally binding request (such as a subpoena, search warrant, court order, writ, or other similar legal process) ("Request") served on the appropriate contact through proper channels. AIDC reserves its right to reject, in whole or in part, a Request that conflicts with PRC and other applicable laws and regulations, or that are otherwise inappropriate.
+2.
+Contact Information
+This Guide applies to AliExpress.com ("Platform"). A Request for User Information must be served on the appropriate contact for the Platform with which the requested User Information is associated. Please note the appropriate contact is not deemed to be the operator of the Platform and is merely an appropriate contacting entity for the purpose of the Request. For your convenience, please refer to the table below for the Platform's contact information.
+Plateform
+Contact Information 
+﻿aliexpress.com﻿
+If the User resides in Hong Kong SAR or Macau SAR alibaba.com Hong Kong Limited
+If the User resides in the Mainland PRC hangzhou Alibaba Advertising Co., Ltd.
+If the User resides in the United States aliExpress E-Commerce One Pte. Ltd.
+If the User resides in the Russian Federation, Azerbaijan, Armenia, Belarus, Georgia, Kazakhstan, Kyrgyzstan, Moldova, Turkmenistan, Tajikistan and Uzbekistan aliExpress Russia Holding Private Limited
+If the User resides in any other jurisdiction alibaba.com Singapore E-Commerce Private Limited
+3.
+Service of Requests
+AlDC does not maintain a specific agent for receipt of Requests for the Platform. Under applicable laws, and in particular, PRC laws and regulations, Requests generally must be served through the various legal and diplomatic channels recognized by the PRC and other relevant jurisdictions. Such channels include, for example
+The Hague Service Convention (copy available at website_url_lnk
+The Hague Evidence Convention (copy available at website_url_lnk
+Mutual legal assistance treaties (information available at website_url_lnk and
+Other applicable diplomatic channels between your country and the PRC.
+4.
+Required Information
+We require law enforcement agencies to provide us with the following before we can process any Request
+Signed copy of the Request.
+Your full contact details, including but not limited to name, email address, telephone number, and physical address.
+Credentials for verifying your identity.
+Detailed identification information of the targeted persons, including all known names, aliases, street addresses, email addresses, phone numbers, Platform IDs, and, if applicable, relevant listings and transactions.
+Detailed description of the User Information requested, including timeframe.
+Statement of the nature of the investigations or proceedings for which the User Information is required; and
+Recitation of the applicable legal grounds for the Request.
+5.
+Information That May Be Disclosed
+While we endeavor to assist you to the best of our ability, our ability to disclose information may vary based on the type of information requested as our ability is governed by PRC laws and regulations and the laws and regulations of other applicable jurisdictions. If you have any questions regarding the type of information that the Platform may disclose, please address the corresponding contact listed in Section 2 above.
+6.
+Discretion In Emergencies
+Subject to applicable laws and regulations, AlDC reserves its right to voluntarily disclose User Information in response to urgent law enforcement requests in cases involving immediate threats to public safety or risk of harm to any person, provided that we are assured that an appropriate Request meeting the requirements contained in this Guide will follow promptly in due course.
+To evaluate requests for emergency user information disclosure, the requesting law enforcement agency should complete the Emergency Law Enforcement User Information Disclosure Request Formand email the completed form to us with the subject "Emergency User Information Disclosure Request". Please note that the form must be both completed and submitted by an accredited law enforcement agency. Anyone involved in circumstances that necessitate emergency information disclosure should contact their respective local law enforcement agency immediately for assistance.
+7.
+Cost Reimbursement
+AlDC reserves all rights to require any requesting party to reimburse fees and other expenses incurred in responding to a Request.
+8.
+Other Enquiries
+For general questions regarding this guide not related to specific Requests, User Information, or Platform, the most direct way to reach us would be to contact us by emailat <enforcement.enquiry@aliexpress.com>. Please note that this email address is not intended to be a conduit for circumventing proper legal procedures for the service of any documents. It will not be responsive to impertinent enquiries.
+For reporting of any suspected IPR infringement claim related to the Platform, please visit: website_url_lnk
+For customer service related inquiries, please visit the Customer Service page for the appropriate contact channel: website_url_lnk
+8

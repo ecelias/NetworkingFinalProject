@@ -1,0 +1,57 @@
+Cookies and Digital Tracking Technologies Notice
+LAST UPDATED, 7/24/2024
+Panasonic Corporation of North America ("Panasonic," "our," "we," or "us") operates various websites and online services ("Sites"). If you are reading this notice, you are on one of our Sites. This notice also forms part of our general Privacy Notice.
+This Cookie and Digital Tracking Technologies Notice ("Notice") explains how we use cookies, web beacons, pixels, tags, trackers, and similar digital technologies ("Cookies") to operate and to help collect data on our Sites and from our promotional email messages, newsletters and blogs. Here, you will also discover ways to control these technologies if you wish.
+We may update this Notice at any time. Any changes will become effective as soon as they are posted. Your continued use of our Sites constitutes your agreement to any changes.
+What is a Cookie?
+Cookies are small text files, like a small note, that a website leaves on your computer. It helps the website remember who you are and what you did there if you visited before. For example, if you put items in a shopping cart in an online store, the cookie remembers those items for you. This way, when you come back later, the website still knows what you added to your cart. They help websites keep track of your visits and make your experience better and more personal.
+Where Do Cookies Come From?
+Some of our Cookies are controlled directly by us. Others are controlled by third parties we hire to help us with our Sites and our business operations. Third-Party Cookies help our Sites display embedded videos, maps, plug-ins, or ads provided by a third party (not us) ("Third-Party Content"). Note that when your you view Third-Party Content, your web browser (Google Chrome, Safari, Microsoft Edge, etc.) connects to a third party's web server or web beacon to retrieve that content enabling the third party to set or read its own Cookies on your device and may collect information about your online activities over time and across different websites or online services that also contain that third party's content or web beacons.
+What Kind of Cookies Do Your Sites Use?
+Different Cookies do different things. Some are essential to the operation of a Site; Others are not. The different types of Cookies we use are necessary Cookies, These are cookies that are required for the operation of our website. They include, for example, cookies that enable you to log into secure areas of our website, use a shopping cart or make use of e-billing services.
+Different Cookies do different things. Some are essential to the operation of a Site; Others are not. The different types of Cookies we use are performance Cookies, These allow us to recognize and count the number of visitors and to see how visitors move around our website when they are using it. This helps us to improve the way our website works, for example, by ensuring that users are finding what they are looking for easily.
+Different Cookies do different things. Some are essential to the operation of a Site; Others are not. The different types of Cookies we use are functional Cookies, These are used to recognize you when you return to our website, enabling us to personalize our content for you, greet you by name and remember your preferences (for example, your choice of language or region).
+Different Cookies do different things. Some are essential to the operation of a Site; Others are not. The different types of Cookies we use are sale of Personal Data, These cookies record your visits to our website, the pages you have visited and the links you have followed. We will use this information to make our website and the advertising displayed on it more relevant to your interests. We may also share this information with third parties for this purpose.
+To learn more about the Cookies we use in each of these categories, please see here.
+To learn more about the Cookies iCIMS uses on our Careers site, please see here.
+To learn more about how we use Cookies, please read How Do We Use Cookies below.
+To learn more about third-party Cookies, please read Third-Party Cookies below.
+How Do We Use Cookies?
+We use Cookies to improve your experience on our Sites and help them function, for example, by storing your preferences and settings
+We use Cookies to improve your experience on our Sites and help them function, for example, by authenticating your account and making account logins faster and easier. (These cookies are typically removed or cleared when you log out for the security of your account.)
+We use Cookies to improve your experience on our Sites and help them function, for example, by detecting and preventing fraud or ensuring adequate security
+We use Cookies to improve your experience on our Sites and help them function, for example, by personalizing your experience on our Sites so you can see products you've viewed or searched for on prior visits to our Sites
+We use Cookies to improve your experience on our Sites and help them function, for example, by enabling automatic completion of online forms
+We use Cookies to improve your experience on our Sites and help them function, for example, by making sure your online shopping cart saves your items
+We use Cookies to help us understand how you use our Sites so we can make them better, for example, by counting the number of users to our Sites and the pages within our Sites so we can ensure a Site doesn't get overwhelmed with visitors, which would cause it to shut down.
+We use Cookies to help us understand how you use our Sites so we can make them better, for example, by analyzing how our Sites perform such as how fast a page or image loads.
+We use Cookies to help us understand how you use our Sites so we can make them better, for example, by learning how people navigate between pages or how they got to our Sites from other places on the Internet.
+We use Cookies to help us understand how you use our Sites so we can make them better, for example, by discovering what content on our Sites is in highest demand so we can deliver more of that kind of content and less of the content that isn't as popular.
+We use Cookies to help us understand how you use our Sites so we can make them better, for example, by tracking performance of third-party content such as embedded videos, maps, plug-ins, or ads and your interaction with this content to determine its effectiveness.
+We also use Cookies to help us with our marketing efforts. This is achieved through our use of third-party marketing Cookies, which you may learn more about below.
+Third-Party Cookies
+Analytics/Statistics Cookies
+We use Google Analytics and other Google services to support the operation and performance of our Sites and to analyze your interactions and experiences on our Sites, including the Site features you use, how you navigate, and your click/touch, movement, scroll, and keystroke activity.
+You can find out how Google Analytics uses data here and how to opt out of Google Analytics here. For more information on how Google uses data when you use our websites, click here.
+You can also find more information on other third-party analytics cookies here.
+For more information about the privacy practices of the other listed companies, please review their privacy policies.
+Marketing Cookies
+We also use third party advertising Cookies to deliver advertisements, to make them more relevant and meaningful to you, and to track the effectiveness of our advertising campaigns, both on our Sites and on other websites (including social media platforms) or mobile apps. Our third-party advertising partners may use these cookies to build a profile of your interests and deliver relevant advertising on other sites.
+Some advertising partners use affiliate tracking cookies so we can tell if you have come to a Site from one of our partner sites so that we can give them credit for the referral of Site traffic or sales that result from your visit.
+Social Media Cookies
+Social Media Cookies are a type of Marketing Cookie. In some cases, we may provide you with custom content based on what you tell us about yourself either directly or indirectly by linking a social media account. These types of cookies simply allow us to provide you with content that we feel may be of interest to you.
+On some of our Sites you may see "social buttons". These enable users to share or bookmark web pages or access our content on these social media sites. These buttons include but not limited to: Snapchat, Reddit, X, Instagram, Vimeo, Facebook, LinkedIn, and YouTube. You may also find other regional or language-specific social media buttons. By clicking on any of these buttons, the Site will register your click.
+Please be aware that when you are logged-in to the services of a social media sites they may also be collecting information about your browsing habits, including when on our Sites, even if you do not click on a social button. Read the privacy and cookie notices on these sites to learn how they use your information and how to opt-out or delete such information.
+You can view our third-party social media and marketing partner Cookies here.
+How Can You Control Cookies?
+You may be able to adjust your Cookie settings on your browser or device in addition to the settings we make available to you on our Sites.
+Browser Settings
+Your browser may provide you with the option to refuse some or all non-essential browser cookies ("Do Not Track"). We currently do not support Do Not Track browser settings but are committed to supporting it in the future once there is a consistent industry standard for compliance. Meanwhile, you may also be able to manually remove cookies from your browser. For more information about how to manage browser cookies, please follow the instructions provided by your browser.
+Device Identifier Settings
+Your device operating system may let you opt-out from having certain device identifiers used for interest-based advertising. You should refer to the instructions provided by your mobile device's manufacturer; this information is typically available under the "settings" function of your mobile device.
+Website Settings
+You can also customize which cookies may be set by using our cookie menu accessible here.
+Manage Your Cookies 
+Cookie Settings
+CONTACT US
+For any queries in relation to this Cookie Notice, please contact us at privacy@us.panasonic.com. You may also call us at (800) 704-1257.

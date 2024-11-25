@@ -1,0 +1,123 @@
+Your Privacy
+When you visit our web site, we use cookies and similar tracking technologies (pixels, tags, local storage, etc..) to provide you with the best experience of our website. These technologies, that we will refer to collectively as "cookies" in this notice, might relate to and collect information about you, your preferences, or your device. Such information does not usually directly identify you, but it will contribute to you getting a more personalized online experience of Volvo Cars, which qualifies cookies, insofar as they are used to identify users, as personal data and are therefore subject to the GDPR.
+This information notice is meant to be read together with our Customer Privacy Policy for a more detailed overview on how we process your personal data.
+Cookie Information Notice, website_url_lnk
+This document describes how Volvo Cars (as defined below) processes your personal data when you visit volvocars.com websites. 
+You can find below Who we are; 
+You can find below What personal data we process and why; 
+You can find below How long we keep your data; 
+You can find below Who we share your personal data with; 
+You can find below Your rights in relation to the data processing we perform; 
+You can find below How to contact us; 
+You can find below Changes to our Privacy Notice.
+Who we are
+Volvo Car Corporation is a Swedish legal entity with company registration number 556074-3089 and registered address at Assar Gabrielssons Väg, SE-405 31, Gothenburg, Sweden. Volvo Car Corporation and its group companies are responsible for the processing of your personal data ('we', 'Volvo', 'our', 'us'). We are a global company and provide products and services worldwide. You can find more information about the different entities operating in the different markets here. 
+What personal data we process and why 
+We process the data collected with the use of "cookies" to provide you with the best possible online experience of our brand, to identify you as a returning visitor to our website, to analyse the behaviour of our website visitors, to enhance our communication and the structure of our website, and to build a profile of your interests to be able to show you relevant adverts of our products and services, also on other websites. When possible, we also combine your online web behaviour data with the personal data that you have eventually previously provided to us. 
+Our legal basis to provide a safe and functioning website and services which you requested by your actions on the website (e. shopping cart), is our legitimate interest, as per Art. 6 lit. f GDPR. 
+We rely instead on your given consent, as per Art. 6 lit. a GDPR, for the access and storing of information on your device when visiting our website, and the subsequent processing of that data that allows us to analyse the performance of the behaviour of our users, personalise the services to the users and to build a profile of your interests and show you relevant adverts. You are asked for this consent by the cookie banner upon landing on our website. 
+Cookie List
+A cookie is a small piece of data (text file) that a website, when visited by a user, asks your browser to store on your device in order to remember information about you, such as your language preference or login information. Those cookies are set by us and called first-party cookies. We also use third-party cookies, which are cookies from a domain different than the domain of the website you are visiting, for our advertising and marketing efforts. More specifically, we use cookies and other tracking technologies for the following purposes
+Strictly Necessary Cookies
+Strictly necessary cookies are cookies that are needed for our website to function correctly. They enable you to move around the website and use its standard features, such as accessing secure areas of the website or presenting the cookie banner when you enter the website. Strictly necessary cookies are usually only set in response to actions made by the user to a request for services, such as setting privacy preferences, logging in or filling in and submitting webforms. The cookies that belong to this category are always active by default and cannot be switched off by you. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work.
+Strictly Necessary Cookies Cookie Subgroup. Cookies. Cookies used. Lifespan 
+website_url_lnk. RT. First Party. 7 Days 
+website_url_lnk. _GRECAPTCHA. Third Party. 179 Days 
+ai.autoid.com. AWSELB. Third Party. 365 Days 
+Functional Cookies
+The following cookies are used to enable site functionalities or experiences that are visible and beneficial to you. The purpose of these cookies is to enhance and personalize your experience of our website, based on your previous website visits and selections. Functional cookies allow us, for example, to remember your username, preferred language, or region. They may be set by us or by third party providers whose services we have added to our pages as they are also used to enable functionalities such as web chat, playing a video, or commenting and rating systems. If you do not allow these then some or all these services may not function properly
+Functional Cookies Cookie Subgroup. Cookies. Cookies used. Lifespan 
+website_url_lnk. ld-user-key , us#lang. First Party. 364 Days, A few seconds 
+tm-dotcom.origin.volvocars.com. ARRAffinity. First Party. 364 Days 
+volvocars.com. ai-sess , FPLC , ai-gid , _ai.tmp************* , PIM-SESSION-ID , FPAU , ai-page , FPID , ai-uuid. First Party. 1 Day, A few seconds, 365 Days, Session, 364 Days, 89 Days, A few seconds, 399 Days, 180 Days 
+decibelinsight.net. intState. Third Party. A few seconds 
+Performance Cookies
+These cookies collect statistical information such as counting visits and traffic sources, which pages are most and least popular, how visitor use our website, and if and when error messages are displayed. They are used to measure and improve the performance of our site. The information that these cookies collect is aggregated and therefore anonymous. If you do not consent to these cookies we will not know when you have visited our site, and will not be able to monitor its performance.
+Performance Cookies Cookie Subgroup. Cookies. Cookies used. Lifespan 
+volvocars.com. _gid , lbDebug , _uetmsclkid , da_lid , da_sid , ADRUM. First Party. A few seconds, A few seconds, 89 Days, 364 Days, A few seconds, Session 
+website_url_lnk. __pdst. First Party. 364 Days 
+cdn.cookielaw.org. utm_campaign_details. Third Party. A few seconds 
+resources.digital-cloud.medallia.eu. md_isSurveySubmittedInSession, kampyleUserPercentile, kampyleInvitePresented. Third Party. 364 Days, 364 Days, 364 Days 
+decibelinsight.net. da_sid, da_lid. Third Party. A few seconds, 364 Days 
+Targeting and Advertising Cookies
+These cookies specifically include tags and pixels which are together used to collect information about your digital interactions with our products, both on our and other websites. The data helps us measure the effectiveness of our advertising campaigns and, in combination with information from your interaction with us on other channels (e-mails, Volvo Cars app, SMS, social media and digital ads), allows us to build a profile of your interests. We can then use that profile to purposefully deliver Volvo Cars advertisements tailored to you via multiple channels. Please note that Volvo Car Corporation together with our digital advertising partners is jointly responsible for the processing of personal data for marketing and advertising purposes. Specifically: with Facebook Ireland Limited for the delivery of targeted ads and improvement of ad targeting and delivery optimization, and the stages of collection and subsequent transmission to Facebook. For further information on how Facebook processes personal data Privacy Policy. If you refuse these cookies, advertising (including ours) will continue to be displayed as you browse the Internet, and marketing communication will still be sent to you, if you have consented to it, although it will not be specific to your personal interests and interaction and will therefore be less relevant.
+Targeting and Advertising Cookies Cookie Subgroup. Cookies. Cookies used. Lifespan 
+tvpixel.com. sp. First Party. 365 Days 
+tm-dotcom.origin.volvocars.com. ARRAffinitySameSite. First Party. 364 Days 
+volvocars.com. _fbp , _gcl_au , _gcl_aw , _gat_UA-XXXXXX-X , da_intState , _pin_unauth , _uetsid , _uetvid. First Party. 89 Days, 89 Days, 89 Days, A few seconds, A few seconds, 364 Days, A few seconds, 389 Days 
+website_url_lnk. utm_campaign_details , steps. First Party. A few seconds, 364 Days 
+mathtag.com. mt_mop, uuid, mt_misc. Third Party. 27 Days, 393 Days, 30 Days 
+doubleclick.net. test_cookie, IDE. Third Party. A few seconds, 389 Days 
+pinterest.com. ar_debug. Third Party. 364 Days 
+ct.pinterest.com. _pinterest_ct_ua. Third Party. 364 Days 
+searchiq.co. user_id, recent_domains. Third Party. 365 Days, 365 Days 
+linkedin.com. lidc, UserMatchHistory, AnalyticsSyncHistory, bcookie, li_sugr, li_gc. Third Party. A few seconds, 27 Days, 30 Days, 364 Days, 89 Days, 179 Days 
+youtube.com. YSC, VISITOR_INFO1_LIVE, VISITOR_PRIVACY_METADATA. Third Party. 364 Days, 169 Days, 169 Days 
+website_url_lnk.. Third Party. Session 
+googleadservices.com. GCL_AW_P. Third Party. 89 Days 
+bing.com. MSPTC, MUID. Third Party. 389 Days, 389 Days 
+mookie1.com. ov, id, mdata. Third Party. 394 Days, 394 Days, 394 Days 
+twitter.com. personalization_id. Third Party. 399 Days 
+website_url_lnk. bscookie. Third Party. 365 Days 
+website_url_lnk. TESTCOOKIESENABLED. Third Party. A few seconds 
+c212.net. c, JSESSIONID. Third Party. A few seconds, A few seconds 
+t.co. muc_ads. Third Party. 399 Days 
+Analytics cookies
+Volvo Cars uses analytics tools which give us insights in to how you use and interact with our website and its services. This data consists of e.g., which pages you viewed; which links you clicked on; how long you spent on a page; cars that you have built in our configurator; and what device you have used; These insights will be used to both improve content and build better features that enhance your experience. If you have provided consent to advertising and to analytics cookies at the same time, we will use the analytics data for optimising our advertising. To read more about Volvo Cars' advertising, please see our General Privacy Notice.[ General Privacy Notice. Volvo Cars].
+Analytics cookies Cookie Subgroup. Cookies. Cookies used. Lifespan 
+website_url_lnk. gcid. First Party. Session 
+volvocars.com. _ga , _ga_xxxxxxxxxx. First Party. 389 Days, 389 Days 
+volvocars.com. _gac_UA-7334087-1. Third Party. 89 Days 
+How long we keep your data
+Please refer to each cookie description for their specific retention periods. 
+For your information, we use two different types of cookies: session cookies that are temporary and expire once you close your browser or when your session ends, and persistent cookies that remain on your hard drive until you or your browser erase them, depending on the cookie's expiration date.
+For analytics purposes the data that is not aggregated or anonymised right away will be processed for not more than 2 years.
+Furthermore, in certain instances local storage is used. Since the data placed there does not expire and will be available any time you open our website, the only way to clear local storage is for you to clear the browser storage manually (also known as clearing caches).
+Who we share your personal data with
+Your personal data will be disclosed to and processed by our affiliates and business partners for the above purposes and as described in the cookies' description. We also share your personal data with processors, especially IT service providers, which are limited by contract in their ability to use your personal data for any purpose other than to provide services for us in compliance with each data processing agreement in place. Your personal data may be transferred to a country outside the European Economic Area. If so, such transfer will be based on the standard contractual clauses approved by the EU Commission. The general text of the standard contractual clauses used can be found in various languages on the homepage of the EU Commission.
+Your rights in relation to the data processing we perform 
+Because we respect your right to privacy, you can choose not to allow cookies which are not strictly necessary to make our website work. Blocking some categories may however impact your experience of the site and the services we are able to offer. If you wish to manage your cookies, you can use our Cookies Settings page. 
+>Please remember that if you choose to disable cookies, certain sections of our sites may not work properly. Alternatively, you can manage cookies via your browser settings or by using these two links: Your AdChoices (Digital Advertising Alliance) or Your Online Choices. EDAA. In this case your choices will be reflected in how you will experience the Internet, not just on volvocars.com. To opt out of being tracked by Google Analytics across all websites, visit: website_url_lnk
+With respect to the processing for marketing and advertising purposes performed under joint controllership, Meta is the primary contact point for matters regarding the exercise of data subject rights.
+For more information on your rights in relation to our processing of your personal data and how to exercise them, please refer to our Customer Privacy Policy
+How to contact us
+If you have any other questions regarding the subject matter of personal data protection, you can contact us at the following contact details: volvo Car Corporation
+Postal address: Volvo Car Corporation, Assar Gabrielssons Väg, SE-405 31 Gothenburg, Sweden 
+E-mail address: dataprotection@volvocars.com 
+Changes to our Privacy Notice
+We reserve the right, at our discretion, to modify our privacy practices and update and make changes to this privacy notice at any time. For this reason, we encourage you to refer to this privacy notice on an ongoing basis. This privacy notice is current as of the date which appears at the top of the document. We will treat your personal data in a manner consistent with the privacy notice under which they were collected unless we have your consent to treat them differently. 
+To create a seamless website experience and for website quality and improvement purposes, we and our trusted business partners may retain or recreate browsing activity and use of interactive features. Learn more here. 
+We use cookie technologies for verification and quality purposes, to personalize the content presented, and to provide advertising that may be of specific interest to you. To learn more click here, or to manage the use of certain cookies, click manage settings.
+AcceptManage settings
+If you reject cookies, some changes may not take effect until the page is refreshed.
+Privacy Preference Center
+To measure our website's quality, performance and usage, and to create a seamless website experience, we use technologies that record, transcribe, or recreate your browsing activity and use interactive features, such as chat functionality. Learn more here. We use cookie technologies for quality and verification purposes, to personalize the content presented to you, and to provide advertising that may be of specific interest based on your engagement with us. To learn more, or to manage our use of certain cookies, click here. 
+More information
+Manage Consent Preferences
+Strictly Necessary Cookies
+Always Active
+Strictly necessary cookies are cookies that are needed for our website to function correctly. They enable you to move around the website and use its standard features, such as accessing secure areas of the website or presenting the cookie banner when you enter the website. Strictly necessary cookies are usually only set in response to actions made by the user to a request for services, such as setting privacy preferences, logging in or filling in and submitting webforms. The cookies that belong to this category are always active by default and cannot be switched off by you. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work.
+Functional Cookies
+Functional Cookies
+The following cookies are used to enable site functionalities or experiences that are visible and beneficial to you. The purpose of these cookies is to enhance and personalize your experience of our website, based on your previous website visits and selections. Functional cookies allow us, for example, to remember your username, preferred language, or region. They may be set by us or by third party providers whose services we have added to our pages as they are also used to enable functionalities such as web chat, playing a video, or commenting and rating systems. If you do not allow these then some or all these services may not function properly
+Performance Cookies
+Performance Cookies
+These cookies collect statistical information such as counting visits and traffic sources, which pages are most and least popular, how visitor use our website, and if and when error messages are displayed. They are used to measure and improve the performance of our site. The information that these cookies collect is aggregated and therefore anonymous. If you do not consent to these cookies we will not know when you have visited our site, and will not be able to monitor its performance.
+Targeting and Advertising Cookies
+Targeting and Advertising Cookies
+These cookies specifically include tags and pixels which are together used to collect information about your digital interactions with our products, both on our and other websites. The data helps us measure the effectiveness of our advertising campaigns and, in combination with information from your interaction with us on other channels (e-mails, Volvo Cars app, SMS, social media and digital ads), allows us to build a profile of your interests. We can then use that profile to purposefully deliver Volvo Cars advertisements tailored to you via multiple channels. Please note that Volvo Car Corporation together with our digital advertising partners is jointly responsible for the processing of personal data for marketing and advertising purposes. Specifically: with Facebook Ireland Limited for the delivery of targeted ads and improvement of ad targeting and delivery optimization, and the stages of collection and subsequent transmission to Facebook. For further information on how Facebook processes personal data Privacy Policy. If you refuse these cookies, advertising (including ours) will continue to be displayed as you browse the Internet, and marketing communication will still be sent to you, if you have consented to it, although it will not be specific to your personal interests and interaction and will therefore be less relevant.
+Analytics cookies
+Analytics cookies
+Volvo Cars uses analytics tools which give us insights in to how you use and interact with our website and its services. This data consists of e.g., which pages you viewed; which links you clicked on; how long you spent on a page; cars that you have built in our configurator; and what device you have used; These insights will be used to both improve content and build better features that enhance your experience. If you have provided consent to advertising and to analytics cookies at the same time, we will use the analytics data for optimising our advertising. To read more about Volvo Cars' advertising, please see our General Privacy Notice.[ General Privacy Notice. Volvo Cars].
+Back Button
+Cookie List
+Search Icon
+Filter Icon
+Clear
+checkbox label label
+Apply Cancel
+Consent Leg. Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Reject All Confirm My ChoicesAllow All

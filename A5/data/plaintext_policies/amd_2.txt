@@ -1,0 +1,224 @@
+AMD Website Accessibility Statement
+AMD Accelerates Exascale Computing to New Heights
+The El Capitan supercomputer, powered by AMD Instinct MI300A APUs, is now the fastest in the world. 
+AMD Vivado and Vitis 2024.2 Software Now Available
+Simplify your design projects with the latest adaptive SoC development software from AMD. 
+Faster Data Flow, Unlocked Insights
+Introducing AMD Versal Premium Series Gen 2 adaptive SoCs. 
+AMD Introduces Its First 1B Language Models
+AMD OLMo: A series of fully open 1 billion parameter language models 
+Read the Blog
+El Capitan Supercomputer 2024.2 Software Release Versal Premium Series Gen 2 AMD 1B Language Models
+Advancing Enterprise AI
+AI Platforms from Cloud to Edge to Endpoints 
+Explore AI Solutions
+Performance and Efficiency for Enterprise AI 
+AMD EPYC 9005 series processors are purpose-built to accelerate data center, cloud, and AI workloads.
+Discover EPYC for Enterprise AI 
+Leadership Inference Performance 
+AMD Instinct MI325X GPU accelerators deliver high performance and efficiency for training and inference.
+Discover Instinct for AI 
+Revolutionize Your AI Infrastructure 
+Maximize network efficiency with accelerated and effective throughput with the AMD Pensando Pollara 400 NIC.
+Discover Pensando for AI Infrastructure 
+Leading the AI PC Era 
+AMD Ryzen AI is the world's first dedicated AI engine with x86 processors, bringing the power of AI closer to you.
+Discover Ryzen AI for PCs 
+Advance AI Development with AMD ROCm Software 
+Optimize AI applications on AMD GPUs with the help of the ROCm open software stack. 
+Discover ROCm 
+Featured Solutions
+Database and Analytics
+Accelerating queries and transactions to transform data into actionable insights
+Learn More 
+Supercomputing and Research
+Harnessing the potential of AI and Exascale-class supercomputing to advance scientific research
+Learn More 
+Financial Services
+Delivering highly performant and efficient solutions to support core and AI-powered FSI workloads
+Learn More 
+Product Design
+Integrating AI and accelerating CAE simulations for better product designs and more timely results
+Learn More 
+HCI and Virtualization
+Empowering enterprises to capture the full benefits of HCI
+Learn More 
+Database and Analytics
+Accelerating queries and transactions to transform data into actionable insights
+Learn More 
+Supercomputing and Research
+Harnessing the potential of AI and Exascale-class supercomputing to advance scientific research
+Learn More 
+Financial Services
+Delivering highly performant and efficient solutions to support core and AI-powered FSI workloads
+Learn More 
+Product Design
+Integrating AI and accelerating CAE simulations for better product designs and more timely results
+Learn More 
+Financial Services Product Design HCI and Virtualization Database and Analytics Supercomputing and Research
+Featured Products
+Unlock Magical AI Experiences
+AMD Ryzen Desktop Processors
+Find Retailers
+Unlock Peak Performance Only With AMD
+Browse preconfigured systems from our partners.
+Learn More
+Breakthrough Performance
+AMD Radeon RX 7000 Series graphics cards
+Find Retailers
+Unlock Magical AI Experiences
+AMD Ryzen Desktop Processors
+Buy on AMD.com
+Find Retailers
+Unlock Peak Performance Only With AMD
+Browse preconfigured systems from our partners.
+Learn More
+Breakthrough Performance
+AMD Radeon RX 7000 Series graphics cards
+Buy on AMD.com
+Find Retailers
+Cambia tu forma de jugar
+Procesadores para computadoras de escritorio AMD Ryzen serie 7000
+Compra en AMD.com
+Encuentra distribuidores
+Desbloquea el máximo rendimiento solo con AMD
+Conoce los sistemas preconfigurados de nuestros socios.
+Obtén más información
+Rendimiento revolucionario
+Tarjetas gráficas AMD Radeon RX serie 7000
+Compra en AMD.com
+Encuentra distribuidores
+Mude a maneira como você joga
+Processadores para desktop AMD Ryzen Série 7000
+Compre em AMD.com
+Buscar varejistas
+Aproveite o desempenho máximo com a AMD
+Navegue por sistemas pré-configurados de nossos parceiros.
+Saiba mais
+Desempenho revolucionário
+Placas de vídeo AMD Radeon Série RX 7000
+Compre em AMD.com
+Buscar varejistas
+Unlock Magical AI Experiences
+AMD Ryzen Desktop Processors
+Buy on AMD.com
+Find Retailers
+Unlock Peak Performance Only With AMD
+Browse preconfigured systems from our partners.
+Learn More
+Breakthrough Performance
+AMD Radeon RX 7000 Series graphics cards
+Buy on AMD.com
+Find Retailers
+Unlock Magical AI Experiences
+AMD Ryzen Desktop Processors
+Buy on AMD.com
+Find Retailers
+Unlock Peak Performance Only With AMD
+Browse preconfigured systems from our partners.
+Learn More
+Breakthrough Performance
+AMD Radeon RX 7000 Series graphics cards
+Buy on AMD.com
+Find Retailers
+Gaming revolutioniert
+AMD Ryzen 7000-Serie Desktop-Prozessoren
+Auf AMD.com kaufen
+Händler finden
+Unlock Peak Performance, Nur mit AMD
+Vorkonfigurierte Systeme unserer Partner ansehen.
+Mehr erfahren
+Bahnbrechende Performance
+AMD Radeon RX 7000-Serie Grafikkarten
+Auf AMD.com kaufen
+Händler finden
+Changez votre façon de jouer
+Processeurs pour PC de bureau AMD Ryzen Série 7000
+Acheter sur AMD.com
+Trouver des détaillants
+Profitez de performances optimales uniquement avec AMD
+Découvrez les systèmes préconfigurés de nos partenaires.
+En savoir plus
+Performances révolutionnaires
+Cartes graphiques AMD Radeon RX Série 7000
+Acheter sur AMD.com
+Trouver des détaillants
+Unlock Magical AI Experiences
+AMD Ryzen Desktop Processors
+Buy on AMD.com
+Find Retailers
+Unlock Peak Performance Only With AMD
+Browse preconfigured systems from our partners.
+Learn More
+Breakthrough Performance
+AMD Radeon RX 7000 Series graphics cards
+Buy on AMD.com
+Find Retailers
+together we advance_
+AMD is pushing the limits of innovation to tackle some of the world's toughest challenges with our partners.
+Learn More
+Case Studies
+View All
+Financial Services
+Emirates NBD Boosts Performance and Lowers Licensing Costs
+Read the Case Study
+Media and Entertainment
+Respawn Entertainment Builds Star Wars Jedi: Survivor with AMD
+Watch the Video
+Design & Manufacturing
+STMicroelectronics Boosts Chip Design Speed with AMD EPYC CPUs
+Read the Case Study
+Transportation
+JR Kyushu, TAI Use AMD AI to Inspect Bullet Train Tracks
+Read the Case Study
+Latest News
+Newsroom
+AMD Announces Upcoming Events for the Financial Community
+AMD Announces Upcoming Events for the Financial Community 
+November 19, 2024 
+AMD Accelerates Exascale Computing to New Heights Powering the Fastest Supercomputer Ever, El Capitan
+AMD Accelerates Exascale Computing to New Heights Powering the Fastest Supercomputer Ever, El Capitan 
+November 18, 2024 
+AMD Announces Versal Premium Series Gen 2 Enabling New Levels of System Acceleration to Meet the Demands of Data-Intensive Workloads
+AMD Announces Versal Premium Series Gen 2 Enabling New Levels of System Acceleration to Meet the Demands of Data-Intensive Workloads 
+November 12, 2024 
+AMD and Fujitsu to Begin Strategic Partnership to Develop More Sustainable Computing Infrastructure Intended to Accelerate Open-Source AI Initiatives
+AMD and Fujitsu to Begin Strategic Partnership to Develop More Sustainable Computing Infrastructure Intended to Accelerate Open-Source AI Initiatives 
+November 01, 2024 
+Cookie Settings to watch this video. Please refresh the page after enabling all cookies.">
+Cookie Notice
+This site uses cookies from us and our partners to make your browsing experience more efficient, relevant, convenient and personal. In some cases, they are essential to making the site work properly. By accessing this site, you direct us to use and consent to the use of cookies. You can change your settings by clicking on the Cookie Settings link. For more information, refer to AMD's privacy notice and cookie policy.
+Cookie Settings Accept Cookies
+Cookie Settings
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. Click on the different category headings to find out more and change our default settings. However, blocking some types of cookies may impact your experience of the site and the services we are able to offer. 
+More information
+Allow All
+Manage Consent Preferences
+Performance Cookies
+Performance Cookies
+These cookies allow us to recognize and count the number of visitors and to see how visitors move around the Sites when they use them. This helps us to understand what areas of the Sites are of interest to you and to improve the way the Sites work, for example, by helping you find what you are looking for easily. We may use third party web analytics providers to help us analyze the use of the Sites, email, and newsletters. These cookies store data such as online identifiers (including IP address and device identifiers), information about your web browser and operating system, website usage activity information (including the frequency of your visits, your actions on the Sites and, if you arrived at any of the Sites from another website, i.e. the URL of that website), and content-related activity (including the email and newsletter content you view and click on). 
+Cookies Details 
+Targeting Cookies
+Targeting Cookies
+These cookies record online identifiers (including IP address and device identifiers), information about your web browser and operating system, website usage activity information (such as information about your visit to the Sites, the pages you have visited, content you have viewed, and the links you have followed), and content-related activity (including the email and newsletter content you view and click on). The information is used to try to make the Sites, emails, and newsletters, and the advertising displayed on them and other websites more relevant to your interests. For instance, when you visit the Sites, these targeting cookies are used by third party providers for remarketing purposes to allow them to show you advertisements for our products when you visit other websites on the internet. Our third party providers may collect and combine information collected through the Sites, emails, and newsletters with other information about your visits to other websites and apps over time, if those websites and apps also use the same providers.
+Cookies Details 
+Functionality Cookies
+Functionality Cookies
+These cookies are used to recognize you when you return to the Sites. This enables us to remember your preferences (for example, your choice of language or region) or when you register on areas of the Sites, such as our web programs or extranets. These cookies store data such as online identifiers (including IP address and device identifiers) along with the information used to provide the function.
+Cookies Details 
+Strictly Necessary Cookies
+Always Active
+These are cookies that are technically required for the operation of the Sites. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging into secure areas of the Sites or filling in forms. These cookies store data such as online identifiers (including IP address and device identifiers) along with the information used to operate the Sites. We may estimate your geographic location based on your IP address to help us display the content available in your location and adjust the operation of the Sites.
+Cookies Details 
+Back Button
+Cookie List
+Search Icon
+Filter Icon
+Clear
+checkbox label label
+Apply Cancel
+Consent Leg. Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Confirm My Choices

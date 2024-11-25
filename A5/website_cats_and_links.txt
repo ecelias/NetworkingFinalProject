@@ -1,0 +1,104 @@
+Luxury Clothing
+Gucci - www.gucci.com
+Prada - www.prada.com
+Louis Vuitton - www.louisvuitton.com DID NOT WORK
+Burberry - www.burberry.com DID NOT WORK
+Saint Laurent - www.ysl.com
+Versace - www.versace.com DID NOT WORK
+Balenciaga - www.balenciaga.com
+Fendi - www.fendi.com DID NOT WORK
+Alexander McQueen - www.alexandermcqueen.com
+Dior - www.dior.com DID NOT WORK
+Chanel - www.chanel.com
+Givenchy - www.givenchy.com
+Hermès - www.hermes.com
+Valentino - www.valentino.com
+Tom Ford - www.tomford.com
+Bottega Veneta - www.bottegaveneta.com
+Dolce & Gabbana - www.dolcegabbana.com
+Celine - www.celine.com
+Salvatore Ferragamo - www.ferragamo.com
+Off-White - www.off---white.com
+Loewe - www.loewe.com
+Balmain - www.balmain.com
+Maison Margiela - www.maisonmargiela.com
+Miu Miu - www.miumiu.com
+Jimmy Choo - www.jimmychoo.com
+Fast Fashion
+ASOS - www.asos.com
+H&M - www.hm.com
+Zara - www.zara.com
+Forever 21 - www.forever21.com
+Uniqlo - www.uniqlo.com
+Shein - www.shein.com
+Boohoo - www.boohoo.com
+PrettyLittleThing - www.prettylittlething.com
+Cider - www.shopcider.com
+Old Navy - www.oldnavy.com
+Temu - www.temu.com
+Fashion Nova - www.fashionnova.com
+Missguided - www.missguided.co.uk
+Mango - www.mango.com
+Aliexpress - www.aliexpress.com
+Nasty Gal - www.nastygal.com
+Urban Outfitters - www.urbanoutfitters.com
+Cotton On - www.cottonon.com
+Express - www.express.com
+Primark - www.primark.com
+Edikted - www.edikted.com
+Pacsun - www.pacsun.com
+Hollister - www.hollisterco.com
+Aéropostale - www.aeropostale.com
+Garage - www.garageclothing.com
+Technology
+Apple - www.apple.com
+Samsung - www.samsung.com
+Microsoft - www.microsoft.com
+Dell - www.dell.com
+HP - www.hp.com
+Lenovo - www.lenovo.com
+ASUS - www.asus.com
+Acer - www.acer.com
+LG - www.lg.com
+Sony - www.sony.com
+Panasonic - www.panasonic.com
+Toshiba - www.toshiba.com
+Huawei - www.huawei.com
+Xiaomi - www.mi.com
+OnePlus - www.oneplus.com
+Best Buy - https://www.bestbuy.com 
+Razer - www.razer.com
+NVIDIA - www.nvidia.com
+Intel - www.intel.com
+AMD - www.amd.com
+Bose - www.bose.com
+JBL - www.jbl.com
+GoPro - www.gopro.com
+Logitech - www.logitech.com
+Anker - www.anker.com
+Cars 
+Tesla - www.tesla.com
+Ford - www.ford.com
+Chevrolet - www.chevrolet.com
+Toyota - www.toyota.com
+Honda - www.honda.com
+BMW - www.bmwusa.com
+Mercedes-Benz - www.mbusa.com
+Audi - www.audiusa.com
+Volkswagen - www.vw.com
+Nissan - www.nissanusa.com
+Hyundai - www.hyundaiusa.com
+Kia - www.kia.com
+Lexus - www.lexus.com
+Subaru - www.subaru.com
+Mazda - www.mazdausa.com
+Jeep - www.jeep.com
+Dodge - www.dodge.com
+Ram - www.ramtrucks.com
+Chrysler - www.chrysler.com
+GMC - www.gmc.com
+Cadillac - www.cadillac.com
+Volvo - www.volvocars.com
+Land Rover - www.landroverusa.com
+Jaguar - www.jaguarusa.com
+Porsche - www.porsche.com
