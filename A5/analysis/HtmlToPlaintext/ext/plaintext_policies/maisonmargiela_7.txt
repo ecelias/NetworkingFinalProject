@@ -1,0 +1,264 @@
+Go to main content Skip to footer navigation
+Client Care Can we help?
+Search Search Please fill out this field.
+Email
+Phone
+Client Care
+Contact us
+Follow Your Order
+Return Form
+Track Your Return
+Our Products
+Size Guide
+Care
+Returns & After Sales
+After Sales Assistance
+Return Policy
+Refunds
+FAQs
+My Account
+Orders
+Shipping & Pick up Services
+Payments
+Legal Area
+Terms of Sale
+Terms of Use
+Return Policy
+Privacy Policy
+Cookie Policy
+COOKIE POLICY
+The company Maison Margiela S. A. SU with registered office in France, 12, Place des Etats-Unis 75116, Paris, (hereinafter the "Company", or the "Data Controller"), in its capacity as Data Controller, provides the following information regarding the operation of cookies, within the website website_url_lnk (hereinafter the "Site"), also on the basis of the indications provided by the Italian Data Protection Authority ("Garante").
+The following notice refers to the Company's Site and not to other websites of third parties that may be consulted by the user through links.
+For any other information on the policy adopted by the Company in the management of the Site, please refer to the Information Notice available at the following link: Privacy Policy.
+1 Cookies
+Cookie
+Cookies are usually short text that websites (so-called publishers or "first parties") visited by the user or other websites or web servers (so-called "third parties") place and store, directly, in the case of publishers, and indirectly, i.e., through them, in the case of "third parties", in a terminal device available to the user. The terminals referred to are, for example, a personal computer, a tablet, a smartphone, or any other device capable of storing information.
+Internet browsing software and the operation of these devices, e.g., browsers, can store cookies and then transmit them back to the sites that generated them on the occasion of a subsequent visit by the same user, thus keeping a record of his previous interaction with one or more websites.
+The information encoded in cookies may include personal data, such as an IP address, user-name, unique identifier or email address, but may also contain non-personal data, such as language settings or information about the type of device a person is using to browse the site.
+Cookies can therefore perform a wide variety of important functions, including performing computer authentication, monitoring sessions, storing information about specific configurations of users accessing the server, facilitating the use of online content, etc. They can be used to keep track of items in an online shopping cart or information used to fill out a computer form. They can, for example, be used to keep track of the items in an online shopping cart or the information used to fill out a computer form. Authentication cookies are of particular importance whenever it is necessary to verify who is accessing certain services, such as banking services. If, on the one hand, it is through cookies that it is possible, among other things, to allow web pages to load more quickly, as well as to route information on a network, in line, therefore, with obligations strictly related to the very operation of websites -, again through cookies it is also possible to convey "behavioural advertising" and then measure the effectiveness of the advertising message.
+Types of cookies
+Cookies may have different characteristics in terms of time and therefore be considered according to their duration (session or permanent), or from a subjective point of view (depending on whether the publisher acts independently or on behalf of the "third party"). However, the classification that mainly meets the user's protection needs is the one based on two macro-categories technical cookies, used for the sole purpose of "carrying out the transmission of a communication on an electronic communication network, or to the extent strictly necessary for the provider of an information society service explicitly requested by the contracting party or user to provide such service" (see Article 122(1) of the Italian Privacy Code); these cookies may be installed on the user's terminal without the user's consent, based, depending on the case, on the need to carry out a user's request or on the legitimate interest of the Company.
+Cookies may have different characteristics in terms of time and therefore be considered according to their duration (session or permanent), or from a subjective point of view (depending on whether the publisher acts independently or on behalf of the "third party"). However, the classification that mainly meets the user's protection needs is the one based on two macro-categories profiling cookies, used to trace specific actions or recurring behavioral patterns in the use of the functions offered back to specific, identified or identifiable subjects, in order to group the various profiles within homogeneous clusters of different sizes, so that increasingly targeted advertising messages can be sent, i.e., in line with the preferences expressed by the user when surfing the web; this type of cookie can be downloaded to the user's terminal only with the latter's consent.
+Cookies may also be used to assess the effectiveness of an information society service provided by a publisher, for the design of a website or to help measure its "traffic", i.e., the number of visitors, also possibly broken down by geographic area, connection time or other characteristics. These identifiers, defined as analytics cookies, may be included in the category of technical cookies, and as such may be used without the prior consent of the person concerned, under the following conditions: they are only used to produce aggregate statistics and in relation to a single site or a single mobile application.
+Cookies may also be used to assess the effectiveness of an information society service provided by a publisher, for the design of a website or to help measure its "traffic", i.e., the number of visitors, also possibly broken down by geographic area, connection time or other characteristics. These identifiers, defined as analytics cookies, may be included in the category of technical cookies, and as such may be used without the prior consent of the person concerned, under the following conditions: at least the fourth component of the IP address is masked for third-party cookies.
+Cookies may also be used to assess the effectiveness of an information society service provided by a publisher, for the design of a website or to help measure its "traffic", i.e., the number of visitors, also possibly broken down by geographic area, connection time or other characteristics. These identifiers, defined as analytics cookies, may be included in the category of technical cookies, and as such may be used without the prior consent of the person concerned, under the following conditions: the third-party refrains from combining these analytics cookies with other processing (customer files or statistics of visits to other sites, for example) or passing them on to third parties.
+If these conditions are not met, analytics cookies also require the user's consent in order to be downloaded.
+Finally, cookies may also be used to enable interaction and easy sharing of content on social networks and to enable the sending of targeted advertisements based on the user's preferences (social cookies); these cookies also require the user's consent.
+2 List of cookies used by the Site
+This Site uses cookies for technical, analytical and statistical purposes, to improve the user's interactivity with the Site via social networks and to personalize the sending of information and advertising communications according to the user's interests (profiling).
+Technical cookie
+The name, purpose of use and duration of each technical cookie used by the Site are set out below.
+COOKIE NAME. TYPE. DESCRIPTION. FIRST PARTY/THIRD PARTY. DURATION. PROVIDER 
+_vapi#. Technical. Store technical information from api. FIRST PARTY. Session. maisonmargiela.com 
+aa_newrep. Technical. Analytics cookies used by Tealium to keep tracking user behavio. FIRST PARTY. 29 days. maisonmargiela.com 
+aa_prev_page. Technical. Analytics cookies used by Tealium to keep tracking user behavior. FIRST PARTY. 1 day. maisonmargiela.com 
+adms_channel. Technical. Analytics cookies used by Tealium to keep tracking user behavior. FIRST PARTY. 29 days. maisonmargiela.com 
+cookieconsent_stat us. Technical. cookie jars so if you're not happy with us using these cookies then you may adjust your browser settings to suit. FIRST PARTY. 1 year. maisonmargiela.com 
+fb_test. Technical. Analytics cookies used by Tealium to keep tracking user behavior. FIRST PARTY. Session. maisonmargiela.com 
+gvsC. Technical. Analytics cookies used by Tealium to keep tracking user behavior. FIRST PARTY. Session. maisonmargiela.com 
+prod_find_method. Technical. Analytics cookies used by Tealium to keep tracking user behavior. FIRST PARTY. Session. maisonmargiela.com 
+rCookie. Technical. Analytics cookies used to keep tracking user behavior. THIRD PARTY. 4315 days. maisonmargiela.com 
+rCookie. Technical. Analytics cookies used to keep tracking user behavior. THIRD PARTY. Session. maisonmargiela.com 
+rskxRunCookie. Technical. Analytics cookies used to keep tracking user behavior. THIRD PARTY. 4315 days. maisonmargiela.com 
+rskxRunCookie. Technical. Analytics cookies used to keep tracking user behavior. THIRD PARTY. Session. maisonmargiela.com 
+rc:c. Technical. Analyticsl cookie to optimize video showing. THIRD PARTY. Session. maisonmargiela.com 
+The installation of these cookies does not require the prior consent of users. These cookies can be deactivated and deleted via the browser settings. All modern browsers allow to change the settings of cookies. These settings can usually be found in the "options" or "preferences" menu of your browser. To understand these settings, the following links may be useful. Alternatively, you can use the "Help" option in your browser for more information: impostazioni dei cookie in Explorer/Edge
+The installation of these cookies does not require the prior consent of users. These cookies can be deactivated and deleted via the browser settings. All modern browsers allow to change the settings of cookies. These settings can usually be found in the "options" or "preferences" menu of your browser. To understand these settings, the following links may be useful. Alternatively, you can use the "Help" option in your browser for more information: [Impostazioni dei cookie in Firefox](website_url_lnk i cookie)
+The installation of these cookies does not require the prior consent of users. These cookies can be deactivated and deleted via the browser settings. All modern browsers allow to change the settings of cookies. These settings can usually be found in the "options" or "preferences" menu of your browser. To understand these settings, the following links may be useful. Alternatively, you can use the "Help" option in your browser for more information: impostazioni dei cookie in Chrome
+The installation of these cookies does not require the prior consent of users. These cookies can be deactivated and deleted via the browser settings. All modern browsers allow to change the settings of cookies. These settings can usually be found in the "options" or "preferences" menu of your browser. To understand these settings, the following links may be useful. Alternatively, you can use the "Help" option in your browser for more information: impostazioni dei cookie in Safari e iOS
+In the event of a block on the use of cookies, the service offered to the user through the Site will be limited, thus affecting the use of the Site.
+Other types of cookies (marketing and analytics cookies)
+Below, for each cookie used by the Site that does not fall into the category of technical cookies, we provide: the name, the relevant third party, if the cookie is not a first party, the purpose of use and the duration.
+For all the information relating to the cookies provided by third parties and for the methods of opting out of each cookie, you will be able to access the respective policies and the tool provided by the third party to opt out of each cookie.
+Please note that you can also use the following link to exercise your opt-out from third-party cookies (i.e. companies that are members of the WebChoices tool of the Digital Advertising Alliance, including Facebook) installed on your browser: website_url_lnk
+You can also use the following tool provided by Your Online Choices to control your preferences by exercising your opt-out from third-party cookies: website_url_lnk
+Marketing cookie -- profiling and social cookie
+COOKIE NAME. TYPE. DESCRIPTION. FIRST PARTY/THIRD PARTY. DURATION. PROVIDER 
+dwac_#. Marketing. Stores the following data for analytics purposes: Session ID, report suite name, shopper's customer ID, source code group ID (encoded), currency mnemonic, and time zone.. FIRST PARTY. Session. maisonmargiela.com 
+__atuvc. Marketing. Updates the counter of a website's social sharing features.. FIRST PARTY. 13 months. maisonmargiela.com 
+__atuvs. Marketing. Ensures that the updated counter is displayed to the user if a page is shared with the social sharing service, AddThis.. FIRST PARTY. 1 day. maisonmargiela.com 
+_at.cww. Marketing. Used by the social sharing platform AddThis. FIRST PARTY. Persistent. maisonmargiela.com 
+_dbefe. Marketing. Collects information on user preferences and interaction with web-campaign content, This is used on CRM-campaign-platform used by website owners for promoting events or products.. THIRD PARTY. Session. contextweb.com 
+_fbp. Marketing. Used by Facebook to deliver a series of advertisement products such as real time bidding from third party advertisers.. FIRST PARTY. 3 months. maisonmargiela.com 
+_gcl_au. Marketing. Used by Google AdSense for experimenting with advertisement efficiency across websites using their services.. FIRST PARTY. 3 months. maisonmargiela.com 
+AA003. Marketing. Collects information on visitor behaviour on multiple websites. This information is used on the website, in order to optimize the relevance of advertisement.. FIRST PARTY. 3 months. maisonmargiela.com 
+ads/ga-audiences. Marketing. Used by Google AdWords to re-engage visitors that are likely to convert to customers based on the visitor 's online behaviour across websites.. THIRD PARTY. Session. google.com 
+anj. Marketing. Registers a unique ID that identifies a returning user's device. The ID is used for targeted ads.. THIRD PARTY. 3 months. adnxs.com 
+APID. Marketing. Collects information on visitor behaviour on multiple websites. This information is used on the website, in order to optimize the relevance of advertisement.. THIRD PARTY. 1 year. advertising.com 
+at-lojson-cache-#. Marketing. Used by the social sharing platform AddThis. FIRST PARTY. Persistent. maisonmargiela.com 
+ATN. Marketing. Targets ads based on behavioural profiling and geographical location.. THIRD PARTY. 2 years. atdmt.com 
+at-rand. Marketing. Used by the social sharing platform AddThis. FIRST PARTY. Persistent. maisonmargiela.com 
+audience. Marketing. Used to determine whether the video- ads have been displayed correctly on the website, This is done to make video-ads more effective and ensure that the visitor is not shown the same ads more times than intended. The cookie also detects whether the visitor has any Do Not Track preferences.. THIRD PARTY. 13 days. spotxchange.com 
+Marketing. Regulates synchronisation of user identification and exchange of user data between various ad services.. THIRD PARTY. 1 year. bidswitch.net 
+cm. Marketing. Identifies if the cookie-data needs to be updated in the visitor's browser, This is determined through thir d-party ad-serving-companies.. THIRD PARTY. Session. rfihub.com 
+CMDD. Marketing. Collects visitor data related to the user's visits to the website, such as the number of visits, average time spent on the website and what pages have been loaded, with the purpose of displaying targeted ads.. THIRD PARTY. 1 day. casalemedia.com 
+CMID. Marketing. Collects visitor data related to the user's visits to the website, such as the number of visits, average time s pent on the website and what pages have been loaded, with the purpose of displaying targeted ads.. THIRD PARTY. 1 year. casalemedia.com 
+CMPRO. Marketing. Collects data on visitor behaviour from multiple websites, in order to present more relevant advertisement, This also allows the website to limit the number of times that the visitor is shown the same advertisement.. THIRD PARTY. 3 months. casalemedia.com 
+CMPS. Marketing. Collects visitor data related to the user's visits to the website, such as the number of visits, average time s pent on the website and what pages have been loaded, with the purpose of displaying targeted ads.. THIRD PARTY. 3 months. casalemedia.com 
+CMRUM3. Marketing. Collects visitor data related to the user's visits to the website, such as the number of visits, average time spent on the website and what pages have been loaded, with the purpose of displaying targeted ads.. THIRD PARTY. 1 year. casalemedia.com 
+CMST. Marketing. Collects visitor data related to the user's visits to the website, such as the number of visits, average time s pent on the website and what pages have been loaded, with the purpose of displaying targeted ads.. THIRD PARTY. 1 day. casalemedia.com 
+criteo_write_test. Marketing. Sets a unique ID for the visitor, that allows third party advertisers to target the visitor with relevant adverti sement. This pairing service is provided by third party advertisement hubs, which facilitates real-time bidding for advertisers.. FIRST PARTY. 1 day. maisonmargiela.com 
+csync. Marketing. Optimises ad display based on the user's movement combined and various advertiser bids for displaying user ads.. THIRD PARTY. 13 months. smartadserver.com 
+cto_lwid. Marketing. Collects data on visitor behaviour from multiple websites, in order to present more relevant advertisement, This also allows the website to limit the number of times that the visitor is shown the same advertisement.. FIRST PARTY. 13 months. maisonmargiela.com 
+cto_tld_test. Marketing. Used to identify the visitor across visits and devices. This allows the website to present the visitor with relevant advertisement, The service is provided by third party advertisement hubs, which facilitate real-time bidding for advertisers.. FIRST PARTY. 1 day. maisonmargiela.com 
+demdex. Marketing. Via a unique ID that is used for semantic content analysis, the user's navigation on the website is register ed and linked to offline data from surveys and similar registrations to display targeted ads.. THIRD PARTY. 179 days. demdex.net 
+dpm. Marketing. Sets a unique ID for the visitor, that allows third party advertisers to target the visitor with relevant advertisement. This pairing service is provided by third party advertisement hubs, which facilitates real-time bidding for advertisers.. THIRD PARTY. 179 days. demdex.net 
+dwsid. Marketing. This cookie is set to count the number of times a specific visitor is shown a specific ad, the cookie enable s the advertisers to differentiate the specific ads shown and thereby making the advertising more efficient.. FIRST PARTY. Session. maisonmargiela.com 
+eud. Marketing. Registers user data, such as IP address, geographical location, visited websites, and what ads the user has clicked, with the purpose of optimising ad display based on the user's movement on websites that use the same ad network.. THIRD PARTY. 1 year. rfihub.com 
+euds. Marketing. Registers anonymised user data, such as IP address, geographical location, visited websites, and what ads the user has clicked, with the purpose of optimising ad display based on the user's movement on websites that use the same ad netwo rk.. THIRD PARTY. Session. rfihub.com 
+everest_g_v2. Marketing. Used for targeted ads and to document efficacy of each individual ad.. THIRD PARTY. 2 years. everesttech.net 
+everest_session_v2. Marketing. Used for targeted ads and to document efficacy of each individual ad.. THIRD PARTY. Session. everesttech.net 
+fr. Marketing. Used by Facebook to deliver a series of advertisement products such as real time bidding from third party advertisers.. THIRD PARTY. 3 months. facebook.com 
+fr/b.php. Marketing. Used by Facebook to deliver a series of advertisement products such as real time bidding from third party advertisers.. THIRD PARTY. Session. facebook.com 
+website_url_lnk /. Marketing. Used to track visitors on multiple websites, in order to present relevant advertisement based on the visitor's preferences.. THIRD PARTY. Session. cx.atdmt.com 
+Marketing. Registers anonymised user data, such as IP address, geographical location, visited websites, and what ads the user has clicked, with the purpose of optimising ad display based on the user's movement on websites that use the same ad netwo rk.. THIRD PARTY. 1 year. openx.net 
+ibs:dpid. Marketing. This cookie is set by the audience manager of the website to determine the time and frequencies of visitor data synchronization, cookie data synchronization is used to synchronize and gather visitor data from several websites.. THIRD PARTY. Session. demdex.net 
+id. Marketing. Registers a unique ID that identifies a returning user's device. The ID is used for targeted ads.. THIRD PARTY. 1 year. mookie1.com 
+id. Marketing. Registers a unique ID that identifies a returning user's device. The ID is used for targeted ads.. THIRD PARTY. 1 year. yieldlab.net 
+IDE. Marketing. Used by Google DoubleClick to register and report the website user's actions after viewing or clicking on e of the advertiser's ads with the purpose of measuring the efficacy of an ad and to present targeted ads to the user.. THIRD PARTY. 1 year. doubleclick.net 
+IDSYNC. Marketing. Identifies if the cookie-data needs to be updated in the visitor's browser, This is determined through third-party ad- serving-companies.. THIRD PARTY. 1 year. advertising.com 
+KRTBCOOKIE_#. Marketing. Registers a unique ID that identifies the user's device during return visits across websites that use the sam e ad network. The ID is used to allow targeted ads.. THIRD PARTY. 3 months. pubmatic.com 
+loc. Marketing. Geolocation, which is used to help providers determine how users who share information with each other are geographically located (state level).. THIRD PARTY. 13 months. addthis.com 
+mako_uid. Marketing. Collects data on user visits to the website, such as what pages have been accessed. The registered data is used to categorise the user's interest and demographic profiles in terms of resales for targeted marketing.. THIRD PARTY. 1 year. eyeota.net 
+mbox. Marketing. This cookie is used to collect non- personal information on the visitor's behavior and non-personal visitor statistics, which can be used by a third- party ad-targeting agency.. FIRST PARTY. 1 day. maisonmargiela.com 
+mdata. Marketing. Registers a unique ID that identifies a returning user's device. The ID is used for targeted ads.. THIRD PARTY. 1 year. mookie1.com 
+MUID. Marketing. Used widely by Microsoft as a unique user ID. The cookie enables user tracking by synchronising the ID across many Microsoft domains.. THIRD PARTY. 1 year. bing.com 
+MUIDB. Marketing. Registers data on visitors from multiple visits and on multiple websites. This information is used to measur e the efficiency of advertisement on websites.. THIRD PARTY. 1 year. bing.com 
+mxpim. Marketing. Collects unidentifiable data that is sent to an unidentifiable source. The source's identity is kept secret by the company, Perfect Privacy LLC.. THIRD PARTY. 2 years. mxptint.net 
+na_id. Marketing. Used to recognize the visitor upon re- entry. This allows the website to register the visitor's behaviour and facilitate the social sharing function provided by Addthis.com.. THIRD PARTY. 1 year. addthis.com 
+ONPLFTRH. Marketing. Used to track visitors on multiple websites, in order to present relevant advertisement based on the visitor's preferences.. THIRD PARTY. Session. eyeota.net 
+ouid. Marketing. Sets an ID-string for the specific visitor. This is used to recognize the visitor upon re-entry. This allows the website to register the visitor's behaviour and facilitate the social media sharing function provided by Addthis.com.. THIRD PARTY. 1 year. addthis.com 
+pagead/1p- conversion/#. Marketing. Tracking Cookie for the purpose of targeted advertising. THIRD PARTY. Session. google.com 
+pagead/1p-user-list/#. Marketing. Tracking Cookie for the purpose of targeted advertising. THIRD PARTY. Session. google.com 
+pid. Marketing. Registers a unique ID that identifies a returning user's device. The ID is used for targeted ads.. THIRD PARTY. 13 months. smartadserver.com 
+PUBMDCID. Marketing. Registers a unique ID that identifies the user's device during return visits across websites that use the sam e ad network. The ID is used to allow targeted ads.. THIRD PARTY. 3 months. pubmatic.com 
+pxrc. Marketing. This cookie registers data on the visitor. The information is used to optimize advertisement relevance.. THIRD PARTY. 2 months. rlcdn.com 
+r/collect. Marketing. This cookie is used to send data to Google Analytics about the visitor's device and behavior. It tracks the v isitor across devices and marketing channels.. THIRD PARTY. Session. doubleclick.net 
+rlas3. Marketing. Collects visitor data related to the user's visits to the website, such as the number of visits, average time spent on the website and what pages have been loaded, with the purpose of displaying targeted ads.. THIRD PARTY. 1 year. rlcdn.com 
+rud. Marketing. Registers user data, such as IP address, geographical location, visited websites, and what ads the user has clicked, with the purpose of optimising ad display based on the user's movement on websites that use the same ad network.. THIRD PARTY. 1 year. rfihub.com 
+ruds. Marketing. Registers user data, such as IP address, geographical location, visited websites, and what ads the user has clicked, with the purpose of optimising ad display based on the user's movement on websites that use the same ad network.. THIRD PARTY. Session. rfihub.com 
+rum. Marketing. Collects data related to the user's visits to the website, such as the number of visits, average time spent o n the website and what pages have been loaded, with the purpose of displaying targeted ads. THIRD PARTY. Session. casalemedia.com 
+sto-id-20480-bh. Marketing. Registers anonymised user data, such as IP address, geographical location, visited websites, and what ads the user has clicked, with the purpose of optimising ad display based on the user's movement on websites that use the same ad network.. THIRD PARTY. 1 day. contextweb.com 
+syncdata_#. Marketing. This cookie data synchronization is used to synchronize DMP and gather visitor data from several websites.. THIRD PARTY. 9 days. mookie1.com 
+t/v2/activity. Marketing. This cookie data synchronization is used to synchronize DMP and gather visitor data from several websites.. THIRD PARTY. Session. mookie1.com 
+t_gid. Marketing. This cookie assigns a specific visitor ID, when the visitor interacts with ads or content from the website, t his allows the website to target the visitor with similar ads or content.. THIRD PARTY. 1 year. taboola.com 
+t1. Marketing. Collects information on visitor behaviour on multiple websites. This information is used on the website, in order to optimize the relevance of advertisement.. THIRD PARTY. 3 months. serving-sys.com 
+taboola_vmp. Marketing. Sets a unique ID for the visitor, that allows third party advertisers to target the visitor with relevant adverti sement. This pairing service is provided by third party advertisement hubs, which facilitates real-time bidding for advertisers.. THIRD PARTY. 1 year. taboola.com 
+tap.php. Marketing. Registers data on visitor such as IP addresses, geographical location and advertisement interaction. This information is used optimize the advertisement on websites that make use of Rubicon Project-services.. THIRD PARTY. Session. rubiconproject.com 
+test_cookie. Marketing. Used to check if the user's browser supports cookies.. THIRD PARTY. 1 day. doubleclick.net 
+TestIfCookieP. Marketing. Identifies new users and generates a unique ID for each user.. THIRD PARTY. 13 months. smartadserver.com 
+tr. Marketing. Used by Facebook to deliver a series of advertisement products such as real time bidding from third party advertisers.. THIRD PARTY. Session. facebook.com 
+tt_viewer. Marketing. Used in context with video- advertisement. The cookie limits the number of times a visitor is shown the same advertisement-content. The cookie is also used to ensure relevance of the video-advertisement to the specific visitor.. THIRD PARTY. 1 year. teads.tv 
+teads. Marketing. La True Visits Campaign di Teads riguarda gli utenti Teads che attraverso i publisher partner hanno già fornito il consenso per l'installazione dei cookie sul loro terminale. Per questo motivo, Teads richiede l'implementazione di un pixel per monitorare le visite sul nostro sito. I pixel Teads installati sul nostro sito fanno un ping con Teads ogni volta che un utente visita il sito, per permettere a Teads di confermare se lo riconosce o meno. Se l'utente risulta sconosciuto, Teads non compirà nessuna azione perché il pixel rileva solo gli utenti che hanno già accettato i cookie Teads sul loro terminale e acconsentito al tracciamento.. THIRD PARTY. Session. teads.com 
+tu. Marketing. Used to target ads by registering the user's movements across websites.. THIRD PARTY. 29 days. adscale.de 
+tuuid. Marketing. Collects unidentifiable data, which is sent to an unidentifiable receiver. The receiver's identity is kept secret by Perfect Privacy LLC.. THIRD PARTY. 3 months. 360yield.com 
+tuuid. Marketing. Registers whether or not the user has consented to the use of cookies.. THIRD PARTY. 1 year. bidswitch.net 
+tuuid_lu. Marketing. Contains a unique visitor ID, which allows Bidswitch.com to track the visitor across multiple websites. This allows Bidswitch to optimize advertisement relevance and ensure that the visitor does not see the same ads multiple times.. THIRD PARTY. 3 months. 360yield.com 
+tuuid_lu. Marketing. Contains a unique visitor ID, which allows Bidswitch.com to track the visitor across multiple websites. This allows Bidswitch to optimize advertisement relevance and ensure that the visitor does not see the same ads multiple times.. THIRD PARTY. 1 year. bidswitch.net 
+tuuid_new. Marketing. Collects information on visitor behaviour on multiple websites. This information is used on the website, in order to optimize the relevance of advertisement.. THIRD PARTY. 2 years. clrstm.com 
+tuuid_new_lu. Marketing. Collects information on visitor behaviour on multiple websites. This information is used on the website, in order to optimize the relevance of advertisement.. THIRD PARTY. 2 years. clrstm.com 
+u2. Marketing. Collects data related to the user's navigation visits to webpages in order to assess the efficacy of ads that are displayed on the website.. THIRD PARTY. 3 months. serving-sys.com 
+uid. Marketing. Creates a unique, machine-generated user ID. AddThis, which is owned by Clearspring Technologies, uses the user ID to make it possible for the user to share content across social networks and provide detailed statistics to various providers.. THIRD PARTY. 1 year. addthis.com 
+uid. Marketing. Collects visitor data related to the user's visits to the website, such as the number of visits, average time spent on the website and what pages have been loaded, with the purpose of displaying targeted ads.. THIRD PARTY. 1 year. criteo.com 
+UID. Marketing. Collects information of the user and his/her movement, such as timestamp for visits, most recently loaded pages and IP address. The data is used by the marketing research network, Scorecard Research, to analyse traffic patterns and carry out surveys to help their clients better understand the customer's preferences.. THIRD PARTY. 2 years. scorecardresearch.co m 
+UIDR. Marketing. Collects information of the user and his/her movement, such as timestamp for visits, most recently loaded pages and IP address. The data is used by the marketing research network, Scorecard Research, to analyse traffic patterns and carry out surveys to help their clients better understand the customer's preferences.. THIRD PARTY. 2 years. scorecardresearch.co m 
+um. Marketing. Tracking Cookie for the purpose of targeted advertising. THIRD PARTY. 3 months. 360yield.com 
+um. Marketing. Registers the user's sharing of content via social media.. THIRD PARTY. 1 year. addthis.com 
+umeh. Marketing. Used to track visitors on multiple websites, in order to present relevant advertisement based on the visitor 's preferences.. THIRD PARTY. 3 months. 360yield.com 
+user. Marketing. Used by Pinterest to track the usage of services.. THIRD PARTY. 3 months. ct.pinterest.com 
+utag_main. Marketing. Used by Tealium Tag Manager to store a unique visitor ID, a session ID and to persist data about the visito r's interaction with the website, e.g. last page viewed. FIRST PARTY. 1 year. maisonmargiela.com 
+uu. Marketing. Used to target ads by registering the user's movements across websites.. THIRD PARTY. 1 year. adscale.de 
+uuid. Marketing. This cookie is used to optimize ad relevance by collecting visitor data from multiple websites, this exchan ge of visitor data is normally provided by a third-party data-center or ad-exchange.. THIRD PARTY. 1 year. cquotient.com 
+uuid2. Marketing. Registers a unique ID that identifies a returning user's device. The ID is used for targeted ads.. THIRD PARTY. 3 months. adnxs.com 
+uvc. Marketing. Detects how often the social sharing service, AddThis, encounters the same user.. THIRD PARTY. 13 months. addthis.com 
+w/1.0/sd. Marketing. Registers data on visitors such as IP addresses, geographical location and advertisement interaction. This information is used optimize the advertisement on websites that make use of OpenX.net services.. THIRD PARTY. Session. openx.net 
+xtc. Marketing. Registers the user's sharing of content via social media.. THIRD PARTY. 13 months. addthis.com 
+cq_dnt. Marketing. Analytical cookies that keep track of anonymous or registered users.. FIRST PARTY. Session. maisonmargiela.com 
+cq_seg. Marketing. Analytical cookies that support the personalization of site content. Cookies also used to speed up the loading of pages.. FIRST PARTY. 30 days. maisonmargiela.com 
+cq_uuid. Marketing. This cookie name is associated with Predictive Intelligence activity tracking software used on sites built on the Demandware ecommerce platform.. FIRST PARTY. 1 year. maisonmargiela.com 
+aa_cvpmc_n. Marketing. Cookie contains segment information for customized search functions.. FIRST PARTY. 5 years. maisonmargiela.com 
+aa_dslv. Marketing. Analytics cookies used for data collection. FIRST PARTY. 3 years. maisonmargiela.com 
+aa_dslv_s. Marketing. Analytics cookies used for data collection. FIRST PARTY. 1 day. maisonmargiela.com 
+cq.viewCategory. Marketing. Contains products from the most recently viewed category page.. FIRST PARTY. Session. maisonmargiela.com 
+cqcid. Marketing. They are used to help administer and optimize the e-commerce portions of our Website.. FIRST PARTY. 2 years. maisonmargiela.com 
+cto_lwid. Marketing. Collects data on visitor behaviour from multiple websites, in order to present more relevant advertisement -. THIRD PARTY. Persistent. doubleclick.net 
+dw. Marketing. Controls client-side JavaScript for Commerce Cloud tracking features (Analytics, Einstein, ActiveData).. FIRST PARTY. Session. maisonmargiela.com 
+dw_dnt. Marketing. Controls client-side JavaScript for Commerce Cloud tracking features (Analytics, Einstein, ActiveData).. FIRST PARTY. Session. maisonmargiela.com 
+on/demandware.stor e/ Sites-DieselIT-Site /it_IT/ Analytics- Start. Marketing. This cookie is set by the audience manager of the website to determine the time and frequencies of visitor data synchronization, cookie data synchronization is used to synchronize and gather visitor data from several websites.. THIRD PARTY. Session. demdex.net 
+v3. Marketing. Used by PInterest to deliver a series of advertisement. THIRD PARTY. Session. ct.pinterest.com 
+AWSALB. Marketing. Registers which server cluster is serving the visitor. This is used in context with load balancing, in order to optimize user experience.. THIRD PARTY. 6 days. dcode.maisonmargiela.com 
+Analytical cookies (non-technical)
+COOKIE NAME. TYPE. DESCRIPTION. FIRST PARTY/THIRD PARTY. DURATION. PROVIDER 
+_ga. Statistics. Registers a unique ID that is used to generate statistical data on how the visitor uses the website.. FIRST PARTY. 2 years. maisonmargiela.com 
+_gat. Statistics. Used by Google Analytics to throttle request rate. FIRST PARTY. 1 day. maisonmargiela.com 
+_gid. Statistics. Registers a unique ID that is used to generate statistical data on how the visitor uses the website.. FIRST PARTY. 1 day. maisonmargiela.com 
+AMCV_#. Statistics. Unique user ID that recognizes the user on returning visits. FIRST PARTY. 2 years. maisonmargiela.com 
+AMCVS_#Adob eOrg. Statistics. This cookie is set to make split-tests on the website, which optimizes the website's relevance towards the visitor, the cookie can also be set to improve the visitor's experience on a website.. FIRST PARTY. Session. maisonmargiela.com 
+collect. Statistics. Used to send data to Google Analytics about the visitor's device and behavior. Tracks the visitor across devices and marketing channels.. THIRD PARTY. Session. google- analytics.com 
+dextp. Statistics. This cookie is set by the audience manager of the website to determine the time and frequencies of visitor data synchronization, cookie data synchronization is used to synchronize and gather visitor data from several websites.. THIRD PARTY. 179 days. demdex.net 
+dwanonymous _UID{32}. Statistics. This cookie contains a specific ID on the visitor in order to distinguish visitors. This information allows the website to remember the visitor's preferences, settings and secures the functionality of the shopping basket.. FIRST PARTY. 179 days. maisonmargiela.com 
+PugT. Statistics. Used to determine the number of times the cookies have been updated in the visitor's browser. Used to optimize the website's server efficiency.. THIRD PARTY. 29 days. pubmatic.com 
+s_cc. Statistics. Used to check if the user's browser supports cookies.. FIRST PARTY. Session. maisonmargiela.com 
+s_dfa. Statistics. Registers pages with the highest display frequency and what path the user has followed to get each page, with the purpose of optimising the website by making it easier to find any given content.. FIRST PARTY. 1 day. maisonmargiela.com 
+s_ppv. Statistics. Saves information on what vertical percentage of a page has been displayed to the user.. FIRST PARTY. Session. maisonmargiela.com 
+ActivityInfo2. Profiling. Tracking Cookie for the purpose of targeted advertising. THIRD PARTY. 3 months. serving-sys.com 
+OT_690. Profiling. Tracking Cookie for the purpose of targeted advertising. THIRD PARTY. Session. serving-sys.com 
+OT2. Profiling. Tracking Cookie for the purpose of targeted advertising. THIRD PARTY. 3 months. serving-sys.com 
+img/image-l.gif. Profiling. Analytical cookies that support the personalization of site content. Cookies also used to speed up the loading of pages.. THIRD PARTY. Session. img.riskified.com 
+lastRskxRun. Profiling. Analytical cookies that support the personalization of site content. Cookies also used to speed up the loading of pages.. THIRD PARTY. 4315 days. img.riskified.com 
+lastRskxRun. Profiling. Analytical cookies that support the personalization of site content. Cookies also used to speed up the loading of pages.. THIRD PARTY. Session. img.riskified.com 
+uid_bam. Profiling. Tracking Cookie for the purpose of targeted advertising. THIRD PARTY. 18 months. 30yearsbold.com 
+_al:*. Profiling. Absolute Labs sets these local storage keys to calculate visitor, session and other aggregate and anonymous characteristics for the site's analytical report. The cookie stores information anonymously and assigns a randomly generated number to recognize unique visitors.. FIRST PARTY. 1 year. Absolute Labs 
+ABTasty. Technical. Analytics cookies used by ABTasty to keep tracking A/B testing experiments data. "FIRST PARTY ". 13 months. maisonmargiela.com 
+ABTastySession. Technical. Analytics cookies used by ABTasty to keep track of user session. "THIRD PARTY". 30 minutes of inactivity. abtasty.com 
+Other social functionality (e.g., plugins)
+In addition to the above-mentioned cookies, the Site also incorporates plugins and buttons in order to allow the easy sharing of content on the following social networks: Facebook, Instagram, Twitter, YouTube. When the user visits a page of the Site that contains a plugin, the browser connects to the servers of the social network from which the plugin is loaded, which server can track the visit to the Site and, if appropriate, associate it with the social network account, particularly if the user is logged in at the time of the visit or has recently surfed one of the websites containing social plugins. If the user does not wish the social network to record data relating to the visit to the Site, he/she must log out of the social network account and delete the cookies that the social network has installed in the user's browser.
+In relation to certain activities, the Company and the social networks may also act as joint controllers, within the meaning of Article 26 of the GDPR, in particular when the Company, through a plugin, jointly determines with the social network the purposes and means of processing consisting of the collection and transmission of user data to the social network. In such cases, the Company adheres to the contractual conditions of the social network, which may include co-ownership agreements.
+In particular, with regard to the Facebook plug-ins, the Company and Facebook Ireland Ltd, 4 Grand Canal Square, Grand Canal Harbour, Dublin 2 Ireland act as joint controllers and the relevant joint ownership agreement ("Data Controller's Appendix") can be found at the following link: website_url_lnk Facebook Ireland is responsible for the data subjects' rights pursuant to Articles 15-20 of the GDPR in relation to the personal data stored by Facebook Ireland after joint processing. The following supervisory authority is responsible for Facebook: Data Protection Commission, 21 Fitzwilliam Square South, Dublin 2, D02 RD28, Ireland (website_url_lnk
+Finally, it should be noted that the possible joint ownership, in any case, does not extend to processing carried out by social networks in relation to which the Company does not determine the purposes and means of processing (e.g., operations carried out by the social network after the Site has communicated the User's data).
+With reference to the collection and use of information by social networks, please refer to their respective privacy policies.
+Facebook (link cookie policy).
+Instagram (link cookie policy).
+Twitter (link cookie policy).
+YouTube (link cookie policy).
+3 Data protection rights
+Every user is entitled to obtain from the Company, subject to the existence of the legal prerequisite underlying the request the access to personal data concerning him/her.
+Every user is entitled to obtain from the Company, subject to the existence of the legal prerequisite underlying the request the deletion of personal data.
+Every user is entitled to obtain from the Company, subject to the existence of the legal prerequisite underlying the request the rectification of personal data held by the Company.
+Every user is entitled to obtain from the Company, subject to the existence of the legal prerequisite underlying the request the revocation of consent in cases where processing is based on consent.
+Every user is entitled to obtain from the Company, subject to the existence of the legal prerequisite underlying the request the limitation of the processing of personal data.
+Every user is entitled to obtain from the Company, subject to the existence of the legal prerequisite underlying the request the copying of personal data provided by users to the Company, in a structured, commonly used and machine-readable format and the transmission of such personal data to another data controller.
+Right to object: in addition to the rights listed above, you always have the right to object at any time, on grounds relating to your particular situation, to the processing of your personal data carried out by the Company in pursuit of its legitimate interests and to the processing of your personal data for marketing purposes.
+In the event that the user exercises any of the aforementioned rights, it shall be the responsibility of the Company to verify that the user is entitled to exercise such rights and shall be informed, as a rule, within one month.
+If you believe that the processing of your personal data is in breach of the applicable data protection legislation, you have the right to lodge a complaint with the Italian Data Protection Authority, using the references available on the website website_url_lnk or to take legal action.
+4 Contacts
+The contact details of the Company, as data controller are company name: Maison Margiela S. A. S. U
+Registered office in France, 12, Place des Etats-Unis 75116, Paris.
+Telephone: +33 1.44.53.63.10
+Email: privacy@maisonmargiela.com
+In order to exercise your rights, you may contact the Company to the above address.
+The Company&'s DPO can be contacted at the following email address: dpo@otb.net
+Last update: May, 2022.
+Receive the Newsletter
+OK 
+Email address
+Woman Man Non-Binary
+Having read the Information notice, I authorize Margiela S.a.s.u. to the processing of my Personal Data for Marketing purposes as described in paragraph 3.1.b) of the information notice 
+Zip code
+Enter your zip code to see the estimated delivery date.
+Confirm
+Forgot your password?
+Enter the email address you registered with, and we will send you a link to reset your password.
+Email address 
+Reset Password 
+This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply. 
+Reset your password
+We have just sent you an email with the link to reset your password.
+Log in 
+View Bag View Wishlist 
+is-open class to display the modal 
+A note on cookies
+Continue without accepting
+To offer you a better experience, this site uses cookies and similar technologies. By selecting "Accept all" you agree to their use. For more information or to select your preferences click on "Monitoring Management" or read our Cookie Policy and Privacy Policy.
+Preferences Accept All
+alipayhkarrow-downarrow-leftarrow-rightarrow-upasleep-filledasleepbag-openbagbook-largebook-openbookbookmark-filledbookmark-large-filledbookmark-largebookmarkcalendarchatchevron-down-largechevron-downchevron-left-largechevron-leftchevron-right-largechevron-rightchevron-up-largechevron-upcicle-infocircle-attentioncircle-helpcircled-minuscircled-number-0circled-number-1circled-number-2circled-number-3circled-number-4circled-number-5circled-number-6circled-number-7circled-number-8circled-plusclockclosecolor-swatch-largecolor-swatchcommunication-mailcommunication-phonecopycorner-down-leftcorner-down-rightcredit-cardcubecursor-1cursordelivery-next-daydelivery-packagedelivery-same-day-filleddelivery-same-daydevice-phonedevice-printerdevice-tabletdevice-touch-downdevice-touchdots-verticaldownload-clouddownloadedit-alteditexchangeexternal-linkeye-closedeyefavicon-mm-stitchesfavicon-mmfavicon-mm6-stitchesfavicon-mm6flash-filledflashfullscreen-minimizefullscreengiftglossarygrid-filledgridhamburger-openhamburgerhangerhearthomeiconiginboxinfokeyslayout-dir-vlink-altlinklock-openlocklog-inlogo-applelogo-googlemeasuremicmousenotificationoverflow-menu-hoverflow-menu-vpausepay-affirmpay-alipayhkpay-allpaypay-amazonpay-amex-bwpay-amexpay-apple-bwpay-applepay-bancontactpay-bitcoinpay-bitcoincashpay-bitpayicons/pay/generalicons/pay/cartebluepay-cashondeliverypay-citadelepay-contantiallaconsegnaicons/pay/unionpaypay-diners-bwpay-dinersicons/pay/sofortpay-discover-bwpay-discoverpay-dwapplepaypay-elopay-ethereumpay-forbrugsforeningenpay-giropay-googlepay-idealpay-interacpay-jcb-bwpay-jcbpay-klarna-bwpay-klarnaicons/pay/klarnapay-lightcoinpay-maestropay-mc-bwpay-mcpay-noosapay-payoneerpay-paypal-bwpay-paypalpay-paysafeicons/pay/postepaypay-qiwipay-sepapay-shoppay-skrillpay-sofortpay-stripeicons/pay/switchpay-union-bwpay-unionpay-verifonepay-visa-bwpay-visapay-webmoneypay-wechaticons/pay/wiretransferpay-yandexpickup-dddpinplay-circledplayplayer-pip-minimizeplayer-pipplusreturnscissorssearch-reversesearchsendservice-dropboxservice-googlesidebar-activesidebar-hoversidebarsliderssmiley-frownsmiley-mehsmiley-smilesocial-instagramsocial-twittersocial-youtubestore-mapstore-pick-up-in-storestore-return-in-storestore-ship-from-storestore-ship-to-storestoresubtractsustainabilitytextticktrashtwupload-clouduser-adduser-removeuserusersvolume-mutedvolumewatchwcworldxyt

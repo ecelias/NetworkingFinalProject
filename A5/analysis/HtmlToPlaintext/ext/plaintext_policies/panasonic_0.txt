@@ -1,0 +1,190 @@
+Privacy Notice
+LAST UPDATED, July 29, 2024
+See previous versions of the Privacy Notice in our Notice Archives.
+This Privacy Policy for Panasonic Corporation of North America ("Panasonic", "we" or "us") explains how Panasonic collects, uses, and discloses information about you when you access or use our websites, mobile applications, and other products and services (collectively, the "Services"), contact our service team, engage with us on social media, or otherwise interact with us. 
+We may change this Privacy Policy from time to time. If we make changes, we will notify you by revising the date at the top of the policy and, in some cases, we may provide you with additional notice (such as adding a statement to our website homepage or sending you a notification). We encourage you to review the Privacy Policy whenever you access the Services or otherwise interact with us to stay informed about our information practices and the choices available to you.
+Contents & Summary
+Categories of Information We Collect
+Information You Provide to Us
+Information We Automatically Collect
+Derivative and Inferred Information
+Information We Collect from Other Sources
+Our Use of Information
+Disclosure of Information
+Social Sharing Features
+Cookies and Digital Tracking Technologies
+What is a Cookie?
+Where Do Cookies Come From?
+What Kind of Cookies Do Your Sites Use?
+How Do We Use Cookies?
+Third-Party Cookies
+How Can You Control Cookies?
+Sales of Information and Targeted Advertising
+Data Retention
+Transfer of Information to the U. S. and Other Countries
+Security Information
+Your Choices
+Your Choices: Location Information
+Your Choices: Promotional Communications
+Your Choices: Mobile Push Notifications/Alerts
+Children's Online Privacy
+Additional Information for Residents of California, Colorado, Connecticut, Utah, and Virginia
+Categories of Information we Collect
+Your Rights
+Individuals in the European Economic Area
+Legal Basis for Processing
+Contact Us
+Categories of Information we Collect
+Information You Provide to Us
+We collect information you provide directly to us. For example, you provide information to us when you create an account, participate in any interactive features of the Services, fill out a form, participate in a contest or promotion, make a purchase, communicate with us via third party social media sites, request customer support, send us an email, or otherwise communicate with us. 
+The types of information we have collected includes identifiers: You may provide us with unique identifiers associated with you depending on the nature of your interaction with us. For example, when you leave a comment on one of our social media accounts, you provide us with your social media handle or name.
+The types of information we have collected includes contact Information: When you order a product or service or request information from us, you may give us your name, email address, postal address, phone number.
+The types of information we have collected includes payment Data: If you make a purchase, we collect credit card numbers and other payment or billing information.
+The types of information we have collected includes security Information: If you create an account with us, you may provide us with credentials such as an email/username and password and other information used to authenticate your account such as answers to security questions.
+The types of information we have collected includes demographics: When you interact with us or our Services, you may also give us information such as your age range or date of birth, nationality, or gender.
+The types of information we have collected includes voluntary Communications: When you send us an email, make a customer service requests, respond to surveys, participate in website chats or social media posts, indicate likes, or send direct messages to our social media accounts, we collect the content of your communication. We also collect your information if you post, display and publish user content on any of our Services.
+The types of information we have collected includes photos, Video, and Other Multimedia Information: If you upload a photo for a profile image when creating an account, for example, or if you provide a photo or video at an event or as part of a contest or sweepstakes or to document a customer service issue, we collect those images.
+The types of information we have collected includes preferences: We may offer you the ability to tell us your communication preferences. In that case, we may collect your preferred communication method, language, time zone, and other relevant communications information.
+The types of information we have collected includes service Use Information: We collect information about your use of the Services, such as the search terms you enter.
+When we ask you to provide certain information, you may decide not to provide it (such as not entering a credit card to complete a purchase). If the information withheld is necessary for certain products or services, we may not be able to provide those products or services, or they might not be fully functional or available for use. 
+Information we Automatically Collect
+When you access or use our Services or transact business with us, we automatically collect information about you, including transactional Information: When you make a purchase or return, we collect information about the transaction, such as product details, purchase price, and date and location of the transaction.
+When you access or use our Services or transact business with us, we automatically collect information about you, including log and Usage Information: We collect log information about your use of the Services, including the type of browser and operating system you use, the domain and host from which you access the internet, access times, pages viewed, web browsing history, your IP address, and the page you visited before navigating to our Services. Additionally, when you enter any password-protected area of a website, our website will recognize you and collect information that you submit. This form of data collection may be performed by authentication tokens tied to user accounts created by an integrated third-party user database.
+When you access or use our Services or transact business with us, we automatically collect information about you, including device Information: We collect information about the computer or mobile device you use to access our Services, including the hardware model, operating system and version, unique device identifiers and tokens, unique identifier headers, mobile network information, and other information that identifies you as the user of the device or the person providing information to us.
+When you access or use our Services or transact business with us, we automatically collect information about you, including location Information: In accordance with your device permissions, we may collect information about the precise location of your device. You have the ability to stop the collection of precise location information at any time (see Your Choices below for details).
+When you access or use our Services or transact business with us, we automatically collect information about you, including audiovisual Information: Our facilities are equipped with security cameras, which record video and audio of inside and outside our premises. We may also record your calls or other or other communications with us with your consent where required by law.
+When you access or use our Services or transact business with us, we automatically collect information about you, including information Collected by Cookies and Similar Tracking Technologies: We use different technologies to collect information, including pixels, web beacons, cookies, and plug-ins. For more detailed information about our use of cookies, please see Cookies and Digital Tracking Technologies below.
+Derivative and Inferred Information
+We may create new information from the sources described above. For example, this new information may be in the form of inferences regarding your preferences or habits.
+Information We Collect from Other Sources
+We may obtain information from other sources and combine that with information we collect directly from you. For example, we may collect information about you from third parties, including but not limited to identity verification services, credit bureaus, mailing list providers, and publicly available sources. Additionally, if you create or log into your account through a social media site, we will have access to certain information from that site, such as your name, account information, and friends lists, in accordance with the authorization procedures determined by such social media site.
+Our Uses of Information
+We use the information we collect to deliver the products and services you request.
+We use the information we collect to customize your experience with us.
+We use the information we collect to administer your account.
+We use the information we collect to target advertisements based on your interests.
+We use the information we collect to deliver marketing communications to you (with your permission where required by law).
+We use the information we collect to understand how you interact with ads. Send you technical notices, updates, security alerts, and support and administrative messages and to respond to your comments, questions, and customer service requests.
+We use the information we collect to analyze the success of our Services.
+We use the information we collect to better understand the needs and interest of our customers.
+We use the information we collect to manage the website's interactive functionality.
+We use the information we collect to communicate with you about products, services, offers, and events offered by Panasonic and others, and provide news and information we think will be of interest to you (see Your Choices below for information about how to opt out of these communications at any time).
+We use the information we collect to monitor and analyze trends, usage, and activities in connection with our Services.
+We use the information we collect to comply with Panasonic's legal and regulatory obligations.
+We use the information we collect to detect, investigate and prevent breaches of the Terms and Conditions, fraudulent transactions and other illegal activities, and protect the rights and property of Panasonic and others.
+We use the information we collect to personalize and improve the Services.
+We use the information we collect to facilitate contests, sweepstakes, and promotions and process and deliver entries and rewards; and
+We use the information we collect to carry out any other purpose described to you at the time the information was collected.
+Disclosure of Information
+We may disclose the categories of personal information described above as follows or as otherwise described in this Privacy Policy with vendors, consultants, and other service providers who need access to such information to carry out work on our behalf, regardless of whether you have chosen to limit our sharing of your information as collected on our website.
+We may disclose the categories of personal information described above as follows or as otherwise described in this Privacy Policy in response to a request for information if we believe disclosure is in accordance with, or required by, any applicable law or legal process, including lawful requests by public authorities to meet national security or law enforcement requirements.
+We may disclose the categories of personal information described above as follows or as otherwise described in this Privacy Policy if we believe your actions are inconsistent with our user agreements or policies, or to protect the rights, property, and safety of Panasonic or others.
+We may disclose the categories of personal information described above as follows or as otherwise described in this Privacy Policy in connection with, or during negotiations of, any merger, sale of company assets, financing or acquisition of all or a portion of our business by another company.
+We may disclose the categories of personal information described above as follows or as otherwise described in this Privacy Policy between and among Panasonic and our current and future parents, affiliates, subsidiaries, and other companies under common control and ownership; and
+We may disclose the categories of personal information described above as follows or as otherwise described in this Privacy Policy with your consent or at your direction.
+Panasonic requires its vendors, consultants, and service providers that have access to your information to maintain the confidentiality of your information and to comply with the safeguards provided in this Privacy Notice. We also provide our vendors, consultants, and service providers with our opt-out lists so that communications sent on behalf of Panasonic are not sent to those who request to opt-out of our communications.
+During the past 12 months, we disclosed identifiers such as IP addresses, internet and other electronic network activity information, device information, mobile network information, pages viewed, time spent on pages or in apps, links clicked, conversion information, and data that may be deemed sensitive, such as precise geolocation information and payment information to our advertising partners, payment processors, platform partners, installers, distributors and resellers. This practice is discussed further below. Panasonic may disclose aggregated statistics about visitors to its website, along with anonymous information collected from other sources. We may also disclose aggregated or de-identified information with third parties (such as advisors, promotional sponsors, and investors), which cannot reasonably be used to identify you, for various business purposes, including conducting general business analysis and developing website content and services.
+Social Sharing Features
+The Services may offer social sharing features and other integrated tools (such as the Facebook "Like" button), which let you share actions you take on our Services with other media, and vice versa. Your use of such features enables the sharing of information with your friends or the public, depending on the settings you establish with the entity that provides the social sharing feature. For more information about the purpose and scope of data collection and processing in connection with social sharing features, please visit the privacy policies of the entities that provide these features.
+Cookies and Digital Tracking Technologies
+We use cookies, web beacons, pixels, tags, trackers, and similar digital technologies ("Cookies") to operate and to help collect data on our Sites and from our promotional email messages, newsletters and blogs. Here, you will also discover ways to control these technologies if you wish.
+What is a Cookie?
+Cookies are small text files, like a small note, that a website leaves on your computer. It helps the website remember who you are and what you did there if you visited before. For example, if you put items in a shopping cart in an online store, the cookie remembers those items for you. This way, when you come back later, the website still knows what you added to your cart. They help websites keep track of your visits and make your experience better and more personal.
+Where Do Cookies Come From?
+Some of our Cookies are controlled directly by us. Others are controlled by third parties we hire to help us with our Sites and our business operations. Third-Party Cookies help our Sites display embedded videos, maps, plug-ins, or ads provided by a third party (not us) ("Third-Party Content"). Note that when your you view Third-Party Content, your web browser (Google Chrome, Safari, Microsoft Edge, etc.) connects to a third party's web server or web beacon to retrieve that content enabling the third party to set or read its own Cookies on your device and may collect information about your online activities over time and across different websites or online services that also contain that third party's content or web beacons.
+What Kind of Cookies Do Your Sites Use?
+Different Cookies do different things. Some are essential to the operation of a Site; Others are not. The different types of Cookies we use are necessary Cookies, These are cookies that are required for the operation of our website. They include, for example, cookies that enable you to log into secure areas of our website, use a shopping cart or make use of e-billing services.
+Different Cookies do different things. Some are essential to the operation of a Site; Others are not. The different types of Cookies we use are performance Cookies, These allow us to recognize and count the number of visitors and to see how visitors move around our website when they are using it. This helps us to improve the way our website works, for example, by ensuring that users are finding what they are looking for easily.
+Different Cookies do different things. Some are essential to the operation of a Site; Others are not. The different types of Cookies we use are functional Cookies, These are used to recognize you when you return to our website, enabling us to personalize our content for you, greet you by name and remember your preferences (for example, your choice of language or region).
+Different Cookies do different things. Some are essential to the operation of a Site; Others are not. The different types of Cookies we use are sale of Personal Data, These cookies record your visits to our website, the pages you have visited and the links you have followed. We will use this information to make our website and the advertising displayed on it more relevant to your interests. We may also share this information with third parties for this purpose.
+To learn more about the Cookies we use in each of these categories, please see here.
+To learn more about how we use Cookies, please read How Do We Use Cookies below.
+To learn more about third-party Cookies, please read Third-Party Cookies below.
+How Do We Use Cookies?
+We use Cookies to improve your experience on our Sites and help them function, for example, by storing your preferences and settings
+We use Cookies to improve your experience on our Sites and help them function, for example, by authenticating your account and making account logins faster and easier. (These cookies are typically removed or cleared when you log out for the security of your account.)
+We use Cookies to improve your experience on our Sites and help them function, for example, by detecting and preventing fraud or ensuring adequate security
+We use Cookies to improve your experience on our Sites and help them function, for example, by personalizing your experience on our Sites so you can see products you've viewed or searched for on prior visits to our Sites
+We use Cookies to improve your experience on our Sites and help them function, for example, by enabling automatic completion of online forms
+We use Cookies to improve your experience on our Sites and help them function, for example, by making sure your online shopping cart saves your items
+We use Cookies to help us understand how you use our Sites so we can make them better, for example, by counting the number of users to our Sites and the pages within our Sites so we can ensure a Site doesn't get overwhelmed with visitors, which would cause it to shut down.
+We use Cookies to help us understand how you use our Sites so we can make them better, for example, by analyzing how our Sites perform such as how fast a page or image loads.
+We use Cookies to help us understand how you use our Sites so we can make them better, for example, by learning how people navigate between pages or how they got to our Sites from other places on the Internet.
+We use Cookies to help us understand how you use our Sites so we can make them better, for example, by discovering what content on our Sites is in highest demand so we can deliver more of that kind of content and less of the content that isn't as popular.
+We use Cookies to help us understand how you use our Sites so we can make them better, for example, by tracking performance of third-party content such as embedded videos, maps, plug-ins, or ads and your interaction with this content to determine its effectiveness.
+We also use Cookies to help us with our marketing efforts. This is achieved through our use of third-party marketing Cookies, which you may learn more about below.
+Third-Party Cookies
+Analytics/Statistics Cookies
+We use Google Analytics and other Google services, to support the operation and performance of our Sites and to analyze your interactions and experiences on our Sites, including the Site features you use, how you navigate, and your click/touch, movement, scroll, and keystroke activity.
+You can find out how Google Analytics uses data here and how to opt out of Google Analytics here. For more information on how Google uses data when you use our websites, click here.
+You can also find more information on other third-party analytics cookies here.
+For more information about the privacy practices of the other listed companies, please review their privacy policies.
+Marketing Cookies
+We also use third party advertising Cookies to deliver advertisements, to make them more relevant and meaningful to you, and to track the effectiveness of our advertising campaigns, both on our Sites and on other websites (including social media platforms) or mobile apps. Our third-party advertising partners may use these cookies to build a profile of your interests and deliver relevant advertising on other sites.
+Some advertising partners use affiliate tracking cookies so we can tell if you have come to a Site from one of our partner sites so that we can give them credit for the referral of Site traffic or sales that result from your visit.
+Social Media Cookies
+Social Media Cookies are a type of Marketing Cookie. In some cases, we may provide you with custom content based on what you tell us about yourself either directly or indirectly by linking a social media account. These types of cookies simply allow us to provide you with content that we feel may be of interest to you.
+On some of our Sites you may see "social buttons". These enable users to share or bookmark web pages or access our content on these social media sites. These buttons include but not limited to: Snapchat, Reddit, X, Instagram, Vimeo, Facebook, LinkedIn, and YouTube. You may also find other regional or language-specific social media buttons. By clicking on any of these buttons, the Site will register your click.
+Please be aware that when you are logged-in to the services of a social media sites they may also be collecting information about your browsing habits, including when on our Sites, even if you do not click on a social button. Read the privacy and cookie notices on these sites to learn how they use your information and how to opt-out or delete such information.
+You can view our third-party social media and marketing partner Cookies here.
+How Can You Control Cookies?
+You may be able to adjust your Cookie settings on your browser or device in addition to the settings we make available to you on our Sites. 
+Browser Settings
+Your browser may provide you with the option to refuse some or all non-essential browser cookies ("Do Not Track"). We currently do not support Do Not Track browser settings but are committed to supporting it in the future once there is a consistent industry standard for compliance. Meanwhile, you may also be able to manually remove cookies from your browser. For more information about how to manage browser cookies, please follow the instructions provided by your browser.
+Device Identifier Settings
+Your device operating system may let you opt-out from having certain device identifiers used for interest-based advertising. You should refer to the instructions provided by your mobile device's manufacturer; this information is typically available under the "settings" function of your mobile device.
+Website Settings
+You can also customize which cookies may be set by using our cookie menu, accessible by clicking "Cookie Settings" below.
+Manage Your Cookies 
+To change your cookie preferences, to opt in or out of specific cookie types, please click below. 
+Cookie Settings 
+CONTACT US
+For any queries in relation to this Cookie Notice, please contact us at privacy@us.panasonic.com. You may also call us at (800) 704-1257.
+Sale of Information and Targeted Advertising
+Under some state laws, our use of third-party cookies for marketing and online advertising may be a "sale" of information. We do not sell or share sensitive information or the information of consumers under 16 years of age.
+You always have full control over whether these technologies work on your devices. You can disable them entirely by clicking the "Do Not Sell My Data" link on our websites.
+Data Retention
+We keep information related to your use of Services for as long as necessary to provide the products and services you have requested, fulfill your requests, comply with our legal obligations, resolve disputes, enforce our agreements, and other legitimate and lawful business purposes. Factors that help determine how long we keep information include whether your information is reasonably necessary to manage our operations or our relationship with you, to protect or defend our rights, property, or people; to comply with laws and regulations. or retain evidence of legal compliance. Because the need to retain data depends on the transactions and contexts of the data collection and uses, specific retention periods will vary. Multiple retention periods may also apply. Where information is used for more than one purpose, we may retain it until the purpose with the latest period expires.
+Transfer of Information to the U. S. and Other Countries
+Panasonic is based in the United States, and we process and store information in the U. S. Our websites are intended for users in the United States and its territories and possessions, but if you use the websites from any country outside the United States, the various communications will necessarily result in the transfer of information across international boundaries, and by visiting the Website, you consent to these transfers as required or permitted by applicable law. Therefore, we and our service providers may transfer your information to, or store or access it in, jurisdictions that may not provide equivalent levels of data protection as your home jurisdiction. We will take steps (such as implementing contractual safeguards) to ensure that your personal data receives an adequate level of protection in the jurisdictions in which we process it. For more information on the appropriate safeguards in place and to obtain a copy of such safeguards, please contact us at the details below.
+Security of Information
+While no systems, applications, or websites are 100% secure, we take reasonable and appropriate steps to help protect information from unauthorized access, use, disclosure, alteration, and destruction.
+To help us protect this information, we request that you use a strong password and never disclose your password to anyone or use the same password with other sites or accounts.
+Your Choices
+In some circumstances, you may have the right to object to Panasonic's use of your information. If you wish to delete or deactivate your account, please email us at privacy@us.panasonic.com, call us at (800) 704-1257, or submit your request to website_url_lnk but note that we may retain certain information as required by law or for legitimate business purposes. We may also retain cached or archived copies of information about you for a certain period of time
+Location Information
+When you first launch any of our mobile applications that collect location information, you will be asked to consent to the application's collection of this information. If you initially consent to our collection of location information, you can subsequently stop the collection of this information at any time by changing the preferences on your mobile device. If you do so, our mobile applications, or certain features thereof, may no longer function properly. You may also stop our collection of location information by following the standard uninstall process to remove all of our mobile applications from your device.
+Promotional Communications
+You may opt out of receiving promotional emails from Panasonic by following the instructions in those emails or by emailing privacy@us.panasonic.com. You may also call us at (800) 704-1257. If you opt out, we may still send you non-promotional emails, such as those about your account or our ongoing business relations.
+Mobile Push Notifications/Alerts
+With your consent, we may send promotional and non-promotional push notifications or alerts to your mobile device. You can deactivate these messages at any time by changing the notification settings on your mobile device.
+Children's Online Privacy
+You must be at least 18 years of age to use our website or Services. Panasonic does not knowingly collect, sell, share, or maintain any information from children under the age of 16, and no part of our website is designed with the purpose of attracting such children.
+Additional Information for Residents of California, Colorado, Connecticut, Utah and Virginia
+In certain U. S. states, you have additional rights under applicable state privacy laws, including the California Consumer Privacy Act as amended by the California Privacy Rights Act, the Colorado Privacy Act, the Connecticut Data Privacy Act, the Utah Consumer Privacy Act and the Virginia Consumer Data Protection Act. 
+Categories of Information we Collect
+To understand the information we have collected in the past year, please see Categories of Information We Collect.
+To understand how we use that information, who we share it with, and how long we keep it, please see Our Uses of Information, Disclosure of Information, and Data Retention.
+Your Rights
+These state privacy laws give resident users various rights with respect to the information we collect, including the right to (subject to applicable law and certain limitations) right to Access. You may be entitled to request that we disclose to you the specific pieces of your information that we have collected about you in a portable and, to the extent technically feasible, readily usable format.
+These state privacy laws give resident users various rights with respect to the information we collect, including the right to (subject to applicable law and certain limitations) right to Know. You may have the right to confirm that we have collected information about you and know what information we have collected about you, including, as applicable, the categories of information we have collected, the sources from which we collected that information, the business or commercial purposes for which we collected, sold, and shared that information, the categories of information that we sold, shared, or disclosed to third parties for business purposes and the categories of third parties to whom we sold, shared or disclosed information.
+These state privacy laws give resident users various rights with respect to the information we collect, including the right to (subject to applicable law and certain limitations) right to Deletion. You may be entitled to request that we delete the information that we have collected from you. We will use commercially reasonable efforts to honor your request, in compliance with applicable laws. Please note, however, that we may need or be required to keep such information, such as for our legitimate business purposes or to comply with applicable law.
+These state privacy laws give resident users various rights with respect to the information we collect, including the right to (subject to applicable law and certain limitations) right to Limit the Processing of Sensitive Information. We process sensitive information only for those purposes expressly authorized under applicable law.
+These state privacy laws give resident users various rights with respect to the information we collect, including the right to (subject to applicable law and certain limitations) right to Correct. You may request that we correct information that we hold about you.
+These state privacy laws give resident users various rights with respect to the information we collect, including the right to (subject to applicable law and certain limitations) right to Opt-Out of Sales and Sharing of Information. You may be entitled to opt out of sales of your information to third parties and to opt out of the disclosure of your information to third parties for certain targeted advertising. To opt out of the selling or sharing of your information, click the "Do Not Sell My Data" link on our websites or at website_url_lnk
+These state privacy laws give resident users various rights with respect to the information we collect, including the right to (subject to applicable law and certain limitations) right to Opt-Out of Profiling. You may be entitled to opt out of certain processing that has legal or similarly significant effects on you.
+These state privacy laws give resident users various rights with respect to the information we collect, including the right to (subject to applicable law and certain limitations) right to Non-Discrimination. You have the right not to receive discriminatory treatment if you exercise the rights conferred to you by applicable privacy law.
+If you would like to request to exercise one of these rights, please contact us at privacy@us.panasonic.com. You may also call us at (800) 704-1257, or submit your request to website_url_lnk
+To process your requests to access, know, delete, or correct the information, we must be able to verify your identity to a reasonable degree of certainty. To verify your identity, we will ask you to provide your contact information and additional identifiers based on your relationship with us. Before we process your request, we will match these data points with data points we currently maintain to verify your identity and your relationship with us.
+When you use an authorized agent to submit a request, you must provide the authorized agent with written permission to do so, and, in certain circumstances, we may ask you to verify your own identity directly with us. We may deny a request from an authorized agent that does not submit proof that they have been authorized by you to act on your behalf. Authorized agents may use the channels listed above to submit requests.
+Certain states provide a right to appeal decisions we make relating to your request to exercise your rights. Please contact us if you would like to appeal a decision.
+Individuals in the European Economic Area
+We are a business based in the United States that conducts business in North America. We do not conduct business in the European Economic Area (EEA). If you provide us with your information, we will process it according to the Privacy Notice. If you are in the European Economic Area ("EEA"), you have certain rights and protections under the law regarding the processing of your personal data.
+Legal Basis for Processing
+If you are in the EEA, when we process your personal data, we rely on the following legal bases: we need to use your personal data to perform our responsibilities under our contract with you (e.g., processing payments for and providing the products or services you have requested).
+If you are in the EEA, when we process your personal data, we rely on the following legal bases: we have a legitimate interest in processing your personal data. For example, we may process your personal data to send you marketing communications, to communicate with you about changes to our products and Services, to exercise our legal rights where it is necessary to do so, and to provide, secure, and improve our products and Services.
+If you are in the EEA, when we process your personal data, we rely on the following legal bases: we have a legal or regulatory obligation to process the information.
+If you are in the EEA, when we process your personal data, we rely on the following legal bases: we have your consent to do so. When consent is the legal basis for our processing, you may withdraw such consent at any time.
+Please note that by "legitimate interest" we mean the interest of our business in conducting and managing our business to enable us to give you or others the best service, provide the information you are requesting from us, expand or enhance our business, or protect our rights. We consider and balance any potential impact on you (both positive and negative) and your rights before we process your personal data for our legitimate interests. You can obtain further information about how we assess our legitimate interests against any potential impact on you in respect of specific activities by contacting us at the details below.
+Contact Us
+If you have any questions about this Privacy Policy, please contact us at: privacy@us.panasonic.com. You may also call us at (800) 704-1257.

@@ -1,0 +1,78 @@
+Skip To Main Content
+Privacy Notice Supplement for Residents of Certain States
+By
+Last Updated December 8, 2023
+California, Colorado, Connecticut, Utah, and Virginia have enacted consumer privacy laws that grant their residents certain rights and require additional disclosures ("State Laws"). This page supplements the Intel Privacy Notice to provide residents of these states information required under the State Laws and serves as our California notice at collection.
+Last Updated December 8, 2023
+California, Colorado, Connecticut, Utah, and Virginia have enacted consumer privacy laws that grant their residents certain rights and require additional disclosures ("State Laws"). This page supplements the Intel Privacy Notice to provide residents of these states information required under the State Laws and serves as our California notice at collection.
+Collection, Use, and Disclosure of Personal Information
+The Intel Privacy Notice describes how Intel collects, uses, and discloses information about you. Below, we use two different tables to explain this same information in accordance with the State Laws. The tables describe our data practices now and over the past 12 months.
+Categories of Personal Information. Categories of Sources of Collection. Categories of Recipients. Use of Personal Information 
+Identifiers (such as name, email address, unique device identifier, or other online identifier).
+Commercial information (such as purchase history).
+Characteristics of protected classes under California or U. S. law (such as your age and other demographic information).
+Internet or other electronic network activity information (such as browser type, language and time zone).
+Geolocation data (such as city of residence and approximate location based on your IP address).
+Audio and visual information (such as CCTV footage at our offices or events and recordings of customer service calls).
+Professional or employment-related information.
+Education information.
+Other information that relates to or is capable of being associated with an individual (such as, certain information you submit in response to a survey).
+Inferences (such as products you may be interested in based on your browsing history on Intel websites).
+As detailed in the Intel Privacy Notice, Intel collects personal information directly from you (such as, when you subscribe to a newsletter or create an account).
+As detailed in the Intel Privacy Notice, Intel collects personal information automatically through device and product operations.
+As detailed in the Intel Privacy Notice, Intel collects personal information from other sources (such as business partners that deploy the Intel Services).
+Affiliates and subsidiaries.
+Vendors and suppliers such as: product delivery services; hosting platforms; data analytics providers; payment and financing processors; and customer support providers.
+Business partners such as those we work with to: host and sponsor events; offer joint promotions; or enable joint products or research studies.
+The public or other users if you choose to post information on parts of Intel Services like message boards or blogs where others can view it.
+Legal authorities such as law enforcement to comply with any applicable law or legal process, including lawful requests by public authorities to meet national security requirements.
+To communicate with you, including to: send messages; ship products and process payments; respond to customer service requests; provide alerts such as security updates or changes in our policies or about subscriptions that are ending; and to send marketing communications and informational materials.
+To conduct surveys, offer contests or sweepstakes or do focused research or studies.
+For business operations, including: to perform accounting, auditing, billing, reconciliation, and collection activities; for crime or fraud monitoring and prevention, protecting our legal rights, and performing contractual obligations.
+For functionality, development, and improvement, such as: to provide network connectivity, measure usage levels of Intel Services, diagnose server problems and provide security features; data analysis related to testing, modifying, improving or developing new products, services, and technologies and to identify trends.
+For product updating and reporting.
+View all Show less 
+Personal Information that we "Share," "Sell," or Use for "Targeted Advertising"
+We disclose the following categories of personal information to third parties for the purpose of engaging in targeted advertising and similar activities, including to expand the reach and effectiveness of our marketing campaigns. These disclosures may be considered "sales" or "sharing" or use of personal information for "targeted advertising" as such terms are defined under certain State Laws.
+Categories of Personal Information "Shared," "Sold," or used for "Targeted Advertising". Categories of Third Parties 
+Identifiers (such as a hashed version of your email address)
+Commercial information (such as purchase information) 
+Internet and electronic network activity information (including information from cookies)
+Inferences (such as products you may be interested in)
+Advertising and marketing networks
+Social networks
+View all Show less 
+Other Details About Our Information Practices
+We do not knowingly sell or share personal information about consumers under the age of 16.
+We retain personal information for the period necessary to provide requested Intel Services, as needed to comply with legal obligations (e.g., maintaining opt-out lists to fulfill advertising and marketing choices or to comply with mandatory record retention or legal hold requirements), as agreed in an individual consent, to resolve disputes, and to otherwise fulfill the purposes, rights, and obligations outlined in the Intel Privacy Notice.
+When Intel receives de-identified information from third parties, Intel will not use that information to attempt to re-identify any individuals. Similarly, when Intel discloses de-identified information to third parties, Intel requires a contractual commitment from those third parties to not attempt to re-identify any individuals.
+Privacy Rights
+Access, Correction, and Deletion. You have the right to: request to know more about and access your personal information, including in a portable format; request deletion of your personal information; and request correction of inaccurate personal information. You can request access to, or correction or deletion of, your personal information by using the Intel Data Privacy Request Form or by sending an email to dataprotectionofficer@intel.com. We may verify your request by asking you to verify your email address or provide information related to your recent interactions with us.
+Opting Out of Sales, Sharing, and Targeted Advertising. You also have the right to opt out of "sharing," "sales," and use of your personal information for "targeted advertising". You may opt out by clicking on the "Your Privacy Choices" link in the footer of that website and following the instructions in the pop-up window. Note that you will need to renew this opt-out choice if you visit our website from another device or browser or if you clear your cookies because your opt-out choice will be linked to your browser only.
+You can also opt out by visiting our website with a legally recognized opt-out preference signal enabled, such as the Global Privacy Control.
+Nondiscrimination. We will not discriminate against you for exercising your privacy rights.
+Authorized Agents. You can designate an authorized agent to make a privacy rights request on your behalf in certain circumstances. Intel may ask authorized agents to submit proof of their authority to make a request, such as proof that the agent has signed permission from the individual who is the subject of the request. In some cases, we may contact the consumer to verify their identity or confirm the authorized agent has permission to submit the request. If you are an authorized agent seeking to make a request, please complete this form.
+Appeals. If Intel denies your request, you may appeal our decision by contacting us as set forth in the Contact Us section below. If you have concerns about the results of an appeal, you may contact the attorney general in the state where you reside.
+Notice of Financial Incentives
+We may provide discounts, rewards, exclusive offers, or other benefits to individuals who participate in a promotional campaign. These offerings may constitute "financial incentives" or "bona fide loyalty programs" under certain state privacy laws (for simplicity, we refer to these collectively as "financial incentives"). If you decide to participate in a financial incentive, we collect personal information from you, such as identifiers (like your name and email address), commercial information (like information about purchases you have made), and inferences. We may disclose this information to our service providers, contractors, and consultants who perform services on our behalf and to our marketing and advertising partners, including for the purpose of engaging in targeted advertising and other marketing activities. You can opt into a financial incentive by following the sign-up or participation instructions provided, and you have the ability to opt-out at any time by following the instructions set forth in the applicable promotional campaign or by contacting us as set forth below. If you request that we delete any of your personal information that is essential to providing you with the financial incentive, we will not be able to provide you with the benefits of that program. In some cases, we may provide additional terms and conditions, which we will provide to you when you sign up. The value of your personal information is reasonably related to the value of the offer or discount presented to you.
+Contact Us
+Should you have any further questions, please use the appropriate contact method below, or use the Contact Us details at the end of the Intel Privacy Notice to exercise your privacy rights such as accessing, deleting, or correcting your personal information as described in this supplement, please submit your request here.
+Should you have any further questions, please use the appropriate contact method below, or use the Contact Us details at the end of the Intel Privacy Notice to ask a question or otherwise contact us about a privacy-related matter, please use this form.
+You can also contact the Intel Privacy Office by email. Please include your contact information and a detailed description of your privacy request or privacy concern.
+Collection, Use, and Disclosure of Personal Information
+Other Details About Our Information Practices
+Privacy Rights
+Notice of Financial Incentives
+Contact Us
+Get Help
+The browser version you are using is not recommended for this site. 
+Please consider upgrading to the latest version of your browser by clicking one of the following links.
+Safari
+Chrome
+Edge
+Firefox
+Collection, Use, and Disclosure of Personal Information
+Other Details About Our Information Practices
+Privacy Rights
+Notice of Financial Incentives
+Contact Us

@@ -1,0 +1,56 @@
+Privacy Topics 
+Cookie Policy 
+Cookie Policy
+Acer Inc., of 8F, No. 88, Sec. 1, Xin Tai 5th Road, Xizhi, New Taipei City 221, Taiwan, R. O. C. and its group of companies around the world (including but not limited to its affiliated brands Gateway and Packard Bell, a list of which can be found at website_url_lnk (collectively, "Acer", "our" or "we") respect the privacy of our customers and online visitors. We hereby inform You as follows. 
+What are cookies
+Cookies are small files, generally of letters and numbers, downloaded onto a device when users access the websites. They are widely used in order to make websites work, or for the website to work more efficiently. Cookies are created when a user's browser loads a particular website. The website sends information to the browser which then creates a text file. Every time the user goes back to the same website, the browser retrieves and sends this file to the website's server. Cookies have several functions, including, among others, collecting information of and remembering users' preferences, using shopping cart, and generally facilitating users' use of the website. 
+We use cookies to perform certain functions, namely facilitate your navigation on our website and the use of its features so as to providing you with a seamless experience.
+We use cookies to perform certain functions, namely improve our website.
+We use cookies to perform certain functions, namely provide you with more personalized features when surfing our website.
+We use cookies to perform certain functions, namely deliver targeted advertising.
+We use cookies to perform certain functions, namely collecting information about how you use our website in order to provide you with a better experience by measuring which areas of our website are of greatest interest to you or to remember you when you return to visit us. 
+We use cookies to perform certain functions, namely These cookies are listed below: 
+Type 1: Strictly necessary cookies
+These cookies are required in order for users to surf on our website and use its features, which include, inter alia, access to secure area without having to repeatedly log in and remembering your actions in each page during one session.. 
+PLEASE NOTE: Without these cookies, we can guarantee neither the performance of our website nor the on-line security during your sessions. 
+Type 2: Personalization cookies
+These cookies allow us to remember the choices which users make on our website, e.g., user name, language and their preferences. With this information, we can provide more personalized features to our users when surfing our website. 
+Authentication 
+We use cookies to verify your account and determine when you're logged in so we can make it easier for you to access the Acer Services and show you the appropriate experience and features. For example: We use cookies to keep you logged in as you navigate between Acer pages. Cookies also help us remember your browser so you do not have to keep logging into Acer and so you can more easily log into Acer via third-party apps and websites. 
+Type 3: Performance and Analytics cookies
+We use performance cookies, primarily Google Analytics cookies and Microsoft Clarity cookies, to collect information about how users use our website. We collect information such as the part of the webpage clicked, number of webpages visited, length of time of each session, and error messages (if any) with the purpose of improving our website and providing users with a better experience. For more information on Google Analytics, please click here. For additional information on Microsoft Clarity, please click here. 
+If you would like more information about the privacy policy of the Google Analytics' service, please click here. For Microsoft Clarity's privacy policy, please click here. 
+It is important to note that we have configured Google Analytics' and Microsoft Clarity's services in such a way so as to avoid your identification by masking the IP address of any user browsing our website. 
+Type 4: Targeting and advertising cookies of third parties
+When you browse on our website, some of these cookies/pixels may be placed onto your computer and used by third parties with permission for advertising purposes. It occurs when the website you visit includes content displayed from a third party website or click the "share" button on our website, and your computer receives cookies from the third party. 
+These third parties include social media providers such as Facebook and YouTube, which provide services to both our users and us. These cookies enable the third parties to collect and store information such as user preferences and pages visited for advertising purposes or improvement of services. 
+Please note that we have no control over these cookies from third parties and we shall therefore not be liable in this respect. Please refer to these third party websites for their respective cookie policies. 
+Facebook 
+Marketo Inc. 
+Youtube 
+Please, note that our website also makes use of the Google AdWords service for remarketing purposes but, as already said above, we have no control over these cookies and we shall therefore not be liable in this respect. If you want to prevent such kind of cookies, please disable them at this link: website_url_lnk 
+Type 5: Acer ID Account Cookie
+If you are a registered user and login to our websites with your AcerID, the information collected from our websites is not anonymous and we may use this information along with other information we know or infer about you, including your preferences to tailored content, services, advertising and offers for you. If applicable laws require so, we will send you direct e-mails only upon your consent. 
+How to prevent or manage cookies
+You have the option to accept or adjust the categories of cookies you allow us to place on your browser through our Cookie Preference Center. You can modify these settings or withdraw your consent at any time by visiting our Cookie Preference Center. Your consent is valid for 12 months, after which you will be prompted to update your preferences. 
+If you want to disable one or more cookies used by our website, you may also express your choice through the third parties' consent forms that you can find at the web addresses we are providing you with under this Cookie Policy. 
+In addition, please be informed that you may prevent cookies by changing your browser settings. If you consent to our use of cookies but later wish to opt out, you may delete the cookies which have been set and change your browser settings to block any further cookies. For more information about control of cookies, please visit 
+website_url_lnk 
+support.microsoft.com 
+support.mozilla.org 
+support.google.com 
+support.apple.com 
+which provide information on managing settings for major browser providers. 
+Turn off anonymous Google Analytics cookies: You can install Google Analytics browser "plug in" to prevent the website sending information about your visit to Google Analytics. For further information please visit tools.google.com/dlpage/gaoptout
+PLEASE NOTE: As cookies are intended to enhance or enable the usability and processes of our website, preventing or deleting cookies may prevent our users from using the features on our website, or cause the website to perform differently in your browser from what it is designed to perform. 
+Web Push Notification:
+In addition, our website offers the web push notification service, which allows you to receive alerts concerning our products and services, offers and promotions. Alerts will be provided through banners on your desktop and mobile desktop, on condition that you have granted your prior consent by clicking the relevant button on the pop-up window that appeared on your browser when you first accessed our website. In order not to receive the alerts, you can deny your consent by clicking the relevant button on the same pop-up window. 
+Once you have made your choice, a cookie will be generated to store your preference. In any case, you can disable the service at any moment by following the instructions below. 
+Disabling web push notifications: On every web push notification banner, a button will be available to access the settings of your browser and disable the service. Alternatively, you can at any time access your browser settings via the above links and disable the service. 
+In addition, by accessing the following page you will find information and guidelines for users on how to disable / block / activate web-push notifications: website_url_lnk 
+The data collected within the service will be processed by us and by companies duly designated in accordance with applicable data protection legislation, and will not be transferred to third parties or used for advertising purposes other than those relating to Acer products and services. 
+Policy Governing Use; Changes to Cookie Policy:
+This Cookie Policy shall be written in various languages. In the event of any inconsistency in this Cookie Policy between the English version and any other version, the English version shall prevail. The terms of this Cookie Policy will govern the use of cookies and any information collected while it is in place, excepted third parties' cookies. To the extent permitted by applicable law in your jurisdiction, Acer reserves the right to change this Cookie Policy at any time and we therefore encourage you to check our website from time to time for updates. Changes to this Cookie Policy are effective at the time they are posted onto our website. 
+Your rights
+Acer informs that you can exercise, at any time and without any formalities the rights provided for by the applicable law, by sending an e-mail to the following e-mail address: privacy_officer@acer.com. 
+Latest update: March 2021 
