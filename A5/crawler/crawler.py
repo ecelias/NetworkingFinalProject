@@ -4,6 +4,7 @@ from html.parser import HTMLParser
 import asyncio
 import json
 from playwright.sync_api import sync_playwright
+import csv
 
 USER_HEADERS = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"
 EXTRA_HEADERS = {
@@ -20,8 +21,21 @@ def scrape_hyperlinks(url):
             page = context.new_page()
             page.goto(url, timeout=300000)
             html_content = page.content()
+            # Retrieve cookies and save to a string
+            cookies = context.cookies()
+            cookie_data = [f"Number of cookies collected: {len(cookies)}"]
+            for cookie in cookies:
+                cookie_data.append({
+                    "Name": cookie.get("name"),
+                    "Value": cookie.get("value"),
+                    "Domain": cookie.get("domain"),
+                    "Path": cookie.get("path"),
+                    "Expires": cookie.get("expires"),
+                    "Secure": cookie.get("secure"),
+                    "HttpOnly": cookie.get("httpOnly")
+                })
             browser.close()
-            return html_content
+            return html_content, cookie_data
     except TimeoutError:
         print(f"Timeout occurred for {url} after {timeout / 1000} seconds.")
         return None
@@ -137,12 +151,13 @@ def inspect_privacy_policy_html(html_file):
 
 
 def main():
-    file = open('raw_website_links.txt', 'r+')
+    file = open('example.txt', 'r+')
+    csvResults = []
     for line_number, link in enumerate(file, start=1):
         hyperlinks_in_url = {}
         privacy_page_hyperlinks = {}
         link = link.strip()
-        html_content = scrape_hyperlinks(link)
+        html_content, cookie_string = scrape_hyperlinks(link)
         if html_content is not None:
             hyperlinks_in_url[link] = inspect_homepage_html(html_content)
 
@@ -160,7 +175,7 @@ def main():
                         else: 
                             with open('links_that_donot_work.txt', "w") as bad:
                                 bad.write(website + "\n")
-
+                csvResults.append([website, current_page_index, cookie_string])
             json_filename = "analysis/privacy_policy_data.json"
             # Dump the dictionary to a JSON file
             with open(json_filename, 'w+') as json_file:
@@ -168,6 +183,10 @@ def main():
         else: 
             with open('links_that_donot_work.txt', "w") as bad:
                 bad.write(website + "\n")
+    with open("csvData.csv", "w", newline="") as file:
+            writer = csv.writer(file)
+            writer.writerow(["Website", "Number of Pages", "Cookie Information"])
+            writer.writerows(csvResults)
 if __name__ == "__main__":
     main()
 
