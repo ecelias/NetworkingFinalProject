@@ -159,14 +159,15 @@ def inspect_privacy_policy_html(html_file):
 
 
 def main():
-    file = open('example.txt', 'r+')
+    file = open('raw_website_links.txt', 'r+')
     csvResults = []
     for line_number, link in enumerate(file, start=1):
         hyperlinks_in_url = {}
         privacy_page_hyperlinks = {}
         link = link.strip()
-        html_content, cookie_string = scrape_hyperlinks(link)
-        if html_content is not None:
+        result = scrape_hyperlinks(link)
+        if result is not None:
+            html_content, cookie_string = result
             hyperlinks_in_url[link] = inspect_homepage_html(html_content)
 
             privacy_page_urls = filter_for_privacy_page(hyperlinks_in_url)  
