@@ -73,6 +73,14 @@ def inspect_homepage_html(html_file):
     #print(hyperlinks)
     return hyperlinks
 
+def get_num_of_words(html_file):
+    if not html_file:
+        return 0  # Return 0 for missing or invalid HTML
+    soup = BeautifulSoup(html_file, 'html.parser')
+    text = soup.get_text()
+    words = text.split()
+    return len(words)
+
 def filter_for_privacy_page(hyperlink_dictionary):
     privacy_pages = {}
 
@@ -166,16 +174,21 @@ def main():
 
             for website, priv_policy_pages in privacy_page_urls.items():
                 current_page_index = 0;
+                max_num_of_words = 0
                 for page_info in priv_policy_pages:
                     for category, priv_policy_page in page_info.items():
                         priv_page_info = scrape_for_priv_policy(website, priv_policy_page, current_page_index)
                         if priv_page_info is not None:
                             privacy_policy_content[website + ", " + priv_page_info[0]] = inspect_privacy_policy_html(priv_page_info[1])
                             current_page_index += 1
+                            #get word count of privacy policy page
+                            num_of_words = get_num_of_words(priv_page_info[1])
+                            if num_of_words > max_num_of_words:
+                                max_num_of_words = num_of_words
                         else: 
                             with open('links_that_donot_work.txt', "w") as bad:
                                 bad.write(website + "\n")
-                csvResults.append([website, current_page_index, cookie_string])
+                csvResults.append([website, current_page_index, cookie_string, max_num_of_words])
             json_filename = "analysis/privacy_policy_data.json"
             # Dump the dictionary to a JSON file
             with open(json_filename, 'w+') as json_file:
@@ -183,10 +196,13 @@ def main():
         else: 
             with open('links_that_donot_work.txt', "w") as bad:
                 bad.write(website + "\n")
-    with open("csvData.csv", "w", newline="") as file:
+    if csvResults:
+        with open("csvData.csv", "w", newline="") as file:
             writer = csv.writer(file)
-            writer.writerow(["Website", "Number of Pages", "Cookie Information"])
+            writer.writerow(["Website", "Number of Pages", "Cookie Information", "Max Number of Words"])
             writer.writerows(csvResults)
+    else:
+        print("No results to write to the CSV file.")
 if __name__ == "__main__":
     main()
 
