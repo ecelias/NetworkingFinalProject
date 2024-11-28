@@ -23,6 +23,7 @@ def scrape_hyperlinks(url):
             html_content = page.content()
             # Retrieve cookies and save to a string
             cookies = context.cookies()
+            cookie_num = len(cookies)
             cookie_data = [f"Number of cookies collected: {len(cookies)}"]
             for cookie in cookies:
                 cookie_data.append({
@@ -35,7 +36,7 @@ def scrape_hyperlinks(url):
                     "HttpOnly": cookie.get("httpOnly")
                 })
             browser.close()
-            return html_content, cookie_data
+            return html_content, cookie_data, cookie_num
     except TimeoutError:
         print(f"Timeout occurred for {url} after {timeout / 1000} seconds.")
         return None
@@ -72,14 +73,6 @@ def inspect_homepage_html(html_file):
             hyperlinks.append(link_data)
     #print(hyperlinks)
     return hyperlinks
-
-def get_num_of_words(html_file):
-    if not html_file:
-        return 0  # Return 0 for missing or invalid HTML
-    soup = BeautifulSoup(html_file, 'html.parser')
-    text = soup.get_text()
-    words = text.split()
-    return len(words)
 
 def filter_for_privacy_page(hyperlink_dictionary):
     privacy_pages = {}
@@ -167,7 +160,7 @@ def main():
         link = link.strip()
         result = scrape_hyperlinks(link)
         if result is not None:
-            html_content, cookie_string = result
+            html_content, cookie_string, cookie_num = result
             hyperlinks_in_url[link] = inspect_homepage_html(html_content)
 
             privacy_page_urls = filter_for_privacy_page(hyperlinks_in_url)  
@@ -175,21 +168,16 @@ def main():
 
             for website, priv_policy_pages in privacy_page_urls.items():
                 current_page_index = 0;
-                max_num_of_words = 0
                 for page_info in priv_policy_pages:
                     for category, priv_policy_page in page_info.items():
                         priv_page_info = scrape_for_priv_policy(website, priv_policy_page, current_page_index)
                         if priv_page_info is not None:
                             privacy_policy_content[website + ", " + priv_page_info[0]] = inspect_privacy_policy_html(priv_page_info[1])
                             current_page_index += 1
-                            #get word count of privacy policy page
-                            num_of_words = get_num_of_words(priv_page_info[1])
-                            if num_of_words > max_num_of_words:
-                                max_num_of_words = num_of_words
                         else: 
                             with open('links_that_donot_work.txt', "w") as bad:
                                 bad.write(website + "\n")
-                csvResults.append([website, current_page_index, cookie_string, max_num_of_words])
+                csvResults.append([website, current_page_index, cookie_num, cookie_string])
             json_filename = "analysis/privacy_policy_data.json"
             # Dump the dictionary to a JSON file
             with open(json_filename, 'w+') as json_file:
@@ -200,7 +188,7 @@ def main():
     if csvResults:
         with open("csvData.csv", "w", newline="") as file:
             writer = csv.writer(file)
-            writer.writerow(["Website", "Number of Pages", "Cookie Information", "Max Number of Words"])
+            writer.writerow(["Website", "Number of Pages", "Number of Cookies", "Cookie Information"])
             writer.writerows(csvResults)
     else:
         print("No results to write to the CSV file.")
