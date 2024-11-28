@@ -5,6 +5,7 @@ import asyncio
 import json
 from playwright.sync_api import sync_playwright
 import csv
+import matplotlib.pyplot as plt
 
 USER_HEADERS = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"
 EXTRA_HEADERS = {
@@ -154,6 +155,9 @@ def inspect_privacy_policy_html(html_file):
 def main():
     file = open('raw_website_links.txt', 'r+')
     csvResults = []
+    websites = []
+    number_of_pages = []
+    number_of_cookies = []
     for line_number, link in enumerate(file, start=1):
         hyperlinks_in_url = {}
         privacy_page_hyperlinks = {}
@@ -178,6 +182,9 @@ def main():
                             with open('links_that_donot_work.txt', "w") as bad:
                                 bad.write(website + "\n")
                 csvResults.append([website, current_page_index, cookie_num, cookie_string])
+                websites.append(website)
+                number_of_pages.append(current_page_index)
+                number_of_cookies.append(cookie_num)
             json_filename = "analysis/privacy_policy_data.json"
             # Dump the dictionary to a JSON file
             with open(json_filename, 'w+') as json_file:
@@ -190,8 +197,30 @@ def main():
             writer = csv.writer(file)
             writer.writerow(["Website", "Number of Pages", "Number of Cookies", "Cookie Information"])
             writer.writerows(csvResults)
+        #create bar graphs, may need to adjust sizing to view all 100 websites
+        plt.figure(figsize=(20, 8))
+        plt.bar(websites, number_of_pages, color='blue')
+        plt.title("Number of Pages per Website")
+        plt.xlabel("Website")
+        plt.ylabel("Number of Pages")
+        plt.xticks(rotation=90, ha='center', fontsize=8)
+        plt.tight_layout()
+        plt.savefig("number_of_pages.png", dpi=300)
+        plt.close()
+
+        plt.figure(figsize=(20, 8))
+        plt.bar(websites, number_of_cookies, color='green')
+        plt.title("Number of Cookies per Website")
+        plt.xlabel("Website")
+        plt.ylabel("Number of Cookies")
+        plt.xticks(rotation=90, ha='center', fontsize=8)
+        plt.tight_layout()
+        plt.savefig("number_of_cookies.png", dpi=300)
+        plt.close()
     else:
         print("No results to write to the CSV file.")
+        print("Graph was not able to be created.")
+
 if __name__ == "__main__":
     main()
 
