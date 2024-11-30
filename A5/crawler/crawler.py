@@ -156,8 +156,85 @@ def inspect_privacy_policy_html(html_file):
         content[anchor_name] = current_text
     
     return content
+def check_mixed_content(link):
+    #Checks if link is a HTTPS link
+    if not link.startswith("https://"):
+        return "Not applicable"
 
+    #Gets the HTML of the page 
+    try: 
+        try:
+            response = requests.get(link, timeout = 10)
+            response.raise_for_status
+        except requests.ConnectionError:
+            return "Denied"
+    except requests.RequestException as e:
+        print(f'Error fetching {link}:{e}')
+        return "Denied"
 
+    soup = BeautifulSoup(response.text, "html.parser")
+
+    #Find all resource links
+    resources = []
+    for tag in soup.find_all(['img','script','link']):
+        src = tag.get('src') or tag.get('href')
+        if src:
+            resources.append(src)
+    
+    #Checks if the links are loaded over HTTP
+    mixed_content_found = False
+    for resource in resources:
+        if resource.startswith("http://"):
+            resource_url = resource 
+        elif resource.startswith("/"):
+            continue
+        else:
+            continue
+        #Checks if the resource if loaded over HTTP    
+        if resource_url.startswith("http://"):
+            mixed_content_found = True
+
+    #Returns result if the page is mixed content
+    if mixed_content_found:
+        return "True"
+    else:
+        return "False"
+
+def check_policites(link):
+    result = {"https": False, "http": False}
+
+    https_link = link.replace("http://", "https://")
+    try:
+        response_https = requests.get(https_link, timeout = 20)
+        if (299 >= response_https.status_code) and (response_https.status_code >= 200):
+            result["https"] = True
+    except requests.RequestException:
+        pass
+    
+    http_link= link.replace("https://", "http://")
+    try:
+        try:
+            response_http = requests.get(http_link, timeout = 20)
+        except requests.ConnectionError:
+            print("Connection failed.")
+        if (299 >= response_https.status_code) and (response_https.status_code >= 200):
+            result["http"] = True
+    except requests.RequestException:
+        pass        
+    
+    if result["http"] and result["https"]:
+        return "both"
+    elif result["https"]:
+        return "HTTPS-Only"
+    elif result["http"]:
+        return "HTTP-Only"
+    else:
+        return "Neither"
+    
+
+            
+    
+    
 def main():
     file = open('raw_website_links.txt', 'r+')
     csvResults = []
@@ -165,9 +242,13 @@ def main():
         hyperlinks_in_url = {}
         privacy_page_hyperlinks = {}
         link = link.strip()
+        mixed_results = check_mixed_content(link)
+        policies_result = check_policites(link)
+
         result = scrape_hyperlinks(link)
         if result is not None:
             html_content, cookie_string = result
+
             hyperlinks_in_url[link] = inspect_homepage_html(html_content)
 
             privacy_page_urls = filter_for_privacy_page(hyperlinks_in_url)  
@@ -189,7 +270,7 @@ def main():
                         else: 
                             with open('links_that_donot_work.txt', "w") as bad:
                                 bad.write(website + "\n")
-                csvResults.append([website, current_page_index, cookie_string, max_num_of_words])
+                csvResults.append([website, current_page_index, cookie_string, max_num_of_words, policies_result, mixed_results])
             json_filename = "analysis/privacy_policy_data.json"
             # Dump the dictionary to a JSON file
             with open(json_filename, 'w+') as json_file:
@@ -200,10 +281,11 @@ def main():
     if csvResults:
         with open("csvData.csv", "w", newline="") as file:
             writer = csv.writer(file)
-            writer.writerow(["Website", "Number of Pages", "Cookie Information", "Max Number of Words"])
+            writer.writerow(["Website", "Number of Pages", "Cookie Information", "Max Number of Words", "HTTP/HTTPS Policies Category", "Mixed Content"])
             writer.writerows(csvResults)
     else:
         print("No results to write to the CSV file.")
+
 if __name__ == "__main__":
     main()
 
