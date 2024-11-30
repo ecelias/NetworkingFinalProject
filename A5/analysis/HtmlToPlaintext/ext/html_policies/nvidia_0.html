@@ -1,4 +1,4 @@
-<!DOCTYPE html><html class="html-page no-js device-desktop" xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-us" xml:lang="en-us" style="--vh: 720px;"><!--<![endif]--><head class="at-element-marker">
+<!DOCTYPE html><html class="html-page no-js device-desktop" xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-us" xml:lang="en-us" style="--vh: 720px;"><!--<![endif]--><head>
 	
 
 
@@ -214,7 +214,7 @@
 
 
 
-	<script type="text/javascript" async="" src="https://snap.licdn.com/li.lms-analytics/insight.min.js"></script><script async="" src="https://static.ads-twitter.com/uwt.js"></script><script type="text/javascript" async="" src="https://snap.licdn.com/li.lms-analytics/insight.min.js"></script><script src="https://www.youtube.com/iframe_api"></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script type="text/javascript" async="" referrerpolicy="unsafe-url" src="https://ws.zoominfo.com/pixel/62d5c127677d11008e98da2b"></script><script src="/etc.clientlibs/clientlibs/granite/jquery.min.cee8557e8779d371fe722bbcdd3b3eb7.js"></script>
+	<script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script type="text/javascript" async="" referrerpolicy="unsafe-url" src="https://ws.zoominfo.com/pixel/62d5c127677d11008e98da2b"></script><script src="/etc.clientlibs/clientlibs/granite/jquery.min.cee8557e8779d371fe722bbcdd3b3eb7.js"></script>
 <script src="/etc.clientlibs/clientlibs/granite/utils.min.4a192b590a2c2926fb000264370c0588.js"></script>
 <script src="/etc.clientlibs/foundation/clientlibs/shared.min.e9d9a3990d7779c2e8e3361187f3d36b.js"></script>
 <script src="/etc/designs/nvidiaGDC/clientlibs_foundation.min.026a51fcf3ffe653efd9f26b54a56ad6.js"></script>
@@ -244,121 +244,7 @@
 		
 		    
 		 	
-		 		<script src="//assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js" data-ot-ignore="true"></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/EX7d65709a804f4d908440600c7183d3f3-libraryCode_source.min.js" async=""></script><script>_satellite["_runScript1"](function(event, target, Promise) {
-var cpage=window.location.href;
-//if((cpage.indexOf('https://www.nvidia.com/gtc/recommended-sessions')<0&&cpage.indexOf('https://www.nvidia.com/gtc')<0&&cpage.indexOf('https://www.nvidia.com/gtc/sessions')<0)){
-var _6scProvider = { 
-name: "6sc-api", 
-version: "1.0.0", 
-timeout: 2000, 
-provider: function(callback) { 
-  
-  
-  
-var a = localStorage.getItem("_6senseCompanyDetails"),
-n = JSON.parse(a); 
-//console.log('company detail populated');
-  //console.log(n);
-var country = n.company.country;
-if(country == undefined && "" == country){
-    country="Not Identified"
-}
-
-var industry = n.company.industry;
-if(industry == undefined && "" == industry){
-    industry="Not Identified"
-}
-
-var company = n.company.name;
-if(company == undefined && "" == company){
-    company="Not Identified"
-}
-  
-//var pf={};
-var dl_bs='';
-var dl_ps='';
- 
-var ps=n.scores;  
-for (var key in ps){
-  if(ps[key].product=="deep_learning"){
-    //pf["dl_buying_stage"]=ps[key].buying_stage;
-    //pf["dl_profile_score"]=ps[key].profile_score;
-    dl_bs=ps[key].buying_stage;
-    dl_ps=ps[key].profile_score;
-  }
-} 
-  
-var sg=n.segments;
-  segs=sg.names.toString()
-  
-  
-  
-    callback(null, {company: company, industry:industry, segments:segs, dl_buying_stage:dl_bs,dl_profile_score:dl_ps}); 
-  }
-}; 
-  
-//}
-
-window.targetGlobalSettings = { 
-dataProviders: [_6scProvider],allowHighEntropyClientHints:true
-}
-
-});</script><script>_satellite["_runScript2"](function(event, target, Promise) {
-/*
-*Name: Adobe Target CS Integration
-*Version: 1.0
-*/
-function isEmpty(val) {
-    return val === undefined || val == null || val.length <= 0 ? true : false;
-}
- 
-function key(obj) {
-    return Object.keys(obj)
-        .map(function (k) {
-            return k + "" + obj[k];
-        })
-        .join("");
-}
- 
-function distinct(arr) {
-    var result = arr.reduce(function (acc, e) {
-        acc[key(e)] = e;
-        return acc;
-    }, {});
-    return Object.keys(result).map(function (k) {
-        return result[k];
-    });
-}
- 
-document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function (e) {
-    window.ttMETA = typeof window.ttMETA != "undefined" ? window.ttMETA : [];
-    var tokens = e.detail.responseTokens;
-    if (isEmpty(tokens)) {
-        return;
-    }
-    var uniqueTokens = distinct(tokens);
-    uniqueTokens.forEach(function (token) {
-        window.ttMETA.push({
-            CampaignName: token["activity.name"],
-            CampaignId: token["activity.id"],
-            RecipeName: token["experience.name"],
-            RecipeId: token["experience.id"],
-            OfferId: token["option.id"],
-            OfferName: token["option.name"],
-        });
-    });
-});
-
-});</script><script>_satellite["_runScript3"](function(event, target, Promise) {
-document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) {
-    if (e.detail.responseTokens) {
-        var responseToken = e.detail.responseTokens;
-        var y = responseToken[0];
-        var profileCatAffinity = y['profile.categoryAffinity'];
-        _satellite.setVar('favCategory', profileCatAffinity);
-    }
-});
-});</script><script>
+		 		<script src="//assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js" data-ot-ignore="true"></script><script src="https://cdn.cookielaw.org/scripttemplates/202409.2.0/otBannerSdk.js" async="" type="text/javascript"></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/EX7d65709a804f4d908440600c7183d3f3-libraryCode_source.min.js" async=""></script><script>
 /* function dtm_track
  *   @param type -- Required. The type of call. Defaults to "view".
  *   @param obj -- Optional. An object of data elements for mapping to a tag.
@@ -452,10 +338,10 @@ window.dtm_track = function(type,obj) {
   }
   return true;
 };
-</script><script>_satellite["_runScript4"](function(event, target, Promise) {
+</script><script>_satellite["_runScript1"](function(event, target, Promise) {
 var inTime=(new Date()).getTime();
 return window.inTime=inTime;
-});</script><script>_satellite["_runScript5"](function(event, target, Promise) {
+});</script><script>_satellite["_runScript2"](function(event, target, Promise) {
     var ua = window.navigator.userAgent;
     var msie = ua.indexOf("MSIE ");
 
@@ -478,33 +364,6 @@ return window.inTime=inTime;
     }//else{
       //console.log('other version');
        //  }
-});</script><script>_satellite["_runScript6"](function(event, target, Promise) {
-function generateToken(){
-  //return state after it has any double quotations removed
-  var d = new Date().getTime();//Timestamp
-  var d2 = (performance && performance.now && (performance.now()*1000)) || 0;//Time in microseconds since page-load or 0 if unsupported
-  return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
-      var r = Math.random() * 16;//random number between 0 and 16
-      if(d > 0){//Use timestamp until depleted
-          r = (d + r)%16 | 0;
-          d = Math.floor(d/16);
-      } else {//Use microseconds since page-load if supported
-          r = (d2 + r)%16 | 0;
-          d2 = Math.floor(d2/16);
-      }
-      return (c === 'x' ? r : (r & 0x3 | 0x8)).toString(16);
-  });
-}
-
-
-/*Setting Anonymous Cookie*/
-const cookieName = "nvweb_A";
-if (typeof _satellite.cookie!== "undefined" && typeof _satellite.cookie.get("nvweb_A")=== "undefined") {
-    const cookieValue = generateToken();
-    const daysToExpire = new Date(3147483647 * 1000).toUTCString();
-    document.cookie = cookieName + '=' + cookieValue + ';domain=.nvidia.com;path=/' + '; expires=' + daysToExpire; 
-}
-
 });</script>
 		 	
 		
@@ -700,7 +559,7 @@ var nvidiaGDClog = function() {
 
 
 	<script type="text/javascript" src="//static.queue-it.net/script/queueclient.min.js"></script>
-	<script data-queueit-c="nvidia" data-queueit-intercept-domain="api.store.nvidia.com" data-queueit-intercept="true" type="text/javascript" src="//static.queue-it.net/script/queueconfigloader.min.js"></script><script type="text/javascript" src="https://assets.queue-it.net/nvidia/integrationconfig/javascript/queueclientConfig.js?versionTimestamp=202411300301"></script>
+	<script data-queueit-c="nvidia" data-queueit-intercept-domain="api.store.nvidia.com" data-queueit-intercept="true" type="text/javascript" src="//static.queue-it.net/script/queueconfigloader.min.js"></script><script type="text/javascript" src="https://assets.queue-it.net/nvidia/integrationconfig/javascript/queueclientConfig.js?versionTimestamp=20241130101008"></script>
 
 
 
@@ -823,7 +682,7 @@ ul {
 
 
 
-<script>bazadebezolkohpepadr="1911565613"</script><script type="text/javascript" src="https://www.nvidia.com/akam/13/71f02e84" defer=""></script><style>.vertex-ul-list {
+<script>bazadebezolkohpepadr="1911565613"</script><script type="text/javascript" src="https://www.nvidia.com/akam/13/71f02e86" defer=""></script><style>.vertex-ul-list {
     margin-top: 0px !important;
     margin-bottom: 0px !important;
     padding-left: 0px;
@@ -1638,54 +1497,7 @@ a {
 /* body {
   font-family: var(--app-font);
 } */
-</style><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCc5bbeeca0315495883d8c418eea348f6-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCda69ff3139c94315bfaff64429aae33d-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC990c4c4a4ffe47b3977f6bc512287b97-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCba290c02ddaa4853b3f20e3119d8c3fa-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCc81f42ca1d5f4d23ab7560ddc058558b-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC3d648906b1cf41758abb6e1d5b4437bd-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCb13380a327f2490db1a02e0b9092d685-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCa501c5a002e9495481ecb6bfc5461e79-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCaabac1691c004110b13e42d63fc3b224-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCe14c747a1cd740549dd04f338beb324e-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC7e4874483cd341c3b37c26ed6adcacdd-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC888ad2c2bc0a4d219b98c52e71300afc-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCcf575aba2d154f9ca9ef505c60796e9b-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC6f396a1244694135a28505decb4d3b68-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCa3b54cdd64f54a98a3fdf0057fdce506-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC83ca41fc6903406e9873feeab6115fa2-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC24ab69b75f3c42d39c16b896c8c5da04-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCf8fd4b47267543b2beeb10f247362304-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC5bd750c7c52f4e62a16e36351ffc47ee-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC6945e1daaeeb49aea2b456101cad4ea7-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC38d02d78870b41eda51507a3e3ed1024-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC18521fa0eca34e9e91905f511da304e6-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC794dce10b36b4ab082688c4455ded941-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCa3ea9a41abf446578d77f5422d9e3646-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC9812453425c64fbaab3db67f80fbc05b-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC2c76c31829954646a9f3d2fbdd3b3de9-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCfd974a73064a4e40804c29200bbfaf9b-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC6f02e1fc20ba4514a8560ae2a17aae79-source.min.js" async=""></script><script>
-function checkElementXt() {
-  var elementXt = document.querySelectorAll('.nv-menu-list.right a')[0];
-
-  if (elementXt) {
-    
-    elementXt.href = 'https://marketplace.nvidia.com/en-us/enterprise/';
-  } else {
-    elementXt.href = 'https://store.nvidia.com/en-us/';
-
-  }
-}
-setTimeout(checkElementXt, 1000);
-</script><style> @media(min-width:1024px) and (max-width:1349px){ .navigation .global-nav .desktop-nav .nav-header-container .nv-menu .nv-menu-list.left .nv-menu3-container ul.menu-level-3 li.menu-level-3.menu-col-4 { width: calc(63% + 10px); } }
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) { .navigation .global-nav .sub-brand-nav .brand-nav-left { opacity: 1; } } 
-
-
-  .navigation .global-nav .desktop-nav .nav-header-container #tab4-nv-level2-tab8:checked~.menu3-container .nv-level3-tab8 {
-  background-color:#eee;
-  opacity:1;
-  -webkit-transform:rotateX(0);
-  transform:rotateX(0);
-  transition:.2s ease-out;
-  -webkit-transition:.2s ease-out;
-  -o-transition:.2s ease-out;
-  visibility:visible;
-  width:100%
-}
-.navigation .global-nav .desktop-nav .nav-header-container #tab4-nv-level2-tab8:checked ~ .nv-level2-list-container .nv-menu-level2-list .slider-menu {
-  opacity: 1;
-}
-  
-  .navigation .global-nav .desktop-nav .nav-header-container #tab4-nv-level2-tab9:checked~.menu3-container .nv-level3-tab9 {
-  background-color:#eee;
-  opacity:1;
-  -webkit-transform:rotateX(0);
-  transform:rotateX(0);
-  transition:.2s ease-out;
-  -webkit-transition:.2s ease-out;
-  -o-transition:.2s ease-out;
-  visibility:visible;
-  width:100%
-}
-.navigation .global-nav .desktop-nav .nav-header-container #tab4-nv-level2-tab9:checked ~ .nv-level2-list-container .nv-menu-level2-list .slider-menu {
-  opacity: 1;
-}
-  
-</style><script type="text/javascript" async="" src="https://www.influ2.com/tracker?clid=cc39198a-89bf-4c7b-86bc-535a0b4fd630"></script><script type="text/javascript" async="" src="//munchkin.marketo.net/munchkin.js"></script><script async="" src="https://static.hotjar.com/c/hotjar-3655182.js?sv=6"></script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=AW-1041695361" async=""></script><script type="text/javascript" async="" src="//t.contentsquare.net/uxa/c6af8848c2687.js"></script></head>
+</style><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCc5bbeeca0315495883d8c418eea348f6-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCda69ff3139c94315bfaff64429aae33d-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC990c4c4a4ffe47b3977f6bc512287b97-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCba290c02ddaa4853b3f20e3119d8c3fa-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCc81f42ca1d5f4d23ab7560ddc058558b-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC3d648906b1cf41758abb6e1d5b4437bd-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCb13380a327f2490db1a02e0b9092d685-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCa501c5a002e9495481ecb6bfc5461e79-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCe14c747a1cd740549dd04f338beb324e-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC7e4874483cd341c3b37c26ed6adcacdd-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC888ad2c2bc0a4d219b98c52e71300afc-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCcf575aba2d154f9ca9ef505c60796e9b-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC6f396a1244694135a28505decb4d3b68-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCa3b54cdd64f54a98a3fdf0057fdce506-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC83ca41fc6903406e9873feeab6115fa2-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC24ab69b75f3c42d39c16b896c8c5da04-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCf8fd4b47267543b2beeb10f247362304-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC5bd750c7c52f4e62a16e36351ffc47ee-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC6945e1daaeeb49aea2b456101cad4ea7-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC38d02d78870b41eda51507a3e3ed1024-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCa3ea9a41abf446578d77f5422d9e3646-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC9812453425c64fbaab3db67f80fbc05b-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC2c76c31829954646a9f3d2fbdd3b3de9-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCfd974a73064a4e40804c29200bbfaf9b-source.min.js" async=""></script><script type="text/javascript" async="" src="https://www.influ2.com/tracker?clid=cc39198a-89bf-4c7b-86bc-535a0b4fd630"></script></head>
 
 
 
@@ -2152,7 +1964,7 @@ setTimeout(checkElementXt, 1000);
 
 
 
-<nav class="global-nav" id="navigationb0787247_8a49_40a5_9543_1cea0cbafc7b">
+<nav class="global-nav" id="navigationf4995c65_e1c8_4a43_aa4d_e6388025114d">
 	<div class="nav-header desktop-nav">
 		<a class="skip-main" href="#page-content"><span>Skip to main content</span></a>
 		<div class="nav-header-container">
@@ -5710,7 +5522,7 @@ setTimeout(checkElementXt, 1000);
 </div>
 
 <div id="mega-nav" class="mega-nav" role="navigation">
-	<div class="mega-menu" style="opacity: 0.9975; height: 43.8893px; left: 0px;">
+	<div class="mega-menu" style="opacity: 1; height: 44px; left: 0px;">
 
 		<!-- SVG SYMBOL DEFINITIONS -->
 
@@ -10192,7 +10004,7 @@ setTimeout(checkElementXt, 1000);
 	</div>
 </div>
 
-<div class="mega-overlay hide" style="opacity: 0.389;"></div>
+<div class="mega-overlay hide" style="opacity: 0.2842;"></div>
 
 <script>
 if(false){
@@ -11191,7 +11003,7 @@ if(false){
 				searchPath.value = window.location.pathname;
 	        }
 	    NVIDIAGDC.funcQueue.addToQueue({ 
-	        id : "navigationb0787247_8a49_40a5_9543_1cea0cbafc7b",
+	        id : "navigationf4995c65_e1c8_4a43_aa4d_e6388025114d",
 	        method : "navigation-megamenu",
 	        params : [{
 	            globalSite:false,
@@ -11270,7 +11082,7 @@ if(false){
 
 
 <section id="about-nvidia" class=" background-none p-t-90 p-b-30 lap-p-t-90 lap-p-b-30 tab-p-t-60 tab-p-b-30 mob-p-t-90 mob-p-b-30      " style="background-image: url(&quot;&quot;);">
-	<div id="sectionenhanced_129000974817664219_c497_4222_99d7_16e12874dee1" class="general-container ">
+	<div id="sectionenhanced_1290009748cb3da8fd_a457_4c3b_99e8_1fddc556aa09" class="general-container ">
 	<div class="large-12 large-12 medium-12 small-12 center">
     		
 	<div class="container">
@@ -11288,7 +11100,7 @@ if(false){
 
 
 
-    <div id="textcomponentenhance16d8e12d_966a_4556_b15f_cb49e55707a4">
+    <div id="textcomponentenhance9cf3a758_bc40_4416_bfc7_f0133c14f712">
 
 
    
@@ -11459,7 +11271,7 @@ if(false){
 
 
 
-    <div id="textcomponentenhance_4017006546fd574b6_ee2f_4405_b91d_7cff36057598">
+    <div id="textcomponentenhance_401700654999ac460_9657_4b05_a9e2_9dd161c2d179">
 
 
    
@@ -11640,7 +11452,7 @@ if(false){
 <script type="text/javascript">
 	
 	NVIDIAGDC.funcQueue.addToQueue({
-		id : "sectionenhanced_129000974817664219_c497_4222_99d7_16e12874dee1",
+		id : "sectionenhanced_1290009748cb3da8fd_a457_4c3b_99e8_1fddc556aa09",
 		method : "sectionEnhancedComponent",
 		params : [{
 				imageDesktopUrl:' ',
@@ -11767,7 +11579,7 @@ if(false){
 
 
 <section class=" background-none p-t-0 p-b-75 lap-p-t-0 lap-p-b-75 tab-p-t-0 tab-p-b-45 mob-p-t-0 mob-p-b-45      " style="background-image: url(&quot;&quot;);">
-	<div id="sectionenhanced_19107008785c428885_d6ed_4018_bdeb_70cb2139d2a6" class="general-container ">
+	<div id="sectionenhanced_1910700878bfb517a9_acd3_4a92_b88c_a0c5f5f6663d" class="general-container ">
 	<div class="large-12 large-12 medium-12 small-12 center">
     		
 	<div class="container">
@@ -11803,7 +11615,7 @@ if(false){
    
 
 
-<div id="faq67f18dff_c37d_4830_af8e_de84276f6d3d" class="accordion-knowledge-base">
+<div id="faq44771fed_6396_4190_96a4_01ed90cbf410" class="accordion-knowledge-base">
 	<div class="wrapper faqAlign">
 		<div class="items float-left lap-float-left tab-float-left mob-float-left p-t-15 p-b-15 lap-p-t-15 lap-p-b-15 tab-p-t-15 tab-p-b-15 mob-p-t-15 mob-p-b-15">
 			
@@ -14398,7 +14210,7 @@ vertical-align: top;}
 
 <script type="text/javascript">
 	NVIDIAGDC.funcQueue.addToQueue({
-		id: "faq67f18dff_c37d_4830_af8e_de84276f6d3d",
+		id: "faq44771fed_6396_4190_96a4_01ed90cbf410",
 		method: "faqExpand",
 		params: [{
 			openLastOpened: true,
@@ -14420,7 +14232,7 @@ vertical-align: top;}
 
 
 
-    <div id="textcomponentenhanced0e3a87f_0b27_4f63_9169_627fb2973a45">
+    <div id="textcomponentenhanceda0f414f_5564_4fe2_8525_eebf6702a42b">
 
 
    
@@ -14512,7 +14324,7 @@ vertical-align: top;}
 <script type="text/javascript">
 	
 	NVIDIAGDC.funcQueue.addToQueue({
-		id : "sectionenhanced_19107008785c428885_d6ed_4018_bdeb_70cb2139d2a6",
+		id : "sectionenhanced_1910700878bfb517a9_acd3_4a92_b88c_a0c5f5f6663d",
 		method : "sectionEnhancedComponent",
 		params : [{
 				imageDesktopUrl:' ',
@@ -14566,7 +14378,7 @@ vertical-align: top;}
 
 
 <section id="ads" class=" background-lightgray-1 p-t-75 p-b-45 lap-p-t-75 lap-p-b-45 tab-p-t-45 tab-p-b-30 mob-p-t-45 mob-p-b-30      " style="background-image: url(&quot;&quot;);">
-	<div id="sectionenhanced3d2aa5f2_1521_46fc_b16c_af129337dc8f" class="general-container ">
+	<div id="sectionenhanced25505d7d_f381_4bda_bd20_96a753b29e17" class="general-container ">
 	<div class="large-12 large-12 medium-12 small-12 center">
     		
     	<div>
@@ -14584,7 +14396,7 @@ vertical-align: top;}
 
 
 
-    <div id="page_section_textpar8bb9ffef_a73c_4444_b9bd_a59ad8d40bf0">
+    <div id="page_section_textpar0e3b6f36_0406_474f_becd_7ebc86bae683">
 
 
    
@@ -14720,7 +14532,7 @@ vertical-align: top;}
 <script type="text/javascript">
 	
 	NVIDIAGDC.funcQueue.addToQueue({
-		id : "sectionenhanced3d2aa5f2_1521_46fc_b16c_af129337dc8f",
+		id : "sectionenhanced25505d7d_f381_4bda_bd20_96a753b29e17",
 		method : "sectionEnhancedComponent",
 		params : [{
 				imageDesktopUrl:' ',
@@ -14779,7 +14591,7 @@ vertical-align: top;}
 
 
 <section id="preference-signal" class=" background-lightgray-1 p-t-45 p-b-45 lap-p-t-45 lap-p-b-45 tab-p-t-30 tab-p-b-15 mob-p-t-30 mob-p-b-15      " style="background-image: url(&quot;&quot;);">
-	<div id="sectionenhanced_copy_1292545662f1fdeb_f706_49ac_bd86_d354e700d63f" class="general-container ">
+	<div id="sectionenhanced_copy_1292545669b2e356_399d_437d_b9ed_e2c873e0718b" class="general-container ">
 	<div class="large-12 large-12 medium-12 small-12 center">
     		
     	<div>
@@ -14797,7 +14609,7 @@ vertical-align: top;}
 
 
 
-    <div id="page_section_textpar1f4656fd_4420_4f6c_82bc_7d5d6dd6111d">
+    <div id="page_section_textpar7a0c352a_b639_492d_8759_d134dd400e3a">
 
 
    
@@ -14931,7 +14743,7 @@ vertical-align: top;}
 <script type="text/javascript">
 	
 	NVIDIAGDC.funcQueue.addToQueue({
-		id : "sectionenhanced_copy_1292545662f1fdeb_f706_49ac_bd86_d354e700d63f",
+		id : "sectionenhanced_copy_1292545669b2e356_399d_437d_b9ed_e2c873e0718b",
 		method : "sectionEnhancedComponent",
 		params : [{
 				imageDesktopUrl:' ',
@@ -14990,7 +14802,7 @@ vertical-align: top;}
 
 
 <section id="websites" class=" background-lightgray-1 p-t-45 p-b-45 lap-p-t-45 lap-p-b-45 tab-p-t-30 tab-p-b-15 mob-p-t-30 mob-p-b-15      " style="background-image: url(&quot;&quot;);">
-	<div id="sectionenhanced_copy34660306_3c16_436e_8244_53af562d592f" class="general-container ">
+	<div id="sectionenhanced_copy2d56b037_664b_4100_aae7_ec4fafc7ab9b" class="general-container ">
 	<div class="large-12 large-12 medium-12 small-12 center">
     		
     	<div>
@@ -15008,7 +14820,7 @@ vertical-align: top;}
 
 
 
-    <div id="page_section_textparf7a2f584_1147_4778_9b29_7538cbf721e2">
+    <div id="page_section_textpar5b0ec6e9_5eb6_4dfb_89d0_c8fb92e8b8b6">
 
 
    
@@ -15142,7 +14954,7 @@ vertical-align: top;}
 <script type="text/javascript">
 	
 	NVIDIAGDC.funcQueue.addToQueue({
-		id : "sectionenhanced_copy34660306_3c16_436e_8244_53af562d592f",
+		id : "sectionenhanced_copy2d56b037_664b_4100_aae7_ec4fafc7ab9b",
 		method : "sectionEnhancedComponent",
 		params : [{
 				imageDesktopUrl:' ',
@@ -15201,7 +15013,7 @@ vertical-align: top;}
 
 
 <section id="childrens-privacy" class=" background-lightgray-1 p-t-45 p-b-45 lap-p-t-45 lap-p-b-45 tab-p-t-30 tab-p-b-15 mob-p-t-30 mob-p-b-15      " style="background-image: url(&quot;&quot;);">
-	<div id="sectionenhanced_copy_1383898529bab979e8_2fc8_4d26_b616_2e75b01d8549" class="general-container ">
+	<div id="sectionenhanced_copy_1383898529258c2f22_34cf_4a33_a04f_e9c96ebbbaad" class="general-container ">
 	<div class="large-12 large-12 medium-12 small-12 center">
     		
     	<div>
@@ -15219,7 +15031,7 @@ vertical-align: top;}
 
 
 
-    <div id="page_section_textparf768c378_39c3_4894_bf10_3e09a31e40ac">
+    <div id="page_section_textpar5324e687_a5ad_46b1_aa61_cbc9d11016c2">
 
 
    
@@ -15357,7 +15169,7 @@ vertical-align: top;}
 <script type="text/javascript">
 	
 	NVIDIAGDC.funcQueue.addToQueue({
-		id : "sectionenhanced_copy_1383898529bab979e8_2fc8_4d26_b616_2e75b01d8549",
+		id : "sectionenhanced_copy_1383898529258c2f22_34cf_4a33_a04f_e9c96ebbbaad",
 		method : "sectionEnhancedComponent",
 		params : [{
 				imageDesktopUrl:' ',
@@ -15416,7 +15228,7 @@ vertical-align: top;}
 
 
 <section id="data-transfer" class=" background-lightgray-1 p-t-45 p-b-45 lap-p-t-45 lap-p-b-45 tab-p-t-30 tab-p-b-15 mob-p-t-30 mob-p-b-15      " style="background-image: url(&quot;&quot;);">
-	<div id="sectionenhanced_copy_88619394033e0bc66_5d6c_446b_beca_802228099691" class="general-container ">
+	<div id="sectionenhanced_copy_886193940e4211dd9_6a78_4b02_9f73_ea53f2cc1da9" class="general-container ">
 	<div class="large-12 large-12 medium-12 small-12 center">
     		
     	<div>
@@ -15434,7 +15246,7 @@ vertical-align: top;}
 
 
 
-    <div id="page_section_textpar8eaa472f_7dca_4291_b81b_a16d54cf5bfb">
+    <div id="page_section_textpar4698858c_094f_44ae_94a2_1e94cac96c5e">
 
 
    
@@ -15569,7 +15381,7 @@ vertical-align: top;}
 <script type="text/javascript">
 	
 	NVIDIAGDC.funcQueue.addToQueue({
-		id : "sectionenhanced_copy_88619394033e0bc66_5d6c_446b_beca_802228099691",
+		id : "sectionenhanced_copy_886193940e4211dd9_6a78_4b02_9f73_ea53f2cc1da9",
 		method : "sectionEnhancedComponent",
 		params : [{
 				imageDesktopUrl:' ',
@@ -15628,7 +15440,7 @@ vertical-align: top;}
 
 
 <section id="data-retention" class=" background-lightgray-1 p-t-45 p-b-45 lap-p-t-45 lap-p-b-45 tab-p-t-30 tab-p-b-15 mob-p-t-30 mob-p-b-15      " style="background-image: url(&quot;&quot;);">
-	<div id="sectionenhanced_copy_5813579743671e9d5_46d7_4c26_b0a5_87d6d236176a" class="general-container ">
+	<div id="sectionenhanced_copy_581357974c1709f3e_f449_4854_89a9_699885df290a" class="general-container ">
 	<div class="large-12 large-12 medium-12 small-12 center">
     		
     	<div>
@@ -15646,7 +15458,7 @@ vertical-align: top;}
 
 
 
-    <div id="page_section_textpar49ca593b_5c87_489f_9524_90e9f4a4b3cb">
+    <div id="page_section_textparb8a70f81_a862_42c2_a6ef_4f736b2a6338">
 
 
    
@@ -15782,7 +15594,7 @@ vertical-align: top;}
 <script type="text/javascript">
 	
 	NVIDIAGDC.funcQueue.addToQueue({
-		id : "sectionenhanced_copy_5813579743671e9d5_46d7_4c26_b0a5_87d6d236176a",
+		id : "sectionenhanced_copy_581357974c1709f3e_f449_4854_89a9_699885df290a",
 		method : "sectionEnhancedComponent",
 		params : [{
 				imageDesktopUrl:' ',
@@ -15841,7 +15653,7 @@ vertical-align: top;}
 
 
 <section id="contact-us" class=" background-lightgray-1 p-t-45 p-b-75 lap-p-t-45 lap-p-b-75 tab-p-t-30 tab-p-b-45 mob-p-t-30 mob-p-b-45      " style="background-image: url(&quot;&quot;);">
-	<div id="sectionenhanced_copy_2142451635c91f71d_215d_41c7_a791_aed49cfec86e" class="general-container ">
+	<div id="sectionenhanced_copy_214245163fcf80793_ce11_4055_b726_5eaefabf7d58" class="general-container ">
 	<div class="large-12 large-12 medium-12 small-12 center">
     		
     	<div>
@@ -15859,7 +15671,7 @@ vertical-align: top;}
 
 
 
-    <div id="page_section_textpar0cbca770_e083_4959_8f1e_d1cb69d3d881">
+    <div id="page_section_textparcd330166_0b5f_433c_82ce_772af7afcbc8">
 
 
    
@@ -15995,7 +15807,7 @@ vertical-align: top;}
 <script type="text/javascript">
 	
 	NVIDIAGDC.funcQueue.addToQueue({
-		id : "sectionenhanced_copy_2142451635c91f71d_215d_41c7_a791_aed49cfec86e",
+		id : "sectionenhanced_copy_214245163fcf80793_ce11_4055_b726_5eaefabf7d58",
 		method : "sectionEnhancedComponent",
 		params : [{
 				imageDesktopUrl:' ',
@@ -16054,7 +15866,7 @@ vertical-align: top;}
 
 
 <section class=" background-dark-grey p-t-45 p-b-45 lap-p-t-45 lap-p-b-45 tab-p-t-30 tab-p-b-30 mob-p-t-30 mob-p-b-30      " style="background-image: url(&quot;&quot;);">
-	<div id="sectionenhanced_1187243242c78ee1f3_5e9f_4730_9e9a_3f3e0e6c7e43" class="general-container ">
+	<div id="sectionenhanced_11872432425a2654dd_4d52_48c1_84ca_39ec031d8354" class="general-container ">
 	<div class="large-12 large-12 medium-12 small-12 center">
     		
     	<div>
@@ -16072,7 +15884,7 @@ vertical-align: top;}
 
 
 
-    <div id="page_section_textpar014a4815_ffe4_4046_96ac_a510d2aaeeb6">
+    <div id="page_section_textpar0df08418_9a30_45f3_84c6_6a9b9964ba5c">
 
 
    
@@ -16190,7 +16002,7 @@ vertical-align: top;}
 <script type="text/javascript">
 	
 	NVIDIAGDC.funcQueue.addToQueue({
-		id : "sectionenhanced_1187243242c78ee1f3_5e9f_4730_9e9a_3f3e0e6c7e43",
+		id : "sectionenhanced_11872432425a2654dd_4d52_48c1_84ca_39ec031d8354",
 		method : "sectionEnhancedComponent",
 		params : [{
 				imageDesktopUrl:' ',
@@ -17007,7 +16819,7 @@ try {
 
 
 } catch (e) {}
-</script><script>_satellite["_runScript7"](function(event, target, Promise) {
+</script><script>_satellite["_runScript3"](function(event, target, Promise) {
 try{
 if(document.URL.indexOf('/nvidia-brochure/')>-1){$('#toc li').on('click',function(){var getVal=$(this).find('img').attr('title').trim();ClickOmniTrack(this,'evenet10','img:section:',getVal);});$('a.ic-toc').on('click',function(){var getVal=$(this).attr('title').trim();ClickOmniTrack(this,'evenet10','img:section:',getVal);});}
 if(document.URL.indexOf('/gpu-ventures')>-1){$('.watchvideo').click(function(){var getHeading = $(this).parents('.sectionWrapper').siblings('.textcomp').find('h4 span.color-brand-green').text(); ClickOmniTrack(this,'evenet10','img:section:'+getHeading+':','watch video');});}  
@@ -17017,7 +16829,7 @@ $('.body-text h3 a, .intro-copy-text p a, .body-text p a').click(function(){var 
 
   if(document.URL.indexOf('/about-nvidia/careers/')>-1){$('.watchvideo').on('click',function(){var getHeading=$(this).closest('.column').siblings('.column').find('h2.title').text().trim();if(getHeading==''){getHeading=$(this).closest('.sectionWrapper').closest('section').closest('.sectionWrapper').prevAll('.sectionWrapper').find('hgroup h2').text().trim();}ClickOmniTrack(this,'evenet10','img:section:'+getHeading+':','watch video');});}
 }catch(e){}
-});</script><script>_satellite["_runScript8"](function(event, target, Promise) {
+});</script><script>_satellite["_runScript4"](function(event, target, Promise) {
 try {
 
 
@@ -17517,7 +17329,7 @@ try {
 
 
 } catch (e) {}
-});</script><script>_satellite["_runScript9"](function(event, target, Promise) {
+});</script><script>_satellite["_runScript5"](function(event, target, Promise) {
 window.ClickOmniTrack=function(obj,eventVal,prefix,secName){  
   try
    { s.eVar42=s.prop42='';
@@ -17711,11 +17523,11 @@ try {
         })
     }
 } catch (e) {}
-</script><script>_satellite["_runScript10"](function(event, target, Promise) {
+</script><script>_satellite["_runScript6"](function(event, target, Promise) {
 try{
 $('#design .cta-preorder.maxq a').click(function(){var getVal=$(this).text();var head=$(this).parent().siblings('h2').text();ClickOmniTrack(this,'event10','button:section:'+head+':',getVal);});}
 catch(e){}
-});</script><script>_satellite["_runScript11"](function(event, target, Promise) {
+});</script><script>_satellite["_runScript7"](function(event, target, Promise) {
 try{
   var ppath=window.location.href;
   if(ppath.indexOf('checkout')<0 && ppath.indexOf('account')<0 ){
@@ -17795,57 +17607,17 @@ try{
 	}
 </style>
 
-<noscript><img src="https://www.nvidia.com/akam/13/pixel_71f02e84?a=dD00NjkwNDM5ZWRmNDI5ZmRiOWUxYWE4NDQxNTI2N2Y1NjVmZmQzNTAzJmpzPW9mZg==" style="visibility: hidden; position: absolute; left: -999px; top: -999px;" /></noscript>
+<noscript><img src="https://www.nvidia.com/akam/13/pixel_71f02e86?a=dD00NjkwNDM5ZWRmNDI5ZmRiOWUxYWE4NDQxNTI2N2Y1NjVmZmQzNTAzJmpzPW9mZg==" style="visibility: hidden; position: absolute; left: -999px; top: -999px;" /></noscript>
 
 
-<div id="cboxOverlay" style="display: none;"></div><div id="colorbox" class="" role="dialog" tabindex="-1" style="display: none;"><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxTitle" style="float: left;"></div><div id="cboxCurrent" style="float: left;"></div><button type="button" id="cboxPrevious"></button><button type="button" id="cboxNext"></button><button type="button" id="cboxSlideshow"></button><div id="cboxLoadingOverlay" style="float: left;"></div><div id="cboxLoadingGraphic" style="float: left;"></div></div><div id="cboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none; max-width: none;"></div></div><script>_satellite["_runScript12"](function(event, target, Promise) {
+<div id="cboxOverlay" style="display: none;"></div><div id="colorbox" class="" role="dialog" tabindex="-1" style="display: none;"><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxTitle" style="float: left;"></div><div id="cboxCurrent" style="float: left;"></div><button type="button" id="cboxPrevious"></button><button type="button" id="cboxNext"></button><button type="button" id="cboxSlideshow"></button><div id="cboxLoadingOverlay" style="float: left;"></div><div id="cboxLoadingGraphic" style="float: left;"></div></div><div id="cboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none; max-width: none;"></div></div><script>_satellite["_runScript8"](function(event, target, Promise) {
 try{document.querySelector("#page-content > div > div:nth-child(2) > div > nav.panel.top > div > div > a").addEventListener("click",(function(t){var e=t.target.innerText;ClickOmniTrack(this,"event10","button:section:",e)})),document.querySelector("#history > div.content > div > div > div > a").addEventListener("click",(function(t){var e=t.target.innerText;ClickOmniTrack(this,"event10","button:section:our history:",e)})),document.querySelector("#a-word-from-jensen > div.content > div.container.hideForPhone > div > div > div > a").addEventListener("click",(function(t){var e=t.target.innerText;ClickOmniTrack(this,"event10","button:section:Jensen Huang:",e)})),document.querySelector("#nv-signup > div.content > div.container > div > div > div > a").addEventListener("click",(function(t){var e=t.target.innerText;ClickOmniTrack(this,"event10","button:section:Keep Updated on our Most Impactful Breakthroughs:",e)}))}catch(t){console.log("AboutNvidia1"+t)}
-});</script><script>_satellite["_runScript13"](function(event, target, Promise) {
+});</script><script>_satellite["_runScript9"](function(event, target, Promise) {
 function manageVars(t,e,a){var i=t,n=e,r=a;if("-v"===i)return{plugin:"manageVars",version:"3.0"};var o=function(){if(void 0!==window.s_c_il)for(var t,e=0;e<window.s_c_il.length;e++)if((t=window.s_c_il[e])._c&&"s_c"===t._c)return t}();if(void 0!==o){if(o.blankVars=function(t){this[t]&&(0>t.indexOf("contextData")?this[t]="":(t=t.substring(t.indexOf(".")+1),this.contextData[t]&&(this.contextData[t]="")))},o.pt=function(t,e,a,i){if(t&&this[a]){e=(t=t.split(e||",")).length;for(var n,r=0;r<e;r++)if(n=this[a](t[r],i))return n}},!o[i])return!1;n=n||"",r=r||!0;var s,c="pageName,purchaseID,channel,server,pageType,campaign,state,zip,events,products,transactionID";for(s=1;76>s;s++)c+=",prop"+s;for(s=1;251>s;s++)c+=",eVar"+s;for(s=1;6>s;s++)c+=",hier"+s;for(s=1;4>s;s++)c+=",list"+s;for(s in o.contextData)c+=",contextData."+s;if(n){if(1==r)c=n.replace("['",".").replace("']","");else if(0==r){for(x in n=n.split(","),r=c.split(","),c="",n)for(y in-1<n[x].indexOf("contextData")&&(n[x]="contextData."+n[x].split("'")[1]),r)n[x]===r[y]&&(r[y]="");for(y in r)c+=r[y]?","+r[y]:""}return o.pt(c,",",i,0),!0}return!(""!==n||!r)&&(o.pt(c,",",i,0),!0)}}try{var getVal="",counter="0";"0"==counter&&(""==(getVal=$(".slide.selected.active").attr("data-title"))||void 0===getVal||ClickOmniTrack(this,"event10","link:section:",getVal),manageVars("blankVars","events,prop10,eVar10",1),s.events="event1",counter="1")}catch(t){console.log("AboutNvidia2"+t)}
-});</script><script>_satellite["_runScript14"](function(event, target, Promise) {
+});</script><script>_satellite["_runScript10"](function(event, target, Promise) {
 try{!function(){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.referrerPolicy="unsafe-url",e.src="https://ws.zoominfo.com/pixel/62d5c127677d11008e98da2b";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}()}catch(e){console.log("zoominfo"+e)}
-});</script><script>_satellite["_runScript15"](function(event, target, Promise) {
+});</script><script>_satellite["_runScript11"](function(event, target, Promise) {
 !function(e,t,n,c,o,a,f){e.fbq||(o=e.fbq=function(){o.callMethod?o.callMethod.apply(o,arguments):o.queue.push(arguments)},e._fbq||(e._fbq=o),o.push=o,o.loaded=!0,o.version="2.0",o.queue=[],(a=t.createElement(n)).async=!0,a.src=c,(f=t.getElementsByTagName(n)[0]).parentNode.insertBefore(a,f))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","161755414605325"),fbq("track","PageView");
-});</script><script>_satellite["_runScript16"](function(event, target, Promise) {
+});</script><script>_satellite["_runScript12"](function(event, target, Promise) {
 var influ=document.createElement("script");influ.type="text/javascript",influ.async=!0,influ.src="https://www.influ2.com/tracker?clid=cc39198a-89bf-4c7b-86bc-535a0b4fd630",document.getElementsByTagName("head")[0].appendChild(influ);
-});</script><script>_satellite["_runScript17"](function(event, target, Promise) {
-window.OneTrust&&"function"==typeof window.OneTrust.OnConsentChanged&&window.OneTrust.OnConsentChanged((()=>{window.location.reload()}));
-});</script><script>_satellite["_runScript18"](function(event, target, Promise) {
-function onPlayerStateChange(e){if(e.data==YT.PlayerState.PLAYING){var t=e.target.getVideoData().title;Math.floor(e.target.getDuration());0===Math.floor(e.target.getCurrentTime())&&ClickOmniTrack(!0,"event10","video:play:",t)}if(e.data==YT.PlayerState.PAUSED){console.log("video pause");var a=e.target.getVideoData().title;ClickOmniTrack(!0,"event10","video:pause:",a)}}var tag=document.createElement("script");tag.src="https://www.youtube.com/iframe_api";var firstScriptTag=document.getElementsByTagName("script")[0];firstScriptTag.parentNode.insertBefore(tag,firstScriptTag);var n=0;jQuery("iframe").each((function(){var e=jQuery(this).attr("src");e&&e.indexOf("youtube.com")>-1&&(e.indexOf("?")>-1?-1==e.indexOf("enablejsapi")&&(e+="&enablejsapi=1"):e+="?enablejsapi=1",jQuery(this).attr("src",e),jQuery(this).attr("id","player"+n),n++)}));var playerInfoList=new Array;jQuery("[id^='player']").each((function(){var e=jQuery(this).attr("id");playerInfoList.push(e)}));var players=new Array;window.onYouTubeIframeAPIReady=function(){for(x=0;x<playerInfoList.length;x++)players[x]=new YT.Player(playerInfoList[x],{events:{onStateChange:onPlayerStateChange}})};
-});</script><script>_satellite["_runScript19"](function(event, target, Promise) {
-"undefined"!=typeof drift&&drift.on("ready",(function(){window.drift.on("conversation:playbookFired",(function(e){var a="Drift-Event:playbook:Fired:"+_satellite.getVar("pageName");s.linkTrackVars="eVar111,eVar112,events",s.linkTrackEvents="event10,event111",s.events="event10,event111",s.eVar111=e.conversationId,s.eVar112=e.playbookId,s.tl(!0,"o",a),s.clearVars()})),window.drift.on("conversation:playbookClicked",(function(e){var a="Drift-Event:playbook:Clicked:"+_satellite.getVar("pageName");s.linkTrackVars="eVar111,eVar112,events",s.linkTrackEvents="event10,event112",s.events="event10,event112",s.eVar111=e.conversationId,s.eVar112=e.playbookId,s.tl(!0,"o",a),s.clearVars()})),window.drift.on("conversation:playbookDismissed",(function(e){var a="Drift-Event:playbook:Dismissed:"+_satellite.getVar("pageName");s.linkTrackVars="eVar111,eVar112,events",s.linkTrackEvents="event10,event113",s.events="event10,event113",s.eVar111=e.conversationId,s.eVar112=e.playbookId,s.tl(!0,"o",a),s.clearVars()})),window.drift.on("conversation:firstInteraction",(function(e){var a="Drift-Event:first:Interaction:"+_satellite.getVar("pageName");s.linkTrackVars="eVar111,eVar112,events",s.linkTrackEvents="event10,event114",s.events="event10,event114",s.eVar111=e.conversationId,s.eVar112=e.playbookId,s.tl(!0,"o",a),s.clearVars()})),window.drift.on("conversation:buttonClicked",(function(e){var a="Drift-Event:buttonClicked:"+_satellite.getVar("pageName");s.linkTrackVars="eVar110,eVar111,eVar112,events",s.linkTrackEvents="event10,event115",s.events="event10,event115",s.eVar110=e.buttonBody,s.eVar111=e.conversationId,s.eVar112=e.playbookId,s.tl(!0,"o",a),s.clearVars()})),window.drift.on("message:sent",(function(e){var a="Drift-Event:message:sent:"+_satellite.getVar("pageName");s.linkTrackVars="eVar111,eVar112,events",s.linkTrackEvents="event10,event116",s.events="event10,event116",s.eVar111=e.conversationId,s.eVar112=e.playbookId,s.tl(!0,"o",a),s.clearVars()})),window.drift.on("message",(function(e){var a="Drift-Event:message:Recieved:"+_satellite.getVar("pageName");s.linkTrackVars="eVar111,eVar112,events",s.linkTrackEvents="event10,event117",s.events="event10,event117",s.eVar111=e.conversationId,s.eVar112=e.playbookId,s.tl(!0,"o",a),s.clearVars()})),window.drift.on("phoneCapture",(function(e){var a="Drift-Event:phone:Capture:"+_satellite.getVar("pageName");s.linkTrackVars="eVar111,eVar112,events",s.linkTrackEvents="event10,event118",s.events="event10,event118",s.eVar111=e.conversationId,s.eVar112=e.playbookId,s.tl(!0,"o",a),s.clearVars()})),window.drift.on("emailCapture",(function(e){var a="Drift-Event:email:Capture:"+_satellite.getVar("pageName");s.linkTrackVars="eVar111,eVar112,events",s.linkTrackEvents="event10,event119",s.events="event10,event119",s.eVar111=e.data.conversationId,s.eVar112=e.data.playbookId,s.tl(!0,"o",a),s.clearVars()}))}));
-});</script><script>_satellite["_runScript20"](function(event, target, Promise) {
-!function(){function e(){!1===t&&(t=!0,Munchkin.init("156-OFN-742"))}var t=!1,n=document.createElement("script");n.type="text/javascript",n.async=!0,n.src="//munchkin.marketo.net/munchkin.js",n.onreadystatechange=function(){"complete"!=this.readyState&&"loaded"!=this.readyState||e()},n.onload=e,document.getElementsByTagName("head")[0].appendChild(n)}();
-});</script><script>
-!function(t,h,e,j,s,n){t.hj=t.hj||function(){(t.hj.q=t.hj.q||[]).push(arguments)},t._hjSettings={hjid:3655182,hjsv:6},s=h.getElementsByTagName("head")[0],(n=h.createElement("script")).async=1,n.src=e+t._hjSettings.hjid+j+t._hjSettings.hjsv,s.appendChild(n)}(window,document,"https://static.hotjar.com/c/hotjar-",".js?sv=");
-</script><script>_satellite["_runScript21"](function(event, target, Promise) {
-_satellite.logger.log("Global TPP Start Time: "+Date.now()),function(e,t,l,o,a,n,i){e.fbq||(a=e.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},e._fbq||(e._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],(n=t.createElement(l)).async=!0,n.src=o,(i=t.getElementsByTagName(l)[0]).parentNode.insertBefore(n,i))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","161755414605325"),fbq("track","PageView"),_satellite.logger.log("TPP : Global Pixels - Facebook Pixel - fired");
-});</script><script>
-function gtag(){dataLayer.push(arguments)}var head=document.getElementsByTagName("head")[0],script=document.createElement("script");script.type="text/javascript",script.src="https://www.googletagmanager.com/gtag/js?id=AW-1041695361",script.async=!0,head.appendChild(script),window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","AW-1041695361"),_satellite.logger.log("TPP : Global Pixels - Google ReMarketing Pixel - fired");
-</script><script>_satellite["_runScript22"](function(event, target, Promise) {
-gtag("event","page_view",{send_to:"AW-1041695361",user_id:"replace with value"});
-});</script><script>_satellite["_runScript23"](function(event, target, Promise) {
-_linkedin_partner_id="84497",window._linkedin_data_partner_ids=window._linkedin_data_partner_ids||[],window._linkedin_data_partner_ids.push(_linkedin_partner_id),function(){var e=document.getElementsByTagName("script")[0],i=document.createElement("script");i.type="text/javascript",i.async=!0,i.src="https://snap.licdn.com/li.lms-analytics/insight.min.js",e.parentNode.insertBefore(i,e)}(),_satellite.logger.log("TPP : Global Pixels - LinkedIn Pixel - fired");
-});</script><script>_satellite["_runScript24"](function(event, target, Promise) {
-!function(e,t,i,n,s,o){e.twq||(n=e.twq=function(){n.exe?n.exe.apply(n,arguments):n.queue.push(arguments)},n.version="1.1",n.queue=[],(s=t.createElement(i)).async=!0,s.src="https://static.ads-twitter.com/uwt.js",(o=t.getElementsByTagName(i)[0]).parentNode.insertBefore(s,o))}(window,document,"script"),twq("config","nutdh"),_satellite.logger.log("TPP : Global Pixels - Twitter Pixel - fired");
-});</script><script>
-!function(e,t,i,n,o,r){e.twq||(n=e.twq=function(){n.exe?n.exe.apply(n,arguments):n.queue.push(arguments)},n.version="1.1",n.queue=[],(o=t.createElement(i)).async=!0,o.src="//static.ads-twitter.com/uwt.js",(r=t.getElementsByTagName(i)[0]).parentNode.insertBefore(o,r))}(window,document,"script"),twq("init","o5kw4"),twq("track","PageView"),_satellite.logger.log("TPP : Global Pixels - SpringBox Twitter UET Pixel - fired");
-</script><script>
-!function(e,t,i,a,n,o){e.twq||(a=e.twq=function(){a.exe?a.exe.apply(a,arguments):a.queue.push(arguments)},a.version="1.1",a.queue=[],(n=t.createElement(i)).async=!0,n.src="//static.ads-twitter.com/uwt.js",(o=t.getElementsByTagName(i)[0]).parentNode.insertBefore(n,o))}(window,document,"script"),twq("init","o5kwu"),twq("track","PageView"),_satellite.logger.log("TPP : Global Pixels - Taiwan Twitter Pixel - fired");
-</script><script>_satellite["_runScript25"](function(event, target, Promise) {
-!function(e,t,i,a,n,o){e.twq||(a=e.twq=function(){a.exe?a.exe.apply(a,arguments):a.queue.push(arguments)},a.version="1.1",a.queue=[],(n=t.createElement(i)).async=!0,n.src="//static.ads-twitter.com/uwt.js",(o=t.getElementsByTagName(i)[0]).parentNode.insertBefore(n,o))}(window,document,"script"),twq("init","o1txo"),twq("track","PageView"),_satellite.logger.log("TPP : Global Pixels - Japan Twitter Pixel - fired");
-});</script><script>_satellite["_runScript26"](function(event, target, Promise) {
-!function(e,t,i,l,n,o){e.twq||(l=e.twq=function(){l.exe?l.exe.apply(l,arguments):l.queue.push(arguments)},l.version="1.1",l.queue=[],(n=t.createElement(i)).async=!0,n.src="//static.ads-twitter.com/uwt.js",(o=t.getElementsByTagName(i)[0]).parentNode.insertBefore(n,o))}(window,document,"script"),twq("init","o5j0n"),twq("track","PageView"),_satellite.logger.log("TPP : Global Pixels - APAC Twitter Pixel - fired"),_satellite.logger.log("Global TPP End Time: "+Date.now());
-});</script><script>
-var path=document.location.host+document.location.pathname;if(path.indexOf("gtc21.event.nvidia.com")>-1){var nh=document.getElementsByTagName("head")[0],ns=document.createElement("script");if(ns.type="text/javascript",ns.src="//wcs.naver.net/wcslog.js",ns.async=!0,nh.appendChild(ns),!wcs_add)var wcs_add={};if(wcs_add.wa="s_85512e22ed9",!_nasa)var _nasa={};window.wcs&&(wcs.inflow(),wcs_do(_nasa)),function(e,n,a){var t=n.getElementsByTagName(a)[0],s=n.createElement(a);s.async=!0,s.src="//dmp.im-apps.net/js/1006927/0001/itm.js",t.parentNode.insertBefore(s,t)}(window,document,"script")}
-</script><script>_satellite["_runScript27"](function(event, target, Promise) {
-"undefined"!=typeof jQuery&&$(document).on("click","div[id*=meganav] a",(function(){try{var t=$(this).attr("data-title");null==typeof t&&(t="attend now");var n=$(this).closest("div[id*=meganav]").attr("id");ClickOmniTrack(!0,"event10","button:section:"+n+":banner:",t)}catch(t){console.log("Industries|Mega Banner"+t)}}));
-});</script><script>_satellite["_runScript28"](function(event, target, Promise) {
-!function(){window._uxa=window._uxa||[];try{"undefined"!=typeof s&&(void 0!==s.eVar1&&window._uxa.push(["setCustomVariable",1,"Page_Name",_satellite.getVar("pageName"),3]),void 0!==s.eVar9&&window._uxa.push(["setCustomVariable",2,"Country_Language_Code",s.eVar9,3]),void 0!==s.eVar13&&window._uxa.push(["setCustomVariable",3,"Nvid",s.eVar13,3]),void 0!==s.eVar19&&window._uxa.push(["setCustomVariable",4,"New_vs_Returned",s.eVar19,3]),void 0!==s.eVar20&&window._uxa.push(["setCustomVariable",5,"Search_Term",s.eVar20,3]),void 0!==s.eVar32&&window._uxa.push(["setCustomVariable",6,"Company_Name",s.eVar32,3]),void 0!==s.eVar33&&window._uxa.push(["setCustomVariable",7,"Industry_Name",s.eVar33,3]),void 0!==s.eVar41&&window._uxa.push(["setCustomVariable",8,"Ncid",s.eVar41,3]),void 0!==s.referrer&&window._uxa.push(["setCustomVariable",9,"Referrer",s.referrer,3]))}catch(e){}if("undefined"==typeof CS_CONF){window._uxa.push(["setPath",window.location.pathname+window.location.hash.replace("#","?__")]);var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="//t.contentsquare.net/uxa/c6af8848c2687.js",document.getElementsByTagName("head")[0].appendChild(e)}else window._uxa.push(["trackPageview",window.location.pathname+window.location.hash.replace("#","?__")])}();
-});</script><script>_satellite["_runScript29"](function(event, target, Promise) {
-window._uxa=window._uxa||[],window._uxa.push(["trackConsentGranted"]);
-});</script><script>
-try{document.URL.indexOf("/gtc")<0&&document.URL.indexOf("/ja-jp/geforce/products/10series/laptops/max-q/")<0&&document.URL.indexOf("/en-us/geforce/products/10series/laptops/max-q/")<0&&$(".subnav-container a.breadcrumb-link span, .subnav-container a.breadcrumb-page-link span").click((function(){var e=$(this).parent("a.breadcrumb-link,a.breadcrumb-page-link").attr("href"),t="";window.location.href.indexOf("max-q")>-1&&"#shop"==e?ClickOmniTrackNav(this,"event10,event11,event14","button:header:sub-nav:","notify me"):"#buynow"==e||"#shop"==e?ClickOmniTrackNav(this,"event10,event11,event2","button:header:sub-nav:","buy now"):"#top"==e&&"sub-btn1"==$(this).parent("a.breadcrumb-link,a.breadcrumb-page-link").attr("id")||"#top"==e&&"sub-btn2"==$(this).parent("a.breadcrumb-link,a.breadcrumb-page-link").attr("id")||"#top"==e&&"sub-btn3"==$(this).parent("a.breadcrumb-link,a.breadcrumb-page-link").attr("id")||"#top"==e&&"sub-btn4"==$(this).parent("a.breadcrumb-link,a.breadcrumb-page-link").attr("id")||"#"==e&&"sub-btn3"==$(this).parent("a.breadcrumb-link,a.breadcrumb-page-link").attr("id")||"#"==e&&"sub-btn4"==$(this).parent("a.breadcrumb-link,a.breadcrumb-page-link").attr("id")?(t=$(this).closest(".breadcrumb-element").text().trim(),ClickOmniTrackNav(this,"event10,event11","link:header:sub-nav:",t)):e.indexOf("https://")>-1||e.indexOf("http://")>-1?(e=$(this).text().trim(),console.log("test:"+e),ClickOmniTrackNav(this,"event10,event11","link:header:sub-nav:",e)):"#rapids"==e&&"sub-btn2"==$(this).parent("a.breadcrumb-link,a.breadcrumb-page-link").attr("id")||"#rapids"==e&&"sub-btn4"==$(this).parent("a.breadcrumb-link,a.breadcrumb-page-link").attr("id")||"#flex-logo-garden-x-small-8-logos"==e&&"sub-btn6"==$(this).parent("a.breadcrumb-link,a.breadcrumb-page-link").attr("id")||"mailto:revans@nvidia.com;jjosephakis@nvidia.com?subject=ISC%20Contact%20Request"==e&&"sub-btn1"==$(this).parent("a.breadcrumb-link,a.breadcrumb-page-link").attr("id")?(t=$(this).closest(".breadcrumb-element").text().trim(),ClickOmniTrackNav(this,"event10,event11","link:header:sub-nav:",t)):ClickOmniTrackNav(this,"event10,event11","link:header:sub-nav:",e)})),$(".page-footer__links .page-footer-link-set__links li a").click((function(){var e=$(this).text();ClickOmniTrack(this,"event10","link:footer:",e)})),$(".page-footer__subscribe .subscribe-container .button .btn,.page-footer__subscribe .subscribe-container .button-pascal .btn-pascal").click((function(){var e=$(this).text();ClickOmniTrack(this,"event10","button:footer:",e)}))}catch(e){}
-</script><script>_satellite["_runScript30"](function(event, target, Promise) {
-_linkedin_partner_id="84497",window._linkedin_data_partner_ids=window._linkedin_data_partner_ids||[],window._linkedin_data_partner_ids.push(_linkedin_partner_id),function(){var n=document.getElementsByTagName("script")[0],i=document.createElement("script");i.type="text/javascript",i.async=!0,i.src="https://snap.licdn.com/li.lms-analytics/insight.min.js",n.parentNode.insertBefore(i,n)}();
 });</script></body></html>

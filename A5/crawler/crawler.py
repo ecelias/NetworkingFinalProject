@@ -211,7 +211,7 @@ def check_policites(link):
             response_http = requests.get(http_link, timeout = 20)
         except requests.ConnectionError:
             print("Connection failed.")
-        if (299 >= response_https.status_code) and (response_https.status_code >= 200):
+        if (299 >= response_http.status_code) and (response_http.status_code >= 200):
             result["http"] = True
     except requests.RequestException:
         pass        
