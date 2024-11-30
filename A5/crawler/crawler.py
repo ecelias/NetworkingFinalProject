@@ -5,6 +5,7 @@ import asyncio
 import json
 from playwright.sync_api import sync_playwright
 import csv
+import matplotlib.pyplot as plt
 
 USER_HEADERS = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"
 EXTRA_HEADERS = {
@@ -23,6 +24,7 @@ def scrape_hyperlinks(url):
             html_content = page.content()
             # Retrieve cookies and save to a string
             cookies = context.cookies()
+            cookie_num = len(cookies)
             cookie_data = [f"Number of cookies collected: {len(cookies)}"]
             for cookie in cookies:
                 cookie_data.append({
@@ -35,7 +37,7 @@ def scrape_hyperlinks(url):
                     "HttpOnly": cookie.get("httpOnly")
                 })
             browser.close()
-            return html_content, cookie_data
+            return html_content, cookie_data, cookie_num
     except TimeoutError:
         print(f"Timeout occurred for {url} after {timeout / 1000} seconds.")
         return None
@@ -72,14 +74,6 @@ def inspect_homepage_html(html_file):
             hyperlinks.append(link_data)
     #print(hyperlinks)
     return hyperlinks
-
-def get_num_of_words(html_file):
-    if not html_file:
-        return 0  # Return 0 for missing or invalid HTML
-    soup = BeautifulSoup(html_file, 'html.parser')
-    text = soup.get_text()
-    words = text.split()
-    return len(words)
 
 def filter_for_privacy_page(hyperlink_dictionary):
     privacy_pages = {}
@@ -238,6 +232,9 @@ def check_policites(link):
 def main():
     file = open('raw_website_links.txt', 'r+')
     csvResults = []
+    websites = []
+    number_of_pages = []
+    number_of_cookies = []
     for line_number, link in enumerate(file, start=1):
         hyperlinks_in_url = {}
         privacy_page_hyperlinks = {}
@@ -247,8 +244,7 @@ def main():
 
         result = scrape_hyperlinks(link)
         if result is not None:
-            html_content, cookie_string = result
-
+            html_content, cookie_string, cookie_num = result
             hyperlinks_in_url[link] = inspect_homepage_html(html_content)
 
             privacy_page_urls = filter_for_privacy_page(hyperlinks_in_url)  
@@ -256,21 +252,19 @@ def main():
 
             for website, priv_policy_pages in privacy_page_urls.items():
                 current_page_index = 0;
-                max_num_of_words = 0
                 for page_info in priv_policy_pages:
                     for category, priv_policy_page in page_info.items():
                         priv_page_info = scrape_for_priv_policy(website, priv_policy_page, current_page_index)
                         if priv_page_info is not None:
                             privacy_policy_content[website + ", " + priv_page_info[0]] = inspect_privacy_policy_html(priv_page_info[1])
                             current_page_index += 1
-                            #get word count of privacy policy page
-                            num_of_words = get_num_of_words(priv_page_info[1])
-                            if num_of_words > max_num_of_words:
-                                max_num_of_words = num_of_words
                         else: 
                             with open('links_that_donot_work.txt', "w") as bad:
                                 bad.write(website + "\n")
-                csvResults.append([website, current_page_index, cookie_string, max_num_of_words, policies_result, mixed_results])
+                csvResults.append([website, current_page_index, cookie_num, cookie_string, policies_result, mixed_results])
+                websites.append(website)
+                number_of_pages.append(current_page_index)
+                number_of_cookies.append(cookie_num)
             json_filename = "analysis/privacy_policy_data.json"
             # Dump the dictionary to a JSON file
             with open(json_filename, 'w+') as json_file:
@@ -281,10 +275,31 @@ def main():
     if csvResults:
         with open("csvData.csv", "w", newline="") as file:
             writer = csv.writer(file)
-            writer.writerow(["Website", "Number of Pages", "Cookie Information", "Max Number of Words", "HTTP/HTTPS Policies Category", "Mixed Content"])
+            writer.writerow(["Website", "Number of Pages", "Number of Cookies", "Cookie Information", "HTTP/HTTPS Policies Category", "Mixed Content"])
             writer.writerows(csvResults)
+        #create bar graphs, may need to adjust sizing to view all 100 websites
+        plt.figure(figsize=(20, 8))
+        plt.bar(websites, number_of_pages, color='blue')
+        plt.title("Number of Pages per Website")
+        plt.xlabel("Website")
+        plt.ylabel("Number of Pages")
+        plt.xticks(rotation=90, ha='center', fontsize=8)
+        plt.tight_layout()
+        plt.savefig("number_of_pages.png", dpi=300)
+        plt.close()
+
+        plt.figure(figsize=(20, 8))
+        plt.bar(websites, number_of_cookies, color='green')
+        plt.title("Number of Cookies per Website")
+        plt.xlabel("Website")
+        plt.ylabel("Number of Cookies")
+        plt.xticks(rotation=90, ha='center', fontsize=8)
+        plt.tight_layout()
+        plt.savefig("number_of_cookies.png", dpi=300)
+        plt.close()
     else:
         print("No results to write to the CSV file.")
+        print("Graph was not able to be created.")
 
 if __name__ == "__main__":
     main()
