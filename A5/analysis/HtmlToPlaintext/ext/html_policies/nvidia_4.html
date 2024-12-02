@@ -1,4 +1,4 @@
-<!DOCTYPE html><html class="html-page no-js device-desktop" xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-us" xml:lang="en-us" style="--vh: 720px;"><!--<![endif]--><head>
+<!DOCTYPE html><html class="html-page no-js device-desktop" xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-us" xml:lang="en-us" style="--vh: 720px;"><!--<![endif]--><head class="at-element-marker">
 	
 
 
@@ -194,7 +194,7 @@
 
 
 
-	<script type="text/javascript" async="" src="https://snap.licdn.com/li.lms-analytics/insight.min.js"></script><script async="" src="https://static.ads-twitter.com/uwt.js"></script><script type="text/javascript" async="" src="https://snap.licdn.com/li.lms-analytics/insight.min.js"></script><script src="https://www.youtube.com/iframe_api"></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script type="text/javascript" async="" referrerpolicy="unsafe-url" src="https://ws.zoominfo.com/pixel/62d5c127677d11008e98da2b"></script><script src="/etc.clientlibs/clientlibs/granite/jquery.min.cee8557e8779d371fe722bbcdd3b3eb7.js"></script>
+	<script src="https://www.youtube.com/iframe_api"></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script type="text/javascript" async="" referrerpolicy="unsafe-url" src="https://ws.zoominfo.com/pixel/62d5c127677d11008e98da2b"></script><script src="/etc.clientlibs/clientlibs/granite/jquery.min.cee8557e8779d371fe722bbcdd3b3eb7.js"></script>
 <script src="/etc.clientlibs/clientlibs/granite/utils.min.4a192b590a2c2926fb000264370c0588.js"></script>
 <script src="/etc.clientlibs/foundation/clientlibs/shared.min.e9d9a3990d7779c2e8e3361187f3d36b.js"></script>
 <script src="/etc/designs/nvidiaGDC/clientlibs_foundation.min.026a51fcf3ffe653efd9f26b54a56ad6.js"></script>
@@ -224,7 +224,121 @@
 		
 		    
 		 	
-		 		<script src="//assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js" data-ot-ignore="true"></script><script src="https://cdn.cookielaw.org/scripttemplates/202409.2.0/otBannerSdk.js" async="" type="text/javascript"></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/EX7d65709a804f4d908440600c7183d3f3-libraryCode_source.min.js" async=""></script><script>
+		 		<script src="//assets.adobedtm.com/5d4962a43b79/96fada676f0e/launch-95431b44ee81.min.js" data-ot-ignore="true"></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/EX7d65709a804f4d908440600c7183d3f3-libraryCode_source.min.js" async=""></script><script>_satellite["_runScript1"](function(event, target, Promise) {
+var cpage=window.location.href;
+//if((cpage.indexOf('https://www.nvidia.com/gtc/recommended-sessions')<0&&cpage.indexOf('https://www.nvidia.com/gtc')<0&&cpage.indexOf('https://www.nvidia.com/gtc/sessions')<0)){
+var _6scProvider = { 
+name: "6sc-api", 
+version: "1.0.0", 
+timeout: 2000, 
+provider: function(callback) { 
+  
+  
+  
+var a = localStorage.getItem("_6senseCompanyDetails"),
+n = JSON.parse(a); 
+//console.log('company detail populated');
+  //console.log(n);
+var country = n.company.country;
+if(country == undefined && "" == country){
+    country="Not Identified"
+}
+
+var industry = n.company.industry;
+if(industry == undefined && "" == industry){
+    industry="Not Identified"
+}
+
+var company = n.company.name;
+if(company == undefined && "" == company){
+    company="Not Identified"
+}
+  
+//var pf={};
+var dl_bs='';
+var dl_ps='';
+ 
+var ps=n.scores;  
+for (var key in ps){
+  if(ps[key].product=="deep_learning"){
+    //pf["dl_buying_stage"]=ps[key].buying_stage;
+    //pf["dl_profile_score"]=ps[key].profile_score;
+    dl_bs=ps[key].buying_stage;
+    dl_ps=ps[key].profile_score;
+  }
+} 
+  
+var sg=n.segments;
+  segs=sg.names.toString()
+  
+  
+  
+    callback(null, {company: company, industry:industry, segments:segs, dl_buying_stage:dl_bs,dl_profile_score:dl_ps}); 
+  }
+}; 
+  
+//}
+
+window.targetGlobalSettings = { 
+dataProviders: [_6scProvider],allowHighEntropyClientHints:true
+}
+
+});</script><script>_satellite["_runScript2"](function(event, target, Promise) {
+/*
+*Name: Adobe Target CS Integration
+*Version: 1.0
+*/
+function isEmpty(val) {
+    return val === undefined || val == null || val.length <= 0 ? true : false;
+}
+ 
+function key(obj) {
+    return Object.keys(obj)
+        .map(function (k) {
+            return k + "" + obj[k];
+        })
+        .join("");
+}
+ 
+function distinct(arr) {
+    var result = arr.reduce(function (acc, e) {
+        acc[key(e)] = e;
+        return acc;
+    }, {});
+    return Object.keys(result).map(function (k) {
+        return result[k];
+    });
+}
+ 
+document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function (e) {
+    window.ttMETA = typeof window.ttMETA != "undefined" ? window.ttMETA : [];
+    var tokens = e.detail.responseTokens;
+    if (isEmpty(tokens)) {
+        return;
+    }
+    var uniqueTokens = distinct(tokens);
+    uniqueTokens.forEach(function (token) {
+        window.ttMETA.push({
+            CampaignName: token["activity.name"],
+            CampaignId: token["activity.id"],
+            RecipeName: token["experience.name"],
+            RecipeId: token["experience.id"],
+            OfferId: token["option.id"],
+            OfferName: token["option.name"],
+        });
+    });
+});
+
+});</script><script>_satellite["_runScript3"](function(event, target, Promise) {
+document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) {
+    if (e.detail.responseTokens) {
+        var responseToken = e.detail.responseTokens;
+        var y = responseToken[0];
+        var profileCatAffinity = y['profile.categoryAffinity'];
+        _satellite.setVar('favCategory', profileCatAffinity);
+    }
+});
+});</script><script>
 /* function dtm_track
  *   @param type -- Required. The type of call. Defaults to "view".
  *   @param obj -- Optional. An object of data elements for mapping to a tag.
@@ -318,10 +432,10 @@ window.dtm_track = function(type,obj) {
   }
   return true;
 };
-</script><script>_satellite["_runScript1"](function(event, target, Promise) {
+</script><script>_satellite["_runScript4"](function(event, target, Promise) {
 var inTime=(new Date()).getTime();
 return window.inTime=inTime;
-});</script><script>_satellite["_runScript2"](function(event, target, Promise) {
+});</script><script>_satellite["_runScript5"](function(event, target, Promise) {
     var ua = window.navigator.userAgent;
     var msie = ua.indexOf("MSIE ");
 
@@ -344,6 +458,33 @@ return window.inTime=inTime;
     }//else{
       //console.log('other version');
        //  }
+});</script><script>_satellite["_runScript6"](function(event, target, Promise) {
+function generateToken(){
+  //return state after it has any double quotations removed
+  var d = new Date().getTime();//Timestamp
+  var d2 = (performance && performance.now && (performance.now()*1000)) || 0;//Time in microseconds since page-load or 0 if unsupported
+  return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+      var r = Math.random() * 16;//random number between 0 and 16
+      if(d > 0){//Use timestamp until depleted
+          r = (d + r)%16 | 0;
+          d = Math.floor(d/16);
+      } else {//Use microseconds since page-load if supported
+          r = (d2 + r)%16 | 0;
+          d2 = Math.floor(d2/16);
+      }
+      return (c === 'x' ? r : (r & 0x3 | 0x8)).toString(16);
+  });
+}
+
+
+/*Setting Anonymous Cookie*/
+const cookieName = "nvweb_A";
+if (typeof _satellite.cookie!== "undefined" && typeof _satellite.cookie.get("nvweb_A")=== "undefined") {
+    const cookieValue = generateToken();
+    const daysToExpire = new Date(3147483647 * 1000).toUTCString();
+    document.cookie = cookieName + '=' + cookieValue + ';domain=.nvidia.com;path=/' + '; expires=' + daysToExpire; 
+}
+
 });</script>
 		 	
 		
@@ -539,7 +680,7 @@ var nvidiaGDClog = function() {
 
 
 	<script type="text/javascript" src="//static.queue-it.net/script/queueclient.min.js"></script>
-	<script data-queueit-c="nvidia" data-queueit-intercept-domain="api.store.nvidia.com" data-queueit-intercept="true" type="text/javascript" src="//static.queue-it.net/script/queueconfigloader.min.js"></script><script type="text/javascript" src="https://assets.queue-it.net/nvidia/integrationconfig/javascript/queueclientConfig.js?versionTimestamp=20241130101008"></script>
+	<script data-queueit-c="nvidia" data-queueit-intercept-domain="api.store.nvidia.com" data-queueit-intercept="true" type="text/javascript" src="//static.queue-it.net/script/queueconfigloader.min.js"></script><script type="text/javascript" src="https://assets.queue-it.net/nvidia/integrationconfig/javascript/queueclientConfig.js?versionTimestamp=20241201212107"></script>
 
 
 
@@ -662,7 +803,7 @@ ul {
 
 
 
-<script>bazadebezolkohpepadr="1911565613"</script><script type="text/javascript" src="https://www.nvidia.com/akam/13/71f02e86" defer=""></script><style>.vertex-ul-list {
+<script>bazadebezolkohpepadr="777506387"</script><script type="text/javascript" src="https://www.nvidia.com/akam/13/2e57cc56" defer=""></script><style>.vertex-ul-list {
     margin-top: 0px !important;
     margin-bottom: 0px !important;
     padding-left: 0px;
@@ -1477,7 +1618,54 @@ a {
 /* body {
   font-family: var(--app-font);
 } */
-</style><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCc5bbeeca0315495883d8c418eea348f6-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCda69ff3139c94315bfaff64429aae33d-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC990c4c4a4ffe47b3977f6bc512287b97-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCba290c02ddaa4853b3f20e3119d8c3fa-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCc81f42ca1d5f4d23ab7560ddc058558b-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC3d648906b1cf41758abb6e1d5b4437bd-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCb13380a327f2490db1a02e0b9092d685-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCa501c5a002e9495481ecb6bfc5461e79-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCe14c747a1cd740549dd04f338beb324e-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC7e4874483cd341c3b37c26ed6adcacdd-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC888ad2c2bc0a4d219b98c52e71300afc-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCcf575aba2d154f9ca9ef505c60796e9b-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC6f396a1244694135a28505decb4d3b68-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCa3b54cdd64f54a98a3fdf0057fdce506-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC83ca41fc6903406e9873feeab6115fa2-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC24ab69b75f3c42d39c16b896c8c5da04-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCf8fd4b47267543b2beeb10f247362304-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC5bd750c7c52f4e62a16e36351ffc47ee-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC6945e1daaeeb49aea2b456101cad4ea7-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC38d02d78870b41eda51507a3e3ed1024-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCa3ea9a41abf446578d77f5422d9e3646-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC9812453425c64fbaab3db67f80fbc05b-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC2c76c31829954646a9f3d2fbdd3b3de9-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCfd974a73064a4e40804c29200bbfaf9b-source.min.js" async=""></script><script type="text/javascript" async="" src="https://www.influ2.com/tracker?clid=cc39198a-89bf-4c7b-86bc-535a0b4fd630"></script><script async="" src="https://static.hotjar.com/c/hotjar-3655182.js?sv=6"></script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=AW-1041695361" async=""></script></head>
+</style><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCc5bbeeca0315495883d8c418eea348f6-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCda69ff3139c94315bfaff64429aae33d-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC990c4c4a4ffe47b3977f6bc512287b97-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCba290c02ddaa4853b3f20e3119d8c3fa-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCc81f42ca1d5f4d23ab7560ddc058558b-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC3d648906b1cf41758abb6e1d5b4437bd-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCb13380a327f2490db1a02e0b9092d685-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCa501c5a002e9495481ecb6bfc5461e79-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCaabac1691c004110b13e42d63fc3b224-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCe14c747a1cd740549dd04f338beb324e-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC7e4874483cd341c3b37c26ed6adcacdd-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC888ad2c2bc0a4d219b98c52e71300afc-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCcf575aba2d154f9ca9ef505c60796e9b-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC6f396a1244694135a28505decb4d3b68-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCa3b54cdd64f54a98a3fdf0057fdce506-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC83ca41fc6903406e9873feeab6115fa2-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC24ab69b75f3c42d39c16b896c8c5da04-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCf8fd4b47267543b2beeb10f247362304-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC5bd750c7c52f4e62a16e36351ffc47ee-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC6945e1daaeeb49aea2b456101cad4ea7-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC38d02d78870b41eda51507a3e3ed1024-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC18521fa0eca34e9e91905f511da304e6-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC794dce10b36b4ab082688c4455ded941-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCa3ea9a41abf446578d77f5422d9e3646-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC9812453425c64fbaab3db67f80fbc05b-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC2c76c31829954646a9f3d2fbdd3b3de9-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RCfd974a73064a4e40804c29200bbfaf9b-source.min.js" async=""></script><script src="https://assets.adobedtm.com/5d4962a43b79/96fada676f0e/f1737c741ce2/RC6f02e1fc20ba4514a8560ae2a17aae79-source.min.js" async=""></script><script src="https://cdn.cookielaw.org/scripttemplates/202409.2.0/otBannerSdk.js" async="" type="text/javascript"></script><script>
+function checkElementXt() {
+  var elementXt = document.querySelectorAll('.nv-menu-list.right a')[0];
+
+  if (elementXt) {
+    
+    elementXt.href = 'https://marketplace.nvidia.com/en-us/enterprise/';
+  } else {
+    elementXt.href = 'https://store.nvidia.com/en-us/';
+
+  }
+}
+setTimeout(checkElementXt, 1000);
+</script><style> @media(min-width:1024px) and (max-width:1349px){ .navigation .global-nav .desktop-nav .nav-header-container .nv-menu .nv-menu-list.left .nv-menu3-container ul.menu-level-3 li.menu-level-3.menu-col-4 { width: calc(63% + 10px); } }
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) { .navigation .global-nav .sub-brand-nav .brand-nav-left { opacity: 1; } } 
+
+
+  .navigation .global-nav .desktop-nav .nav-header-container #tab4-nv-level2-tab8:checked~.menu3-container .nv-level3-tab8 {
+  background-color:#eee;
+  opacity:1;
+  -webkit-transform:rotateX(0);
+  transform:rotateX(0);
+  transition:.2s ease-out;
+  -webkit-transition:.2s ease-out;
+  -o-transition:.2s ease-out;
+  visibility:visible;
+  width:100%
+}
+.navigation .global-nav .desktop-nav .nav-header-container #tab4-nv-level2-tab8:checked ~ .nv-level2-list-container .nv-menu-level2-list .slider-menu {
+  opacity: 1;
+}
+  
+  .navigation .global-nav .desktop-nav .nav-header-container #tab4-nv-level2-tab9:checked~.menu3-container .nv-level3-tab9 {
+  background-color:#eee;
+  opacity:1;
+  -webkit-transform:rotateX(0);
+  transform:rotateX(0);
+  transition:.2s ease-out;
+  -webkit-transition:.2s ease-out;
+  -o-transition:.2s ease-out;
+  visibility:visible;
+  width:100%
+}
+.navigation .global-nav .desktop-nav .nav-header-container #tab4-nv-level2-tab9:checked ~ .nv-level2-list-container .nv-menu-level2-list .slider-menu {
+  opacity: 1;
+}
+  
+</style><script type="text/javascript" async="" src="https://www.influ2.com/tracker?clid=cc39198a-89bf-4c7b-86bc-535a0b4fd630"></script></head>
 
 
 
@@ -1944,7 +2132,7 @@ a {
 
 
 
-<nav class="global-nav" id="navigation67effc6f_aacb_40c4_804d_f951ed5fd43d">
+<nav class="global-nav" id="navigation97fb58bc_1bd1_43d8_899c_844c2956af74">
 	<div class="nav-header desktop-nav">
 		<a class="skip-main" href="#page-content"><span>Skip to main content</span></a>
 		<div class="nav-header-container">
@@ -5502,7 +5690,7 @@ a {
 </div>
 
 <div id="mega-nav" class="mega-nav" role="navigation">
-	<div class="mega-menu" style="opacity: 0.9983; height: 43.924px; left: 0px;">
+	<div class="mega-menu" style="opacity: 1; height: 44px; left: 0px;">
 
 		<!-- SVG SYMBOL DEFINITIONS -->
 
@@ -9984,7 +10172,7 @@ a {
 	</div>
 </div>
 
-<div class="mega-overlay hide" style="opacity: 0.3811;"></div>
+<div class="mega-overlay hide" style="opacity: 0.0015;"></div>
 
 <script>
 if(false){
@@ -10851,7 +11039,7 @@ if(false){
 				searchPath.value = window.location.pathname;
 	        }
 	    NVIDIAGDC.funcQueue.addToQueue({ 
-	        id : "navigation67effc6f_aacb_40c4_804d_f951ed5fd43d",
+	        id : "navigation97fb58bc_1bd1_43d8_899c_844c2956af74",
 	        method : "navigation-megamenu",
 	        params : [{
 	            globalSite:false,
@@ -10921,7 +11109,7 @@ if(false){
 
 
 <section class="background-white p-t-75 p-b-30 tab-p-t-45 tab-p-b-45 mob-p-t-15 mob-p-b-15  ">
-	<div id="sectionwrapper_copy531bc914_389c_4410_94aa_b378ae6e2206" class="general-container ">
+	<div id="sectionwrapper_copy76437738_9d53_4cdc_a4cd_324afc23401a" class="general-container ">
 	
         
         	<div class="large-12 medium-12 small-12 center">
@@ -10947,7 +11135,7 @@ if(false){
 
 
 
-<div id="textcompc70fb8c2_ab5d_44a9_b200_39157fc47de4" class="general-container-text    wid-default p-t-0 p-b-0 tab-p-t-0 tab-p-b-0 mob-p-t-0 mob-p-b-0     ">
+<div id="textcomp5842197c_938e_4414_a56c_c2b89d2eb815" class="general-container-text    wid-default p-t-0 p-b-0 tab-p-t-0 tab-p-b-0 mob-p-t-0 mob-p-b-0     ">
 	<div class="text-center tab-text-center ">
 
         
@@ -11090,7 +11278,7 @@ if(false){
 
 
 <section class="background-white p-t-0 p-b-45 tab-p-t-15 tab-p-b-45 mob-p-t-15 mob-p-b-15  ">
-	<div id="sectionwrapperb7d20acc_ae5c_4306_b463_88dd08d8cae5" class="general-container ">
+	<div id="sectionwrapper26d426c9_89bd_4bda_be28_bb4ea9753622" class="general-container ">
 	
         
         	<div class="large-12 medium-12 small-12 center">
@@ -11116,7 +11304,7 @@ if(false){
 
 
 
-<div id="textcomp23d9e8a2_e9f8_479a_a002_648608156b2d" class="general-container-text    wid-default p-t-0 p-b-0             ">
+<div id="textcompbdec32b5_4afd_4a7e_8bce_011483b0f13a" class="general-container-text    wid-default p-t-0 p-b-0             ">
 	<div class="text-left tab-text-center ">
 
         
@@ -11228,7 +11416,7 @@ if(false){
 
 
 <section class="background-white p-t-0 p-b-45 tab-p-t-0 tab-p-b-45 mob-p-t-0 mob-p-b-15  ">
-	<div id="sectionwrapper_14794267542e1c4d00_90ce_4131_a8b3_fe6f484ff387" class="general-container ">
+	<div id="sectionwrapper_147942675473a588db_a2d7_44cc_b7fb_923c216741be" class="general-container ">
 	
         
         	<div class="large-12 medium-12 small-12 center">
@@ -11254,7 +11442,7 @@ if(false){
 
 
 
-<div id="textcomp_copy_copy_cff5bbf44_688d_482f_bc28_5fc33f4060e9" class="general-container-text    wid-default p-t-0 p-b-0 tab-p-t-0 tab-p-b-0 mob-p-t-0 mob-p-b-0     ">
+<div id="textcomp_copy_copy_c81815839_1407_4688_9813_4e5898ca7c19" class="general-container-text    wid-default p-t-0 p-b-0 tab-p-t-0 tab-p-b-0 mob-p-t-0 mob-p-b-0     ">
 	<div class="text-left tab-text-left mob-text-left">
 
         
@@ -11397,7 +11585,7 @@ if(false){
 
 
 <section class="background-white p-t-0 p-b-45 tab-p-t-0 tab-p-b-45 mob-p-t-0 mob-p-b-15  ">
-	<div id="sectionwrapper_197883382561798282_47eb_4283_aa0f_b2f9f842fb37" class="general-container ">
+	<div id="sectionwrapper_1978833825f92c19c7_e3be_465b_92e3_0d55b7d2a4b6" class="general-container ">
 	
         
         	<div class="large-12 medium-12 small-12 center">
@@ -11423,7 +11611,7 @@ if(false){
 
 
 
-<div id="textcomp_copy_copy_ca9248688_be8b_400d_aa42_8f1ce812396d" class="general-container-text    wid-default p-t-0 p-b-0 tab-p-t-0 tab-p-b-0 mob-p-t-30 mob-p-b-0     ">
+<div id="textcomp_copy_copy_cf5259be9_df77_4454_8f45_a83153506552" class="general-container-text    wid-default p-t-0 p-b-0 tab-p-t-0 tab-p-b-0 mob-p-t-30 mob-p-b-0     ">
 	<div class="text-left tab-text-left mob-text-left">
 
         
@@ -11566,7 +11754,7 @@ if(false){
 
 
 <section class="background-white p-t-0 p-b-45 tab-p-t-0 tab-p-b-45 mob-p-t-0 mob-p-b-15  ">
-	<div id="sectionwrapper_1732315232f58ab10a_96f2_4304_b5f1_0c014a6d2963" class="general-container ">
+	<div id="sectionwrapper_17323152324638515a_6bd5_41c3_92ce_d13829501758" class="general-container ">
 	
         
         	<div class="large-12 medium-12 small-12 center">
@@ -11592,7 +11780,7 @@ if(false){
 
 
 
-<div id="textcomp_copy_copy_c11413a95_c3f3_497a_bf38_586897203350" class="general-container-text    wid-default p-t-0 p-b-0 tab-p-t-0 tab-p-b-0 mob-p-t-30 mob-p-b-0     ">
+<div id="textcomp_copy_copy_c5040eb86_45c0_4ec7_acd8_df7fc3737927" class="general-container-text    wid-default p-t-0 p-b-0 tab-p-t-0 tab-p-b-0 mob-p-t-30 mob-p-b-0     ">
 	<div class="text-left tab-text-left mob-text-left">
 
         
@@ -11735,7 +11923,7 @@ if(false){
 
 
 <section class="background-white p-t-0 p-b-45 tab-p-t-0 tab-p-b-45 mob-p-t-0 mob-p-b-15  ">
-	<div id="sectionwrapper_1586995346dc2bb606_7686_4886_8178_1f5a1d9ac21e" class="general-container ">
+	<div id="sectionwrapper_1586995346c39e315e_afaa_4c41_81e6_e97aff41a38f" class="general-container ">
 	
         
         	<div class="large-12 medium-12 small-12 center">
@@ -11761,7 +11949,7 @@ if(false){
 
 
 
-<div id="textcomp_copy_copy_caa10f8ca_e866_4691_8681_93eccdc26161" class="general-container-text    wid-default p-t-0 p-b-0 tab-p-t-0 tab-p-b-0 mob-p-t-30 mob-p-b-0     ">
+<div id="textcomp_copy_copy_c7a2bb13c_2d2b_414b_804a_91b1538978ea" class="general-container-text    wid-default p-t-0 p-b-0 tab-p-t-0 tab-p-b-0 mob-p-t-30 mob-p-b-0     ">
 	<div class="text-left tab-text-left mob-text-left">
 
         
@@ -11906,7 +12094,7 @@ if(false){
 
 
 <section class="background-white p-t-0 p-b-45 tab-p-t-0 tab-p-b-45 mob-p-t-0 mob-p-b-15  ">
-	<div id="sectionwrapper_155283044f4da393c_f549_46a7_ae6e_24ff7293f318" class="general-container ">
+	<div id="sectionwrapper_1552830442f0e3400_3f19_4fad_a403_3ca82e05ca9c" class="general-container ">
 	
         
         	<div class="large-12 medium-12 small-12 center">
@@ -11932,7 +12120,7 @@ if(false){
 
 
 
-<div id="textcomp_copy_copy_c6e086c70_dcec_45bf_867b_2d77f6bda5e0" class="general-container-text    wid-default p-t-0 p-b-0 tab-p-t-0 tab-p-b-0 mob-p-t-30 mob-p-b-0     ">
+<div id="textcomp_copy_copy_c9f4e964e_66b5_4c16_a50b_fab48aff50d7" class="general-container-text    wid-default p-t-0 p-b-0 tab-p-t-0 tab-p-b-0 mob-p-t-30 mob-p-b-0     ">
 	<div class="text-left tab-text-left mob-text-left">
 
         
@@ -12075,7 +12263,7 @@ if(false){
 
 
 <section class="background-white p-t-0 p-b-45 tab-p-t-0 tab-p-b-45 mob-p-t-0 mob-p-b-15  ">
-	<div id="sectionwrapper_79033504282f63161_0677_407a_897c_4cf5f8f974ec" class="general-container ">
+	<div id="sectionwrapper_79033504227b74a19_38ab_4a60_a61e_71147284e3ef" class="general-container ">
 	
         
         	<div class="large-12 medium-12 small-12 center">
@@ -12101,7 +12289,7 @@ if(false){
 
 
 
-<div id="textcomp_copy_copy_c5db41914_7b1f_4960_b2f2_31bf9e39b4c7" class="general-container-text    wid-default p-t-0 p-b-0 tab-p-t-0 tab-p-b-0 mob-p-t-30 mob-p-b-0     ">
+<div id="textcomp_copy_copy_c23409efc_e797_450b_ba16_dc0fb862c05c" class="general-container-text    wid-default p-t-0 p-b-0 tab-p-t-0 tab-p-b-0 mob-p-t-30 mob-p-b-0     ">
 	<div class="text-left tab-text-left mob-text-left">
 
         
@@ -12244,7 +12432,7 @@ if(false){
 
 
 <section class="background-white p-t-0 p-b-45 tab-p-t-0 tab-p-b-45 mob-p-t-0 mob-p-b-15  ">
-	<div id="sectionwrapper_1540417248e8ac8039_3212_42bb_b450_8bc0e620ec51" class="general-container ">
+	<div id="sectionwrapper_1540417248befe5e7c_7d01_4cc7_aebc_a94455064af2" class="general-container ">
 	
         
         	<div class="large-12 medium-12 small-12 center">
@@ -12270,7 +12458,7 @@ if(false){
 
 
 
-<div id="textcomp_copy_copy_c12b171a1_9230_47c6_ba07_b2e8b6fe0fbe" class="general-container-text    wid-default p-t-0 p-b-0 tab-p-t-0 tab-p-b-0 mob-p-t-30 mob-p-b-0     ">
+<div id="textcomp_copy_copy_c2175e631_e304_40f0_861a_98b316a3e2fe" class="general-container-text    wid-default p-t-0 p-b-0 tab-p-t-0 tab-p-b-0 mob-p-t-30 mob-p-b-0     ">
 	<div class="text-left tab-text-left mob-text-left">
 
         
@@ -12413,7 +12601,7 @@ if(false){
 
 
 <section class="background-white p-t-0 p-b-45 tab-p-t-0 tab-p-b-45 mob-p-t-0 mob-p-b-15  ">
-	<div id="sectionwrapper_297894367cee97cd4_95cc_4278_98c3_31aefb6cfe46" class="general-container ">
+	<div id="sectionwrapper_29789436715c2f6fe_1c26_4013_abab_3afff0a3e98c" class="general-container ">
 	
         
         	<div class="large-12 large-12 medium-12 small-12 center">
@@ -12439,7 +12627,7 @@ if(false){
 
 
 
-<div id="textcomp_copy_copy_c281e72b2_407e_4cdd_98e5_4358d1d95ab2" class="general-container-text    wid-default p-t-0 p-b-0 tab-p-t-0 tab-p-b-0 mob-p-t-30 mob-p-b-0     ">
+<div id="textcomp_copy_copy_c3bf4cf32_ccf5_4525_946d_508676da252b" class="general-container-text    wid-default p-t-0 p-b-0 tab-p-t-0 tab-p-b-0 mob-p-t-30 mob-p-b-0     ">
 	<div class="text-left tab-text-left mob-text-left">
 
         
@@ -12583,7 +12771,7 @@ if(false){
 
 
 <section class="background-white p-t-0 p-b-45 tab-p-t-0 tab-p-b-45 mob-p-t-0 mob-p-b-15  ">
-	<div id="sectionwrapper_297892988655d_6f2a_4e72_bc75_ce00f4b29445" class="general-container ">
+	<div id="sectionwrapper_2978949d74832_430e_42a5_aafa_dffec24239d1" class="general-container ">
 	
         
         	<div class="large-12 large-12 medium-12 small-12 center">
@@ -12609,7 +12797,7 @@ if(false){
 
 
 
-<div id="textcomp_copy_copy_c_17286720ecc0fc92_2848_48c4_926b_f904d11db7c4" class="general-container-text    wid-default p-t-0 p-b-0 tab-p-t-0 tab-p-b-0 mob-p-t-30 mob-p-b-0     ">
+<div id="textcomp_copy_copy_c_1728672000d9937e_7614_4a46_99db_18fbe70d085c" class="general-container-text    wid-default p-t-0 p-b-0 tab-p-t-0 tab-p-b-0 mob-p-t-30 mob-p-b-0     ">
 	<div class="text-left tab-text-left mob-text-left">
 
         
@@ -12752,7 +12940,7 @@ if(false){
 
 
 <section class="background-white p-t-0 p-b-45 tab-p-t-0 tab-p-b-45 mob-p-t-0 mob-p-b-15  ">
-	<div id="sectionwrapper_29789_1089845015ea003ddb_2daa_40a5_9527_6938b44c0755" class="general-container ">
+	<div id="sectionwrapper_29789_10898450155840a8fa_4010_4763_b9c7_6d77df003c2f" class="general-container ">
 	
         
         	<div class="large-12 large-12 medium-12 small-12 center">
@@ -12778,7 +12966,7 @@ if(false){
 
 
 
-<div id="textcomp_copy_copy_c_17286720090b9698_8530_45b2_827b_fae5c540edb9" class="general-container-text    wid-default p-t-0 p-b-0 tab-p-t-0 tab-p-b-0 mob-p-t-30 mob-p-b-0     ">
+<div id="textcomp_copy_copy_c_172867208dc9fd6d_eaf7_484c_9da4_0e8d47bfcf41" class="general-container-text    wid-default p-t-0 p-b-0 tab-p-t-0 tab-p-b-0 mob-p-t-30 mob-p-b-0     ">
 	<div class="text-left tab-text-left mob-text-left">
 
         
@@ -12923,7 +13111,7 @@ if(false){
 
 
 <section class="background-white p-t-0 p-b-45 tab-p-t-0 tab-p-b-45 mob-p-t-0 mob-p-b-15  ">
-	<div id="sectionwrapper_29789_184713498579f37df5_1576_4c04_8637_07d4d01c2027" class="general-container ">
+	<div id="sectionwrapper_29789_18471349850dd3b575_5f77_4cae_a459_0e87671e24ca" class="general-container ">
 	
         
         	<div class="large-12 large-12 medium-12 small-12 center">
@@ -12949,7 +13137,7 @@ if(false){
 
 
 
-<div id="textcomp_copy_copy_c_17286720692936be_2796_47dd_b118_412aef9ce8b5" class="general-container-text    wid-default p-t-0 p-b-0 tab-p-t-0 tab-p-b-0 mob-p-t-30 mob-p-b-0     ">
+<div id="textcomp_copy_copy_c_172867207481e022_ddde_4e86_8929_3de4df630309" class="general-container-text    wid-default p-t-0 p-b-0 tab-p-t-0 tab-p-b-0 mob-p-t-30 mob-p-b-0     ">
 	<div class="text-left tab-text-left mob-text-left">
 
         
@@ -13092,7 +13280,7 @@ if(false){
 
 
 <section class="background-white p-t-0 p-b-45 tab-p-t-0 tab-p-b-45 mob-p-t-0 mob-p-b-15  ">
-	<div id="sectionwrapper_126136796727ccc00a_a34e_488d_8f9a_c70946bfc379" class="general-container ">
+	<div id="sectionwrapper_126136796737029805_1686_4b5c_a79d_aac0c916105f" class="general-container ">
 	
         
         	<div class="large-12 medium-12 small-12 center">
@@ -13118,7 +13306,7 @@ if(false){
 
 
 
-<div id="textcomp_copy_copy_c55e04418_513d_448b_b631_9210bbffa194" class="general-container-text    wid-default p-t-0 p-b-0 tab-p-t-0 tab-p-b-0 mob-p-t-30 mob-p-b-0     ">
+<div id="textcomp_copy_copy_c51ea36dd_598f_44ae_ac2b_47f5a3940b65" class="general-container-text    wid-default p-t-0 p-b-0 tab-p-t-0 tab-p-b-0 mob-p-t-30 mob-p-b-0     ">
 	<div class="text-left tab-text-left mob-text-left">
 
         
@@ -13261,7 +13449,7 @@ if(false){
 
 
 <section class="background-white p-t-0 p-b-45 tab-p-t-0 tab-p-b-45 mob-p-t-0 mob-p-b-15  ">
-	<div id="sectionwrapper_429921002935d09b7_65ff_4df1_a54d_2220e5f7be96" class="general-container ">
+	<div id="sectionwrapper_4299210022802ae9f_162d_459a_9bf2_d5223d29a16c" class="general-container ">
 	
         
         	<div class="large-12 medium-12 small-12 center">
@@ -13287,7 +13475,7 @@ if(false){
 
 
 
-<div id="textcomp_copy_copy_c3c1f125a_7106_403d_becb_aaa0b3d3c3fc" class="general-container-text    wid-default p-t-0 p-b-0 tab-p-t-0 tab-p-b-0 mob-p-t-30 mob-p-b-0     ">
+<div id="textcomp_copy_copy_ca99855b1_05ef_4a8f_860c_5d052943784c" class="general-container-text    wid-default p-t-0 p-b-0 tab-p-t-0 tab-p-b-0 mob-p-t-30 mob-p-b-0     ">
 	<div class="text-left tab-text-left mob-text-left">
 
         
@@ -13430,7 +13618,7 @@ if(false){
 
 
 <section class="background-white p-t-0 p-b-45 tab-p-t-0 tab-p-b-45 mob-p-t-0 mob-p-b-15  ">
-	<div id="sectionwrapper_7243486842e38c6f9_c16d_4a38_9451_91947d017cf0" class="general-container ">
+	<div id="sectionwrapper_7243486848e01c9d1_bac7_4400_93a2_240407e413b7" class="general-container ">
 	
         
         	<div class="large-12 medium-12 small-12 center">
@@ -13456,7 +13644,7 @@ if(false){
 
 
 
-<div id="textcomp_copy_copy_c0ec2c173_9ddf_431a_bd07_5e63ce8c5aa3" class="general-container-text    wid-default p-t-0 p-b-0 tab-p-t-0 tab-p-b-0 mob-p-t-30 mob-p-b-0     ">
+<div id="textcomp_copy_copy_c5e33c717_8fdc_4262_87a0_f039e9fb079c" class="general-container-text    wid-default p-t-0 p-b-0 tab-p-t-0 tab-p-b-0 mob-p-t-30 mob-p-b-0     ">
 	<div class="text-left tab-text-left mob-text-left">
 
         
@@ -13599,7 +13787,7 @@ if(false){
 
 
 <section class="background-white p-t-0 p-b-60 tab-p-t-0 tab-p-b-60 mob-p-t-0 mob-p-b-15  ">
-	<div id="sectionwrapper_29789_1207932605856a928b_52b6_4d64_b5ec_caa2e8d8fbb7" class="general-container ">
+	<div id="sectionwrapper_29789_1207932605d2b62929_0293_46af_ab8a_1da992409e9a" class="general-container ">
 	
         
         	<div class="large-12 large-12 medium-12 small-12 center">
@@ -13625,7 +13813,7 @@ if(false){
 
 
 
-<div id="textcomp_copy_copy_c_1728672066aa4602_0422_434d_82c5_024ec4391638" class="general-container-text    wid-default p-t-0 p-b-0 tab-p-t-0 tab-p-b-0 mob-p-t-30 mob-p-b-0     ">
+<div id="textcomp_copy_copy_c_1728672092c7704d_267a_4a46_9cac_1dca73a5a56d" class="general-container-text    wid-default p-t-0 p-b-0 tab-p-t-0 tab-p-b-0 mob-p-t-30 mob-p-b-0     ">
 	<div class="text-left tab-text-left mob-text-left">
 
         
@@ -13780,7 +13968,7 @@ if(false){
 
 
 <section class="background-white p-t-0 p-b-45 tab-p-t-0 tab-p-b-45 mob-p-t-0 mob-p-b-15  ">
-	<div id="sectionwrapper_3489985504de0753f_6f0e_48a0_96ee_da44e0355374" class="general-container ">
+	<div id="sectionwrapper_348998550adccec06_e098_4d94_9bb3_5cad048944ed" class="general-container ">
 	
         
         	<div class="large-12 medium-12 small-12 center">
@@ -13806,7 +13994,7 @@ if(false){
 
 
 
-<div id="textcomp_copy_copy_cea9859b3_6bfb_4223_8e9e_e68863f64964" class="general-container-text    wid-default p-t-0 p-b-0 tab-p-t-0 tab-p-b-0 mob-p-t-30 mob-p-b-0     ">
+<div id="textcomp_copy_copy_c4b0ec40e_dcf6_4868_be7f_7b4cbcf58b38" class="general-container-text    wid-default p-t-0 p-b-0 tab-p-t-0 tab-p-b-0 mob-p-t-30 mob-p-b-0     ">
 	<div class="text-left tab-text-left mob-text-left">
 
         
@@ -13949,7 +14137,7 @@ if(false){
 
 
 <section class="background-white p-t-0 p-b-45 tab-p-t-0 tab-p-b-45 mob-p-t-0 mob-p-b-15  ">
-	<div id="sectionwrapper_12966165621b3c8b4c_c37d_4123_897c_00ad393ec2ae" class="general-container ">
+	<div id="sectionwrapper_1296616562b224476d_7120_4754_af7f_891276271688" class="general-container ">
 	
         
         	<div class="large-12 medium-12 small-12 center">
@@ -13975,7 +14163,7 @@ if(false){
 
 
 
-<div id="textcomp_copy_copy_c4a9fe4a0_6f6d_4b30_a15b_409b1b5b7708" class="general-container-text    wid-default p-t-0 p-b-0 tab-p-t-0 tab-p-b-0 mob-p-t-30 mob-p-b-0     ">
+<div id="textcomp_copy_copy_cb05d7db0_e57a_48e0_8c29_5279f2cb5bae" class="general-container-text    wid-default p-t-0 p-b-0 tab-p-t-0 tab-p-b-0 mob-p-t-30 mob-p-b-0     ">
 	<div class="text-left tab-text-left mob-text-left">
 
         
@@ -14118,7 +14306,7 @@ if(false){
 
 
 <section class="background-white p-t-0 p-b-30 tab-p-t-0 tab-p-b-30 mob-p-t-0 mob-p-b-15  ">
-	<div id="sectionwrapper_189449257918767c1f_72c3_43c6_a0fb_efaeae968187" class="general-container ">
+	<div id="sectionwrapper_1894492579d5c2d16b_268c_4e4a_a292_c28822293ec8" class="general-container ">
 	
         
         	<div class="large-12 large-12 medium-12 small-12 center">
@@ -14829,7 +15017,7 @@ try {
 
 
 } catch (e) {}
-</script><script>_satellite["_runScript3"](function(event, target, Promise) {
+</script><script>_satellite["_runScript7"](function(event, target, Promise) {
 try{
 if(document.URL.indexOf('/nvidia-brochure/')>-1){$('#toc li').on('click',function(){var getVal=$(this).find('img').attr('title').trim();ClickOmniTrack(this,'evenet10','img:section:',getVal);});$('a.ic-toc').on('click',function(){var getVal=$(this).attr('title').trim();ClickOmniTrack(this,'evenet10','img:section:',getVal);});}
 if(document.URL.indexOf('/gpu-ventures')>-1){$('.watchvideo').click(function(){var getHeading = $(this).parents('.sectionWrapper').siblings('.textcomp').find('h4 span.color-brand-green').text(); ClickOmniTrack(this,'evenet10','img:section:'+getHeading+':','watch video');});}  
@@ -14839,7 +15027,7 @@ $('.body-text h3 a, .intro-copy-text p a, .body-text p a').click(function(){var 
 
   if(document.URL.indexOf('/about-nvidia/careers/')>-1){$('.watchvideo').on('click',function(){var getHeading=$(this).closest('.column').siblings('.column').find('h2.title').text().trim();if(getHeading==''){getHeading=$(this).closest('.sectionWrapper').closest('section').closest('.sectionWrapper').prevAll('.sectionWrapper').find('hgroup h2').text().trim();}ClickOmniTrack(this,'evenet10','img:section:'+getHeading+':','watch video');});}
 }catch(e){}
-});</script><script>_satellite["_runScript4"](function(event, target, Promise) {
+});</script><script>_satellite["_runScript8"](function(event, target, Promise) {
 try {
 
 
@@ -15339,7 +15527,7 @@ try {
 
 
 } catch (e) {}
-});</script><script>_satellite["_runScript5"](function(event, target, Promise) {
+});</script><script>_satellite["_runScript9"](function(event, target, Promise) {
 window.ClickOmniTrack=function(obj,eventVal,prefix,secName){  
   try
    { s.eVar42=s.prop42='';
@@ -15533,11 +15721,11 @@ try {
         })
     }
 } catch (e) {}
-</script><script>_satellite["_runScript6"](function(event, target, Promise) {
+</script><script>_satellite["_runScript10"](function(event, target, Promise) {
 try{
 $('#design .cta-preorder.maxq a').click(function(){var getVal=$(this).text();var head=$(this).parent().siblings('h2').text();ClickOmniTrack(this,'event10','button:section:'+head+':',getVal);});}
 catch(e){}
-});</script><script>_satellite["_runScript7"](function(event, target, Promise) {
+});</script><script>_satellite["_runScript11"](function(event, target, Promise) {
 try{
   var ppath=window.location.href;
   if(ppath.indexOf('checkout')<0 && ppath.indexOf('account')<0 ){
@@ -15617,180 +15805,21 @@ try{
 	}
 </style>
 
-<noscript><img src="https://www.nvidia.com/akam/13/pixel_71f02e86?a=dD00NjkwNDM5ZWRmNDI5ZmRiOWUxYWE4NDQxNTI2N2Y1NjVmZmQzNTAzJmpzPW9mZg==" style="visibility: hidden; position: absolute; left: -999px; top: -999px;" /></noscript>
+<noscript><img src="https://www.nvidia.com/akam/13/pixel_2e57cc56?a=dD04NzRlZjVlMmU2YjFkYmUzNWE3ZTE3NDQ0NzFjOWY1NjZmOTM2ZGNkJmpzPW9mZg==" style="visibility: hidden; position: absolute; left: -999px; top: -999px;" /></noscript>
 
 
-<div id="cboxOverlay" style="display: none;"></div><div id="colorbox" class="" role="dialog" tabindex="-1" style="display: none;"><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxTitle" style="float: left;"></div><div id="cboxCurrent" style="float: left;"></div><button type="button" id="cboxPrevious"></button><button type="button" id="cboxNext"></button><button type="button" id="cboxSlideshow"></button><div id="cboxLoadingOverlay" style="float: left;"></div><div id="cboxLoadingGraphic" style="float: left;"></div></div><div id="cboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none; max-width: none;"></div></div><script>_satellite["_runScript8"](function(event, target, Promise) {
+<div id="cboxOverlay" style="display: none;"></div><div id="colorbox" class="" role="dialog" tabindex="-1" style="display: none;"><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxTitle" style="float: left;"></div><div id="cboxCurrent" style="float: left;"></div><button type="button" id="cboxPrevious"></button><button type="button" id="cboxNext"></button><button type="button" id="cboxSlideshow"></button><div id="cboxLoadingOverlay" style="float: left;"></div><div id="cboxLoadingGraphic" style="float: left;"></div></div><div id="cboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none; max-width: none;"></div></div><script>_satellite["_runScript12"](function(event, target, Promise) {
 try{document.querySelector("#page-content > div > div:nth-child(2) > div > nav.panel.top > div > div > a").addEventListener("click",(function(t){var e=t.target.innerText;ClickOmniTrack(this,"event10","button:section:",e)})),document.querySelector("#history > div.content > div > div > div > a").addEventListener("click",(function(t){var e=t.target.innerText;ClickOmniTrack(this,"event10","button:section:our history:",e)})),document.querySelector("#a-word-from-jensen > div.content > div.container.hideForPhone > div > div > div > a").addEventListener("click",(function(t){var e=t.target.innerText;ClickOmniTrack(this,"event10","button:section:Jensen Huang:",e)})),document.querySelector("#nv-signup > div.content > div.container > div > div > div > a").addEventListener("click",(function(t){var e=t.target.innerText;ClickOmniTrack(this,"event10","button:section:Keep Updated on our Most Impactful Breakthroughs:",e)}))}catch(t){console.log("AboutNvidia1"+t)}
-});</script><script>_satellite["_runScript9"](function(event, target, Promise) {
-function manageVars(t,e,a){var i=t,n=e,r=a;if("-v"===i)return{plugin:"manageVars",version:"3.0"};var o=function(){if(void 0!==window.s_c_il)for(var t,e=0;e<window.s_c_il.length;e++)if((t=window.s_c_il[e])._c&&"s_c"===t._c)return t}();if(void 0!==o){if(o.blankVars=function(t){this[t]&&(0>t.indexOf("contextData")?this[t]="":(t=t.substring(t.indexOf(".")+1),this.contextData[t]&&(this.contextData[t]="")))},o.pt=function(t,e,a,i){if(t&&this[a]){e=(t=t.split(e||",")).length;for(var n,r=0;r<e;r++)if(n=this[a](t[r],i))return n}},!o[i])return!1;n=n||"",r=r||!0;var s,c="pageName,purchaseID,channel,server,pageType,campaign,state,zip,events,products,transactionID";for(s=1;76>s;s++)c+=",prop"+s;for(s=1;251>s;s++)c+=",eVar"+s;for(s=1;6>s;s++)c+=",hier"+s;for(s=1;4>s;s++)c+=",list"+s;for(s in o.contextData)c+=",contextData."+s;if(n){if(1==r)c=n.replace("['",".").replace("']","");else if(0==r){for(x in n=n.split(","),r=c.split(","),c="",n)for(y in-1<n[x].indexOf("contextData")&&(n[x]="contextData."+n[x].split("'")[1]),r)n[x]===r[y]&&(r[y]="");for(y in r)c+=r[y]?","+r[y]:""}return o.pt(c,",",i,0),!0}return!(""!==n||!r)&&(o.pt(c,",",i,0),!0)}}try{var getVal="",counter="0";"0"==counter&&(""==(getVal=$(".slide.selected.active").attr("data-title"))||void 0===getVal||ClickOmniTrack(this,"event10","link:section:",getVal),manageVars("blankVars","events,prop10,eVar10",1),s.events="event1",counter="1")}catch(t){console.log("AboutNvidia2"+t)}
-});</script><script>_satellite["_runScript10"](function(event, target, Promise) {
-try{!function(){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.referrerPolicy="unsafe-url",e.src="https://ws.zoominfo.com/pixel/62d5c127677d11008e98da2b";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}()}catch(e){console.log("zoominfo"+e)}
-});</script><script>_satellite["_runScript11"](function(event, target, Promise) {
-!function(e,t,n,c,o,a,f){e.fbq||(o=e.fbq=function(){o.callMethod?o.callMethod.apply(o,arguments):o.queue.push(arguments)},e._fbq||(e._fbq=o),o.push=o,o.loaded=!0,o.version="2.0",o.queue=[],(a=t.createElement(n)).async=!0,a.src=c,(f=t.getElementsByTagName(n)[0]).parentNode.insertBefore(a,f))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","161755414605325"),fbq("track","PageView");
-});</script><script>_satellite["_runScript12"](function(event, target, Promise) {
-var influ=document.createElement("script");influ.type="text/javascript",influ.async=!0,influ.src="https://www.influ2.com/tracker?clid=cc39198a-89bf-4c7b-86bc-535a0b4fd630",document.getElementsByTagName("head")[0].appendChild(influ);
 });</script><script>_satellite["_runScript13"](function(event, target, Promise) {
-window.OneTrust&&"function"==typeof window.OneTrust.OnConsentChanged&&window.OneTrust.OnConsentChanged((()=>{window.location.reload()}));
+function manageVars(t,e,a){var i=t,n=e,r=a;if("-v"===i)return{plugin:"manageVars",version:"3.0"};var o=function(){if(void 0!==window.s_c_il)for(var t,e=0;e<window.s_c_il.length;e++)if((t=window.s_c_il[e])._c&&"s_c"===t._c)return t}();if(void 0!==o){if(o.blankVars=function(t){this[t]&&(0>t.indexOf("contextData")?this[t]="":(t=t.substring(t.indexOf(".")+1),this.contextData[t]&&(this.contextData[t]="")))},o.pt=function(t,e,a,i){if(t&&this[a]){e=(t=t.split(e||",")).length;for(var n,r=0;r<e;r++)if(n=this[a](t[r],i))return n}},!o[i])return!1;n=n||"",r=r||!0;var s,c="pageName,purchaseID,channel,server,pageType,campaign,state,zip,events,products,transactionID";for(s=1;76>s;s++)c+=",prop"+s;for(s=1;251>s;s++)c+=",eVar"+s;for(s=1;6>s;s++)c+=",hier"+s;for(s=1;4>s;s++)c+=",list"+s;for(s in o.contextData)c+=",contextData."+s;if(n){if(1==r)c=n.replace("['",".").replace("']","");else if(0==r){for(x in n=n.split(","),r=c.split(","),c="",n)for(y in-1<n[x].indexOf("contextData")&&(n[x]="contextData."+n[x].split("'")[1]),r)n[x]===r[y]&&(r[y]="");for(y in r)c+=r[y]?","+r[y]:""}return o.pt(c,",",i,0),!0}return!(""!==n||!r)&&(o.pt(c,",",i,0),!0)}}try{var getVal="",counter="0";"0"==counter&&(""==(getVal=$(".slide.selected.active").attr("data-title"))||void 0===getVal||ClickOmniTrack(this,"event10","link:section:",getVal),manageVars("blankVars","events,prop10,eVar10",1),s.events="event1",counter="1")}catch(t){console.log("AboutNvidia2"+t)}
 });</script><script>_satellite["_runScript14"](function(event, target, Promise) {
-function onPlayerStateChange(e){if(e.data==YT.PlayerState.PLAYING){var t=e.target.getVideoData().title;Math.floor(e.target.getDuration());0===Math.floor(e.target.getCurrentTime())&&ClickOmniTrack(!0,"event10","video:play:",t)}if(e.data==YT.PlayerState.PAUSED){console.log("video pause");var a=e.target.getVideoData().title;ClickOmniTrack(!0,"event10","video:pause:",a)}}var tag=document.createElement("script");tag.src="https://www.youtube.com/iframe_api";var firstScriptTag=document.getElementsByTagName("script")[0];firstScriptTag.parentNode.insertBefore(tag,firstScriptTag);var n=0;jQuery("iframe").each((function(){var e=jQuery(this).attr("src");e&&e.indexOf("youtube.com")>-1&&(e.indexOf("?")>-1?-1==e.indexOf("enablejsapi")&&(e+="&enablejsapi=1"):e+="?enablejsapi=1",jQuery(this).attr("src",e),jQuery(this).attr("id","player"+n),n++)}));var playerInfoList=new Array;jQuery("[id^='player']").each((function(){var e=jQuery(this).attr("id");playerInfoList.push(e)}));var players=new Array;window.onYouTubeIframeAPIReady=function(){for(x=0;x<playerInfoList.length;x++)players[x]=new YT.Player(playerInfoList[x],{events:{onStateChange:onPlayerStateChange}})};
+try{!function(){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.referrerPolicy="unsafe-url",e.src="https://ws.zoominfo.com/pixel/62d5c127677d11008e98da2b";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}()}catch(e){console.log("zoominfo"+e)}
 });</script><script>_satellite["_runScript15"](function(event, target, Promise) {
-"undefined"!=typeof drift&&drift.on("ready",(function(){window.drift.on("conversation:playbookFired",(function(e){var a="Drift-Event:playbook:Fired:"+_satellite.getVar("pageName");s.linkTrackVars="eVar111,eVar112,events",s.linkTrackEvents="event10,event111",s.events="event10,event111",s.eVar111=e.conversationId,s.eVar112=e.playbookId,s.tl(!0,"o",a),s.clearVars()})),window.drift.on("conversation:playbookClicked",(function(e){var a="Drift-Event:playbook:Clicked:"+_satellite.getVar("pageName");s.linkTrackVars="eVar111,eVar112,events",s.linkTrackEvents="event10,event112",s.events="event10,event112",s.eVar111=e.conversationId,s.eVar112=e.playbookId,s.tl(!0,"o",a),s.clearVars()})),window.drift.on("conversation:playbookDismissed",(function(e){var a="Drift-Event:playbook:Dismissed:"+_satellite.getVar("pageName");s.linkTrackVars="eVar111,eVar112,events",s.linkTrackEvents="event10,event113",s.events="event10,event113",s.eVar111=e.conversationId,s.eVar112=e.playbookId,s.tl(!0,"o",a),s.clearVars()})),window.drift.on("conversation:firstInteraction",(function(e){var a="Drift-Event:first:Interaction:"+_satellite.getVar("pageName");s.linkTrackVars="eVar111,eVar112,events",s.linkTrackEvents="event10,event114",s.events="event10,event114",s.eVar111=e.conversationId,s.eVar112=e.playbookId,s.tl(!0,"o",a),s.clearVars()})),window.drift.on("conversation:buttonClicked",(function(e){var a="Drift-Event:buttonClicked:"+_satellite.getVar("pageName");s.linkTrackVars="eVar110,eVar111,eVar112,events",s.linkTrackEvents="event10,event115",s.events="event10,event115",s.eVar110=e.buttonBody,s.eVar111=e.conversationId,s.eVar112=e.playbookId,s.tl(!0,"o",a),s.clearVars()})),window.drift.on("message:sent",(function(e){var a="Drift-Event:message:sent:"+_satellite.getVar("pageName");s.linkTrackVars="eVar111,eVar112,events",s.linkTrackEvents="event10,event116",s.events="event10,event116",s.eVar111=e.conversationId,s.eVar112=e.playbookId,s.tl(!0,"o",a),s.clearVars()})),window.drift.on("message",(function(e){var a="Drift-Event:message:Recieved:"+_satellite.getVar("pageName");s.linkTrackVars="eVar111,eVar112,events",s.linkTrackEvents="event10,event117",s.events="event10,event117",s.eVar111=e.conversationId,s.eVar112=e.playbookId,s.tl(!0,"o",a),s.clearVars()})),window.drift.on("phoneCapture",(function(e){var a="Drift-Event:phone:Capture:"+_satellite.getVar("pageName");s.linkTrackVars="eVar111,eVar112,events",s.linkTrackEvents="event10,event118",s.events="event10,event118",s.eVar111=e.conversationId,s.eVar112=e.playbookId,s.tl(!0,"o",a),s.clearVars()})),window.drift.on("emailCapture",(function(e){var a="Drift-Event:email:Capture:"+_satellite.getVar("pageName");s.linkTrackVars="eVar111,eVar112,events",s.linkTrackEvents="event10,event119",s.events="event10,event119",s.eVar111=e.data.conversationId,s.eVar112=e.data.playbookId,s.tl(!0,"o",a),s.clearVars()}))}));
-});</script><script>
-!function(t,h,e,j,s,n){t.hj=t.hj||function(){(t.hj.q=t.hj.q||[]).push(arguments)},t._hjSettings={hjid:3655182,hjsv:6},s=h.getElementsByTagName("head")[0],(n=h.createElement("script")).async=1,n.src=e+t._hjSettings.hjid+j+t._hjSettings.hjsv,s.appendChild(n)}(window,document,"https://static.hotjar.com/c/hotjar-",".js?sv=");
-</script><script>_satellite["_runScript16"](function(event, target, Promise) {
-_satellite.logger.log("Global TPP Start Time: "+Date.now()),function(e,t,l,o,a,n,i){e.fbq||(a=e.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},e._fbq||(e._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],(n=t.createElement(l)).async=!0,n.src=o,(i=t.getElementsByTagName(l)[0]).parentNode.insertBefore(n,i))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","161755414605325"),fbq("track","PageView"),_satellite.logger.log("TPP : Global Pixels - Facebook Pixel - fired");
-});</script><script>
-function gtag(){dataLayer.push(arguments)}var head=document.getElementsByTagName("head")[0],script=document.createElement("script");script.type="text/javascript",script.src="https://www.googletagmanager.com/gtag/js?id=AW-1041695361",script.async=!0,head.appendChild(script),window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","AW-1041695361"),_satellite.logger.log("TPP : Global Pixels - Google ReMarketing Pixel - fired");
-</script><script>_satellite["_runScript17"](function(event, target, Promise) {
-gtag("event","page_view",{send_to:"AW-1041695361",user_id:"replace with value"});
+!function(e,t,n,c,o,a,f){e.fbq||(o=e.fbq=function(){o.callMethod?o.callMethod.apply(o,arguments):o.queue.push(arguments)},e._fbq||(e._fbq=o),o.push=o,o.loaded=!0,o.version="2.0",o.queue=[],(a=t.createElement(n)).async=!0,a.src=c,(f=t.getElementsByTagName(n)[0]).parentNode.insertBefore(a,f))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js"),fbq("init","161755414605325"),fbq("track","PageView");
+});</script><script>_satellite["_runScript16"](function(event, target, Promise) {
+var influ=document.createElement("script");influ.type="text/javascript",influ.async=!0,influ.src="https://www.influ2.com/tracker?clid=cc39198a-89bf-4c7b-86bc-535a0b4fd630",document.getElementsByTagName("head")[0].appendChild(influ);
+});</script><script>_satellite["_runScript17"](function(event, target, Promise) {
+window.OneTrust&&"function"==typeof window.OneTrust.OnConsentChanged&&window.OneTrust.OnConsentChanged((()=>{window.location.reload()}));
 });</script><script>_satellite["_runScript18"](function(event, target, Promise) {
-_linkedin_partner_id="84497",window._linkedin_data_partner_ids=window._linkedin_data_partner_ids||[],window._linkedin_data_partner_ids.push(_linkedin_partner_id),function(){var e=document.getElementsByTagName("script")[0],i=document.createElement("script");i.type="text/javascript",i.async=!0,i.src="https://snap.licdn.com/li.lms-analytics/insight.min.js",e.parentNode.insertBefore(i,e)}(),_satellite.logger.log("TPP : Global Pixels - LinkedIn Pixel - fired");
-});</script><script>_satellite["_runScript19"](function(event, target, Promise) {
-!function(e,t,i,n,s,o){e.twq||(n=e.twq=function(){n.exe?n.exe.apply(n,arguments):n.queue.push(arguments)},n.version="1.1",n.queue=[],(s=t.createElement(i)).async=!0,s.src="https://static.ads-twitter.com/uwt.js",(o=t.getElementsByTagName(i)[0]).parentNode.insertBefore(s,o))}(window,document,"script"),twq("config","nutdh"),_satellite.logger.log("TPP : Global Pixels - Twitter Pixel - fired");
-});</script><script>
-!function(e,t,i,n,o,r){e.twq||(n=e.twq=function(){n.exe?n.exe.apply(n,arguments):n.queue.push(arguments)},n.version="1.1",n.queue=[],(o=t.createElement(i)).async=!0,o.src="//static.ads-twitter.com/uwt.js",(r=t.getElementsByTagName(i)[0]).parentNode.insertBefore(o,r))}(window,document,"script"),twq("init","o5kw4"),twq("track","PageView"),_satellite.logger.log("TPP : Global Pixels - SpringBox Twitter UET Pixel - fired");
-</script><script>
-!function(e,t,i,a,n,o){e.twq||(a=e.twq=function(){a.exe?a.exe.apply(a,arguments):a.queue.push(arguments)},a.version="1.1",a.queue=[],(n=t.createElement(i)).async=!0,n.src="//static.ads-twitter.com/uwt.js",(o=t.getElementsByTagName(i)[0]).parentNode.insertBefore(n,o))}(window,document,"script"),twq("init","o5kwu"),twq("track","PageView"),_satellite.logger.log("TPP : Global Pixels - Taiwan Twitter Pixel - fired");
-</script><script>_satellite["_runScript20"](function(event, target, Promise) {
-!function(e,t,i,a,n,o){e.twq||(a=e.twq=function(){a.exe?a.exe.apply(a,arguments):a.queue.push(arguments)},a.version="1.1",a.queue=[],(n=t.createElement(i)).async=!0,n.src="//static.ads-twitter.com/uwt.js",(o=t.getElementsByTagName(i)[0]).parentNode.insertBefore(n,o))}(window,document,"script"),twq("init","o1txo"),twq("track","PageView"),_satellite.logger.log("TPP : Global Pixels - Japan Twitter Pixel - fired");
-});</script><script>_satellite["_runScript21"](function(event, target, Promise) {
-!function(e,t,i,l,n,o){e.twq||(l=e.twq=function(){l.exe?l.exe.apply(l,arguments):l.queue.push(arguments)},l.version="1.1",l.queue=[],(n=t.createElement(i)).async=!0,n.src="//static.ads-twitter.com/uwt.js",(o=t.getElementsByTagName(i)[0]).parentNode.insertBefore(n,o))}(window,document,"script"),twq("init","o5j0n"),twq("track","PageView"),_satellite.logger.log("TPP : Global Pixels - APAC Twitter Pixel - fired"),_satellite.logger.log("Global TPP End Time: "+Date.now());
-});</script><script>
-var path=document.location.host+document.location.pathname;if(path.indexOf("gtc21.event.nvidia.com")>-1){var nh=document.getElementsByTagName("head")[0],ns=document.createElement("script");if(ns.type="text/javascript",ns.src="//wcs.naver.net/wcslog.js",ns.async=!0,nh.appendChild(ns),!wcs_add)var wcs_add={};if(wcs_add.wa="s_85512e22ed9",!_nasa)var _nasa={};window.wcs&&(wcs.inflow(),wcs_do(_nasa)),function(e,n,a){var t=n.getElementsByTagName(a)[0],s=n.createElement(a);s.async=!0,s.src="//dmp.im-apps.net/js/1006927/0001/itm.js",t.parentNode.insertBefore(s,t)}(window,document,"script")}
-</script><script>_satellite["_runScript22"](function(event, target, Promise) {
-"undefined"!=typeof jQuery&&$(document).on("click","div[id*=meganav] a",(function(){try{var t=$(this).attr("data-title");null==typeof t&&(t="attend now");var n=$(this).closest("div[id*=meganav]").attr("id");ClickOmniTrack(!0,"event10","button:section:"+n+":banner:",t)}catch(t){console.log("Industries|Mega Banner"+t)}}));
-});</script><script>
-try{document.URL.indexOf("/gtc")<0&&document.URL.indexOf("/ja-jp/geforce/products/10series/laptops/max-q/")<0&&document.URL.indexOf("/en-us/geforce/products/10series/laptops/max-q/")<0&&$(".subnav-container a.breadcrumb-link span, .subnav-container a.breadcrumb-page-link span").click((function(){var e=$(this).parent("a.breadcrumb-link,a.breadcrumb-page-link").attr("href"),t="";window.location.href.indexOf("max-q")>-1&&"#shop"==e?ClickOmniTrackNav(this,"event10,event11,event14","button:header:sub-nav:","notify me"):"#buynow"==e||"#shop"==e?ClickOmniTrackNav(this,"event10,event11,event2","button:header:sub-nav:","buy now"):"#top"==e&&"sub-btn1"==$(this).parent("a.breadcrumb-link,a.breadcrumb-page-link").attr("id")||"#top"==e&&"sub-btn2"==$(this).parent("a.breadcrumb-link,a.breadcrumb-page-link").attr("id")||"#top"==e&&"sub-btn3"==$(this).parent("a.breadcrumb-link,a.breadcrumb-page-link").attr("id")||"#top"==e&&"sub-btn4"==$(this).parent("a.breadcrumb-link,a.breadcrumb-page-link").attr("id")||"#"==e&&"sub-btn3"==$(this).parent("a.breadcrumb-link,a.breadcrumb-page-link").attr("id")||"#"==e&&"sub-btn4"==$(this).parent("a.breadcrumb-link,a.breadcrumb-page-link").attr("id")?(t=$(this).closest(".breadcrumb-element").text().trim(),ClickOmniTrackNav(this,"event10,event11","link:header:sub-nav:",t)):e.indexOf("https://")>-1||e.indexOf("http://")>-1?(e=$(this).text().trim(),console.log("test:"+e),ClickOmniTrackNav(this,"event10,event11","link:header:sub-nav:",e)):"#rapids"==e&&"sub-btn2"==$(this).parent("a.breadcrumb-link,a.breadcrumb-page-link").attr("id")||"#rapids"==e&&"sub-btn4"==$(this).parent("a.breadcrumb-link,a.breadcrumb-page-link").attr("id")||"#flex-logo-garden-x-small-8-logos"==e&&"sub-btn6"==$(this).parent("a.breadcrumb-link,a.breadcrumb-page-link").attr("id")||"mailto:revans@nvidia.com;jjosephakis@nvidia.com?subject=ISC%20Contact%20Request"==e&&"sub-btn1"==$(this).parent("a.breadcrumb-link,a.breadcrumb-page-link").attr("id")?(t=$(this).closest(".breadcrumb-element").text().trim(),ClickOmniTrackNav(this,"event10,event11","link:header:sub-nav:",t)):ClickOmniTrackNav(this,"event10,event11","link:header:sub-nav:",e)})),$(".page-footer__links .page-footer-link-set__links li a").click((function(){var e=$(this).text();ClickOmniTrack(this,"event10","link:footer:",e)})),$(".page-footer__subscribe .subscribe-container .button .btn,.page-footer__subscribe .subscribe-container .button-pascal .btn-pascal").click((function(){var e=$(this).text();ClickOmniTrack(this,"event10","button:footer:",e)}))}catch(e){}
-</script><script>_satellite["_runScript23"](function(event, target, Promise) {
-_linkedin_partner_id="84497",window._linkedin_data_partner_ids=window._linkedin_data_partner_ids||[],window._linkedin_data_partner_ids.push(_linkedin_partner_id),function(){var n=document.getElementsByTagName("script")[0],i=document.createElement("script");i.type="text/javascript",i.async=!0,i.src="https://snap.licdn.com/li.lms-analytics/insight.min.js",n.parentNode.insertBefore(i,n)}();
-});</script><style type="text/css">
-  
-.pushcrew-chrome-style-notification .pushcrew-button-wrapper .pushcrew-chrome-style-notification-btn.pushcrew-btn-allow{
-    background: #76b900 !important;
-    border: 1px solid #76b900 !important;
-    color: #000000 !important;
-    line-height: 1.25;
-    
-}
-.pushcrew-chrome-style-notification .pushcrew-button-wrapper .pushcrew-chrome-style-notification-btn.pushcrew-btn-allow:hover,
-  .pushcrew-chrome-style-notification .pushcrew-button-wrapper .pushcrew-chrome-style-notification-btn.pushcrew-btn-allow:active,
-  .pushcrew-chrome-style-notification .pushcrew-button-wrapper .pushcrew-chrome-style-notification-btn.pushcrew-btn-allow:focus{
-    background: #91c733 !important;
-    border: 1px solid #91c733 !important;
-    color: #000000 !important;
-    line-height: 1.25;
-    transition: 0.2s;
-    
-}
-
-.pushcrew-chrome-style-notification .pushcrew-button-wrapper .pushcrew-chrome-style-notification-btn.pushcrew-btn-close{
-    background: white !important;
-    border: 0px solid #76b900 !important;
-    color: black !important;
-    text-decoration: underline;
-    text-decoration-color:#76b900;
-    text-decoration-thickness:2px;
-    text-underline-offset:0.3125em;
-}
-.pushcrew-chrome-style-notification .pushcrew-button-wrapper .pushcrew-chrome-style-notification-btn.pushcrew-btn-close:hover,
-  .pushcrew-chrome-style-notification .pushcrew-button-wrapper .pushcrew-chrome-style-notification-btn.pushcrew-btn-close:active{
-    background: white !important;
-    border: 0px solid #76b900 !important;
-    color: black !important;
-    text-decoration: underline;
-    text-decoration-color:#000000;
-    text-decoration-thickness:2px;
-    text-underline-offset:0.3125em;
-}
-  
-.pushcrew-chrome-style-notification .pushcrew-safari-notification-inner-wrapper .pushcrew-button-wrapper .pushcrew-chrome-style-notification-btn.pushcrew-btn-close {
-    font-weight: 600 !important;
-}
-
-
-.pushcrew-chrome-style-notification .pushcrew-safari-notification-inner-wrapper .pushcrew-button-wrapper .pushcrew-chrome-style-notification-btn.pushcrew-btn-allow {
-    font-weight: 600 !important;
-}
-  
-.pushcrew-mobile-box .pushcrew-buttons-panel #pushcrew-mobile_allow_button
-{
-    background: #76b900 !important;
-    border: 1px solid #76b900 !important;
-    color: white !important;
-}
-.pushcrew-mobile-box .pushcrew-buttons-panel #pushcrew-mobile_dontallow_button
-{    
-     background: white !important;
-    border: 1px solid #76b900 !important;
-    color: black !important;
-
-}
-.pushcrew-chrome-style-notification-safari .pushcrew-safari-notification-inner-wrapper .pushcrew-button-wrapper {
-        padding: 15px 0px 0px 0px !important;
-}
-.pushcrew-chrome-style-notification-safari {
-    background-color: #FFFFFF !important;  
-}
-.pushcrew-chrome-style-notification .pushcrew-button-wrapper .pushcrew-chrome-style-notification-btn.pushcrew-btn-close {
-    margin-right: 15px !important;
-}
-.pushcrew-safari-notification-inner-wrapper {
-    padding: 15px !important;
-}
-.pushcrew-text-wrapper-safari .pushcrew-notification-title-safari {
-    font-size: 16px !important;
-    line-height:inherit !important;
-    font-family: NVIDIA-NALA, Arial, Helvetica, Sans-Serif !important;
-}
-
-.pushcrew-text-wrapper-safari .pushcrew-notification-message-safari {
-    font-size: 14px !important;
-    font-family: NVIDIA-NALA, Arial, Helvetica, Sans-Serif !important;
-    color: black !important;
-    
-}
-.pushcrew-safari-notification-inner-wrapper .pushcrew-notification-image-wrapper-safari {
-    margin: 0px 15px 0px 0px !important;   
-}
-
-.pushcrew-safari-notification-inner-wrapper .pushcrew-text-wrapper-safari {
-    padding: 0px 0px 0px!important;  
-}
-
-.pushcrew-safari-notification-inner-wrapper .pushcrew-button-wrapper .pushcrew-chrome-style-notification-btn {
-    min-height: 40px!important;
-    /*text-transform: uppercase !important;*/
-    text-transform: capitalize !important;
-    font-family: NVIDIA-NALA, Arial, Helvetica, Sans-Serif !important;
-     border-radius:0 !important;
-}
-
-
-.pushcrew-text-wrapper-safari .pushcrew-notification-message-safari {
-    margin: 10px 0px 0px 0px!important;
-    
-}
-  
-p.pushcrew-notification-message-safari{
-    color: black !important;
-  }
-
-
-.pushcrew-safari-notification-inner-wrapper .pushcrew-button-wrapper {
-    display: flex;
-}
-
-.pushcrew-safari-notification-inner-wrapper .pushcrew-button-wrapper .pushcrew-chrome-style-notification-btn, .pushcrew-opt-out-buttons {
-    padding: 0.75em 0.875em 0.75em 0.875em !important;
-    border-radius: 0px!important;
-    width: 100%!important; 
-}
-
-.pushcrew-safari-notification-inner-wrapper .pushcrew-button-wrapper .pushcrew-chrome-style-notification-btn.pushcrew-btn-close {
-    width: 100%!important; 
-}
-
-</style><script>_satellite["_runScript24"](function(event, target, Promise) {
-function vwo(){var e,t,n,i,o,r,a,s,d;return window._vwo_code=window._vwo_code||(e=577732,t=2e3,n=2500,i=!1,o=1,r="",a=!1,s=document,d={use_existing_jquery:function(){return i},library_tolerance:function(){return n},finish:function(){if(!a){a=!0;var e=s.getElementById("_vis_opt_path_hides");e&&e.parentNode.removeChild(e)}},finished:function(){return a},load:function(e){var t=s.createElement("script");t.src=e,t.type="text/javascript",t.innerText,t.onerror=function(){_vwo_code.finish()},s.getElementsByTagName("head")[0].appendChild(t)},init:function(){window.settings_timer=setTimeout("_vwo_code.finish()",t);var n=s.createElement("style"),i=r?r+"{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}":"",a=s.getElementsByTagName("head")[0];return n.setAttribute("id","_vis_opt_path_hides"),n.setAttribute("type","text/css"),n.styleSheet?n.styleSheet.cssText=i:n.appendChild(s.createTextNode(i)),a.appendChild(n),this.load("//dev.visualwebsiteoptimizer.com/j.php?a="+e+"&u="+encodeURIComponent(s.URL)+"&f="+ +o+"&r="+Math.random()),settings_timer}},window._vwo_settings_timer=d.init(),d),!0}var url=window.location.href,http=new XMLHttpRequest;http.open("HEAD",url,!1),http.send();const element=document.getElementById("cboxLoadedContent");var numb=0;null!=element&&(numb=element.childNodes.length),404!=http.status&&numb<=0&&vwo();
+function onPlayerStateChange(e){if(e.data==YT.PlayerState.PLAYING){var t=e.target.getVideoData().title;Math.floor(e.target.getDuration());0===Math.floor(e.target.getCurrentTime())&&ClickOmniTrack(!0,"event10","video:play:",t)}if(e.data==YT.PlayerState.PAUSED){console.log("video pause");var a=e.target.getVideoData().title;ClickOmniTrack(!0,"event10","video:pause:",a)}}var tag=document.createElement("script");tag.src="https://www.youtube.com/iframe_api";var firstScriptTag=document.getElementsByTagName("script")[0];firstScriptTag.parentNode.insertBefore(tag,firstScriptTag);var n=0;jQuery("iframe").each((function(){var e=jQuery(this).attr("src");e&&e.indexOf("youtube.com")>-1&&(e.indexOf("?")>-1?-1==e.indexOf("enablejsapi")&&(e+="&enablejsapi=1"):e+="?enablejsapi=1",jQuery(this).attr("src",e),jQuery(this).attr("id","player"+n),n++)}));var playerInfoList=new Array;jQuery("[id^='player']").each((function(){var e=jQuery(this).attr("id");playerInfoList.push(e)}));var players=new Array;window.onYouTubeIframeAPIReady=function(){for(x=0;x<playerInfoList.length;x++)players[x]=new YT.Player(playerInfoList[x],{events:{onStateChange:onPlayerStateChange}})};
 });</script></body></html>

@@ -231,6 +231,8 @@ def check_policites(link):
     
 def main():
     file = open('raw_website_links.txt', 'r+')
+    #test
+    testFile = open("testFile.txt", "a")
     csvResults = []
     websites = []
     number_of_pages = []
@@ -251,6 +253,7 @@ def main():
             privacy_policy_content = {}
 
             for website, priv_policy_pages in privacy_page_urls.items():
+                testFile.write(f"{website}\n")
                 current_page_index = 0;
                 for page_info in priv_policy_pages:
                     for category, priv_policy_page in page_info.items():
@@ -258,9 +261,11 @@ def main():
                         if priv_page_info is not None:
                             privacy_policy_content[website + ", " + priv_page_info[0]] = inspect_privacy_policy_html(priv_page_info[1])
                             current_page_index += 1
+                            testFile.write(f"{current_page_index}\n")
                         else: 
                             with open('links_that_donot_work.txt', "w") as bad:
                                 bad.write(website + "\n")
+                testFile.write(f"Written on csv form: {website}, {current_page_index}, {cookie_num}\n")
                 csvResults.append([website, current_page_index, cookie_num, cookie_string, policies_result, mixed_results])
                 websites.append(website)
                 number_of_pages.append(current_page_index)
@@ -272,6 +277,7 @@ def main():
         else: 
             with open('links_that_donot_work.txt', "w") as bad:
                 bad.write(website + "\n")
+    testFile.close()
     if csvResults:
         with open("csvData.csv", "w", newline="") as file:
             writer = csv.writer(file)

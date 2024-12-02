@@ -139,679 +139,47 @@ window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){va
             
 
 
-<script>
-    //# sourceURL=b6q6-328-dd-config.js
-    (function loadDeviceTradeInfo() {
-
-        const ddS24TradeInConfig = {
-            "GZFOLD5": "$500"
-            , "GZFLIP5": "$300"
-            , "GZFOLD4": "$500"
-            , "GZFold3": "$200"
-            , "GZFLIP4": "$300"
-            , "GZFLIP3": "$300"
-            , "GS24U": "$650"
-            , "GS24P": "$550"
-            , "GS24": "$350"
-            , "GS23U": "$650"
-            , "GS23P": "$650"
-            , "GS23": "$450"
-            , "GS22U": "$500"
-            , "GS22P": "$500"
-            , "GS22": "$400"
-            , "GS21U": "$400"
-            , "GS21P": "$300"
-            , "GS21": "$200"
-            , "GS20U": "$400"
-            , "GS20P": "$300"
-            , "GS20": "$200"
-            , "GS10P": "$300"
-            , "GS10": "$300"
-            , "GNOTE20U": "$300"
-            , "GNOTE20": "$300"
-            , "IPHONE": "$600"
-        };
-
-        const ddS24UTradeInConfig = {
-            "GZFOLD5": "$437"
-            , "GZFLIP5": "$300"
-            , "GZFOLD4": "$450"
-            , "GZFold3": "$300"
-            , "GZFLIP4": "$300"
-            , "GZFLIP3": "$300"
-            , "GS24U": "$900"
-            , "GS24P": "$700"
-            , "GS24": "$500"
-            , "GS23U": "$800"
-            , "GS23P": "$400"
-            , "GS23": "$400"
-            , "GS22U": "$700"
-            , "GS22P": "$400"
-            , "GS22": "$300"
-            , "GS21U": "$650"
-            , "GS21P": "$300"
-            , "GS21": "$300"
-            , "GS20U": "$400"
-            , "GS20P": "$300"
-            , "GS20": "$300"
-            , "GS10P": "$300"
-            , "GS10": "$300"
-            , "GNOTE20U": "$400"
-            , "GNOTE20": "$300"
-            , "IPHONE": "$559"
-        };
-
-        const ddDeviceNames = {
-            "GZFOLD5": "Galaxy Z Fold5"
-            , "GZFLIP5": "Galaxy Z Flip5"
-            , "GZFOLD4": "Galaxy Z Fold4"
-            , "GZFold3": "Galaxy Z Fold3"
-            , "GZFLIP4": "Galaxy Z Flip4"
-            , "GZFLIP3": "Galaxy Z Flip3"
-            , "GS24U": "Galaxy S24 Ultra"
-            , "GS24P": "Galaxy S24+"
-            , "GS24": "Galaxy S24"
-            , "GS23U": "Galaxy S23 Ultra"
-            , "GS23P": "Galaxy S23+"
-            , "GS23": "Galaxy S23"
-            , "GS22U": "Galaxy S22 Ultra"
-            , "GS22P": "Galaxy S22+"
-            , "GS22": "Galaxy S22"
-            , "GS21U": "Galaxy S21 Ultra"
-            , "GS21P": "Galaxy S21+"
-            , "GS21": "Galaxy S21"
-            , "GS20U": "Galaxy S20 Ultra"
-            , "GS20P": "Galaxy S20+"
-            , "GS20": "Galaxy S20"
-            , "GS10P": "Galaxy S10+"
-            , "GS10": "Galaxy S10"
-            , "GNOTE20U": "Galaxy Note20 Ultra"
-            , "GNOTE20": "Galaxy Note20"
-            , "IPHONE": "iPhone"
-        };
-
-
-        const ddUnlckPlacements = {
-            "configParams": "",
-            // homepage
-            "homeTitle": "",
-            "homeDescription": "",
-            // LOB
-            "homeLOB1TabName": "Galaxy S24 Ultra",
-            "homeLOB1Title": "Save up to $1,100+",
-            "homeLOB1Description": "Upgrade to Galaxy S24 Ultra. Get {tradeInValue} trade-in credit toward your old {deviceName} or Up to $350 off without Trade-in. Plus, double the storage on us and 50% off Buds3 Pro",
-            // HM MM
-            "homeS24UMM": "",
-            // GNB Ext
-            "gnbExtenderDescription": "Upgrade to Galaxy S24 Ultra. Get {tradeInValue} trade-in credit toward your old {deviceName} or Up to $350 off without Trade-in. Plus, double the storage on us and 50% off Buds3 Pro",
-            // ADP KV
-            "adpKvTitle1": "Save up to $1,100+",
-            "adpKvDescription1": "Upgrade to Galaxy S24 Ultra. Get {tradeInValue} trade-in credit toward your old {deviceName} or Up to $350 off without Trade-in. Plus, double the storage on us and 50% off Buds3 Pro",
-            "adpKvTitle2": "",
-            "adpKvDescription2": "",
-            // MB PCD KV
-            "mbPcdTitle": "Save up to $1,100+",
-            "mbPcdKvDescription": "Upgrade to Galaxy S24 Ultra. Get {tradeInValue} trade-in credit toward your old {deviceName} or Up to $350 off without Trade-in. Plus, double the storage on us and 50% off Buds3 Pro",
-            // MB PF
-            "pfKvTitle": "Save up to $1,100+",
-            "pfKvDescription": "Upgrade to Galaxy S24 Ultra. Get {tradeInValue} trade-in credit toward your old {deviceName} or Up to $350 off without Trade-in. Plus, double the storage on us and 50% off Buds3 Pro",
-            // CDP KV
-            "cdpKvTitle1": "Save up to $1,100+",
-            "cdpKvDescription1": "Upgrade to Galaxy S24 Ultra. Get {tradeInValue} trade-in credit toward your old {deviceName} or Up to $350 off without Trade-in. Plus, double the storage on us and 50% off Buds3 Pro",
-            "cdpKvTitle2": "",
-            "cdpKvDescription2": "",
-            // CDP SC
-            "cdpSCTitle1": "Save up to $1,100+",
-            "cdpSCDescription1": "Upgrade to Galaxy S24 Ultra. Get {tradeInValue} trade-in credit toward your old {deviceName} or Up to $350 off without Trade-in. Plus, double the storage on us and 50% off Buds3 Pro",
-            "cdpSCTitle3": "",
-            "cdpSCDescription3": "",
-            "cdpSCTitle2": "",
-            "cdpSCDescription2": "",
-            // S24U MLP KV
-            "S24UMLPHeadline": "",
-            "S24UMLPSubText": "Upgrade to Galaxy S24 Ultra. Get {tradeInValue} trade-in credit toward your old {deviceName} or Up to $350 off without Trade-in. Plus, double the storage on us and 50% off Buds3 Pro",
-            // S24 MLP KV
-            "S24MLPHeadline": "",
-            "S24MLPSubText": "Upgrade to Galaxy S24. Get  trade-in credit toward your old {deviceName}, $75 off on Exclusive Colors or Up to $275 off without Trade-in. Plus get 50% off Buds3Pro",
-
-        };
-
-        const ddLOPlacements = {
-            "configParams": "",
-            // homepage
-            "homeTitle": "",
-            "homeDescription": "",
-            // LOB
-            "homeLOB1TabName": "Galaxy S24 Ultra",
-            "homeLOB1Title": "Save up to $1,100+",
-            "homeLOB1Description": "Switch to Galaxy S24 Ultra. Get {tradeInValue} trade-in credit toward your old {deviceName} or Up to $350 off without Trade-in. Plus, double the storage on us and 50% off Buds3 Pro",
-            // HM MM
-            "homeS24UMM": "",
-            // GNB Ext
-            "gnbExtenderDescription": "Switch to Galaxy S24 Ultra. Get {tradeInValue} trade-in credit toward your old {deviceName} or Up to $350 off without Trade-in. Plus, double the storage on us and 50% off Buds3 Pro",
-            // ADP KV
-            "adpKvTitle1": "Save up to $1,100+",
-            "adpKvDescription1": "Switch to Galaxy S24 Ultra. Get {tradeInValue} trade-in credit toward your old {deviceName} or Up to $350 off without Trade-in. Plus, double the storage on us and 50% off Buds3 Pro",
-            "adpKvTitle2": "",
-            "adpKvDescription2": "",
-            // MB PCD KV
-            "mbPcdTitle": "Save up to $1,100+",
-            "mbPcdKvDescription": "Switch to Galaxy S24 Ultra. Get {tradeInValue} trade-in credit toward your old {deviceName} or Up to $350 off without Trade-in. Plus, double the storage on us and 50% off Buds3 Pro",
-            // MB PF
-            "pfKvTitle": "Save up to $1,100+",
-            "pfKvDescription": "Switch to Galaxy S24 Ultra. Get {tradeInValue} trade-in credit toward your old {deviceName} or Up to $350 off without Trade-in. Plus, double the storage on us and 50% off Buds3 Pro",
-            // CDP KV
-            "cdpKvTitle1": "Save up to $1,100+",
-            "cdpKvDescription1": "Switch to Galaxy S24 Ultra. Get {tradeInValue} trade-in credit toward your old {deviceName} or Up to $350 off without Trade-in. Plus, double the storage on us and 50% off Buds3 Pro",
-            "cdpKvTitle2": "",
-            "cdpKvDescription2": "",
-            // CDP SC
-            "cdpSCTitle1": "Save up to $1,100+",
-            "cdpSCDescription1": "Switch to Galaxy S24 Ultra. Get {tradeInValue} trade-in credit toward your old {deviceName} or Up to $350 off without Trade-in. Plus, double the storage on us and 50% off Buds3 Pro",
-            "cdpSCTitle3": "",
-            "cdpSCDescription3": "",
-            "cdpSCTitle2": "",
-            "cdpSCDescription2": "",
-            // S24U MLP KV
-            "S24UMLPHeadline": "",
-            "S24UMLPSubText": "Switch to Galaxy S24 Ultra. Get {tradeInValue} trade-in credit toward your old {deviceName} or Up to $350 off without Trade-in. Plus, double the storage on us and 50% off Buds3 Pro",
-            // S24 MLP KV
-            "S24MLPHeadline": "",
-            "S24MLPSubText": "Switch to Galaxy S24. Get  trade-in credit toward your old {deviceName}, $75 off on Exclusive Colors or Up to $275 off without Trade-in. Plus get 50% off Buds3Pro",
-        };
-
-        const ddUnlckDevices = ["GZFold3", "GZFOLD4", "GZFLIP4", "GZFLIP3", "GS24U", "GS24P", "GS24", "GS23U", "GS23P", "GS23", "GS22U", "GS22P", "GS22", "GS21U", "GS21P", "GS21", "GS20U", "GS20P", "GS20", "GS10P", "GS10", "GNOTE20U", "GNOTE20", "IPHONE", "GZFOLD5", "GZFLIP5"];
-
-        let ddMasterConfig = {};
-        let ddMasterLOConfig = {};
-
-        function generateTradeConfig(dList, pConfig) {
-            let tempArr = Object.entries(pConfig);
-            let finalConfig = {};
-            dList.forEach(device => {
-                finalConfig[device] = {};
-                tempArr.forEach(([pname, pcopy]) => finalConfig[device][pname] = pcopy.replace(/{deviceName}/g, ddDeviceNames[device]));
-            });
-            return finalConfig;
-        }
-
-
-        ddMasterConfig = generateTradeConfig(ddUnlckDevices, ddUnlckPlacements);
-
-        ddMasterLOConfig = generateTradeConfig(ddUnlckDevices, ddLOPlacements);
-
-
-        const aname = "scom-20551-dd";
-        let tgtCommonStore = window.tgtCommonStore || {};
-        tgtCommonStore[aname] = tgtCommonStore[aname] || {};
-        tgtCommonStore[aname]["config"] = {};
-        tgtCommonStore[aname]["config"]["unlck"] = ddMasterConfig;
-        tgtCommonStore[aname]["config"]["LOunlck"] = ddMasterLOConfig;
-        tgtCommonStore[aname]["b6-tradeIn-val"] = ddS24TradeInConfig;
-        tgtCommonStore[aname]["q6-tradeIn-val"] = ddS24UTradeInConfig;
-
-        window.tgtCommonStore = tgtCommonStore;
-
-        const tradeInfoEvt = new CustomEvent("scom20551TradeInfoLoaded", { "detail": tgtCommonStore[aname] });
-        document.documentElement.dispatchEvent(tradeInfoEvt);
-    })();
-</script><script>
+<script type="text/javascript">
+  //# sourceURL=pzn-search-chat-init.js
   (function() {
-    //# sourceURL=pzn-epp-attr-setter
-    function tgtGetCookie(cname) {
-        var name = cname + "=";
-        var ca = document.cookie.split(';');
-        for (var i = 0; i < ca.length; i++) {
-            var c = ca[i];
-            while (c.charAt(0) == ' ') {
-                c = c.substring(1);
+    if (window.innerWidth > 768) {
+      function renderSearchChat(event) {
+        const searchExpStyles = '<style type="text/css">.search-chat-expert {position: relative;display: flex;width: 50%;margin: auto;justify-content: center;align-items: center;margin-top: 20px;}.search-chat-expert-img {width: 128px;}.search-chat-expert-text {font-size: 14px;color: white;}.search-chat-expert-link {color: white;text-decoration: underline;text-align: left;}</style>';
+        
+        var shopWithExpert = '<br/><div class="search-chat-expert" ><img class="search-chat-expert-img" src="//image-us.samsung.com/us/gnb/search_chat_icon_img.png" alt="expert-chat" ><p class="search-chat-expert-text" ><a class="search-chat-expert-link" href="#" an-tr="sr01_search input--ctabutton" an-ca="search" an-ac="search layer" an-la="search chips:Shop With An Expert" data-link_cat="search" data-link_id="search chips: Shop With An Expert" data-link_meta="search chips: Shop With An Expert" data-link_position="search>search layer" data-event_name="select_search_chips">Click here </a> to start a conversation with our product experts.</p></div>';
+        
+        let gnbWrap = document.body.querySelector('#gnbContainer,.gnb-search');
+        if(gnbWrap) {
+          function onGnbMutations(mRecs, mObs) {
+            let scWrap = gnbWrap.querySelector('.gnb-search__chip-wrap');
+            if(scWrap && !gnbWrap.querySelector('.search-chat-expert')) {
+              document.head.insertAdjacentHTML('beforeend', searchExpStyles);
+              scWrap.insertAdjacentHTML('beforeend', shopWithExpert);
+              let lnk = gnbWrap.querySelector('.search-chat-expert-link');
+              lnk.onclick = function onLnkClick(e) {
+                e.preventDefault();
+                var chatUrl = 'https://www.samsung.com/us/expert-chat/?search_instant';
+                if(window.innerWidth <= 768)
+  		          window.open (chatUrl, 'newwindow');
+		        else
+		          window.open (chatUrl, 'newwindow', 'height=700, width=440, top=0, left=0, toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, status=no');
+	          }
             }
-            if (c.indexOf(name) == 0) {
-                return c.substring(name.length, c.length);
-            }
-        }
-        return "";
-    }
-
-    function checkForEPP() {
-        if (typeof (tgtGetCookie) == 'function') {
-            var tsgmtCookie = tgtGetCookie('tsgmt');
-            var getUserEPP = '';
-            if (tsgmtCookie != "" && getUserEPP !== tsgmtCookie) {
-                customTrackEvent({
-                    "mbox": "target-profile-data",
-                    "params": {
-                        "user.userEPPtsgmtValue": tsgmtCookie
-                    }
-                });
-            }
-        }
-    }
-    window.setTimeout(checkForEPP, 1000);
-  })();
-</script><script>
-    //# sourceURL=b6q6-328-dd-config.js
-    (function loadDeviceTradeInfo() {
-
-        const ddB6TradeInConfig = {
-            "GZFOLD5": "$650"
-            , "GZFLIP5": "$650"
-            , "GZFOLD4": "$550"
-            , "GZFold3": "$500"
-            , "GZFLIP4": "$550"
-            , "GZFLIP3": "$500"
-            , "GS24U": "$650"
-            , "GS24P": "$550"
-            , "GS24": "$350"
-            , "GS23U": "$550"
-            , "GS23P": "$450"
-            , "GS23": "$350"
-            , "GS22U": "$450"
-            , "GS22P": "$400"
-            , "GS22": "$300"
-            , "GS21U": "$400"
-            , "GS21P": "$350"
-            , "GS21": "$300"
-            , "GS20U": "$200"
-            , "GS20P": "$200"
-            , "GS20": "$200"
-            , "GS10P": "$200"
-            , "GS10": "$200"
-            , "GNOTE20U": "$500"
-            , "GNOTE20": "$400"
-            , "IPHONE": "$550"
-        };
-
-        const ddQ6TradeInConfig = {
-            "GZFOLD5": "$1,200"
-            , "GZFLIP5": "$700"
-            , "GZFOLD4": "$1,000"
-            , "GZFold3": "$900"
-            , "GZFLIP4": "$600"
-            , "GZFLIP3": "$400"
-            , "GS24U": "$1,000"
-            , "GS24P": "$700"
-            , "GS24": "$500"
-            , "GS23U": "$900"
-            , "GS23P": "$650"
-            , "GS23": "$450"
-            , "GS22U": "$800"
-            , "GS22P": "$500"
-            , "GS22": "$400"
-            , "GS21U": "$600"
-            , "GS21P": "$400"
-            , "GS21": "$400"
-            , "GS20U": "$400"
-            , "GS20P": "$400"
-            , "GS20": "$400"
-            , "GS10P": "$400"
-            , "GS10": "$400"
-            , "GNOTE20U": "$650"
-            , "GNOTE20": "$500"
-            , "IPHONE": "$1,000"
-        };
-
-        const ddDeviceNames = {
-            "GZFOLD5": "Galaxy Z Fold5"
-            , "GZFLIP5": "Galaxy Z Flip5"
-            , "GZFOLD4": "Galaxy Z Fold4"
-            , "GZFold3": "Galaxy Z Fold3"
-            , "GZFLIP4": "Galaxy Z Flip4"
-            , "GZFLIP3": "Galaxy Z Flip3"
-            , "GS24U": "Galaxy S24 Ultra"
-            , "GS24P": "Galaxy S24+"
-            , "GS24": "Galaxy S24"
-            , "GS23U": "Galaxy S23 Ultra"
-            , "GS23P": "Galaxy S23+"
-            , "GS23": "Galaxy S23"
-            , "GS22U": "Galaxy S22 Ultra"
-            , "GS22P": "Galaxy S22+"
-            , "GS22": "Galaxy S22"
-            , "GS21U": "Galaxy S21 Ultra"
-            , "GS21P": "Galaxy S21+"
-            , "GS21": "Galaxy S21"
-            , "GS20U": "Galaxy S20 Ultra"
-            , "GS20P": "Galaxy S20+"
-            , "GS20": "Galaxy S20"
-            , "GS10P": "Galaxy S10+"
-            , "GS10": "Galaxy S10"
-            , "GNOTE20U": "Galaxy Note20 Ultra"
-            , "GNOTE20": "Galaxy Note20"
-            , "IPHONE": "iPhone"
-        };
-
-
-        const ddUnlckPlacements = {
-            "configParams": "",
-            // homepage
-            "homeTitle": "",
-            "homeDescription": "",
-            // LOB
-            "homeLOB2TabName":"Galaxy Z Flip6",
-            "homeLOB2Title": "Upgrade to Galaxy Z Flip6",
-            "homeLOB2Description": "Get {tradeInValue} with your old {deviceName}, double the storage on us and more.<sup>√</sup>",
-            "homeLOB1TabName":"Galaxy Z Fold6",
-            "homeLOB1Title": "Upgrade to Galaxy Z Fold6",
-            "homeLOB1Description": "Get {tradeInValue} trade-in credit with your old {deviceName} or $400 without trade-in.<sup>√</sup>",
-            // GNB Ext
-            "gnbExtenderDescription": "Upgrade to Galaxy Z Fold6. Save up to {tradeInValue} with {deviceName} and $300 off instantly or $700 off without a trade-in with Galaxy Z Fold6<sup>√</sup>",
-            // ADP KV
-            "adpKvTitle1": "Upgrade to Galaxy Z Fold6",
-            "adpKvDescription1": "Save up to {tradeInValue} with {deviceName} and $300 off instantly or $700 off without a trade-in with Galaxy Z Fold6 devices<sup>√</sup>.",
-            "adpKvTitle2": "Upgrade to Galaxy Z Flip6",
-            "adpKvDescription2": "Save up to {tradeInValue} with {deviceName} or $200 off without a trade-in with select Galaxy Z Flip6<sup>θ</sup>",
-            // B6 SMP PCD KV
-            "b6SmpPcdKvTitle": "Upgrade to Galaxy Z Flip6",
-            "b6SmpPcdKvDescription": "Save up to {tradeInValue} with {deviceName} or $200 off without a trade-in with select Galaxy Z Flip6<sup>θ</sup>",
-            // Q6 SMP PCD KV
-            "q6SmpPcdKvTitle": "Upgrade to Galaxy Z Fold6",
-            "q6SmpPcdKvDescription": "Save up to {tradeInValue} with {deviceName} and $300 off instantly or $700 off without a trade-in with Galaxy Z Fold6 devices<sup>√</sup>.",
-            // Q6 MB PCD KV
-            "q6MbPcdKvTitle": "Upgrade to Galaxy Z Fold6",
-            "q6MbPcdKvDescription": "Get {tradeInValue} trade-in credit with your old {deviceName}. Plus, $300 off instantly with select Galaxy Z Fold6 devices<sup>√</sup>",
-            // B6 MB PCD KV
-            "b6MbPcdKvTitle": "Upgrade to Galaxy Z Flip6",
-            "b6MbPcdKvDescription": "Save up to {tradeInValue} with {deviceName} or $200 off without a trade-in with select Galaxy Z Flip6<sup>θ</sup>",
-            "q6PfKvTitle": "Upgrade to Galaxy Z Fold6",
-            "q6PfKvDescription": "Save up to {tradeInValue} with {deviceName} and $300 off instantly or $700 off without a trade-in with Galaxy Z Fold6 devices<sup>√</sup>.",
-            // CDP KV
-            "cdpKvTitle2": "Upgrade to Galaxy Z Flip6",
-            "cdpKvDescription2": "Get up to {tradeInValue} instant trade-in credit with your old {deviceName}. From $1,099.99 <s>$1,219.99</s> before eligible trade in.<sup>θ</sup>",
-            "cdpKvTitle1": "Upgrade to Galaxy Z Fold6",
-            "cdpKvDescription1": "Save up to {tradeInValue} with {deviceName} and $300 off instantly or $700 off without a trade-in with Galaxy Z Fold6 devices<sup>√</sup>.",
-            // CDP SC
-            "cdpSCTitle3": "",
-            "cdpSCDescription3": "",
-            "cdpSCTitle2": "Upgrade to Galaxy Z Flip6",
-            "cdpSCDescription2": " Get up to {tradeInValue} instant trade-in credit with your old {deviceName}. From $1,099.99 <s>$1,219.99</s> before eligible trade in.<sup>θ</sup>",
-            "cdpSCTitle1": "Upgrade to Galaxy Z Fold6",
-            "cdpSCDescription1": "Save up to {tradeInValue} with {deviceName} or $200 off without a trade-in with select Galaxy Z Flip6<sup>θ</sup>",
-            // Q6 MLP KV
-            "q6MLPHeadline": "Upgrade to Galaxy Z Fold6",
-            "q6MLPSubText": "Save up to {tradeInValue} with {deviceName} and $300 off instantly or $700 off without a trade-in with Galaxy Z Fold6 devices<sup>√</sup>.",
-            // B^ MLP KV
-            "b6MLPHeadline": "Upgrade to Galaxy Z Flip6",
-            "b6MLPSubText": "Save up to {tradeInValue} with {deviceName} or $200 off without a trade-in with select Galaxy Z Flip6<sup>θ</sup>"
-        };
-        const ddUnlckDevices = ["GZFold3", "GZFOLD4", "GZFLIP4", "GZFLIP3", "GS24U", "GS24P", "GS24", "GS23U", "GS23P", "GS23", "GS22U", "GS22P", "GS22", "GS21U", "GS21P", "GS21", "GS20U", "GS20P", "GS20", "GS10P", "GS10", "GNOTE20U", "GNOTE20", "IPHONE", "GZFOLD5", "GZFLIP5"];
-
-        let ddMasterConfig = {};
-
-        function generateTradeConfig(dList, pConfig) {
-            let tempArr = Object.entries(pConfig);
-            let finalConfig = {};
-            dList.forEach(device => {
-                finalConfig[device] = {};
-                tempArr.forEach(([pname, pcopy]) => finalConfig[device][pname] = pcopy.replace(/{deviceName}/g, ddDeviceNames[device]));
-            });
-            return finalConfig;
-        }
-
-        ddMasterConfig = generateTradeConfig(ddUnlckDevices, ddUnlckPlacements);
-
-        const aname = "b6q6-328-dd";
-        let tgtCommonStore = window.tgtCommonStore || {};
-        tgtCommonStore[aname] = tgtCommonStore[aname] || {};
-        tgtCommonStore[aname]["config"] = {};
-        tgtCommonStore[aname]["config"]["unlck"] = ddMasterConfig;
-        tgtCommonStore[aname]["b6-tradeIn-val"] = ddB6TradeInConfig;
-        tgtCommonStore[aname]["q6-tradeIn-val"] = ddQ6TradeInConfig;
-
-        window.tgtCommonStore = tgtCommonStore;
-
-        const tradeInfoEvt = new CustomEvent("dd328TradeInfoLoaded", { "detail": tgtCommonStore[aname] });
-        document.documentElement.dispatchEvent(tradeInfoEvt);
-    })();
-</script><script>
-  //# sourceURL=scom-34886-cookie-drop-568817.js
-  (function() {
-    
-    const actName = "SCOM-34886";
-    const requestFlag = "pzn_cart_requested_568817";
-    
-    function tgtGetCookie(name) {
-      var value = "; " + document.cookie;
-      var parts = value.split("; " + name + "=");
-      if (parts.length == 2) return parts.pop().split(";").shift();
-    }
-    
-    function tgtSetCookie(name, value, days) {
-      if(days == null)
-        document.cookie = name + '=' + value + '; path=/';
-      else if(days >= 0) {
-        var date = new Date(),
-            expires = 'expires=';
-        date.setTime(date.getTime()+(days*24*60*60*1000));
-        expires += date.toGMTString();
-        document.cookie = name + '=' + value + '; ' + expires + '; path=/';
-      }
-    }
-    
-    function parseProfileScript(psVal) {
-      if(psVal === '') return null;
-      if(!isNaN(parseInt(psVal))) return parseInt(psVal);
-      return psVal;
-    }
-    
-    const jwt = tgtGetCookie('v4_sso_jwt') || tgtGetCookie('jwt_USA');
-    const tgtCartId = tgtGetCookie('s_ecom_scid');
-    const tgtCartRequested = tgtGetCookie(requestFlag);
-    
-    let hasFold6InCart = parseProfileScript(``)
-    , hasFlip6InCart = parseProfileScript(``);
-    
-    if(!tgtCartRequested) {
-      function signalCartInfo() {
-          const cartInfo = {
-            "fold6InCart": hasFold6InCart,
-            "flip6InCart": hasFlip6InCart
-          };
-          
-          console.log(
-            ["SCOM-34886:"
-             , "Fold6 in cart: "+hasFold6InCart
-             , "Flip6 in cart: "+hasFlip6InCart
-            ].join("\n")
-          );
-          
-          window.customTrackEvent({
-            "mbox": "target-scom-34886",
-            "params": cartInfo
-          });
-            
-          window.tgtCommonStore = window.tgtCommonStore || {};
-          window.tgtCommonStore[actName] = {};
-          window.tgtCommonStore[actName]["cart-info"] = cartInfo;
-            
-          const cartInfoEvt = new CustomEvent("SCOM-34886-cart-info", { "detail": cartInfo });
-          document.documentElement.dispatchEvent(cartInfoEvt);
-      }
-      if(!tgtCartId) {
-          hasFold6InCart = "false";
-          hasFlip6InCart = "false";
-          signalCartInfo();
-      }
-      else {
-        function tgtGetCartItemAttrs(obj) {
-          let array = [];
-          if (typeof obj === 'object')
-            Object.values(obj).forEach(item => {
-              if(typeof item === 'object' && item["attributes"])
-                array.push(item["attributes"]);
-            });
-          return array;
-        }
-      
-        function initS24Check() {
-          var tgtCartLineItems, tgtCartItemAttrs;
-          let cartReqXhr = new XMLHttpRequest();
-          cartReqXhr.open("GET", location.origin + "/us/api/ecom/v4/shopping-carts/" + tgtCartId + "");
-          cartReqXhr.setRequestHeader('x-ecom-jwt', jwt);
-          cartReqXhr.addEventListener('load', function onCartReqLoaded(e) {
-            const response = this.response;
-            const cart_info = typeof response == "string" ? JSON.parse(response) : response;
-            tgtCartLineItems = cart_info["line_items"];
-            tgtCartItemAttrs = tgtGetCartItemAttrs(tgtCartLineItems);
-          
-            if(tgtCartItemAttrs.length == 0) {
-              hasFold6InCart = "false";
-              hasFlip6InCart = "false";
-              signalCartInfo();
-            }
-            else {
-              function isTgtMobile(itemAttr) {
-                const tgtName = this;
-                return itemAttr["display_name"].indexOf(tgtName) == 0 && itemAttr["product_family"] == "phones";
-              }
-            
-              const _hasFold6InCart = tgtCartItemAttrs.some(isTgtMobile, "Galaxy Z Fold6").toString();
-              const _hasFlip6InCart = tgtCartItemAttrs.some(isTgtMobile, "Galaxy Z Flip6").toString();
-              if(_hasFold6InCart != hasFold6InCart
-                 || _hasFlip6InCart != hasFlip6InCart) {
-                hasFold6InCart = _hasFold6InCart;
-                hasFlip6InCart = _hasFlip6InCart;
-                signalCartInfo();
-              }
-            }
-          
-            // Flag to limit cart requests to one per session
-            tgtSetCookie(requestFlag, true);  
-          });
-          cartReqXhr.addEventListener('error', function onCartReqFail(e) {
-            console.log("PZN - Cart API failed \nMore info:", e);
-            tgtSetCookie(requestFlag, true);
-          });
-          cartReqXhr.send();
-        }
-      
-        if(document.readyState === "loading")
-          document.addEventListener("DOMContentLoaded", initS24Check);
-        else
-          initS24Check();
-      }
-    }
-  })();
-</script><script>
-  (function () {
-    //# sourceURL=pzn-epp-setter
-    function tgtGetCookie(cname) {
-      var name = cname + "=";
-      var ca = document.cookie.split(';');
-      for (var i = 0; i < ca.length; i++) {
-        var c = ca[i];
-        while (c.charAt(0) == ' ') {
-          c = c.substring(1);
-        }
-        if (c.indexOf(name) == 0) {
-          return c.substring(name.length, c.length);
-        }
-      }
-      return "";
-    }
-
-    function checkForEPP() {
-      if (typeof (tgtGetCookie) == 'function') {
-        var tmkIDcookie = tgtGetCookie('tmktid');
-        var getUserEPP = '';
-        if (tmkIDcookie != "" && getUserEPP !== tmkIDcookie) {
-          customTrackEvent({
-            "mbox": "target-profile-data",
-            "params": {
-              "user.userEPPValue": tmkIDcookie
-            }
-          });
-          customTrackEvent({
-            "mbox": "target-profile-update"
-            , "params": {
-              "userEPPValue": tmkIDcookie
-            }
-          });
-        }
-      }
-
-      var isEppUser = (window.SCart && "function" == typeof window.SCart.isEppUser && window.SCart.isEppUser()) 
-      || tgtGetCookie('tppid') != "" || tgtGetCookie('epp_verified') == "true";
-      var setUserValue = '';
-      if (isEppUser && setUserValue !== 'true') {
-        customTrackEvent({
-          "mbox": "target-profile-data",
-          "params": {
-              "user.userHasEppValue": true
           }
-        });
-      }
-      if (!isEppUser && setUserValue !== 'false') {
-        customTrackEvent({
-          "mbox": "target-profile_data-24571",
-          "params": {
-              "user.userHasEppValue": false
-          }
-        });
-      }
-    }
-    window.setTimeout(checkForEPP, 1000);
-  })();
-</script><script>
-  //# sourceURL=pzn-cookie-drop-575496.js
-  (function() {
-  
-    const cookieName = "apevwkcart";
-    const cookieValue = "APE";
-    
-    const actName = "SCOM-34886";
-    
-    // DO NOT TOUCH
-    function tgtGetCookie(cname) {
-      var value = "; " + document.cookie;
-      var parts = value.split("; " + cname + "=");
-      if (parts.length == 2) return parts.pop().split(";").shift();
-    }
-
-    function setTargetCookie(name, value, days) {
-        if (days == null)
-            document.cookie = name + '=' + value + '; path=/';
-        else if (days >= 0) {
-            var date = new Date()
-            , expires = 'expires=';
-            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
-            expires += date.toGMTString();
-            document.cookie = name + '=' + value + '; ' + expires + '; path=/';
+          onGnbMutations();
+          let mObs = new MutationObserver(onGnbMutations);
+          mObs.observe(gnbWrap, {attributes: true, childList: true, subtree: true});
         }
-    }
-    
-    function deleteTargetCookie(name) {
-      document.cookie = name+'=; Max-Age=0; path=/';
-    }
-    
-    window.tgtCommonStore = window.tgtCommonStore || {};
-
-    function handleCartInfo(cartInfo) {
-      const flag = Object.entries(cartInfo).some(([cartInfoEntry, cartInfoVal]) => cartInfoVal == "true").toString();
-      if(flag == "true") deleteTargetCookie(cookieName);
-      else if(flag == "false") {
-          var _cookieValue = tgtGetCookie(cookieName) || tgtGetCookie("pznapewkcartckie_575496") || cookieValue;          
-          setTargetCookie("pznapewkcartckie_575496", _cookieValue, 30);
-          setTargetCookie(cookieName, _cookieValue, 30);
+        else console.error("PZN - Search chat render error");
       }
+      
+      if(document.readyState === "loading")
+	    window.addEventListener('DOMContentLoaded', renderSearchChat);
+      else
+        renderSearchChat();
     }
-    
-    if(window.tgtCommonStore[actName])
-      handleCartInfo(window.tgtCommonStore[actName]["cart-info"]);
-    document.documentElement.addEventListener("SCOM-34886-cart-info", function onProductInCart(e) {
-      handleCartInfo(e.detail);
-    });
-    
-    const intvl_id = window.setInterval(function checkTgtbpno() {
-      const bpno = tgtGetCookie("tgt_bpno")
-      , _cookieValue = tgtGetCookie(cookieName);
-      if(bpno && _cookieValue) {
-        setTargetCookie("pznapewkcartckie_575496", bpno, 30);
-        setTargetCookie(cookieName, bpno, 30);
-        clearInterval(intvl_id);
-      }
-    }, 1000);
   })();
-</script><style>
+</script><style type="text/css">.search-chat-expert {position: relative;display: flex;width: 50%;margin: auto;justify-content: center;align-items: center;margin-top: 20px;}.search-chat-expert-img {width: 128px;}.search-chat-expert-text {font-size: 14px;color: white;}.search-chat-expert-link {color: white;text-decoration: underline;text-align: left;}</style><style>
    .optin-model-popup-margin-top{margin-top: 20px;}.optin-model-popup{display: flex;font-family: SamsungOne;position: fixed;top: 0px;width: 100%;height: 100%;z-index: 9999;background-color: rgb(0, 0, 0,0.8);}.optin-model-popup-card-description-header{padding: 24px;text-align: center;}.optin-model-popup-card-description-body{padding: 24px;display: flex;flex-direction: column;padding-top:10px}.optin-model-popup-card-description-header1{font-size: 24px;font-family: SamsungSansSharp;font-weight: 800;line-height: 29.76px;text-align: center;}.optin-model-popup-card-description-form{display: flex;flex-direction: column-reverse;}.optin-model-popup-emailID-label{color: #208EFB;font-family: SamsungOne;font-size: 12px;}#optin-model-popup-emailID{margin-top: 5px;padding: 10px 10px 10px 0px;border: none;border-bottom: solid 1px #027AF1;outline-offset: unset;outline: unset;font-family: SamsungOne;font-size: 13px;color: #000;}.optin-model-popup-terms-label{color: #000;font-family: SamsungOne;font-size: 13px;cursor: pointer;line-height: 16.79px;}.optin-model-popup-card-privacy-btn{font-size: 11px;font-family: SamsungOne;line-height: 13.19px;}.optin-model-popup-card-footer{font-size: 12px;padding: 20px;font-family: SamsungOne;background-color: #f5f5f5;position: absolute;bottom: 0px;border-bottom-left-radius: 20px;border-bottom-right-radius: 20px;line-height: 14.39px;}.optin-model-popup-card-description-checkbox{position: relative;}.optin-model-popup-card-description-checkbox input{height: 21px;width: 21px;z-index: 7;position: absolute;top: 0px;left: -2px;opacity: 0;cursor: pointer;}.optin-model-popup-card-description-checkbox input:checked ~ .checkmark{background-image: url("https://image-us.samsung.com/SamsungUS/optin-popup/Check.png");background-position: center;background-repeat: no-repeat;background-size: contain;height: 20px;width: 20px;border: none;cursor: pointer;}.checkmark{position: relative;border: solid 1px #979797;height: 18px;width: 18px;border-radius: 20px;left: 0px;z-index: 6;display: block;margin-right: 9px;float: left;top: 2px;cursor: pointer;}.optin-model-popup-card-privacy-btn span{color: #1D30A3;font-family: 'SamsungOne';font-weight: 600;cursor: pointer;}.optin-model-popup-error_msg{color: #FA0000;font-size: 14px;position: absolute;left: 4px;font-family: SamsungOne;}.optin-model-popup-card.error-popup-card{height: 189px;min-height: 189px;min-width: 312px;width: 312px;}.optin-model-popup-card-description-error-msg{font-size: 18px;line-height: 23px;text-align: center;font-weight: 400;margin: auto;}.optin-model-popup-card-error-btn{background: #000;width: 236px;text-align: center;color: #fff;padding: 10px;border-radius: 22px;font-size: 14px;font-weight: bold;align-self: center;cursor: pointer;}@media screen and (min-width:768px) {.optin-model-popup-mobile{display: none;}.optin-model-popup {overflow-y: auto;}.optin-model-popup-card{position: relative;background: #fff;min-width: 640px;height: 608px;max-width: 640px;border-radius: 20px;display: flex;flex-direction: row;margin: auto;}.optin-model-popup-card.error-popup-card{height: 189px;min-height: 189px;min-width: 312px;width: 312px;margin: auto;}.optin-model-popup-card-description{width: calc(100% - 50%);}.optin-model-popup-card-img{background-image: url(https://image-us.samsung.com/SamsungUS/optin-popup/Image.png);width: calc(100% - 50%);height: 100%;background-position: -23px -48px;background-size: cover;background-repeat: no-repeat;border-top-right-radius: 20px;}.optin-model-popup-card-close-btn{position: absolute;top: 16px;right: 20px;font-weight: 800;font-size: 26px;cursor: pointer;}.optin-model-popup-card-submit-btn{background: #000;width: 236px;text-align: center;color: #fff;padding: 10px;border-radius: 22px;font-size: 14px;font-weight: bold;align-self: center;cursor: pointer;}.optin-model-popup-card-noThanks-btn{text-align: center;font-size: 14px;font-weight: bolder;border-bottom: solid 2px #000;width: fit-content;display: flex;align-self: center;font-family: SamsungOne;cursor: pointer;}}@media screen and (min-width:320px) and (max-width:767px) {.optin-model-popup-desktop{display: none;}.optin-model-popup {width: 100%;align-items: flex-start;overflow-y: auto;}.optin-model-popup-card{position: relative;width: 100%;background: #fff;min-width: 320px;min-height: 608px;height: fit-content;border-radius: 20px;display: flex;flex-direction: column;margin-top: 74px;}.optin-model-popup-card.error-popup-card{height: 189px;min-height: 189px;min-width: 312px;width: 312px;margin: auto;}.optin-model-popup-card-img{background-image: url(https://image-stgus.samsung.com/SamsungUS/optin-popup/Image.png);width: 313px;height: 210px;background-position: center;background-size: contain;background-repeat: no-repeat ;border-top-right-radius: 0px;border-radius: 20px;margin: 0 auto;}.optin-model-popup-card-description-header1{text-align: center;padding: 0px 29px 29px 29px;line-height: 29.76px;}.optin-model-popup-card-submit-btn{background: #000;width: 236px;text-align: center;color: #fff;padding: 10px;border-radius: 22px;font-size: 14px;font-weight: bold;align-self: center;cursor: pointer;}.optin-model-popup-card-close-btn{position: absolute;right: 20px;top: 20px;cursor: pointer;}.optin-model-popup-card-close-btn img{width: 19px;height: 19px;}.optin-model-popup-card-noThanks-btn{text-align: center;font-size: 14px;font-weight: bolder;border-bottom: solid 2px #000;width: fit-content;display: flex;align-self: center;font-family: SamsungOne;cursor: pointer;}.optin-model-popup-card-footer{position:relative;line-height: 14.39px;}}
 </style><script>
   //# sourceURL=pzn-optin
@@ -1089,6 +457,537 @@ window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){va
       })
 
     })();
+</script><script>
+  (function() {
+    //# sourceURL=pzn-epp-attr-setter
+    function tgtGetCookie(cname) {
+        var name = cname + "=";
+        var ca = document.cookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') {
+                c = c.substring(1);
+            }
+            if (c.indexOf(name) == 0) {
+                return c.substring(name.length, c.length);
+            }
+        }
+        return "";
+    }
+
+    function checkForEPP() {
+        if (typeof (tgtGetCookie) == 'function') {
+            var tsgmtCookie = tgtGetCookie('tsgmt');
+            var getUserEPP = '';
+            if (tsgmtCookie != "" && getUserEPP !== tsgmtCookie) {
+                customTrackEvent({
+                    "mbox": "target-profile-data",
+                    "params": {
+                        "user.userEPPtsgmtValue": tsgmtCookie
+                    }
+                });
+            }
+        }
+    }
+    window.setTimeout(checkForEPP, 1000);
+  })();
+</script><script>
+  (function () {
+    //# sourceURL=pzn-epp-setter
+    function tgtGetCookie(cname) {
+      var name = cname + "=";
+      var ca = document.cookie.split(';');
+      for (var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+          c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+          return c.substring(name.length, c.length);
+        }
+      }
+      return "";
+    }
+
+    function checkForEPP() {
+      if (typeof (tgtGetCookie) == 'function') {
+        var tmkIDcookie = tgtGetCookie('tmktid');
+        var getUserEPP = '';
+        if (tmkIDcookie != "" && getUserEPP !== tmkIDcookie) {
+          customTrackEvent({
+            "mbox": "target-profile-data",
+            "params": {
+              "user.userEPPValue": tmkIDcookie
+            }
+          });
+          customTrackEvent({
+            "mbox": "target-profile-update"
+            , "params": {
+              "userEPPValue": tmkIDcookie
+            }
+          });
+        }
+      }
+
+      var isEppUser = (window.SCart && "function" == typeof window.SCart.isEppUser && window.SCart.isEppUser()) 
+      || tgtGetCookie('tppid') != "" || tgtGetCookie('epp_verified') == "true";
+      var setUserValue = '';
+      if (isEppUser && setUserValue !== 'true') {
+        customTrackEvent({
+          "mbox": "target-profile-data",
+          "params": {
+              "user.userHasEppValue": true
+          }
+        });
+      }
+      if (!isEppUser && setUserValue !== 'false') {
+        customTrackEvent({
+          "mbox": "target-profile_data-24571",
+          "params": {
+              "user.userHasEppValue": false
+          }
+        });
+      }
+    }
+    window.setTimeout(checkForEPP, 1000);
+  })();
+</script><script>
+(function() {
+// DO NOT TOUCH
+function tgtGetCookie(cname) {
+  var name = cname + "=";
+  var ca = document.cookie.split(';');
+  for (var i = 0; i < ca.length; i++) {
+    var c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return "";
+}
+
+function setTargetCookie(name, value, days) {
+  var date = new Date(),
+  expires = 'expires=';
+  date.setTime(date.getTime()+(days*24*60*60*1000));
+  expires += date.toGMTString();
+  document.cookie = name + '=' + value + '; ' + expires + '; path=/';
+}
+
+// EDIT HERE
+
+// 'yourCookie' is a script reference to the cookie you are setting (two locations)
+// 'cookieName' is the cookie name you are setting (two locations)
+// the cookie value is 'true' and set for 1 day 'true, 1'
+
+var yourCookie = tgtGetCookie("DATradein");
+console.log("PZN-922", yourCookie);
+if (yourCookie !== 'true') {
+  console.log("updating cookie value");
+  setTargetCookie('DATradein', 'true', 1);
+}
+ 
+// END EDIT
+})();
+</script><script>
+  //# sourceURL=pzn-cookie-drop-575496.js
+  (function() {
+  
+    const cookieName = "apevwkcart"
+    , cookieValue = "Wunderkind";
+    
+    const actName = "SCOM-34886";
+        
+    // DO NOT TOUCH
+    function tgtGetCookie(cname) {
+      var value = "; " + document.cookie;
+      var parts = value.split("; " + name + "=");
+      if (parts.length == 2) return parts.pop().split(";").shift();
+    }
+
+    function setTargetCookie(name, value, days) {
+        if (days == null)
+            document.cookie = name + '=' + value + '; path=/';
+        else if (days >= 0) {
+            var date = new Date()
+            , expires = 'expires=';
+            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+            expires += date.toGMTString();
+            document.cookie = name + '=' + value + '; ' + expires + '; path=/';
+        }
+    }
+    
+    function deleteTargetCookie(name) {
+      document.cookie = name+'=; Max-Age=0; path=/';
+    }
+    
+    window.tgtCommonStore = window.tgtCommonStore || {};
+
+    function handleCartInfo(cartInfo) {
+      const flag = Object.entries(cartInfo).some(([cartInfoEntry, cartInfoVal]) => cartInfoVal == "true").toString();
+      if(flag == "true") deleteTargetCookie(cookieName);
+      else if(flag == "false") {
+          var _cookieValue = tgtGetCookie(cookieName) || tgtGetCookie("pznapewkcartckie_575496") || cookieValue;
+          setTargetCookie("pznapewkcartckie_575496", _cookieValue, 30);
+          setTargetCookie(cookieName, _cookieValue, 30);
+      }
+    }
+    
+    if(window.tgtCommonStore[actName])
+      handleCartInfo(window.tgtCommonStore[actName]["cart-info"]);
+    document.documentElement.addEventListener("SCOM-34886-cart-info", function onProductInCart(e) {
+        handleCartInfo(e.detail);
+    });
+    // END EDIT
+  })();
+</script><script>
+    //# sourceURL=b6q6-328-dd-config.js
+    (function loadDeviceTradeInfo() {
+
+        const ddS24TradeInConfig = {
+            "GZFOLD5": "$500"
+            , "GZFLIP5": "$300"
+            , "GZFOLD4": "$500"
+            , "GZFold3": "$200"
+            , "GZFLIP4": "$300"
+            , "GZFLIP3": "$300"
+            , "GS24U": "$650"
+            , "GS24P": "$550"
+            , "GS24": "$350"
+            , "GS23U": "$650"
+            , "GS23P": "$650"
+            , "GS23": "$450"
+            , "GS22U": "$500"
+            , "GS22P": "$500"
+            , "GS22": "$400"
+            , "GS21U": "$400"
+            , "GS21P": "$300"
+            , "GS21": "$200"
+            , "GS20U": "$400"
+            , "GS20P": "$300"
+            , "GS20": "$200"
+            , "GS10P": "$300"
+            , "GS10": "$300"
+            , "GNOTE20U": "$300"
+            , "GNOTE20": "$300"
+            , "IPHONE": "$600"
+        };
+
+        const ddS24UTradeInConfig = {
+            "GZFOLD5": "$437"
+            , "GZFLIP5": "$300"
+            , "GZFOLD4": "$450"
+            , "GZFold3": "$300"
+            , "GZFLIP4": "$300"
+            , "GZFLIP3": "$300"
+            , "GS24U": "$900"
+            , "GS24P": "$700"
+            , "GS24": "$500"
+            , "GS23U": "$800"
+            , "GS23P": "$400"
+            , "GS23": "$400"
+            , "GS22U": "$700"
+            , "GS22P": "$400"
+            , "GS22": "$300"
+            , "GS21U": "$650"
+            , "GS21P": "$300"
+            , "GS21": "$300"
+            , "GS20U": "$400"
+            , "GS20P": "$300"
+            , "GS20": "$300"
+            , "GS10P": "$300"
+            , "GS10": "$300"
+            , "GNOTE20U": "$400"
+            , "GNOTE20": "$300"
+            , "IPHONE": "$559"
+        };
+
+        const ddDeviceNames = {
+            "GZFOLD5": "Galaxy Z Fold5"
+            , "GZFLIP5": "Galaxy Z Flip5"
+            , "GZFOLD4": "Galaxy Z Fold4"
+            , "GZFold3": "Galaxy Z Fold3"
+            , "GZFLIP4": "Galaxy Z Flip4"
+            , "GZFLIP3": "Galaxy Z Flip3"
+            , "GS24U": "Galaxy S24 Ultra"
+            , "GS24P": "Galaxy S24+"
+            , "GS24": "Galaxy S24"
+            , "GS23U": "Galaxy S23 Ultra"
+            , "GS23P": "Galaxy S23+"
+            , "GS23": "Galaxy S23"
+            , "GS22U": "Galaxy S22 Ultra"
+            , "GS22P": "Galaxy S22+"
+            , "GS22": "Galaxy S22"
+            , "GS21U": "Galaxy S21 Ultra"
+            , "GS21P": "Galaxy S21+"
+            , "GS21": "Galaxy S21"
+            , "GS20U": "Galaxy S20 Ultra"
+            , "GS20P": "Galaxy S20+"
+            , "GS20": "Galaxy S20"
+            , "GS10P": "Galaxy S10+"
+            , "GS10": "Galaxy S10"
+            , "GNOTE20U": "Galaxy Note20 Ultra"
+            , "GNOTE20": "Galaxy Note20"
+            , "IPHONE": "iPhone"
+        };
+
+
+        const ddUnlckPlacements = {
+            "configParams": "",
+            // homepage
+            "homeTitle": "",
+            "homeDescription": "",
+            // LOB
+            "homeLOB1TabName": "Galaxy S24 Ultra",
+            "homeLOB1Title": "Save up to $1,100+",
+            "homeLOB1Description": "Upgrade to Galaxy S24 Ultra. Get {tradeInValue} trade-in credit toward your old {deviceName} or Up to $350 off without Trade-in. Plus, double the storage on us and 50% off Buds3 Pro",
+            // HM MM
+            "homeS24UMM": "",
+            // GNB Ext
+            "gnbExtenderDescription": "Upgrade to Galaxy S24 Ultra. Get {tradeInValue} trade-in credit toward your old {deviceName} or Up to $350 off without Trade-in. Plus, double the storage on us and 50% off Buds3 Pro",
+            // ADP KV
+            "adpKvTitle1": "Save up to $1,100+",
+            "adpKvDescription1": "Upgrade to Galaxy S24 Ultra. Get {tradeInValue} trade-in credit toward your old {deviceName} or Up to $350 off without Trade-in. Plus, double the storage on us and 50% off Buds3 Pro",
+            "adpKvTitle2": "",
+            "adpKvDescription2": "",
+            // MB PCD KV
+            "mbPcdTitle": "Save up to $1,100+",
+            "mbPcdKvDescription": "Upgrade to Galaxy S24 Ultra. Get {tradeInValue} trade-in credit toward your old {deviceName} or Up to $350 off without Trade-in. Plus, double the storage on us and 50% off Buds3 Pro",
+            // MB PF
+            "pfKvTitle": "Save up to $1,100+",
+            "pfKvDescription": "Upgrade to Galaxy S24 Ultra. Get {tradeInValue} trade-in credit toward your old {deviceName} or Up to $350 off without Trade-in. Plus, double the storage on us and 50% off Buds3 Pro",
+            // CDP KV
+            "cdpKvTitle1": "Save up to $1,100+",
+            "cdpKvDescription1": "Upgrade to Galaxy S24 Ultra. Get {tradeInValue} trade-in credit toward your old {deviceName} or Up to $350 off without Trade-in. Plus, double the storage on us and 50% off Buds3 Pro",
+            "cdpKvTitle2": "",
+            "cdpKvDescription2": "",
+            // CDP SC
+            "cdpSCTitle1": "Save up to $1,100+",
+            "cdpSCDescription1": "Upgrade to Galaxy S24 Ultra. Get {tradeInValue} trade-in credit toward your old {deviceName} or Up to $350 off without Trade-in. Plus, double the storage on us and 50% off Buds3 Pro",
+            "cdpSCTitle3": "",
+            "cdpSCDescription3": "",
+            "cdpSCTitle2": "",
+            "cdpSCDescription2": "",
+            // S24U MLP KV
+            "S24UMLPHeadline": "",
+            "S24UMLPSubText": "Upgrade to Galaxy S24 Ultra. Get {tradeInValue} trade-in credit toward your old {deviceName} or Up to $350 off without Trade-in. Plus, double the storage on us and 50% off Buds3 Pro",
+            // S24 MLP KV
+            "S24MLPHeadline": "",
+            "S24MLPSubText": "Upgrade to Galaxy S24. Get  trade-in credit toward your old {deviceName}, $75 off on Exclusive Colors or Up to $275 off without Trade-in. Plus get 50% off Buds3Pro",
+
+        };
+
+        const ddLOPlacements = {
+            "configParams": "",
+            // homepage
+            "homeTitle": "",
+            "homeDescription": "",
+            // LOB
+            "homeLOB1TabName": "Galaxy S24 Ultra",
+            "homeLOB1Title": "Save up to $1,100+",
+            "homeLOB1Description": "Switch to Galaxy S24 Ultra. Get {tradeInValue} trade-in credit toward your old {deviceName} or Up to $350 off without Trade-in. Plus, double the storage on us and 50% off Buds3 Pro",
+            // HM MM
+            "homeS24UMM": "",
+            // GNB Ext
+            "gnbExtenderDescription": "Switch to Galaxy S24 Ultra. Get {tradeInValue} trade-in credit toward your old {deviceName} or Up to $350 off without Trade-in. Plus, double the storage on us and 50% off Buds3 Pro",
+            // ADP KV
+            "adpKvTitle1": "Save up to $1,100+",
+            "adpKvDescription1": "Switch to Galaxy S24 Ultra. Get {tradeInValue} trade-in credit toward your old {deviceName} or Up to $350 off without Trade-in. Plus, double the storage on us and 50% off Buds3 Pro",
+            "adpKvTitle2": "",
+            "adpKvDescription2": "",
+            // MB PCD KV
+            "mbPcdTitle": "Save up to $1,100+",
+            "mbPcdKvDescription": "Switch to Galaxy S24 Ultra. Get {tradeInValue} trade-in credit toward your old {deviceName} or Up to $350 off without Trade-in. Plus, double the storage on us and 50% off Buds3 Pro",
+            // MB PF
+            "pfKvTitle": "Save up to $1,100+",
+            "pfKvDescription": "Switch to Galaxy S24 Ultra. Get {tradeInValue} trade-in credit toward your old {deviceName} or Up to $350 off without Trade-in. Plus, double the storage on us and 50% off Buds3 Pro",
+            // CDP KV
+            "cdpKvTitle1": "Save up to $1,100+",
+            "cdpKvDescription1": "Switch to Galaxy S24 Ultra. Get {tradeInValue} trade-in credit toward your old {deviceName} or Up to $350 off without Trade-in. Plus, double the storage on us and 50% off Buds3 Pro",
+            "cdpKvTitle2": "",
+            "cdpKvDescription2": "",
+            // CDP SC
+            "cdpSCTitle1": "Save up to $1,100+",
+            "cdpSCDescription1": "Switch to Galaxy S24 Ultra. Get {tradeInValue} trade-in credit toward your old {deviceName} or Up to $350 off without Trade-in. Plus, double the storage on us and 50% off Buds3 Pro",
+            "cdpSCTitle3": "",
+            "cdpSCDescription3": "",
+            "cdpSCTitle2": "",
+            "cdpSCDescription2": "",
+            // S24U MLP KV
+            "S24UMLPHeadline": "",
+            "S24UMLPSubText": "Switch to Galaxy S24 Ultra. Get {tradeInValue} trade-in credit toward your old {deviceName} or Up to $350 off without Trade-in. Plus, double the storage on us and 50% off Buds3 Pro",
+            // S24 MLP KV
+            "S24MLPHeadline": "",
+            "S24MLPSubText": "Switch to Galaxy S24. Get  trade-in credit toward your old {deviceName}, $75 off on Exclusive Colors or Up to $275 off without Trade-in. Plus get 50% off Buds3Pro",
+        };
+
+        const ddUnlckDevices = ["GZFold3", "GZFOLD4", "GZFLIP4", "GZFLIP3", "GS24U", "GS24P", "GS24", "GS23U", "GS23P", "GS23", "GS22U", "GS22P", "GS22", "GS21U", "GS21P", "GS21", "GS20U", "GS20P", "GS20", "GS10P", "GS10", "GNOTE20U", "GNOTE20", "IPHONE", "GZFOLD5", "GZFLIP5"];
+
+        let ddMasterConfig = {};
+        let ddMasterLOConfig = {};
+
+        function generateTradeConfig(dList, pConfig) {
+            let tempArr = Object.entries(pConfig);
+            let finalConfig = {};
+            dList.forEach(device => {
+                finalConfig[device] = {};
+                tempArr.forEach(([pname, pcopy]) => finalConfig[device][pname] = pcopy.replace(/{deviceName}/g, ddDeviceNames[device]));
+            });
+            return finalConfig;
+        }
+
+
+        ddMasterConfig = generateTradeConfig(ddUnlckDevices, ddUnlckPlacements);
+
+        ddMasterLOConfig = generateTradeConfig(ddUnlckDevices, ddLOPlacements);
+
+
+        const aname = "scom-20551-dd";
+        let tgtCommonStore = window.tgtCommonStore || {};
+        tgtCommonStore[aname] = tgtCommonStore[aname] || {};
+        tgtCommonStore[aname]["config"] = {};
+        tgtCommonStore[aname]["config"]["unlck"] = ddMasterConfig;
+        tgtCommonStore[aname]["config"]["LOunlck"] = ddMasterLOConfig;
+        tgtCommonStore[aname]["b6-tradeIn-val"] = ddS24TradeInConfig;
+        tgtCommonStore[aname]["q6-tradeIn-val"] = ddS24UTradeInConfig;
+
+        window.tgtCommonStore = tgtCommonStore;
+
+        const tradeInfoEvt = new CustomEvent("scom20551TradeInfoLoaded", { "detail": tgtCommonStore[aname] });
+        document.documentElement.dispatchEvent(tradeInfoEvt);
+    })();
+</script><script>
+  //# sourceURL=scom-34886-cookie-drop-568817.js
+  (function() {
+    
+    const actName = "SCOM-34886";
+    const requestFlag = "pzn_cart_requested_568817";
+    
+    function tgtGetCookie(name) {
+      var value = "; " + document.cookie;
+      var parts = value.split("; " + name + "=");
+      if (parts.length == 2) return parts.pop().split(";").shift();
+    }
+    
+    function tgtSetCookie(name, value, days) {
+      if(days == null)
+        document.cookie = name + '=' + value + '; path=/';
+      else if(days >= 0) {
+        var date = new Date(),
+            expires = 'expires=';
+        date.setTime(date.getTime()+(days*24*60*60*1000));
+        expires += date.toGMTString();
+        document.cookie = name + '=' + value + '; ' + expires + '; path=/';
+      }
+    }
+    
+    function parseProfileScript(psVal) {
+      if(psVal === '') return null;
+      if(!isNaN(parseInt(psVal))) return parseInt(psVal);
+      return psVal;
+    }
+    
+    const jwt = tgtGetCookie('v4_sso_jwt') || tgtGetCookie('jwt_USA');
+    const tgtCartId = tgtGetCookie('s_ecom_scid');
+    const tgtCartRequested = tgtGetCookie(requestFlag);
+    
+    let hasFold6InCart = parseProfileScript(``)
+    , hasFlip6InCart = parseProfileScript(``);
+    
+    if(!tgtCartRequested) {
+      function signalCartInfo() {
+          const cartInfo = {
+            "fold6InCart": hasFold6InCart,
+            "flip6InCart": hasFlip6InCart
+          };
+          
+          console.log(
+            ["SCOM-34886:"
+             , "Fold6 in cart: "+hasFold6InCart
+             , "Flip6 in cart: "+hasFlip6InCart
+            ].join("\n")
+          );
+          
+          window.customTrackEvent({
+            "mbox": "target-scom-34886",
+            "params": cartInfo
+          });
+            
+          window.tgtCommonStore = window.tgtCommonStore || {};
+          window.tgtCommonStore[actName] = {};
+          window.tgtCommonStore[actName]["cart-info"] = cartInfo;
+            
+          const cartInfoEvt = new CustomEvent("SCOM-34886-cart-info", { "detail": cartInfo });
+          document.documentElement.dispatchEvent(cartInfoEvt);
+      }
+      if(!tgtCartId) {
+          hasFold6InCart = "false";
+          hasFlip6InCart = "false";
+          signalCartInfo();
+      }
+      else {
+        function tgtGetCartItemAttrs(obj) {
+          let array = [];
+          if (typeof obj === 'object')
+            Object.values(obj).forEach(item => {
+              if(typeof item === 'object' && item["attributes"])
+                array.push(item["attributes"]);
+            });
+          return array;
+        }
+      
+        function initS24Check() {
+          var tgtCartLineItems, tgtCartItemAttrs;
+          let cartReqXhr = new XMLHttpRequest();
+          cartReqXhr.open("GET", location.origin + "/us/api/ecom/v4/shopping-carts/" + tgtCartId + "");
+          cartReqXhr.setRequestHeader('x-ecom-jwt', jwt);
+          cartReqXhr.addEventListener('load', function onCartReqLoaded(e) {
+            const response = this.response;
+            const cart_info = typeof response == "string" ? JSON.parse(response) : response;
+            tgtCartLineItems = cart_info["line_items"];
+            tgtCartItemAttrs = tgtGetCartItemAttrs(tgtCartLineItems);
+          
+            if(tgtCartItemAttrs.length == 0) {
+              hasFold6InCart = "false";
+              hasFlip6InCart = "false";
+              signalCartInfo();
+            }
+            else {
+              function isTgtMobile(itemAttr) {
+                const tgtName = this;
+                return itemAttr["display_name"].indexOf(tgtName) == 0 && itemAttr["product_family"] == "phones";
+              }
+            
+              const _hasFold6InCart = tgtCartItemAttrs.some(isTgtMobile, "Galaxy Z Fold6").toString();
+              const _hasFlip6InCart = tgtCartItemAttrs.some(isTgtMobile, "Galaxy Z Flip6").toString();
+              if(_hasFold6InCart != hasFold6InCart
+                 || _hasFlip6InCart != hasFlip6InCart) {
+                hasFold6InCart = _hasFold6InCart;
+                hasFlip6InCart = _hasFlip6InCart;
+                signalCartInfo();
+              }
+            }
+          
+            // Flag to limit cart requests to one per session
+            tgtSetCookie(requestFlag, true);  
+          });
+          cartReqXhr.addEventListener('error', function onCartReqFail(e) {
+            console.log("PZN - Cart API failed \nMore info:", e);
+            tgtSetCookie(requestFlag, true);
+          });
+          cartReqXhr.send();
+        }
+      
+        if(document.readyState === "loading")
+          document.addEventListener("DOMContentLoaded", initS24Check);
+        else
+          initS24Check();
+      }
+    }
+  })();
 </script><script type="text/javascript">  
   //# sourceURL=prdt-aff-calc
   (function prdtAffCalculator() {
@@ -1160,6 +1059,179 @@ window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){va
       else initProdAffCalcs(pageName);
     }
   })();
+</script><script>
+    //# sourceURL=b6q6-328-dd-config.js
+    (function loadDeviceTradeInfo() {
+
+        const ddB6TradeInConfig = {
+            "GZFOLD5": "$650"
+            , "GZFLIP5": "$650"
+            , "GZFOLD4": "$550"
+            , "GZFold3": "$500"
+            , "GZFLIP4": "$550"
+            , "GZFLIP3": "$500"
+            , "GS24U": "$650"
+            , "GS24P": "$550"
+            , "GS24": "$350"
+            , "GS23U": "$550"
+            , "GS23P": "$450"
+            , "GS23": "$350"
+            , "GS22U": "$450"
+            , "GS22P": "$400"
+            , "GS22": "$300"
+            , "GS21U": "$400"
+            , "GS21P": "$350"
+            , "GS21": "$300"
+            , "GS20U": "$200"
+            , "GS20P": "$200"
+            , "GS20": "$200"
+            , "GS10P": "$200"
+            , "GS10": "$200"
+            , "GNOTE20U": "$500"
+            , "GNOTE20": "$400"
+            , "IPHONE": "$550"
+        };
+
+        const ddQ6TradeInConfig = {
+            "GZFOLD5": "$1,200"
+            , "GZFLIP5": "$700"
+            , "GZFOLD4": "$1,000"
+            , "GZFold3": "$900"
+            , "GZFLIP4": "$600"
+            , "GZFLIP3": "$400"
+            , "GS24U": "$1,000"
+            , "GS24P": "$700"
+            , "GS24": "$500"
+            , "GS23U": "$900"
+            , "GS23P": "$650"
+            , "GS23": "$450"
+            , "GS22U": "$800"
+            , "GS22P": "$500"
+            , "GS22": "$400"
+            , "GS21U": "$600"
+            , "GS21P": "$400"
+            , "GS21": "$400"
+            , "GS20U": "$400"
+            , "GS20P": "$400"
+            , "GS20": "$400"
+            , "GS10P": "$400"
+            , "GS10": "$400"
+            , "GNOTE20U": "$650"
+            , "GNOTE20": "$500"
+            , "IPHONE": "$1,000"
+        };
+
+        const ddDeviceNames = {
+            "GZFOLD5": "Galaxy Z Fold5"
+            , "GZFLIP5": "Galaxy Z Flip5"
+            , "GZFOLD4": "Galaxy Z Fold4"
+            , "GZFold3": "Galaxy Z Fold3"
+            , "GZFLIP4": "Galaxy Z Flip4"
+            , "GZFLIP3": "Galaxy Z Flip3"
+            , "GS24U": "Galaxy S24 Ultra"
+            , "GS24P": "Galaxy S24+"
+            , "GS24": "Galaxy S24"
+            , "GS23U": "Galaxy S23 Ultra"
+            , "GS23P": "Galaxy S23+"
+            , "GS23": "Galaxy S23"
+            , "GS22U": "Galaxy S22 Ultra"
+            , "GS22P": "Galaxy S22+"
+            , "GS22": "Galaxy S22"
+            , "GS21U": "Galaxy S21 Ultra"
+            , "GS21P": "Galaxy S21+"
+            , "GS21": "Galaxy S21"
+            , "GS20U": "Galaxy S20 Ultra"
+            , "GS20P": "Galaxy S20+"
+            , "GS20": "Galaxy S20"
+            , "GS10P": "Galaxy S10+"
+            , "GS10": "Galaxy S10"
+            , "GNOTE20U": "Galaxy Note20 Ultra"
+            , "GNOTE20": "Galaxy Note20"
+            , "IPHONE": "iPhone"
+        };
+
+
+        const ddUnlckPlacements = {
+            "configParams": "",
+            // homepage
+            "homeTitle": "",
+            "homeDescription": "",
+            // LOB
+            "homeLOB2TabName":"Galaxy Z Flip6",
+            "homeLOB2Title": "Upgrade to Galaxy Z Flip6",
+            "homeLOB2Description": "Get {tradeInValue} with your old {deviceName}, double the storage on us and more.<sup>√</sup>",
+            "homeLOB1TabName":"Galaxy Z Fold6",
+            "homeLOB1Title": "Upgrade to Galaxy Z Fold6",
+            "homeLOB1Description": "Get {tradeInValue} trade-in credit with your old {deviceName} or $400 without trade-in.<sup>√</sup>",
+            // GNB Ext
+            "gnbExtenderDescription": "Upgrade to Galaxy Z Fold6. Save up to {tradeInValue} with {deviceName} and $300 off instantly or $700 off without a trade-in with Galaxy Z Fold6<sup>√</sup>",
+            // ADP KV
+            "adpKvTitle1": "Upgrade to Galaxy Z Fold6",
+            "adpKvDescription1": "Save up to {tradeInValue} with {deviceName} and $300 off instantly or $700 off without a trade-in with Galaxy Z Fold6 devices<sup>√</sup>.",
+            "adpKvTitle2": "Upgrade to Galaxy Z Flip6",
+            "adpKvDescription2": "Save up to {tradeInValue} with {deviceName} or $200 off without a trade-in with select Galaxy Z Flip6<sup>θ</sup>",
+            // B6 SMP PCD KV
+            "b6SmpPcdKvTitle": "Upgrade to Galaxy Z Flip6",
+            "b6SmpPcdKvDescription": "Save up to {tradeInValue} with {deviceName} or $200 off without a trade-in with select Galaxy Z Flip6<sup>θ</sup>",
+            // Q6 SMP PCD KV
+            "q6SmpPcdKvTitle": "Upgrade to Galaxy Z Fold6",
+            "q6SmpPcdKvDescription": "Save up to {tradeInValue} with {deviceName} and $300 off instantly or $700 off without a trade-in with Galaxy Z Fold6 devices<sup>√</sup>.",
+            // Q6 MB PCD KV
+            "q6MbPcdKvTitle": "Upgrade to Galaxy Z Fold6",
+            "q6MbPcdKvDescription": "Get {tradeInValue} trade-in credit with your old {deviceName}. Plus, $300 off instantly with select Galaxy Z Fold6 devices<sup>√</sup>",
+            // B6 MB PCD KV
+            "b6MbPcdKvTitle": "Upgrade to Galaxy Z Flip6",
+            "b6MbPcdKvDescription": "Save up to {tradeInValue} with {deviceName} or $200 off without a trade-in with select Galaxy Z Flip6<sup>θ</sup>",
+            "q6PfKvTitle": "Upgrade to Galaxy Z Fold6",
+            "q6PfKvDescription": "Save up to {tradeInValue} with {deviceName} and $300 off instantly or $700 off without a trade-in with Galaxy Z Fold6 devices<sup>√</sup>.",
+            // CDP KV
+            "cdpKvTitle2": "Upgrade to Galaxy Z Flip6",
+            "cdpKvDescription2": "Get up to {tradeInValue} instant trade-in credit with your old {deviceName}. From $1,099.99 <s>$1,219.99</s> before eligible trade in.<sup>θ</sup>",
+            "cdpKvTitle1": "Upgrade to Galaxy Z Fold6",
+            "cdpKvDescription1": "Save up to {tradeInValue} with {deviceName} and $300 off instantly or $700 off without a trade-in with Galaxy Z Fold6 devices<sup>√</sup>.",
+            // CDP SC
+            "cdpSCTitle3": "",
+            "cdpSCDescription3": "",
+            "cdpSCTitle2": "Upgrade to Galaxy Z Flip6",
+            "cdpSCDescription2": " Get up to {tradeInValue} instant trade-in credit with your old {deviceName}. From $1,099.99 <s>$1,219.99</s> before eligible trade in.<sup>θ</sup>",
+            "cdpSCTitle1": "Upgrade to Galaxy Z Fold6",
+            "cdpSCDescription1": "Save up to {tradeInValue} with {deviceName} or $200 off without a trade-in with select Galaxy Z Flip6<sup>θ</sup>",
+            // Q6 MLP KV
+            "q6MLPHeadline": "Upgrade to Galaxy Z Fold6",
+            "q6MLPSubText": "Save up to {tradeInValue} with {deviceName} and $300 off instantly or $700 off without a trade-in with Galaxy Z Fold6 devices<sup>√</sup>.",
+            // B^ MLP KV
+            "b6MLPHeadline": "Upgrade to Galaxy Z Flip6",
+            "b6MLPSubText": "Save up to {tradeInValue} with {deviceName} or $200 off without a trade-in with select Galaxy Z Flip6<sup>θ</sup>"
+        };
+        const ddUnlckDevices = ["GZFold3", "GZFOLD4", "GZFLIP4", "GZFLIP3", "GS24U", "GS24P", "GS24", "GS23U", "GS23P", "GS23", "GS22U", "GS22P", "GS22", "GS21U", "GS21P", "GS21", "GS20U", "GS20P", "GS20", "GS10P", "GS10", "GNOTE20U", "GNOTE20", "IPHONE", "GZFOLD5", "GZFLIP5"];
+
+        let ddMasterConfig = {};
+
+        function generateTradeConfig(dList, pConfig) {
+            let tempArr = Object.entries(pConfig);
+            let finalConfig = {};
+            dList.forEach(device => {
+                finalConfig[device] = {};
+                tempArr.forEach(([pname, pcopy]) => finalConfig[device][pname] = pcopy.replace(/{deviceName}/g, ddDeviceNames[device]));
+            });
+            return finalConfig;
+        }
+
+        ddMasterConfig = generateTradeConfig(ddUnlckDevices, ddUnlckPlacements);
+
+        const aname = "b6q6-328-dd";
+        let tgtCommonStore = window.tgtCommonStore || {};
+        tgtCommonStore[aname] = tgtCommonStore[aname] || {};
+        tgtCommonStore[aname]["config"] = {};
+        tgtCommonStore[aname]["config"]["unlck"] = ddMasterConfig;
+        tgtCommonStore[aname]["b6-tradeIn-val"] = ddB6TradeInConfig;
+        tgtCommonStore[aname]["q6-tradeIn-val"] = ddQ6TradeInConfig;
+
+        window.tgtCommonStore = tgtCommonStore;
+
+        const tradeInfoEvt = new CustomEvent("dd328TradeInfoLoaded", { "detail": tgtCommonStore[aname] });
+        document.documentElement.dispatchEvent(tradeInfoEvt);
+    })();
 </script><script>
   //# sourceURL=pzn-gnb-sc-config.js
   (function () {
@@ -1659,88 +1731,7 @@ window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){va
  * Released on: October 26, 2019
  */
 
-@font-face{font-family:swiper-icons;src:url("data:application/font-woff;charset=utf-8;base64, d09GRgABAAAAAAZgABAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAAGRAAAABoAAAAci6qHkUdERUYAAAWgAAAAIwAAACQAYABXR1BPUwAABhQAAAAuAAAANuAY7+xHU1VCAAAFxAAAAFAAAABm2fPczU9TLzIAAAHcAAAASgAAAGBP9V5RY21hcAAAAkQAAACIAAABYt6F0cBjdnQgAAACzAAAAAQAAAAEABEBRGdhc3AAAAWYAAAACAAAAAj//wADZ2x5ZgAAAywAAADMAAAD2MHtryVoZWFkAAABbAAAADAAAAA2E2+eoWhoZWEAAAGcAAAAHwAAACQC9gDzaG10eAAAAigAAAAZAAAArgJkABFsb2NhAAAC0AAAAFoAAABaFQAUGG1heHAAAAG8AAAAHwAAACAAcABAbmFtZQAAA/gAAAE5AAACXvFdBwlwb3N0AAAFNAAAAGIAAACE5s74hXjaY2BkYGAAYpf5Hu/j+W2+MnAzMYDAzaX6QjD6/4//Bxj5GA8AuRwMYGkAPywL13jaY2BkYGA88P8Agx4j+/8fQDYfA1AEBWgDAIB2BOoAeNpjYGRgYNBh4GdgYgABEMnIABJzYNADCQAACWgAsQB42mNgYfzCOIGBlYGB0YcxjYGBwR1Kf2WQZGhhYGBiYGVmgAFGBiQQkOaawtDAoMBQxXjg/wEGPcYDDA4wNUA2CCgwsAAAO4EL6gAAeNpj2M0gyAACqxgGNWBkZ2D4/wMA+xkDdgAAAHjaY2BgYGaAYBkGRgYQiAHyGMF8FgYHIM3DwMHABGQrMOgyWDLEM1T9/w8UBfEMgLzE////P/5//f/V/xv+r4eaAAeMbAxwIUYmIMHEgKYAYjUcsDAwsLKxc3BycfPw8jEQA/gZBASFhEVExcQlJKWkZWTl5BUUlZRVVNXUNTQZBgMAAMR+E+gAEQFEAAAAKgAqACoANAA+AEgAUgBcAGYAcAB6AIQAjgCYAKIArAC2AMAAygDUAN4A6ADyAPwBBgEQARoBJAEuATgBQgFMAVYBYAFqAXQBfgGIAZIBnAGmAbIBzgHsAAB42u2NMQ6CUAyGW568x9AneYYgm4MJbhKFaExIOAVX8ApewSt4Bic4AfeAid3VOBixDxfPYEza5O+Xfi04YADggiUIULCuEJK8VhO4bSvpdnktHI5QCYtdi2sl8ZnXaHlqUrNKzdKcT8cjlq+rwZSvIVczNiezsfnP/uznmfPFBNODM2K7MTQ45YEAZqGP81AmGGcF3iPqOop0r1SPTaTbVkfUe4HXj97wYE+yNwWYxwWu4v1ugWHgo3S1XdZEVqWM7ET0cfnLGxWfkgR42o2PvWrDMBSFj/IHLaF0zKjRgdiVMwScNRAoWUoH78Y2icB/yIY09An6AH2Bdu/UB+yxopYshQiEvnvu0dURgDt8QeC8PDw7Fpji3fEA4z/PEJ6YOB5hKh4dj3EvXhxPqH/SKUY3rJ7srZ4FZnh1PMAtPhwP6fl2PMJMPDgeQ4rY8YT6Gzao0eAEA409DuggmTnFnOcSCiEiLMgxCiTI6Cq5DZUd3Qmp10vO0LaLTd2cjN4fOumlc7lUYbSQcZFkutRG7g6JKZKy0RmdLY680CDnEJ+UMkpFFe1RN7nxdVpXrC4aTtnaurOnYercZg2YVmLN/d/gczfEimrE/fs/bOuq29Zmn8tloORaXgZgGa78yO9/cnXm2BpaGvq25Dv9S4E9+5SIc9PqupJKhYFSSl47+Qcr1mYNAAAAeNptw0cKwkAAAMDZJA8Q7OUJvkLsPfZ6zFVERPy8qHh2YER+3i/BP83vIBLLySsoKimrqKqpa2hp6+jq6RsYGhmbmJqZSy0sraxtbO3sHRydnEMU4uR6yx7JJXveP7WrDycAAAAAAAH//wACeNpjYGRgYOABYhkgZgJCZgZNBkYGLQZtIJsFLMYAAAw3ALgAeNolizEKgDAQBCchRbC2sFER0YD6qVQiBCv/H9ezGI6Z5XBAw8CBK/m5iQQVauVbXLnOrMZv2oLdKFa8Pjuru2hJzGabmOSLzNMzvutpB3N42mNgZGBg4GKQYzBhYMxJLMlj4GBgAYow/P/PAJJhLM6sSoWKfWCAAwDAjgbRAAB42mNgYGBkAIIbCZo5IPrmUn0hGA0AO8EFTQAA") format("woff");font-weight:400;font-style:normal}:root{--swiper-theme-color:#007aff}.swiper-container{margin-left:auto;margin-right:auto;position:relative;overflow:hidden;list-style:none;padding:0;z-index:1}.swiper-container-vertical>.swiper-wrapper{flex-direction:column}.swiper-wrapper{position:relative;width:100%;height:100%;z-index:1;display:flex;transition-property:transform;box-sizing:content-box}.swiper-container-android .swiper-slide,.swiper-wrapper{transform:translate3d(0px,0,0)}.swiper-container-multirow>.swiper-wrapper{flex-wrap:wrap}.swiper-container-multirow-column>.swiper-wrapper{flex-wrap:wrap;flex-direction:column}.swiper-container-free-mode>.swiper-wrapper{transition-timing-function:ease-out;margin:0 auto}.swiper-slide{flex-shrink:0;width:100%;height:100%;position:relative;transition-property:transform}.swiper-slide-invisible-blank{visibility:hidden}.swiper-container-autoheight,.swiper-container-autoheight .swiper-slide{height:auto}.swiper-container-autoheight .swiper-wrapper{align-items:flex-start;transition-property:transform,height}.swiper-container-3d{perspective:1200px}.swiper-container-3d .swiper-cube-shadow,.swiper-container-3d .swiper-slide,.swiper-container-3d .swiper-slide-shadow-bottom,.swiper-container-3d .swiper-slide-shadow-left,.swiper-container-3d .swiper-slide-shadow-right,.swiper-container-3d .swiper-slide-shadow-top,.swiper-container-3d .swiper-wrapper{transform-style:preserve-3d}.swiper-container-3d .swiper-slide-shadow-bottom,.swiper-container-3d .swiper-slide-shadow-left,.swiper-container-3d .swiper-slide-shadow-right,.swiper-container-3d .swiper-slide-shadow-top{position:absolute;left:0;top:0;width:100%;height:100%;pointer-events:none;z-index:10}.swiper-container-3d .swiper-slide-shadow-left{background-image:linear-gradient(to left,rgba(0,0,0,.5),rgba(0,0,0,0))}.swiper-container-3d .swiper-slide-shadow-right{background-image:linear-gradient(to right,rgba(0,0,0,.5),rgba(0,0,0,0))}.swiper-container-3d .swiper-slide-shadow-top{background-image:linear-gradient(to top,rgba(0,0,0,.5),rgba(0,0,0,0))}.swiper-container-3d .swiper-slide-shadow-bottom{background-image:linear-gradient(to bottom,rgba(0,0,0,.5),rgba(0,0,0,0))}.swiper-container-css-mode>.swiper-wrapper{overflow:auto;scrollbar-width:none;-ms-overflow-style:none}.swiper-container-css-mode>.swiper-wrapper::-webkit-scrollbar{display:none}.swiper-container-css-mode>.swiper-wrapper>.swiper-slide{scroll-snap-align:start start}.swiper-container-horizontal.swiper-container-css-mode>.swiper-wrapper{scroll-snap-type:x mandatory}.swiper-container-vertical.swiper-container-css-mode>.swiper-wrapper{scroll-snap-type:y mandatory}:root{--swiper-navigation-size:44px}.swiper-button-next,.swiper-button-prev{position:absolute;top:50%;width:calc(var(--swiper-navigation-size)/ 44 * 27);height:var(--swiper-navigation-size);margin-top:calc(-1 * var(--swiper-navigation-size)/ 2);z-index:10;cursor:pointer;display:flex;align-items:center;justify-content:center;color:var(--swiper-navigation-color,var(--swiper-theme-color))}.swiper-button-next.swiper-button-disabled,.swiper-button-prev.swiper-button-disabled{opacity:.35;cursor:auto;pointer-events:none}.swiper-button-next:after,.swiper-button-prev:after{font-family:swiper-icons;font-size:var(--swiper-navigation-size);text-transform:none!important;letter-spacing:0;text-transform:none;font-variant:initial}.swiper-button-prev,.swiper-container-rtl .swiper-button-next{left:10px;right:auto}.swiper-button-prev:after,.swiper-container-rtl .swiper-button-next:after{content:'prev'}.swiper-button-next,.swiper-container-rtl .swiper-button-prev{right:10px;left:auto}.swiper-button-next:after,.swiper-container-rtl .swiper-button-prev:after{content:'next'}.swiper-button-next.swiper-button-white,.swiper-button-prev.swiper-button-white{--swiper-navigation-color:#ffffff}.swiper-button-next.swiper-button-black,.swiper-button-prev.swiper-button-black{--swiper-navigation-color:#000000}.swiper-button-lock{display:none}.swiper-pagination{position:absolute;text-align:center;transition:.3s opacity;transform:translate3d(0,0,0);z-index:10}.swiper-pagination.swiper-pagination-hidden{opacity:0}.swiper-container-horizontal>.swiper-pagination-bullets,.swiper-pagination-custom,.swiper-pagination-fraction{bottom:10px;left:0;width:100%}.swiper-pagination-bullets-dynamic{overflow:hidden;font-size:0}.swiper-pagination-bullets-dynamic .swiper-pagination-bullet{transform:scale(.33);position:relative}.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active{transform:scale(1)}.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-main{transform:scale(1)}.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev{transform:scale(.66)}.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev-prev{transform:scale(.33)}.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next{transform:scale(.66)}.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next-next{transform:scale(.33)}.swiper-pagination-bullet{width:8px;height:8px;display:inline-block;border-radius:100%;background:#000;opacity:.2}button.swiper-pagination-bullet{border:none;margin:0;padding:0;box-shadow:none;-webkit-appearance:none;-moz-appearance:none;appearance:none}.swiper-pagination-clickable .swiper-pagination-bullet{cursor:pointer}.swiper-pagination-bullet-active{opacity:1;background:var(--swiper-pagination-color,var(--swiper-theme-color))}.swiper-container-vertical>.swiper-pagination-bullets{right:10px;top:50%;transform:translate3d(0px,-50%,0)}.swiper-container-vertical>.swiper-pagination-bullets .swiper-pagination-bullet{margin:6px 0;display:block}.swiper-container-vertical>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic{top:50%;transform:translateY(-50%);width:8px}.swiper-container-vertical>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet{display:inline-block;transition:.2s transform,.2s top}.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{margin:0 4px}.swiper-container-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic{left:50%;transform:translateX(-50%);white-space:nowrap}.swiper-container-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet{transition:.2s transform,.2s left}.swiper-container-horizontal.swiper-container-rtl>.swiper-pagination-bullets-dynamic .swiper-pagination-bullet{transition:.2s transform,.2s right}.swiper-pagination-progressbar{background:rgba(0,0,0,.25);position:absolute}.swiper-pagination-progressbar .swiper-pagination-progressbar-fill{background:var(--swiper-pagination-color,var(--swiper-theme-color));position:absolute;left:0;top:0;width:100%;height:100%;transform:scale(0);transform-origin:left top}.swiper-container-rtl .swiper-pagination-progressbar .swiper-pagination-progressbar-fill{transform-origin:right top}.swiper-container-horizontal>.swiper-pagination-progressbar,.swiper-container-vertical>.swiper-pagination-progressbar.swiper-pagination-progressbar-opposite{width:100%;height:4px;left:0;top:0}.swiper-container-horizontal>.swiper-pagination-progressbar.swiper-pagination-progressbar-opposite,.swiper-container-vertical>.swiper-pagination-progressbar{width:4px;height:100%;left:0;top:0}.swiper-pagination-white{--swiper-pagination-color:#ffffff}.swiper-pagination-black{--swiper-pagination-color:#000000}.swiper-pagination-lock{display:none}.swiper-scrollbar{border-radius:10px;position:relative;-ms-touch-action:none;background:rgba(0,0,0,.1)}.swiper-container-horizontal>.swiper-scrollbar{position:absolute;left:1%;bottom:3px;z-index:50;height:5px;width:98%}.swiper-container-vertical>.swiper-scrollbar{position:absolute;right:3px;top:1%;z-index:50;width:5px;height:98%}.swiper-scrollbar-drag{height:100%;width:100%;position:relative;background:rgba(0,0,0,.5);border-radius:10px;left:0;top:0}.swiper-scrollbar-cursor-drag{cursor:move}.swiper-scrollbar-lock{display:none}.swiper-zoom-container{width:100%;height:100%;display:flex;justify-content:center;align-items:center;text-align:center}.swiper-zoom-container>canvas,.swiper-zoom-container>img,.swiper-zoom-container>svg{max-width:100%;max-height:100%;object-fit:contain}.swiper-slide-zoomed{cursor:move}.swiper-lazy-preloader{width:42px;height:42px;position:absolute;left:50%;top:50%;margin-left:-21px;margin-top:-21px;z-index:10;transform-origin:50%;animation:swiper-preloader-spin 1s infinite linear;box-sizing:border-box;border:4px solid var(--swiper-preloader-color,var(--swiper-theme-color));border-radius:50%;border-top-color:transparent}.swiper-lazy-preloader-white{--swiper-preloader-color:#fff}.swiper-lazy-preloader-black{--swiper-preloader-color:#000}@keyframes swiper-preloader-spin{100%{transform:rotate(360deg)}}.swiper-container .swiper-notification{position:absolute;left:0;top:0;pointer-events:none;opacity:0;z-index:-1000}.swiper-container-fade.swiper-container-free-mode .swiper-slide{transition-timing-function:ease-out}.swiper-container-fade .swiper-slide{pointer-events:none;transition-property:opacity}.swiper-container-fade .swiper-slide .swiper-slide{pointer-events:none}.swiper-container-fade .swiper-slide-active,.swiper-container-fade .swiper-slide-active .swiper-slide-active{pointer-events:auto}.swiper-container-cube{overflow:visible}.swiper-container-cube .swiper-slide{pointer-events:none;-webkit-backface-visibility:hidden;backface-visibility:hidden;z-index:1;visibility:hidden;transform-origin:0 0;width:100%;height:100%}.swiper-container-cube .swiper-slide .swiper-slide{pointer-events:none}.swiper-container-cube.swiper-container-rtl .swiper-slide{transform-origin:100% 0}.swiper-container-cube .swiper-slide-active,.swiper-container-cube .swiper-slide-active .swiper-slide-active{pointer-events:auto}.swiper-container-cube .swiper-slide-active,.swiper-container-cube .swiper-slide-next,.swiper-container-cube .swiper-slide-next+.swiper-slide,.swiper-container-cube .swiper-slide-prev{pointer-events:auto;visibility:visible}.swiper-container-cube .swiper-slide-shadow-bottom,.swiper-container-cube .swiper-slide-shadow-left,.swiper-container-cube .swiper-slide-shadow-right,.swiper-container-cube .swiper-slide-shadow-top{z-index:0;-webkit-backface-visibility:hidden;backface-visibility:hidden}.swiper-container-cube .swiper-cube-shadow{position:absolute;left:0;bottom:0px;width:100%;height:100%;background:#000;opacity:.6;-webkit-filter:blur(50px);filter:blur(50px);z-index:0}.swiper-container-flip{overflow:visible}.swiper-container-flip .swiper-slide{pointer-events:none;-webkit-backface-visibility:hidden;backface-visibility:hidden;z-index:1}.swiper-container-flip .swiper-slide .swiper-slide{pointer-events:none}.swiper-container-flip .swiper-slide-active,.swiper-container-flip .swiper-slide-active .swiper-slide-active{pointer-events:auto}.swiper-container-flip .swiper-slide-shadow-bottom,.swiper-container-flip .swiper-slide-shadow-left,.swiper-container-flip .swiper-slide-shadow-right,.swiper-container-flip .swiper-slide-shadow-top{z-index:0;-webkit-backface-visibility:hidden;backface-visibility:hidden}</style><script type="text/javascript">
-  //# sourceURL=pzn-search-chat-init.js
-  (function() {
-    if (window.innerWidth > 768) {
-      function renderSearchChat(event) {
-        const searchExpStyles = '<style type="text/css">.search-chat-expert {position: relative;display: flex;width: 50%;margin: auto;justify-content: center;align-items: center;margin-top: 20px;}.search-chat-expert-img {width: 128px;}.search-chat-expert-text {font-size: 14px;color: white;}.search-chat-expert-link {color: white;text-decoration: underline;text-align: left;}</style>';
-        
-        var shopWithExpert = '<br/><div class="search-chat-expert" ><img class="search-chat-expert-img" src="//image-us.samsung.com/us/gnb/search_chat_icon_img.png" alt="expert-chat" ><p class="search-chat-expert-text" ><a class="search-chat-expert-link" href="#" an-tr="sr01_search input--ctabutton" an-ca="search" an-ac="search layer" an-la="search chips:Shop With An Expert" data-link_cat="search" data-link_id="search chips: Shop With An Expert" data-link_meta="search chips: Shop With An Expert" data-link_position="search>search layer" data-event_name="select_search_chips">Click here </a> to start a conversation with our product experts.</p></div>';
-        
-        let gnbWrap = document.body.querySelector('#gnbContainer,.gnb-search');
-        if(gnbWrap) {
-          function onGnbMutations(mRecs, mObs) {
-            let scWrap = gnbWrap.querySelector('.gnb-search__chip-wrap');
-            if(scWrap && !gnbWrap.querySelector('.search-chat-expert')) {
-              document.head.insertAdjacentHTML('beforeend', searchExpStyles);
-              scWrap.insertAdjacentHTML('beforeend', shopWithExpert);
-              let lnk = gnbWrap.querySelector('.search-chat-expert-link');
-              lnk.onclick = function onLnkClick(e) {
-                e.preventDefault();
-                var chatUrl = 'https://www.samsung.com/us/expert-chat/?search_instant';
-                if(window.innerWidth <= 768)
-  		          window.open (chatUrl, 'newwindow');
-		        else
-		          window.open (chatUrl, 'newwindow', 'height=700, width=440, top=0, left=0, toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, status=no');
-	          }
-            }
-          }
-          onGnbMutations();
-          let mObs = new MutationObserver(onGnbMutations);
-          mObs.observe(gnbWrap, {attributes: true, childList: true, subtree: true});
-        }
-        else console.error("PZN - Search chat render error");
-      }
-      
-      if(document.readyState === "loading")
-	    window.addEventListener('DOMContentLoaded', renderSearchChat);
-      else
-        renderSearchChat();
-    }
-  })();
-</script><style type="text/css">.search-chat-expert {position: relative;display: flex;width: 50%;margin: auto;justify-content: center;align-items: center;margin-top: 20px;}.search-chat-expert-img {width: 128px;}.search-chat-expert-text {font-size: 14px;color: white;}.search-chat-expert-link {color: white;text-decoration: underline;text-align: left;}</style><script>
-(function() {
-// DO NOT TOUCH
-function tgtGetCookie(cname) {
-  var name = cname + "=";
-  var ca = document.cookie.split(';');
-  for (var i = 0; i < ca.length; i++) {
-    var c = ca[i];
-    while (c.charAt(0) == ' ') {
-      c = c.substring(1);
-    }
-    if (c.indexOf(name) == 0) {
-      return c.substring(name.length, c.length);
-    }
-  }
-  return "";
-}
-
-function setTargetCookie(name, value, days) {
-  var date = new Date(),
-  expires = 'expires=';
-  date.setTime(date.getTime()+(days*24*60*60*1000));
-  expires += date.toGMTString();
-  document.cookie = name + '=' + value + '; ' + expires + '; path=/';
-}
-
-// EDIT HERE
-
-// 'yourCookie' is a script reference to the cookie you are setting (two locations)
-// 'cookieName' is the cookie name you are setting (two locations)
-// the cookie value is 'true' and set for 1 day 'true, 1'
-
-var yourCookie = tgtGetCookie("DATradein");
-console.log("PZN-922", yourCookie);
-if (yourCookie !== 'true') {
-  console.log("updating cookie value");
-  setTargetCookie('DATradein', 'true', 1);
-}
- 
-// END EDIT
-})();
-</script><script>
+@font-face{font-family:swiper-icons;src:url("data:application/font-woff;charset=utf-8;base64, d09GRgABAAAAAAZgABAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAAGRAAAABoAAAAci6qHkUdERUYAAAWgAAAAIwAAACQAYABXR1BPUwAABhQAAAAuAAAANuAY7+xHU1VCAAAFxAAAAFAAAABm2fPczU9TLzIAAAHcAAAASgAAAGBP9V5RY21hcAAAAkQAAACIAAABYt6F0cBjdnQgAAACzAAAAAQAAAAEABEBRGdhc3AAAAWYAAAACAAAAAj//wADZ2x5ZgAAAywAAADMAAAD2MHtryVoZWFkAAABbAAAADAAAAA2E2+eoWhoZWEAAAGcAAAAHwAAACQC9gDzaG10eAAAAigAAAAZAAAArgJkABFsb2NhAAAC0AAAAFoAAABaFQAUGG1heHAAAAG8AAAAHwAAACAAcABAbmFtZQAAA/gAAAE5AAACXvFdBwlwb3N0AAAFNAAAAGIAAACE5s74hXjaY2BkYGAAYpf5Hu/j+W2+MnAzMYDAzaX6QjD6/4//Bxj5GA8AuRwMYGkAPywL13jaY2BkYGA88P8Agx4j+/8fQDYfA1AEBWgDAIB2BOoAeNpjYGRgYNBh4GdgYgABEMnIABJzYNADCQAACWgAsQB42mNgYfzCOIGBlYGB0YcxjYGBwR1Kf2WQZGhhYGBiYGVmgAFGBiQQkOaawtDAoMBQxXjg/wEGPcYDDA4wNUA2CCgwsAAAO4EL6gAAeNpj2M0gyAACqxgGNWBkZ2D4/wMA+xkDdgAAAHjaY2BgYGaAYBkGRgYQiAHyGMF8FgYHIM3DwMHABGQrMOgyWDLEM1T9/w8UBfEMgLzE////P/5//f/V/xv+r4eaAAeMbAxwIUYmIMHEgKYAYjUcsDAwsLKxc3BycfPw8jEQA/gZBASFhEVExcQlJKWkZWTl5BUUlZRVVNXUNTQZBgMAAMR+E+gAEQFEAAAAKgAqACoANAA+AEgAUgBcAGYAcAB6AIQAjgCYAKIArAC2AMAAygDUAN4A6ADyAPwBBgEQARoBJAEuATgBQgFMAVYBYAFqAXQBfgGIAZIBnAGmAbIBzgHsAAB42u2NMQ6CUAyGW568x9AneYYgm4MJbhKFaExIOAVX8ApewSt4Bic4AfeAid3VOBixDxfPYEza5O+Xfi04YADggiUIULCuEJK8VhO4bSvpdnktHI5QCYtdi2sl8ZnXaHlqUrNKzdKcT8cjlq+rwZSvIVczNiezsfnP/uznmfPFBNODM2K7MTQ45YEAZqGP81AmGGcF3iPqOop0r1SPTaTbVkfUe4HXj97wYE+yNwWYxwWu4v1ugWHgo3S1XdZEVqWM7ET0cfnLGxWfkgR42o2PvWrDMBSFj/IHLaF0zKjRgdiVMwScNRAoWUoH78Y2icB/yIY09An6AH2Bdu/UB+yxopYshQiEvnvu0dURgDt8QeC8PDw7Fpji3fEA4z/PEJ6YOB5hKh4dj3EvXhxPqH/SKUY3rJ7srZ4FZnh1PMAtPhwP6fl2PMJMPDgeQ4rY8YT6Gzao0eAEA409DuggmTnFnOcSCiEiLMgxCiTI6Cq5DZUd3Qmp10vO0LaLTd2cjN4fOumlc7lUYbSQcZFkutRG7g6JKZKy0RmdLY680CDnEJ+UMkpFFe1RN7nxdVpXrC4aTtnaurOnYercZg2YVmLN/d/gczfEimrE/fs/bOuq29Zmn8tloORaXgZgGa78yO9/cnXm2BpaGvq25Dv9S4E9+5SIc9PqupJKhYFSSl47+Qcr1mYNAAAAeNptw0cKwkAAAMDZJA8Q7OUJvkLsPfZ6zFVERPy8qHh2YER+3i/BP83vIBLLySsoKimrqKqpa2hp6+jq6RsYGhmbmJqZSy0sraxtbO3sHRydnEMU4uR6yx7JJXveP7WrDycAAAAAAAH//wACeNpjYGRgYOABYhkgZgJCZgZNBkYGLQZtIJsFLMYAAAw3ALgAeNolizEKgDAQBCchRbC2sFER0YD6qVQiBCv/H9ezGI6Z5XBAw8CBK/m5iQQVauVbXLnOrMZv2oLdKFa8Pjuru2hJzGabmOSLzNMzvutpB3N42mNgZGBg4GKQYzBhYMxJLMlj4GBgAYow/P/PAJJhLM6sSoWKfWCAAwDAjgbRAAB42mNgYGBkAIIbCZo5IPrmUn0hGA0AO8EFTQAA") format("woff");font-weight:400;font-style:normal}:root{--swiper-theme-color:#007aff}.swiper-container{margin-left:auto;margin-right:auto;position:relative;overflow:hidden;list-style:none;padding:0;z-index:1}.swiper-container-vertical>.swiper-wrapper{flex-direction:column}.swiper-wrapper{position:relative;width:100%;height:100%;z-index:1;display:flex;transition-property:transform;box-sizing:content-box}.swiper-container-android .swiper-slide,.swiper-wrapper{transform:translate3d(0px,0,0)}.swiper-container-multirow>.swiper-wrapper{flex-wrap:wrap}.swiper-container-multirow-column>.swiper-wrapper{flex-wrap:wrap;flex-direction:column}.swiper-container-free-mode>.swiper-wrapper{transition-timing-function:ease-out;margin:0 auto}.swiper-slide{flex-shrink:0;width:100%;height:100%;position:relative;transition-property:transform}.swiper-slide-invisible-blank{visibility:hidden}.swiper-container-autoheight,.swiper-container-autoheight .swiper-slide{height:auto}.swiper-container-autoheight .swiper-wrapper{align-items:flex-start;transition-property:transform,height}.swiper-container-3d{perspective:1200px}.swiper-container-3d .swiper-cube-shadow,.swiper-container-3d .swiper-slide,.swiper-container-3d .swiper-slide-shadow-bottom,.swiper-container-3d .swiper-slide-shadow-left,.swiper-container-3d .swiper-slide-shadow-right,.swiper-container-3d .swiper-slide-shadow-top,.swiper-container-3d .swiper-wrapper{transform-style:preserve-3d}.swiper-container-3d .swiper-slide-shadow-bottom,.swiper-container-3d .swiper-slide-shadow-left,.swiper-container-3d .swiper-slide-shadow-right,.swiper-container-3d .swiper-slide-shadow-top{position:absolute;left:0;top:0;width:100%;height:100%;pointer-events:none;z-index:10}.swiper-container-3d .swiper-slide-shadow-left{background-image:linear-gradient(to left,rgba(0,0,0,.5),rgba(0,0,0,0))}.swiper-container-3d .swiper-slide-shadow-right{background-image:linear-gradient(to right,rgba(0,0,0,.5),rgba(0,0,0,0))}.swiper-container-3d .swiper-slide-shadow-top{background-image:linear-gradient(to top,rgba(0,0,0,.5),rgba(0,0,0,0))}.swiper-container-3d .swiper-slide-shadow-bottom{background-image:linear-gradient(to bottom,rgba(0,0,0,.5),rgba(0,0,0,0))}.swiper-container-css-mode>.swiper-wrapper{overflow:auto;scrollbar-width:none;-ms-overflow-style:none}.swiper-container-css-mode>.swiper-wrapper::-webkit-scrollbar{display:none}.swiper-container-css-mode>.swiper-wrapper>.swiper-slide{scroll-snap-align:start start}.swiper-container-horizontal.swiper-container-css-mode>.swiper-wrapper{scroll-snap-type:x mandatory}.swiper-container-vertical.swiper-container-css-mode>.swiper-wrapper{scroll-snap-type:y mandatory}:root{--swiper-navigation-size:44px}.swiper-button-next,.swiper-button-prev{position:absolute;top:50%;width:calc(var(--swiper-navigation-size)/ 44 * 27);height:var(--swiper-navigation-size);margin-top:calc(-1 * var(--swiper-navigation-size)/ 2);z-index:10;cursor:pointer;display:flex;align-items:center;justify-content:center;color:var(--swiper-navigation-color,var(--swiper-theme-color))}.swiper-button-next.swiper-button-disabled,.swiper-button-prev.swiper-button-disabled{opacity:.35;cursor:auto;pointer-events:none}.swiper-button-next:after,.swiper-button-prev:after{font-family:swiper-icons;font-size:var(--swiper-navigation-size);text-transform:none!important;letter-spacing:0;text-transform:none;font-variant:initial}.swiper-button-prev,.swiper-container-rtl .swiper-button-next{left:10px;right:auto}.swiper-button-prev:after,.swiper-container-rtl .swiper-button-next:after{content:'prev'}.swiper-button-next,.swiper-container-rtl .swiper-button-prev{right:10px;left:auto}.swiper-button-next:after,.swiper-container-rtl .swiper-button-prev:after{content:'next'}.swiper-button-next.swiper-button-white,.swiper-button-prev.swiper-button-white{--swiper-navigation-color:#ffffff}.swiper-button-next.swiper-button-black,.swiper-button-prev.swiper-button-black{--swiper-navigation-color:#000000}.swiper-button-lock{display:none}.swiper-pagination{position:absolute;text-align:center;transition:.3s opacity;transform:translate3d(0,0,0);z-index:10}.swiper-pagination.swiper-pagination-hidden{opacity:0}.swiper-container-horizontal>.swiper-pagination-bullets,.swiper-pagination-custom,.swiper-pagination-fraction{bottom:10px;left:0;width:100%}.swiper-pagination-bullets-dynamic{overflow:hidden;font-size:0}.swiper-pagination-bullets-dynamic .swiper-pagination-bullet{transform:scale(.33);position:relative}.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active{transform:scale(1)}.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-main{transform:scale(1)}.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev{transform:scale(.66)}.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev-prev{transform:scale(.33)}.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next{transform:scale(.66)}.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next-next{transform:scale(.33)}.swiper-pagination-bullet{width:8px;height:8px;display:inline-block;border-radius:100%;background:#000;opacity:.2}button.swiper-pagination-bullet{border:none;margin:0;padding:0;box-shadow:none;-webkit-appearance:none;-moz-appearance:none;appearance:none}.swiper-pagination-clickable .swiper-pagination-bullet{cursor:pointer}.swiper-pagination-bullet-active{opacity:1;background:var(--swiper-pagination-color,var(--swiper-theme-color))}.swiper-container-vertical>.swiper-pagination-bullets{right:10px;top:50%;transform:translate3d(0px,-50%,0)}.swiper-container-vertical>.swiper-pagination-bullets .swiper-pagination-bullet{margin:6px 0;display:block}.swiper-container-vertical>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic{top:50%;transform:translateY(-50%);width:8px}.swiper-container-vertical>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet{display:inline-block;transition:.2s transform,.2s top}.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{margin:0 4px}.swiper-container-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic{left:50%;transform:translateX(-50%);white-space:nowrap}.swiper-container-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet{transition:.2s transform,.2s left}.swiper-container-horizontal.swiper-container-rtl>.swiper-pagination-bullets-dynamic .swiper-pagination-bullet{transition:.2s transform,.2s right}.swiper-pagination-progressbar{background:rgba(0,0,0,.25);position:absolute}.swiper-pagination-progressbar .swiper-pagination-progressbar-fill{background:var(--swiper-pagination-color,var(--swiper-theme-color));position:absolute;left:0;top:0;width:100%;height:100%;transform:scale(0);transform-origin:left top}.swiper-container-rtl .swiper-pagination-progressbar .swiper-pagination-progressbar-fill{transform-origin:right top}.swiper-container-horizontal>.swiper-pagination-progressbar,.swiper-container-vertical>.swiper-pagination-progressbar.swiper-pagination-progressbar-opposite{width:100%;height:4px;left:0;top:0}.swiper-container-horizontal>.swiper-pagination-progressbar.swiper-pagination-progressbar-opposite,.swiper-container-vertical>.swiper-pagination-progressbar{width:4px;height:100%;left:0;top:0}.swiper-pagination-white{--swiper-pagination-color:#ffffff}.swiper-pagination-black{--swiper-pagination-color:#000000}.swiper-pagination-lock{display:none}.swiper-scrollbar{border-radius:10px;position:relative;-ms-touch-action:none;background:rgba(0,0,0,.1)}.swiper-container-horizontal>.swiper-scrollbar{position:absolute;left:1%;bottom:3px;z-index:50;height:5px;width:98%}.swiper-container-vertical>.swiper-scrollbar{position:absolute;right:3px;top:1%;z-index:50;width:5px;height:98%}.swiper-scrollbar-drag{height:100%;width:100%;position:relative;background:rgba(0,0,0,.5);border-radius:10px;left:0;top:0}.swiper-scrollbar-cursor-drag{cursor:move}.swiper-scrollbar-lock{display:none}.swiper-zoom-container{width:100%;height:100%;display:flex;justify-content:center;align-items:center;text-align:center}.swiper-zoom-container>canvas,.swiper-zoom-container>img,.swiper-zoom-container>svg{max-width:100%;max-height:100%;object-fit:contain}.swiper-slide-zoomed{cursor:move}.swiper-lazy-preloader{width:42px;height:42px;position:absolute;left:50%;top:50%;margin-left:-21px;margin-top:-21px;z-index:10;transform-origin:50%;animation:swiper-preloader-spin 1s infinite linear;box-sizing:border-box;border:4px solid var(--swiper-preloader-color,var(--swiper-theme-color));border-radius:50%;border-top-color:transparent}.swiper-lazy-preloader-white{--swiper-preloader-color:#fff}.swiper-lazy-preloader-black{--swiper-preloader-color:#000}@keyframes swiper-preloader-spin{100%{transform:rotate(360deg)}}.swiper-container .swiper-notification{position:absolute;left:0;top:0;pointer-events:none;opacity:0;z-index:-1000}.swiper-container-fade.swiper-container-free-mode .swiper-slide{transition-timing-function:ease-out}.swiper-container-fade .swiper-slide{pointer-events:none;transition-property:opacity}.swiper-container-fade .swiper-slide .swiper-slide{pointer-events:none}.swiper-container-fade .swiper-slide-active,.swiper-container-fade .swiper-slide-active .swiper-slide-active{pointer-events:auto}.swiper-container-cube{overflow:visible}.swiper-container-cube .swiper-slide{pointer-events:none;-webkit-backface-visibility:hidden;backface-visibility:hidden;z-index:1;visibility:hidden;transform-origin:0 0;width:100%;height:100%}.swiper-container-cube .swiper-slide .swiper-slide{pointer-events:none}.swiper-container-cube.swiper-container-rtl .swiper-slide{transform-origin:100% 0}.swiper-container-cube .swiper-slide-active,.swiper-container-cube .swiper-slide-active .swiper-slide-active{pointer-events:auto}.swiper-container-cube .swiper-slide-active,.swiper-container-cube .swiper-slide-next,.swiper-container-cube .swiper-slide-next+.swiper-slide,.swiper-container-cube .swiper-slide-prev{pointer-events:auto;visibility:visible}.swiper-container-cube .swiper-slide-shadow-bottom,.swiper-container-cube .swiper-slide-shadow-left,.swiper-container-cube .swiper-slide-shadow-right,.swiper-container-cube .swiper-slide-shadow-top{z-index:0;-webkit-backface-visibility:hidden;backface-visibility:hidden}.swiper-container-cube .swiper-cube-shadow{position:absolute;left:0;bottom:0px;width:100%;height:100%;background:#000;opacity:.6;-webkit-filter:blur(50px);filter:blur(50px);z-index:0}.swiper-container-flip{overflow:visible}.swiper-container-flip .swiper-slide{pointer-events:none;-webkit-backface-visibility:hidden;backface-visibility:hidden;z-index:1}.swiper-container-flip .swiper-slide .swiper-slide{pointer-events:none}.swiper-container-flip .swiper-slide-active,.swiper-container-flip .swiper-slide-active .swiper-slide-active{pointer-events:auto}.swiper-container-flip .swiper-slide-shadow-bottom,.swiper-container-flip .swiper-slide-shadow-left,.swiper-container-flip .swiper-slide-shadow-right,.swiper-container-flip .swiper-slide-shadow-top{z-index:0;-webkit-backface-visibility:hidden;backface-visibility:hidden}</style><script>
     var getCookie = window.getCookie || function (name) {  
       let v = document.cookie.match('(^|;) ?' + name + '=([^;]*)(;|$)');
       return v ? v[2] : null;
@@ -1998,9 +1989,9 @@ if (yourCookie !== 'true') {
         
 
 
-<script>(window.BOOMR_mq=window.BOOMR_mq||[]).push(["addVar",{"rua.upush":"false","rua.cpush":"false","rua.upre":"false","rua.cpre":"false","rua.uprl":"false","rua.cprl":"false","rua.cprf":"false","rua.trans":"SJ-eb0c600a-46bc-4c1f-a985-d6deaaf7f4bf","rua.cook":"false","rua.ims":"false","rua.ufprl":"false","rua.cfprl":"false","rua.isuxp":"false","rua.texp":"norulematch","rua.ceh":"false","rua.ueh":"false","rua.ieh.st":"0"}]);</script>
+<script>(window.BOOMR_mq=window.BOOMR_mq||[]).push(["addVar",{"rua.upush":"false","rua.cpush":"false","rua.upre":"false","rua.cpre":"false","rua.uprl":"false","rua.cprl":"false","rua.cprf":"false","rua.trans":"SJ-13121004-64f3-498b-a9a3-76fae4c3a893","rua.cook":"false","rua.ims":"false","rua.ufprl":"false","rua.cfprl":"false","rua.isuxp":"false","rua.texp":"norulematch","rua.ceh":"false","rua.ueh":"false","rua.ieh.st":"0"}]);</script>
 <script>!function(){function o(n,i){if(n&&i)for(var r in i)i.hasOwnProperty(r)&&(void 0===n[r]?n[r]=i[r]:n[r].constructor===Object&&i[r].constructor===Object?o(n[r],i[r]):n[r]=i[r])}try{var n=decodeURIComponent("%7B%20%22request_client_hints%22%3A%20true%20%7D");if(n.length>0&&window.JSON&&"function"==typeof window.JSON.parse){var i=JSON.parse(n);void 0!==window.BOOMR_config?o(window.BOOMR_config,i):window.BOOMR_config=i}}catch(r){window.console&&"function"==typeof window.console.error&&console.error("mPulse: Could not parse configuration",r)}}();</script>
-                              <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("False"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="VRZKC-5BSTD-4EWS3-R2J59-B8GYB",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"VRZKC-5BSTD-4EWS3-R2J59-B8GYB",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e="false"=="true"?1:0,t="",n="zyudpqyx3sadqz2lf7ka-f-4e8303087-clientnsv4-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"39","ak.cp":"479457","ak.ai":parseInt("293013",10),"ak.ol":"0","ak.cr":18,"ak.ipv":4,"ak.proto":"h2","ak.rid":"a936c346","ak.r":41280,"ak.a2":e,"ak.m":"x","ak.n":"essl","ak.bpcip":"206.40.55.0","ak.cport":18817,"ak.gh":"23.218.223.19","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"","ak.t":"1732980692","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==5m/cU/Tw+fgJHAgkWX1JWCsX519R60snf1mw5L8sUAYE4oswVovHN8ZHHDk3f5JZBxwLpiwIdZpmifs08CXiAVvuzBfEv02soxmNtyypU4XnN3oR+VVKceHDXN6DlVj0RgzMQQCbVO4arAOoR5wRr6RDmw15qOfEfPrMaOqBC5axBxEdUli309OUE1Lc2gA+xNazsP3rW8DGKP6Ei80YSeur0dlP8B37YHTDZg7Ixeqysjg9+xcwSpVl2al6QMOq1mNfCarZqLSxoXw44pUWH3MkmJm75OHPdlaimBlFwxLnNjY3DR/axW1nt3CxjM7eM/b6kmc5xI+NmY2139N2WAcIDOK8uBmjGAim0flIk5tEOOBok2wFDswIlAp/CSWmqpwKdgVkQBIUvYssk2shpWbtTGSlW3/nZTDnDldoVUE=","ak.pv":"3681","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script>
+                              <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("False"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="VRZKC-5BSTD-4EWS3-R2J59-B8GYB",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"VRZKC-5BSTD-4EWS3-R2J59-B8GYB",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e="false"=="true"?1:0,t="",n="z674xrtace4dwz2nesfa-f-d78eb870d-clientnsv4-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"39","ak.cp":"479457","ak.ai":parseInt("293013",10),"ak.ol":"0","ak.cr":22,"ak.ipv":4,"ak.proto":"h2","ak.rid":"484a1049","ak.r":42222,"ak.a2":e,"ak.m":"x","ak.n":"essl","ak.bpcip":"207.191.203.0","ak.cport":56018,"ak.gh":"23.64.113.65","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"","ak.t":"1733108874","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==uP2xzXPl49i5NbRr3Ia32zyCe1k/rDhF3hab43V+NhygqUOSgvTDeBjHMQazVUC15NoVPAQzcQbxCF/3eywl4T26B5DB8aDHv5J16/U4tmMFIROzeUfd0Fdy7t4n1U70TB937Z775lOgFHByghz38WyqgUkRHR+zXZ43BoI0+xaQE7yWOwetdoNjyMQkya6cjC4HMyk1nSpNdoAJtxUsgimMI4RkvBPEtJNOfXWp94WX7E+jheRZcMNt9Qrv7vxMeuvS0dzo5PMe4wdseX5oZcaIIIllFiUBoIE3fGmedwKpYIr5maML+6txoQfqiw8roQlHFRdGY4oe0E8MNe/3q5KXJXI5Q/kgOA+MvYno9vUEZpFSTu3/7x6RESolmyblG0hpkcdajaKc1VrXIjyba64axDvfw0yQqgn1J0bJo88=","ak.pv":"3681","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script>
     
  
     
@@ -5908,7 +5899,7 @@ if (yourCookie !== 'true') {
 
          <button class="gnb-search__chip" an-tr="sr01_search input--ctabutton" an-ca="search" an-ac="search layer" an-la="search chips:Certified Pre-Owned" data-link_cat="search" data-link_id="search chips: Certified Pre-Owned" data-link_meta="search chips: Certified Pre-Owned" data-link_position="search>search layer" data-event_name="select_search_chips">Certified Re-Newed</button>
 
-      <div class="rec-for-you-cards" style="display: none;"></div><div class="search-trending-chips pzn" style=""><div class="chips-title-wrapper">
+      <br><div class="rec-for-you-cards" style="display: none;"></div><div class="search-trending-chips pzn" style=""><div class="chips-title-wrapper">
           <span class="chips-title">
             Trending Now
             <svg class="icon" focusable="false" role="presentation" aria-hidden="true" tabindex="-1">
@@ -5927,41 +5918,41 @@ if (yourCookie !== 'true') {
            </div>
            <div class="text-wrap">
              <span class="product-name">Galaxy Watch7 Ultra </span>
-           </div></a></div><div class="swiper-slide" style="width: 107.091px; margin-right: 18px;"><a class="trending-chip" title="Galaxy Watch7 " data-sku="SM-L300NZEAXAA" tabindex="0" an-tr="sr03_trending input--ctabutton" an-ca="search" an-ac="search layer" an-la="trending cards:Galaxy Watch7 >buy now" data-link_cat="search trending" data-link_id="search trending>Galaxy Watch7 >buy now" data-link_meta="search trending: Galaxy Watch7 " data-link_position="search>search layer" data-event_name="select_search_trending_card"><div class="img-wrap">
-             <img src="https://image-us.samsung.com/us/galaxy-watch7/gallery/SCOMB6Q6-59-SM-L300_001_Front_Cream-1600x1200.jpg?$product-card-small-jpg$">
+           </div></a></div><div class="swiper-slide" style="width: 107.091px; margin-right: 18px;"><a class="trending-chip" title="Galaxy S24 Ultra " data-sku="SM-S928ULBFXAA" tabindex="0" an-tr="sr03_trending input--ctabutton" an-ca="search" an-ac="search layer" an-la="trending cards:Galaxy S24 Ultra >buy now" data-link_cat="search trending" data-link_id="search trending>Galaxy S24 Ultra >buy now" data-link_meta="search trending: Galaxy S24 Ultra " data-link_position="search>search layer" data-event_name="select_search_trending_card"><div class="img-wrap">
+             <img src="https://image-us.samsung.com/us/smartphones/galaxy-s24/all-gallery/01_E3_OnlineExclusive_TitaniumBlue_Lockup_1600x1200.jpg?$product-card-small-jpg$">
            </div>
            <div class="text-wrap">
-             <span class="product-name">Galaxy Watch7 </span>
-           </div></a></div><div class="swiper-slide" style="width: 107.091px; margin-right: 18px;"><a class="trending-chip" title="The Frame " data-sku="QN65LS03DAFXZA" tabindex="0" an-tr="sr03_trending input--ctabutton" an-ca="search" an-ac="search layer" an-la="trending cards:The Frame >buy now" data-link_cat="search trending" data-link_id="search trending>The Frame >buy now" data-link_meta="search trending: The Frame " data-link_position="search>search layer" data-event_name="select_search_trending_card"><div class="img-wrap">
+             <span class="product-name">Galaxy S24 Ultra </span>
+           </div></a></div><div class="swiper-slide" style="width: 107.091px; margin-right: 18px;"><a class="trending-chip" title="The Frame " data-sku="QN55LS03DAFXZA" tabindex="0" an-tr="sr03_trending input--ctabutton" an-ca="search" an-ac="search layer" an-la="trending cards:The Frame >buy now" data-link_cat="search trending" data-link_id="search trending>The Frame >buy now" data-link_meta="search trending: The Frame " data-link_position="search>search layer" data-event_name="select_search_trending_card"><div class="img-wrap">
              <img src="https://image-us.samsung.com/SamsungUS/home/television-home-theater/tvs/07202024/QN43LS03DAFXZA-S.COM_Version_1_V02.jpg?$product-card-small-jpg$">
            </div>
            <div class="text-wrap">
              <span class="product-name">The Frame </span>
-           </div></a></div><div class="swiper-slide" style="width: 107.091px; margin-right: 18px;"><a class="trending-chip" title="990 PRO PCIe SSD " data-sku="MZ-V9P2T0BAM" tabindex="0" an-tr="sr03_trending input--ctabutton" an-ca="search" an-ac="search layer" an-la="trending cards:990 PRO PCIe SSD >buy now" data-link_cat="search trending" data-link_id="search trending>990 PRO PCIe SSD >buy now" data-link_meta="search trending: 990 PRO PCIe SSD " data-link_position="search>search layer" data-event_name="select_search_trending_card"><div class="img-wrap">
-             <img src="https://image-us.samsung.com/SamsungUS/home/computing/memory-storage/solid-state-drives/07302024/MZ-V9P2T0B-AM_S.COM_N01_HA_TH_V01.jpg?$product-card-small-jpg$">
-           </div>
-           <div class="text-wrap">
-             <span class="product-name">990 PRO PCIe SSD </span>
-           </div></a></div><div class="swiper-slide" style="width: 107.091px; margin-right: 18px;"><a class="trending-chip" title="Galaxy Book4 " data-sku="NP750QGK-KG3US" tabindex="0" an-tr="sr03_trending input--ctabutton" an-ca="search" an-ac="search layer" an-la="trending cards:Galaxy Book4 >buy now" data-link_cat="search trending" data-link_id="search trending>Galaxy Book4 >buy now" data-link_meta="search trending: Galaxy Book4 " data-link_position="search>search layer" data-event_name="select_search_trending_card"><div class="img-wrap">
-             <img src="https://image-us.samsung.com/SamsungUS/home/computing/galaxy-books/gb4-15-6-360/GB4_360_15-6_US_Copilot_Moonstone-Gray_001_Front-1600x1200.jpg?$product-card-small-jpg$">
-           </div>
-           <div class="text-wrap">
-             <span class="product-name">Galaxy Book4 </span>
            </div></a></div><div class="swiper-slide" style="width: 107.091px; margin-right: 18px;"><a class="trending-chip" title="Gaming Monitor " data-sku="LS57CG952NNXZA" tabindex="0" an-tr="sr03_trending input--ctabutton" an-ca="search" an-ac="search layer" an-la="trending cards:Gaming Monitor >buy now" data-link_cat="search trending" data-link_id="search trending>Gaming Monitor >buy now" data-link_meta="search trending: Gaming Monitor " data-link_position="search>search layer" data-event_name="select_search_trending_card"><div class="img-wrap">
              <img src="https://image-us.samsung.com/SamsungUS/home/computing/monitors/gaming/04162024/LS57CG952NNXZA_V2.jpg?$product-card-small-jpg$">
            </div>
            <div class="text-wrap">
              <span class="product-name">Gaming Monitor </span>
+           </div></a></div><div class="swiper-slide" style="width: 107.091px; margin-right: 18px;"><a class="trending-chip" title="Galaxy Book4 Edge " data-sku="NP960XMA-KB1US" tabindex="0" an-tr="sr03_trending input--ctabutton" an-ca="search" an-ac="search layer" an-la="trending cards:Galaxy Book4 Edge >buy now" data-link_cat="search trending" data-link_id="search trending>Galaxy Book4 Edge >buy now" data-link_meta="search trending: Galaxy Book4 Edge " data-link_position="search>search layer" data-event_name="select_search_trending_card"><div class="img-wrap">
+             <img src="https://image-us.samsung.com/SamsungUS/home/computing/galaxy-books/galaxy-book4-edge/07112024/Galaxy_Book4_Edge_16_US_001_Front_1600x1200.jpg?$product-card-small-jpg$">
+           </div>
+           <div class="text-wrap">
+             <span class="product-name">Galaxy Book4 Edge </span>
            </div></a></div><div class="swiper-slide" style="width: 107.091px; margin-right: 18px;"><a class="trending-chip" title="Portable SSD T9 USB " data-sku="MU-PG4T0BAM" tabindex="0" an-tr="sr03_trending input--ctabutton" an-ca="search" an-ac="search layer" an-la="trending cards:Portable SSD T9 USB >buy now" data-link_cat="search trending" data-link_id="search trending>Portable SSD T9 USB >buy now" data-link_meta="search trending: Portable SSD T9 USB " data-link_position="search>search layer" data-event_name="select_search_trending_card"><div class="img-wrap">
              <img src="https://image-us.samsung.com/SamsungUS/home/computing/memory-storage/portable-solid-state-drives/05212024/MU-PG1T0B.jpg?$product-card-small-jpg$">
            </div>
            <div class="text-wrap">
              <span class="product-name">Portable SSD T9 USB </span>
+           </div></a></div><div class="swiper-slide" style="width: 107.091px; margin-right: 18px;"><a class="trending-chip" title="Portable SSD T7 USB " data-sku="MU-PE1T0RAM" tabindex="0" an-tr="sr03_trending input--ctabutton" an-ca="search" an-ac="search layer" an-la="trending cards:Portable SSD T7 USB >buy now" data-link_cat="search trending" data-link_id="search trending>Portable SSD T7 USB >buy now" data-link_meta="search trending: Portable SSD T7 USB " data-link_position="search>search layer" data-event_name="select_search_trending_card"><div class="img-wrap">
+             <img src="https://image-us.samsung.com/SamsungUS/home/computing/memory-storage/solid-state-drives/07292024/MU-PE1T0R-AM_S_COM_N01_DA_GiC_V01.jpg?$product-card-small-jpg$">
+           </div>
+           <div class="text-wrap">
+             <span class="product-name">Portable SSD T7 USB </span>
            </div></a></div></div>
           <div class="swiper-pagination"></div>
           <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide" aria-disabled="false"></div>
           <div class="swiper-button-prev swiper-button-disabled" tabindex="0" role="button" aria-label="Previous slide" aria-disabled="true"></div>
-        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div></div><div class="recently-viewed-search-chips" style="display: none;"></div><br><div class="search-chat-expert"><img class="search-chat-expert-img" src="//image-us.samsung.com/us/gnb/search_chat_icon_img.png" alt="expert-chat"><p class="search-chat-expert-text"><a class="search-chat-expert-link" href="#" an-tr="sr01_search input--ctabutton" an-ca="search" an-ac="search layer" an-la="search chips:Shop With An Expert" data-link_cat="search" data-link_id="search chips: Shop With An Expert" data-link_meta="search chips: Shop With An Expert" data-link_position="search>search layer" data-event_name="select_search_chips">Click here </a> to start a conversation with our product experts.</p></div></div>
+        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div></div><div class="recently-viewed-search-chips" style="display: none;"></div><div class="search-chat-expert"><img class="search-chat-expert-img" src="//image-us.samsung.com/us/gnb/search_chat_icon_img.png" alt="expert-chat"><p class="search-chat-expert-text"><a class="search-chat-expert-link" href="#" an-tr="sr01_search input--ctabutton" an-ca="search" an-ac="search layer" an-la="search chips:Shop With An Expert" data-link_cat="search" data-link_id="search chips: Shop With An Expert" data-link_meta="search chips: Shop With An Expert" data-link_position="search>search layer" data-event_name="select_search_chips">Click here </a> to start a conversation with our product experts.</p></div></div>
       <button class="gnb-search__btn--close" an-tr="search layer--Image-link" an-ca="search" an-ac="search layer" an-la="close" data-link_cat="search" data-link_id="close" data-link_meta="close" data-link_position="search>search layer" data-event_name="search_layer_close">
          <span class="hidden">Cancel</span>
          <svg class="icon" viewBox="0 0 96 96" id="cancel-close-regular" xmlns="http://www.w3.org/2000/svg"><path d="M80.233 12.232l3.535 3.536-32.232 32.231 32.23 32.231-3.535 3.536L48 51.535 15.768 83.768l-3.535-3.536 32.232-32.233-32.233-32.231 3.535-3.536L48 44.464z"></path></svg>
@@ -6167,17 +6158,17 @@ Last Updated: August 3, 2022
             trendingProducts.push(rec);
                         var rec = {'id' : 'SM-L705UDAAXAA', 'cta_url' : '/us/mobile/wearables/smartwatches/galaxy-watch-ultra-47mm-titanium-gray-sm-l705udaaxaa', 'name' : 'Galaxy Watch7 Ultra ', 'img_url' : 'https://image-us.samsung.com/us/galaxy-watch-ultra/gallery/SCOMB6Q6-59-SM-L705_001_Front_Titanium-Gray-1600x1200.jpg?$product-card-small-jpg$'};
             trendingProducts.push(rec);
-                        var rec = {'id' : 'SM-L300NZEAXAA', 'cta_url' : '/us/mobile/wearables/smartwatches/galaxy-watch7-40mm-cream-wifi-bluetooth-sm-l300nzeaxaa', 'name' : 'Galaxy Watch7 ', 'img_url' : 'https://image-us.samsung.com/us/galaxy-watch7/gallery/SCOMB6Q6-59-SM-L300_001_Front_Cream-1600x1200.jpg?$product-card-small-jpg$'};
+                        var rec = {'id' : 'SM-S928ULBFXAA', 'cta_url' : '/us/mobile/phones/galaxy-s/galaxy-s24-ultra-512gb-unlocked-sm-s928ulbfxaa', 'name' : 'Galaxy S24 Ultra ', 'img_url' : 'https://image-us.samsung.com/us/smartphones/galaxy-s24/all-gallery/01_E3_OnlineExclusive_TitaniumBlue_Lockup_1600x1200.jpg?$product-card-small-jpg$'};
             trendingProducts.push(rec);
-                        var rec = {'id' : 'QN65LS03DAFXZA', 'cta_url' : '/us/televisions-home-theater/tvs/the-frame/65-class-the-frame-qled-4k-ls03d-qn65ls03dafxza', 'name' : 'The Frame ', 'img_url' : 'https://image-us.samsung.com/SamsungUS/home/television-home-theater/tvs/07202024/QN43LS03DAFXZA-S.COM_Version_1_V02.jpg?$product-card-small-jpg$'};
+                        var rec = {'id' : 'QN55LS03DAFXZA', 'cta_url' : '/us/televisions-home-theater/tvs/the-frame/55-class-the-frame-qled-4k-ls03d-qn55ls03dafxza', 'name' : 'The Frame ', 'img_url' : 'https://image-us.samsung.com/SamsungUS/home/television-home-theater/tvs/07202024/QN43LS03DAFXZA-S.COM_Version_1_V02.jpg?$product-card-small-jpg$'};
             trendingProducts.push(rec);
-                              var rec = {'id' : 'MZ-V9P2T0BAM', 'cta_url' : '/us/computing/memory-storage/solid-state-drives/990-pro-pcie-4-0-nvme-ssd-2tb-mz-v9p2t0b-am', 'name' : '990 PRO PCIe SSD ', 'img_url' : 'https://image-us.samsung.com/SamsungUS/home/computing/memory-storage/solid-state-drives/07302024/MZ-V9P2T0B-AM_S.COM_N01_HA_TH_V01.jpg?$product-card-small-jpg$'};
+                              var rec = {'id' : 'LS57CG952NNXZA', 'cta_url' : '/us/computing/monitors/gaming/57-odyssey-neo-g9-dual-4k-uhd-quantum-mini-led-240hz-1ms-hdr-1000-curved-gaming-monitor-ls57cg952nnxza', 'name' : 'Gaming Monitor ', 'img_url' : 'https://image-us.samsung.com/SamsungUS/home/computing/monitors/gaming/04162024/LS57CG952NNXZA_V2.jpg?$product-card-small-jpg$'};
             trendingProducts.push(rec);
-                        var rec = {'id' : 'NP750QGK-KG3US', 'cta_url' : '/us/computing/galaxy-books/galaxy-book4-360/galaxy-book4-360-15-6-intel-core-7-512gb-gray-np750qgk-kg3us', 'name' : 'Galaxy Book4 ', 'img_url' : 'https://image-us.samsung.com/SamsungUS/home/computing/galaxy-books/gb4-15-6-360/GB4_360_15-6_US_Copilot_Moonstone-Gray_001_Front-1600x1200.jpg?$product-card-small-jpg$'};
-            trendingProducts.push(rec);
-                        var rec = {'id' : 'LS57CG952NNXZA', 'cta_url' : '/us/computing/monitors/gaming/57-odyssey-neo-g9-dual-4k-uhd-quantum-mini-led-240hz-1ms-hdr-1000-curved-gaming-monitor-ls57cg952nnxza', 'name' : 'Gaming Monitor ', 'img_url' : 'https://image-us.samsung.com/SamsungUS/home/computing/monitors/gaming/04162024/LS57CG952NNXZA_V2.jpg?$product-card-small-jpg$'};
+                        var rec = {'id' : 'NP960XMA-KB1US', 'cta_url' : '/us/computing/galaxy-books/galaxy-book4-edge/galaxy-book4-edge-16-qualcomm-snapdragon-x-elite-512gb-sapphire-blue-np960xma-kb1us', 'name' : 'Galaxy Book4 Edge ', 'img_url' : 'https://image-us.samsung.com/SamsungUS/home/computing/galaxy-books/galaxy-book4-edge/07112024/Galaxy_Book4_Edge_16_US_001_Front_1600x1200.jpg?$product-card-small-jpg$'};
             trendingProducts.push(rec);
                         var rec = {'id' : 'MU-PG4T0BAM', 'cta_url' : '/us/computing/memory-storage/portable-solid-state-drives/portable-ssd-t9-usb-3-2-4tb-black-mu-pg4t0b-am', 'name' : 'Portable SSD T9 USB ', 'img_url' : 'https://image-us.samsung.com/SamsungUS/home/computing/memory-storage/portable-solid-state-drives/05212024/MU-PG1T0B.jpg?$product-card-small-jpg$'};
+            trendingProducts.push(rec);
+                        var rec = {'id' : 'MU-PE1T0RAM', 'cta_url' : '/us/computing/memory-storage/portable-solid-state-drives/portable-ssd-t7-shield-usb-3-2-1tb-blue-mu-pe1t0r-am', 'name' : 'Portable SSD T7 USB ', 'img_url' : 'https://image-us.samsung.com/SamsungUS/home/computing/memory-storage/solid-state-drives/07292024/MU-PE1T0R-AM_S_COM_N01_DA_GiC_V01.jpg?$product-card-small-jpg$'};
             trendingProducts.push(rec);
                                                                           
   var tgtCommonStore = window.tgtCommonStore || {};

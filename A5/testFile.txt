@@ -1,0 +1,574 @@
+https://www.gucci.com
+1
+2
+3
+4
+5
+6
+Written on csv form: https://www.gucci.com, 6, 14
+https://www.prada.com
+1
+2
+3
+4
+5
+6
+Written on csv form: https://www.prada.com, 6, 25
+https://www.ysl.com
+1
+Written on csv form: https://www.ysl.com, 1, 11
+https://www.alexandermcqueen.com
+1
+2
+Written on csv form: https://www.alexandermcqueen.com, 2, 9
+https://www.chanel.com
+Written on csv form: https://www.chanel.com, 0, 5
+https://www.givenchy.com
+1
+2
+3
+4
+Written on csv form: https://www.givenchy.com, 4, 19
+https://www.hermes.com
+1
+2
+Written on csv form: https://www.hermes.com, 2, 19
+https://www.valentino.com
+1
+2
+3
+4
+5
+6
+Written on csv form: https://www.valentino.com, 6, 36
+https://www.tomford.com
+1
+2
+3
+Written on csv form: https://www.tomford.com, 3, 1
+https://www.bottegaveneta.com
+1
+2
+3
+4
+5
+Written on csv form: https://www.bottegaveneta.com, 5, 6
+https://www.dolcegabbana.com
+1
+2
+Written on csv form: https://www.dolcegabbana.com, 2, 11
+https://www.celine.com
+1
+2
+3
+Written on csv form: https://www.celine.com, 3, 17
+https://www.ferragamo.com
+1
+2
+3
+4
+5
+6
+Written on csv form: https://www.ferragamo.com, 6, 20
+https://www.off---white.com
+1
+2
+3
+4
+5
+6
+Written on csv form: https://www.off---white.com, 6, 2
+https://www.loewe.com
+1
+2
+3
+4
+5
+Written on csv form: https://www.loewe.com, 5, 27
+https://www.balmain.com
+1
+2
+3
+4
+5
+Written on csv form: https://www.balmain.com, 5, 40
+https://www.maisonmargiela.com
+1
+2
+3
+4
+5
+6
+7
+8
+9
+Written on csv form: https://www.maisonmargiela.com, 9, 65
+https://www.miumiu.com
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Written on csv form: https://www.miumiu.com, 10, 30
+https://www.jimmychoo.com
+1
+2
+3
+4
+5
+Written on csv form: https://www.jimmychoo.com, 5, 25
+https://www.asos.com
+1
+2
+Written on csv form: https://www.asos.com, 2, 22
+https://www.hm.com
+1
+2
+3
+4
+5
+6
+Written on csv form: https://www.hm.com, 6, 24
+https://www.zara.com
+Written on csv form: https://www.zara.com, 0, 16
+https://www.forever21.com
+1
+2
+3
+4
+5
+6
+Written on csv form: https://www.forever21.com, 6, 20
+https://www.uniqlo.com
+1
+2
+Written on csv form: https://www.uniqlo.com, 2, 43
+https://www.shein.com
+Written on csv form: https://www.shein.com, 0, 9
+https://www.boohoo.com
+1
+2
+3
+4
+5
+6
+7
+Written on csv form: https://www.boohoo.com, 7, 32
+https://www.prettylittlething.com
+1
+2
+Written on csv form: https://www.prettylittlething.com, 2, 14
+https://www.shopcider.com
+Written on csv form: https://www.shopcider.com, 0, 11
+https://www.oldnavy.com
+Written on csv form: https://www.oldnavy.com, 0, 11
+https://www.temu.com
+Written on csv form: https://www.temu.com, 0, 5
+https://www.fashionnova.com
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+Written on csv form: https://www.fashionnova.com, 17, 22
+https://www.missguided.co.uk
+1
+2
+Written on csv form: https://www.missguided.co.uk, 2, 6
+https://www.mango.com
+Written on csv form: https://www.mango.com, 0, 5
+https://www.aliexpress.com
+1
+2
+3
+4
+5
+Written on csv form: https://www.aliexpress.com, 5, 73
+https://www.nastygal.com
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+Written on csv form: https://www.nastygal.com, 12, 26
+https://www.urbanoutfitters.com
+1
+2
+Written on csv form: https://www.urbanoutfitters.com, 2, 32
+https://www.cottonon.com
+1
+2
+3
+4
+Written on csv form: https://www.cottonon.com, 4, 62
+https://www.express.com
+1
+2
+3
+Written on csv form: https://www.express.com, 3, 37
+https://www.primark.com
+1
+2
+3
+4
+5
+6
+Written on csv form: https://www.primark.com, 6, 11
+https://www.pacsun.com
+1
+2
+3
+4
+5
+6
+7
+8
+Written on csv form: https://www.pacsun.com, 8, 36
+https://www.hollisterco.com
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+Written on csv form: https://www.hollisterco.com, 12, 77
+https://www.aeropostale.com
+Written on csv form: https://www.aeropostale.com, 0, 1
+https://www.garageclothing.com
+1
+2
+3
+4
+5
+6
+Written on csv form: https://www.garageclothing.com, 6, 56
+https://www.apple.com
+1
+2
+3
+4
+5
+Written on csv form: https://www.apple.com, 5, 11
+https://www.samsung.com
+1
+2
+3
+4
+5
+6
+7
+8
+9
+Written on csv form: https://www.samsung.com, 9, 14
+https://www.microsoft.com
+1
+2
+3
+Written on csv form: https://www.microsoft.com, 3, 25
+https://www.dell.com
+1
+2
+3
+4
+5
+6
+Written on csv form: https://www.dell.com, 6, 34
+https://www.hp.com
+1
+2
+3
+4
+5
+Written on csv form: https://www.hp.com, 5, 30
+https://www.lenovo.com
+1
+2
+3
+4
+Written on csv form: https://www.lenovo.com, 4, 23
+https://www.asus.com
+1
+2
+3
+4
+5
+6
+Written on csv form: https://www.asus.com, 6, 4
+https://www.acer.com
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+Written on csv form: https://www.acer.com, 11, 21
+https://www.lg.com
+1
+2
+3
+4
+Written on csv form: https://www.lg.com, 4, 113
+https://www.sony.com
+1
+2
+Written on csv form: https://www.sony.com, 2, 4
+https://www.panasonic.com
+1
+2
+3
+Written on csv form: https://www.panasonic.com, 3, 9
+https://www.toshiba.com
+1
+2
+3
+4
+5
+Written on csv form: https://www.toshiba.com, 5, 10
+https://www.huawei.com
+1
+2
+3
+Written on csv form: https://www.huawei.com, 3, 5
+https://www.mi.com
+1
+Written on csv form: https://www.mi.com, 1, 28
+https://www.oneplus.com
+1
+2
+3
+4
+Written on csv form: https://www.oneplus.com, 4, 35
+https://www.bestbuy.com
+1
+2
+3
+4
+5
+Written on csv form: https://www.bestbuy.com, 5, 25
+https://www.razer.com
+1
+2
+3
+4
+Written on csv form: https://www.razer.com, 4, 6
+https://www.nvidia.com
+1
+2
+3
+4
+5
+Written on csv form: https://www.nvidia.com, 5, 15
+https://www.intel.com
+1
+2
+3
+4
+Written on csv form: https://www.intel.com, 4, 4
+https://www.amd.com
+1
+2
+3
+Written on csv form: https://www.amd.com, 3, 6
+https://www.bose.com
+1
+2
+3
+4
+5
+Written on csv form: https://www.bose.com, 5, 69
+https://www.jbl.com
+1
+2
+3
+4
+5
+Written on csv form: https://www.jbl.com, 5, 19
+https://www.gopro.com
+Written on csv form: https://www.gopro.com, 0, 3
+https://www.logitech.com
+1
+2
+3
+4
+5
+6
+7
+8
+Written on csv form: https://www.logitech.com, 8, 11
+https://www.anker.com
+1
+2
+3
+4
+5
+6
+7
+Written on csv form: https://www.anker.com, 7, 73
+https://www.tesla.com
+Written on csv form: https://www.tesla.com, 0, 17
+https://www.ford.com
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Written on csv form: https://www.ford.com, 10, 40
+https://www.chevrolet.com
+Written on csv form: https://www.chevrolet.com, 0, 72
+https://www.toyota.com
+1
+2
+3
+Written on csv form: https://www.toyota.com, 3, 17
+https://www.honda.com
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+Written on csv form: https://www.honda.com, 11, 12
+https://www.bmwusa.com
+1
+2
+3
+Written on csv form: https://www.bmwusa.com, 3, 43
+https://www.mbusa.com
+1
+Written on csv form: https://www.mbusa.com, 1, 3
+https://www.audiusa.com
+1
+2
+3
+Written on csv form: https://www.audiusa.com, 3, 14
+https://www.vw.com
+1
+2
+3
+4
+5
+Written on csv form: https://www.vw.com, 5, 1
+https://www.nissanusa.com
+1
+2
+3
+Written on csv form: https://www.nissanusa.com, 3, 15
+https://www.hyundaiusa.com
+1
+2
+3
+4
+5
+Written on csv form: https://www.hyundaiusa.com, 5, 74
+https://www.kia.com
+1
+2
+Written on csv form: https://www.kia.com, 2, 54
+https://www.lexus.com
+Written on csv form: https://www.lexus.com, 0, 0
+https://www.subaru.com
+1
+2
+3
+4
+5
+Written on csv form: https://www.subaru.com, 5, 8
+https://www.mazdausa.com
+1
+2
+3
+Written on csv form: https://www.mazdausa.com, 3, 0
+https://www.jeep.com
+1
+2
+3
+Written on csv form: https://www.jeep.com, 3, 23
+https://www.dodge.com
+1
+2
+3
+Written on csv form: https://www.dodge.com, 3, 17
+https://www.ramtrucks.com
+1
+2
+3
+Written on csv form: https://www.ramtrucks.com, 3, 11
+https://www.chrysler.com
+1
+2
+3
+Written on csv form: https://www.chrysler.com, 3, 15
+https://www.gmc.com
+Written on csv form: https://www.gmc.com, 0, 80
+https://www.cadillac.com
+1
+Written on csv form: https://www.cadillac.com, 1, 26
+https://www.volvocars.com
+1
+2
+3
+4
+5
+6
+7
+8
+Written on csv form: https://www.volvocars.com, 8, 52
+https://www.landroverusa.com
+1
+2
+3
+4
+Written on csv form: https://www.landroverusa.com, 4, 2
+https://www.jaguarusa.com
+1
+2
+3
+4
+Written on csv form: https://www.jaguarusa.com, 4, 3
+https://www.porsche.com
+Written on csv form: https://www.porsche.com, 0, 2
