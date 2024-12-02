@@ -265,6 +265,8 @@ def cookies_to_dnsmpi_links():
     plt.title('Cookie Number by DNSMPI Status')
     plt.xlabel('DNSMPI Status')
     plt.ylabel('Number of Cookies')
+    plt.savefig("analysis/cookies_by_dnsmpi_links.png", dpi=300)
+    plt.close()
 
 def summary_statistics():
     results = RESULTS
