@@ -20,7 +20,7 @@ def scrape_hyperlinks(url):
             browser = p.firefox.launch()
             context = browser.new_context(user_agent=USER_HEADERS, extra_http_headers=EXTRA_HEADERS)
             page = context.new_page()
-            page.goto(url, timeout=300000)
+            page.goto(url, timeout=600000)
             html_content = page.content()
             # Retrieve cookies and save to a string
             cookies = context.cookies()
@@ -39,7 +39,7 @@ def scrape_hyperlinks(url):
             browser.close()
             return html_content, cookie_data, cookie_num
     except TimeoutError:
-        print(f"Timeout occurred for {url} after {timeout / 1000} seconds.")
+        print(f"Timeout occurred for {url} after {600000 / 1000} seconds.")
         return None
     except Exception as e:
         print(f"An error occurred for {url}: {e}")
@@ -77,19 +77,41 @@ def inspect_homepage_html(html_file):
 
 def filter_for_privacy_page(hyperlink_dictionary):
     privacy_pages = {}
+    num_dnsmpi_links = {}
+    dnsmpi_links = {}
 
     privacy_terms = ["privacy", "cookie", "terms", "user agreement", 
                     "service agreement", "conditions of use", "terms of usage",
-                    "privacy notice", "privacy policy", "privacy cookies"]
+                    "privacy notice", "privacy policy", "privacy cookies", "ccpa", "dnsmpi", 
+                    "do not sell my personal information", "do not sell my information", 
+                    "do not sell my info", "do not sell my personal info", "do not sell or share my personal information", 
+                    "do not sell or share my information", "do not sell or share my info", 
+                    "do not sell or share my personal info", "California Consumer Privacy Act", 
+                    "Your California privacy rights","CCPA rights","California privacy disclosures", "Do not share my data",
+                    "California opt-out"]
+    
+    dnsmpi_terms = ["ccpa", "dnsmpi", "do not sell my personal information", "do not sell my information", 
+                    "do not sell my info", "do not sell my personal info", "do not sell or share my personal information", 
+                    "do not sell or share my information", "do not sell or share my info", 
+                    "do not sell or share my personal info", "California Consumer Privacy Act", 
+                    "Your California privacy rights","CCPA rights","California privacy disclosures", "Do not share my data",
+                    "California opt-out"]
 
     for url, categories in hyperlink_dictionary.items():
         hyperlinks = []
+        dnsmpi_hyperlinks = []
+        num_dnsmpi_hyperlinks = 0
         for category in categories:
             for key, value in category.items():
                 if any(term.lower() in key.lower() or term.lower() in value.lower() for term in privacy_terms):
                     hyperlinks.append(category)
-        privacy_pages[url] = hyperlinks    
-    return privacy_pages
+                if any(term.lower() in key.lower() or term.lower() in value.lower() for term in dnsmpi_terms):
+                    dnsmpi_hyperlinks.append(category)
+                    num_dnsmpi_hyperlinks += 1
+        privacy_pages[url] = hyperlinks   
+        num_dnsmpi_links[url] = num_dnsmpi_hyperlinks
+        dnsmpi_links[url] = dnsmpi_hyperlinks
+    return privacy_pages, dnsmpi_links, num_dnsmpi_links
 
 
 def scrape_homepages_for_privacy_policy_pages(filename):
@@ -117,14 +139,14 @@ def scrape_for_priv_policy(homepage, policypage, current_policy_page):
             html_content = page.content()
             browser.close()
             html_file_name = "analysis/HtmlToPlaintext/ext/html_policies/" + homepage.split(".")[1] + "_" + str(current_policy_page) +".html"
-            html_file_name2 = "data/" + homepage.split(".")[1] + "_" + str(current_policy_page) +".html"
+            html_file_name2 = "data/html_policies/" + homepage.split(".")[1] + "_" + str(current_policy_page) +".html"
             with open(html_file_name, "w") as f:
                 f.write(html_content)
             with open(html_file_name2, "w") as f2:
                 f2.write(html_content)
             return page_name, html_content
     except TimeoutError:
-        print(f"Timeout occurred for {page_name} after {30000 / 1000} seconds.")
+        print(f"Timeout occurred for {page_name} after {300000 / 1000} seconds.")
         return None
     except Exception as e:
         print(f"An error occurred for {page_name}: {e}")
@@ -150,6 +172,7 @@ def inspect_privacy_policy_html(html_file):
         content[anchor_name] = current_text
     
     return content
+
 def check_mixed_content(link):
     #Checks if link is a HTTPS link
     if not link.startswith("https://"):
@@ -199,7 +222,7 @@ def check_policites(link):
 
     https_link = link.replace("http://", "https://")
     try:
-        response_https = requests.get(https_link, timeout = 20)
+        response_https = requests.get(https_link, timeout = 10)
         if (299 >= response_https.status_code) and (response_https.status_code >= 200):
             result["https"] = True
     except requests.RequestException:
@@ -208,7 +231,7 @@ def check_policites(link):
     http_link= link.replace("https://", "http://")
     try:
         try:
-            response_http = requests.get(http_link, timeout = 20)
+            response_http = requests.get(http_link, timeout = 10)
         except requests.ConnectionError:
             print("Connection failed.")
         if (299 >= response_http.status_code) and (response_http.status_code >= 200):
@@ -224,9 +247,7 @@ def check_policites(link):
         return "HTTP-Only"
     else:
         return "Neither"
-    
-
-            
+               
     
     
 def main():
@@ -249,63 +270,52 @@ def main():
             html_content, cookie_string, cookie_num = result
             hyperlinks_in_url[link] = inspect_homepage_html(html_content)
 
-            privacy_page_urls = filter_for_privacy_page(hyperlinks_in_url)  
+            privacy_page_urls, dnsmpi_links, num_dnsmpi_links = filter_for_privacy_page(hyperlinks_in_url)  
             privacy_policy_content = {}
 
             for website, priv_policy_pages in privacy_page_urls.items():
+                dnsmpi_content = []
                 testFile.write(f"{website}\n")
                 current_page_index = 0;
                 for page_info in priv_policy_pages:
                     for category, priv_policy_page in page_info.items():
                         priv_page_info = scrape_for_priv_policy(website, priv_policy_page, current_page_index)
                         if priv_page_info is not None:
-                            privacy_policy_content[website + ", " + priv_page_info[0]] = inspect_privacy_policy_html(priv_page_info[1])
+                            pol_content = inspect_privacy_policy_html(priv_page_info[1])
+                            privacy_policy_content[website + ", " + priv_page_info[0]] = pol_content
                             current_page_index += 1
                             testFile.write(f"{current_page_index}\n")
+                            if priv_policy_page in dnsmpi_links.get(website):
+                                dnsmpi_content.append(pol_content)
                         else: 
-                            with open('links_that_donot_work.txt', "w") as bad:
+                            with open('links_that_donot_work.txt', "w+") as bad:
                                 bad.write(website + "\n")
+
+                nDNSMPI = num_dnsmpi_links[website]
+                if nDNSMPI > 0:
+                    has_dnsmpi = "Yes"
+                else:
+                    has_dnsmpi = "No"
+
                 testFile.write(f"Written on csv form: {website}, {current_page_index}, {cookie_num}\n")
-                csvResults.append([website, current_page_index, cookie_num, cookie_string, policies_result, mixed_results])
+                csvResults.append([website, current_page_index, cookie_num, has_dnsmpi, dnsmpi_content, cookie_string, policies_result, mixed_results])
                 websites.append(website)
                 number_of_pages.append(current_page_index)
                 number_of_cookies.append(cookie_num)
+
             json_filename = "analysis/privacy_policy_data.json"
             # Dump the dictionary to a JSON file
-            with open(json_filename, 'w+') as json_file:
+            with open(json_filename, 'w') as json_file:
                 json.dump(privacy_policy_content, json_file, indent=4)  # Use indent for pretty formatting
-        else: 
-            with open('links_that_donot_work.txt', "w") as bad:
-                bad.write(website + "\n")
+
     testFile.close()
     if csvResults:
-        with open("csvData.csv", "w", newline="") as file:
+        with open("data/csvData.csv", "w", newline="") as file:
             writer = csv.writer(file)
-            writer.writerow(["Website", "Number of Pages", "Number of Cookies", "Cookie Information", "HTTP/HTTPS Policies Category", "Mixed Content"])
+            writer.writerow(["Website", "Number of Pages", "Number of Cookies", "Contains DNSMPI-associated Content?", "DNSMPI Content", "Cookie Information", "HTTP/HTTPS Policies Category", "Mixed Content"])
             writer.writerows(csvResults)
-        #create bar graphs, may need to adjust sizing to view all 100 websites
-        plt.figure(figsize=(20, 8))
-        plt.bar(websites, number_of_pages, color='blue')
-        plt.title("Number of Pages per Website")
-        plt.xlabel("Website")
-        plt.ylabel("Number of Pages")
-        plt.xticks(rotation=90, ha='center', fontsize=8)
-        plt.tight_layout()
-        plt.savefig("number_of_pages.png", dpi=300)
-        plt.close()
-
-        plt.figure(figsize=(20, 8))
-        plt.bar(websites, number_of_cookies, color='green')
-        plt.title("Number of Cookies per Website")
-        plt.xlabel("Website")
-        plt.ylabel("Number of Cookies")
-        plt.xticks(rotation=90, ha='center', fontsize=8)
-        plt.tight_layout()
-        plt.savefig("number_of_cookies.png", dpi=300)
-        plt.close()
     else:
         print("No results to write to the CSV file.")
-        print("Graph was not able to be created.")
 
 if __name__ == "__main__":
     main()

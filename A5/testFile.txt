@@ -572,3 +572,418 @@ https://www.jaguarusa.com
 Written on csv form: https://www.jaguarusa.com, 4, 3
 https://www.porsche.com
 Written on csv form: https://www.porsche.com, 0, 2
+https://www.gucci.com
+1
+2
+3
+4
+5
+6
+Written on csv form: https://www.gucci.com, 6, 15
+https://www.prada.com
+1
+2
+3
+4
+5
+6
+Written on csv form: https://www.prada.com, 6, 25
+https://www.armani.com/en-us
+1
+2
+3
+4
+Written on csv form: https://www.armani.com/en-us, 4, 3
+https://www.ralphlauren.com
+1
+2
+3
+4
+5
+6
+7
+Written on csv form: https://www.ralphlauren.com, 7, 19
+https://www.ysl.com
+1
+2
+3
+4
+Written on csv form: https://www.ysl.com, 4, 11
+https://www.coach.com
+Written on csv form: https://www.coach.com, 0, 33
+https://us.lanvin.com
+1
+2
+3
+4
+5
+6
+7
+Written on csv form: https://us.lanvin.com, 7, 31
+https://www.cartier.com/en-us/home
+1
+2
+3
+4
+5
+Written on csv form: https://www.cartier.com/en-us/home, 5, 47
+https://www.alexandermcqueen.com
+1
+2
+Written on csv form: https://www.alexandermcqueen.com, 2, 10
+https://us.maxmara.com
+1
+2
+3
+4
+Written on csv form: https://us.maxmara.com, 4, 34
+https://www.chanel.com
+Written on csv form: https://www.chanel.com, 0, 5
+https://www.givenchy.com
+1
+2
+3
+4
+Written on csv form: https://www.givenchy.com, 4, 20
+https://www.hermes.com
+1
+2
+3
+4
+Written on csv form: https://www.hermes.com, 4, 24
+https://www.valentino.com
+1
+2
+3
+4
+5
+6
+Written on csv form: https://www.valentino.com, 6, 32
+https://www.tomford.com
+1
+2
+3
+Written on csv form: https://www.tomford.com, 3, 1
+https://www.bottegaveneta.com
+1
+2
+3
+4
+5
+Written on csv form: https://www.bottegaveneta.com, 5, 6
+https://www.dolcegabbana.com
+1
+2
+Written on csv form: https://www.dolcegabbana.com, 2, 20
+https://www.celine.com
+1
+2
+3
+Written on csv form: https://www.celine.com, 3, 16
+https://www.ferragamo.com
+1
+2
+3
+4
+5
+6
+Written on csv form: https://www.ferragamo.com, 6, 20
+https://www.off---white.com
+1
+2
+3
+4
+5
+6
+Written on csv form: https://www.off---white.com, 6, 2
+https://www.loewe.com
+1
+2
+3
+4
+5
+Written on csv form: https://www.loewe.com, 5, 24
+https://www.balmain.com
+1
+2
+3
+4
+5
+Written on csv form: https://www.balmain.com, 5, 16
+https://www.maisonmargiela.com
+1
+2
+3
+4
+5
+6
+7
+8
+9
+Written on csv form: https://www.maisonmargiela.com, 9, 63
+https://www.miumiu.com
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Written on csv form: https://www.miumiu.com, 10, 34
+https://www.jimmychoo.com
+1
+2
+3
+4
+5
+Written on csv form: https://www.jimmychoo.com, 5, 34
+https://www.asos.com
+1
+2
+Written on csv form: https://www.asos.com, 2, 28
+https://www.hm.com
+1
+2
+3
+4
+5
+6
+Written on csv form: https://www.hm.com, 6, 23
+https://www.zara.com
+Written on csv form: https://www.zara.com, 0, 12
+https://www.forever21.com
+1
+2
+3
+4
+5
+6
+Written on csv form: https://www.forever21.com, 6, 20
+https://www.uniqlo.com
+1
+2
+Written on csv form: https://www.uniqlo.com, 2, 44
+https://www.guess.com/us/en/home
+1
+2
+3
+4
+5
+6
+Written on csv form: https://www.guess.com/us/en/home, 6, 40
+https://www.boohoo.com
+1
+2
+3
+4
+5
+6
+7
+8
+9
+Written on csv form: https://www.boohoo.com, 9, 33
+https://www.prettylittlething.com
+1
+2
+Written on csv form: https://www.prettylittlething.com, 2, 14
+https://www.anthropologie.com
+1
+2
+Written on csv form: https://www.anthropologie.com, 2, 32
+https://www.gap.com
+Written on csv form: https://www.gap.com, 0, 9
+https://www.abercrombie.com/shop/us
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Written on csv form: https://www.abercrombie.com/shop/us, 10, 28
+https://www.fashionnova.com
+1
+2
+3
+4
+5
+6
+7
+8
+Written on csv form: https://www.fashionnova.com, 8, 3
+https://www.missguided.co.uk
+1
+2
+Written on csv form: https://www.missguided.co.uk, 2, 5
+https://m.romwe.com/us
+Written on csv form: https://m.romwe.com/us, 0, 6
+https://www.aliexpress.com
+1
+2
+3
+4
+5
+Written on csv form: https://www.aliexpress.com, 5, 71
+https://www.nastygal.com
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+Written on csv form: https://www.nastygal.com, 12, 28
+https://www.urbanoutfitters.com
+Written on csv form: https://www.urbanoutfitters.com, 0, 32
+https://www.cottonon.com
+1
+2
+3
+4
+Written on csv form: https://www.cottonon.com, 4, 68
+https://www.express.com
+1
+2
+3
+Written on csv form: https://www.express.com, 3, 25
+https://www.primark.com
+1
+2
+3
+4
+5
+6
+Written on csv form: https://www.primark.com, 6, 13
+https://www.edikted.com
+1
+2
+3
+Written on csv form: https://www.edikted.com, 3, 68
+https://www.pacsun.com
+1
+2
+3
+4
+5
+6
+7
+8
+Written on csv form: https://www.pacsun.com, 8, 35
+https://www.hollisterco.com
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+Written on csv form: https://www.hollisterco.com, 12, 43
+https://www.freepeople.com
+Written on csv form: https://www.freepeople.com, 0, 33
+https://www.garageclothing.com
+1
+2
+3
+4
+5
+6
+Written on csv form: https://www.garageclothing.com, 6, 74
+https://www.apple.com
+1
+2
+3
+4
+5
+Written on csv form: https://www.apple.com, 5, 11
+https://www.samsung.com
+1
+2
+3
+4
+5
+6
+7
+8
+9
+Written on csv form: https://www.samsung.com, 9, 14
+https://www.gucci.com
+1
+https://www.gucci.com
+1
+https://www.gucci.com
+1
+2
+3
+4
+5
+6
+https://www.gucci.com
+1
+2
+3
+4
+5
+6
+Written on csv form: https://www.gucci.com, 6, 14
+https://www.prada.com
+1
+2
+3
+4
+5
+6
+Written on csv form: https://www.prada.com, 6, 24
+https://www.armani.com/en-us
+1
+2
+3
+4
+Written on csv form: https://www.armani.com/en-us, 4, 5
+https://www.ralphlauren.com
+1
+2
+3
+4
+5
+Written on csv form: https://www.ralphlauren.com, 5, 18
+https://www.ysl.com
+1
+Written on csv form: https://www.ysl.com, 1, 10
+https://www.coach.com
+Written on csv form: https://www.coach.com, 0, 31
+https://us.lanvin.com
+1
+2
+3
+4
+5
+6
+Written on csv form: https://us.lanvin.com, 6, 33
+https://www.cartier.com/en-us/home
+1
+2
+3
+4
+5
+Written on csv form: https://www.cartier.com/en-us/home, 5, 30
+https://www.alexandermcqueen.com
+1
+Written on csv form: https://www.alexandermcqueen.com, 1, 9
+https://us.maxmara.com
+1
