@@ -4,7 +4,7 @@ import statistics
 import seaborn as sns
 import numpy as np
 
-RESULTS = pd.read_csv('data/csvData.csv', index_col=0)
+RESULTS = pd.read_csv('data/FinalTableData.csv', index_col=0)
 
 def pages_per_website():
     results = RESULTS
@@ -665,3 +665,6 @@ def main():
 
     summary_statistics()
     cookie_datatable()
+
+if __name__ == "__main__":
+    main()
