@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import statistics
 import seaborn as sns
+import numpy as np
 
 RESULTS = pd.read_csv('data/csvData.csv', index_col=0)
 
@@ -12,29 +13,29 @@ def pages_per_website():
     num_pages = results["Number of Pages"].to_list()
 
     plt.figure(figsize=(20, 8))
-    plt.bar(websites, num_pages, color='blue')
+    plt.bar(websites, num_pages, color='cornflowerblue')
     plt.title("Number of Pages per Website")
     plt.xlabel("Website")
     plt.ylabel("Number of Pages")
     plt.xticks(rotation=90, ha='center', fontsize=8)
     plt.tight_layout()
-    plt.savefig("analysis/number_of_pages.png", dpi=300)
+    plt.savefig("analysis/ImageFiles/number_of_pages.png", dpi=300)
     plt.close()
 
-def ccokies_per_website():
+def cookies_per_website():
     results = RESULTS
 
     websites = results["Website"].to_list()
     num_cookies = results["Number of Cookies"].to_list()
 
     plt.figure(figsize=(20, 8))
-    plt.bar(websites, num_cookies, color='green')
+    plt.bar(websites, num_cookies, color='seagreen')
     plt.title("Number of Cookies per Website")
     plt.xlabel("Website")
     plt.ylabel("Number of Cookies")
     plt.xticks(rotation=90, ha='center', fontsize=8)
     plt.tight_layout()
-    plt.savefig("analysis/number_of_cookies.png", dpi=300)
+    plt.savefig("analysis/ImageFiles/number_of_cookies.png", dpi=300)
     plt.close()
 
 def avg_pages_cookies_by_category():
@@ -79,7 +80,6 @@ def avg_pages_cookies_by_category():
     ax = fig.add_subplot(111)
     
     plt.scatter(avg_pages, avg_cookies)
-
 
     # Add labels and title
     plt.xlabel('Average Number of Pages')
@@ -142,11 +142,9 @@ def pages_cookies_by_category():
     plt.legend(title="Metric")
     plt.tight_layout()
 
-    plt.savefig("analysis/violin_plot_pages_cookies_by_category.png", dpi=300)
+    plt.savefig("analysis/ImageFiles/violin_plot_pages_cookies_by_category.png", dpi=300)
     plt.close()
 
-
-    
 def page_cookie_correlation():
     results = RESULTS
     websites = results["Website"].to_list()
@@ -157,7 +155,7 @@ def page_cookie_correlation():
 
     # Scatter plot
     plt.figure(figsize=(10, 6))
-    plt.scatter(num_pages, num_cookies, alpha=0.7, color='blue', edgecolor='k')
+    plt.scatter(num_pages, num_cookies, alpha=0.7, color='darkslategray', edgecolor='darkslategray')
 
     # Add labels and title
     plt.xlabel("Number of Pages")
@@ -182,7 +180,7 @@ def page_cookie_correlation():
         plt.text(x, y, website, fontsize=8, alpha=0.7)
 
     plt.tight_layout()
-    plt.savefig("analysis/page_cookie_correlation.png", dpi=300)
+    plt.savefig("analysis/ImageFiles/page_cookie_correlation.png", dpi=300)
     plt.close()
 
 def mixed_content():
@@ -213,7 +211,7 @@ def mixed_content():
         significance = "n.s."  # not significant
 
     plt.figure(figsize=(10, 6))
-    bars = plt.bar(categories, counts, color=["blue", "red", "gray"])
+    bars = plt.bar(categories, counts, color=["mediumseagreen", "orchid", "silver"])
 
     max_y = max(counts)
     x1, x2 = 0, 1  # Positions of the first two bars
@@ -227,11 +225,10 @@ def mixed_content():
     plt.xticks(rotation=90, ha='center', fontsize=8)
     plt.ylim(0, max_y * 1.2)
     plt.tight_layout()
-    plt.savefig("analysis/mixed_content_significance.png", dpi=300)
+    plt.savefig("analysis/ImageFiles/mixed_content_significance.png", dpi=300)
     plt.close()
 
 def num_dnsmpi_links():
-
     results = RESULTS
 
     websites = results["Website"].to_list()
@@ -243,13 +240,13 @@ def num_dnsmpi_links():
     data = [dnsmpi, no_dnsmpi]
 
     plt.figure(figsize=(20, 8))
-    plt.bar(categories, data, color=['blue', 'red'])
+    plt.bar(categories, data, color=['olivedrab', 'firebrick'])
     plt.title("DNSMPI Content")
     plt.xlabel("Has Content")
     plt.ylabel("Number of Websites")
     plt.xticks(ha='center', fontsize=8)
     plt.tight_layout()
-    plt.savefig("analysis/number_of_dnsmpi_links.png", dpi=300)
+    plt.savefig("analysis/ImageFiles/number_of_dnsmpi_links.png", dpi=300)
     plt.close()
 
 def cookies_to_dnsmpi_links():
@@ -265,13 +262,369 @@ def cookies_to_dnsmpi_links():
     plt.title('Cookie Number by DNSMPI Status')
     plt.xlabel('DNSMPI Status')
     plt.ylabel('Number of Cookies')
-    plt.savefig("analysis/cookies_by_dnsmpi_links.png", dpi=300)
+    plt.savefig("analysis/ImageFiles/cookies_by_dnsmpi_links.png", dpi=300)
     plt.close()
+
+def cookies_with_http_only_tf():
+    results = RESULTS
+
+    websites = results["Website"].to_list()
+    cookie_analysis = {}
+
+    for site in websites:
+        site_cookies = results.loc[site_cookies, "Cookie Information"]
+        cookie_details = site_cookies[1:]
+        
+        total_cookies = int(site_cookies[0].split(': ')[1])
+        num_false = [cookie for cookie in cookie_details if cookie.get('HttpOnly', False)]
+        num_true = [cookie for cookie in cookie_details if cookie.get('HttpOnly', True)]
+
+        cookies_analysis[site] = [total_cookies, num_true, num_false]
+
+    sites = list(cookie_analysis.keys())
+    totals = [cookie_analysis[site][0] for site in sites]
+    true_cookies = [cookie_analysis[site][1] for site in sites]
+    false_cookies = [cookie_analysis[site][2] for site in sites]
+
+    x = np.arange(len(sites))  # the label locations
+    width = 0.6  # the width of the bars
+
+    fig, ax = plt.subplots(figsize=(10, 6))
+    ax.bar(x, true_cookies, width, label='HttpOnly: True', color='slateblue')
+    ax.bar(x, false_cookies, width, bottom=true_cookies, label='HttpOnly: False', color='palevioletred')
+    plt.title("Number of Pages per Website")
+    plt.xlabel("Website")
+    plt.ylabel("Number of Pages")
+    plt.xticks(rotation=90, ha='center', fontsize=8)
+    plt.tight_layout()
+    plt.savefig("analysis/ImageFiles/number_of_cookies_with_http_only.png", dpi=300)
+    plt.close()
+
+
+def get_cookie_details():
+    results = RESULTS
+    websites = results["Website"].to_list()
+
+    cookie_name_counts = {}
+    cookie_names = []
+
+    num_cookies_exp = {}
+
+    cookie_domain_counts = {}
+    cookie_domains = []
+    cookie_name_to_domain = {}
+
+    num_secure_cookies = {}
+    num_http_only = {}
+
+    cookie_safety = {}
+
+    sites_with_cookie = {}
+
+    for site in websites:
+        site_cookies = results.loc[site_cookies, "Cookie Information"]
+        cookie_details = site_cookies[1:]
+        total_cookies = int(site_cookies[0].split(': ')[1])
+
+        num_cookies_expire = 0
+        num_cookies_no_expire = 0
+
+        num_cookies_secure = 0
+        num_cookies_not_secure = 0
+
+        num_true = 0
+        num_false = 0
+
+        for cookie in len(cookie_details):
+            name = cookie.get("Name")
+            expiration = cookie.get("Expires")
+            secure = cookie.get("Secure")
+            domain = cookie.get("Domain")
+            http = cookie.get('HttpOnly')
+
+            safety = []
+
+            cookie_name_counts[name] = cookie_name_counts.get(name, 0) + 1
+            cookie_names.append(name)
+
+            if expiration != -1:
+                num_cookies_expire += 1
+                safety.append(f"Expires at {expiration}")
+            elif expiration == -1:
+                num_cookies_no_expire += 1
+                safety.append(f"Does not expire")
+            
+            cookie_domain_counts[domain] = cookie_domain_counts.get(domain, 0) + 1
+            cookie_domains.append(domain)
+
+            if name not in cookie_name_to_domain:
+                cookie_name_to_domain[name] = []
+            cookie_name_to_domain[name].append(domain)
+
+            if secure == "True":
+                num_cookies_secure += 1
+                safety.append("Secure")
+            elif secure == "False":
+                num_cookies_not_secure += 1
+                safety.append("Not secure")
+
+            if http == "True":
+                num_true += 1
+                safety.append("HTTP Only")
+            elif http == "False":
+                num_false += 1
+                safety.append("Not HTTP Only")
+
+            cookie_safety[name] = safety
+
+            if name not in sites_with_cookie:
+                sites_with_cookie[name] = []
+            sites_with_cookie[name].append(site)
+
+        num_cookies_exp[site] = [num_cookies_expire, num_cookies_no_expire, total_cookies]
+        num_cookies_secure[site] = [num_cookies_secure, num_cookies_not_secure, total_cookies]
+        num_http_only[site] = [num_true, num_false, total_cookies]
+
+    unique_cookie_names = list(set(cookie_names))
+    unique_cookie_domains = list(set(cookie_domains))
+
+    return unique_cookie_names, cookie_name_counts, num_cookies_exp, 
+    unique_cookie_domains, cookie_domain_counts, num_secure_cookies, 
+    num_http_only, cookie_name_to_domain, cookie_safety
+
+
+def cookies_all_websites():
+    results = RESULTS
+
+    websites = results["Website"].to_list()
+    details = get_cookie_details()
+
+    names = details[0]
+    name_counts = details[1]
+    counts = [name_counts[name] for name in names]
+
+    plt.figure(figsize=(20, 8))
+    plt.bar(names, counts, color='mediumpurple')
+    plt.title("Cookies Which Appear Across All Websites")
+    plt.xlabel("Cookie Names")
+    plt.ylabel("Number of Cookies")
+    plt.xticks(rotation=90, ha='center', fontsize=8)
+    plt.tight_layout()
+    plt.savefig("analysis/ImageFiles/all_site_cookies.png", dpi=300)
+    plt.close()
+
+def cookie_domains_all_websites():
+    results = RESULTS
+
+    websites = results["Website"].to_list()
+    details = get_cookie_details()
+
+    domains = details[3]
+    domain_counts = details[4]
+    counts = [domain_counts[name] for domain in domains]
+
+    plt.figure(figsize=(20, 8))
+    plt.bar(domains, counts, color='darkorchid')
+    plt.title("Domains for Cookies Which Appear Across All Websites")
+    plt.xlabel("Domain Names")
+    plt.ylabel("Number of Cookies at Domain")
+    plt.xticks(rotation=90, ha='center', fontsize=8)
+    plt.tight_layout()
+    plt.savefig("analysis/ImageFiles/all_site_cookie_domains.png", dpi=300)
+    plt.close()
+
+def percent_secure_cookies_by_category():
+    results = RESULTS
+
+    websites = results["Website"].to_list()
+    cookie_details = get_cookie_details()
+
+    secure = cookie_details[5]
+    percent_secure = []
+
+    categories = ["Luxury Clothing Brands", "Fast Fashion Clothing Brands", "Technology Brands", "Vehicle Brands"]
+    
+    sites_by_category ={
+        "luxury_clothing_sites" : websites[:25],
+        "fast_fashion_sites" : websites[25:50],
+        "tech_sites" : websites[50:75],
+        "vehicle_sites" : websites[75:]
+    }
+
+    for cat in sites_by_category:
+        num_secure = 0
+        tot = 0
+        for site in cat.values():
+            site_info = secure[site]
+            num_secure += site_info[0]
+            tot += site_info[2]
+
+        percent = (num_secure / tot) * 100
+        percent_secure.append(percent)
+
+    fig, ax = plt.subplots()
+    ax.pie(percent_secure, labels=categories, autopct='%1.3f%%', colors =["lightgreen","orchid","slateblue","goldenrod"])
+    plt.title("Percent Secure Cookies by Category")
+    plt.ylabel("")
+    plt.xlabel("")
+    plt.savefig("analysis/ImageFiles/percent_secure_cookies_by_cat.png", dpi=300)
+    plt.close()
+
+def percent_http_only_cookies_by_category():
+    results = RESULTS
+
+    websites = results["Website"].to_list()
+    cookie_details = get_cookie_details()
+
+    http = cookie_details[6]
+    percent_http = []
+
+    categories = ["Luxury Clothing Brands", "Fast Fashion Clothing Brands", "Technology Brands", "Vehicle Brands"]
+    
+    sites_by_category ={
+        "luxury_clothing_sites" : websites[:25],
+        "fast_fashion_sites" : websites[25:50],
+        "tech_sites" : websites[50:75],
+        "vehicle_sites" : websites[75:]
+    }
+
+    for cat in sites_by_category:
+        num_http = 0
+        tot = 0
+        for site in cat.values():
+            site_info = http[site]
+            num_http += site_info[0]
+            tot += site_info[2]
+
+        percent = (num_http / tot) * 100
+        percent_http.append(percent)
+
+    fig, ax = plt.subplots()
+    ax.pie(percent_http, labels=categories, autopct='%1.3f%%', colors =["lightgreen","orchid","slateblue","goldenrod"])
+    plt.title("Percent HTTP Only Cookies by Category")
+    plt.ylabel("")
+    plt.xlabel("")
+    plt.savefig("analysis/ImageFiles/percent_http_only_cookies_by_cat.png", dpi=300)
+    plt.close()
+
+def percent_cookies_that_do_not_expire_by_category():
+    results = RESULTS
+
+    websites = results["Website"].to_list()
+    cookie_details = get_cookie_details()
+
+    exp = cookie_details[2]
+    percent_no_exp = []
+
+    categories = ["Luxury Clothing Brands", "Fast Fashion Clothing Brands", "Technology Brands", "Vehicle Brands"]
+    
+    sites_by_category ={
+        "luxury_clothing_sites" : websites[:25],
+        "fast_fashion_sites" : websites[25:50],
+        "tech_sites" : websites[50:75],
+        "vehicle_sites" : websites[75:]
+    }
+
+    for cat in sites_by_category:
+        num_no_exp = 0
+        tot = 0
+        for site in cat.values():
+            site_info = exp[site]
+            num_no_exp += site_info[0]
+            tot += site_info[2]
+
+        percent = (num_no_exp / tot) * 100
+        percent_no_exp.append(percent)
+
+    fig, ax = plt.subplots()
+    ax.pie(percent_no_exp, labels=categories, autopct='%1.3f%%', colors =["lightgreen","orchid","slateblue","goldenrod"])
+    plt.title("Percent Cookies That Don't Expire by Category")
+    plt.ylabel("")
+    plt.xlabel("")
+    plt.savefig("analysis/ImageFiles/percent_cookies_that_do_not_expire_by_cat.png", dpi=300)
+    plt.close()
+
+def cookie_datatable():
+    results = RESULTS
+    websites = results["Website"].to_list()
+    cookie_details = get_cookie_details()
+    df_info = {}
+
+    col_names = ["Domains Associated With", "Cookie Expiration", "Cookie Security", "HTTP Only Status", "Total Number of Sites With Cookie", 
+    "Number of Luxury Clothing Companies With Cookie", "Number of Fast Fashion Companies With Cookie", "Number of Technology Companies With Cookie", 
+    "Number of Car Companies with Cookie"]
+
+    cookie_names = cookie_details[0]
+
+    num_cookies = cookie_details[1]
+    name_to_domain = cookie_details[7]
+    cookie_safety = [8]
+
+    for name in cookie_names:
+        info_list = []
+
+        associated_domains = name_to_domain.get(name)
+        info_list.append(associated_domains)
+
+        safety_features = cookie_safety.get(name)
+        for safety_feature in safety_features:
+            info_list.append(safety_feature)
+
+        appears_on = num_cookies.get(name)
+        info_list.append(appears_on)
+
+        category_appearances = calc_num_appearances_by_cat(name, websites)
+        info_list.append(category_appearances[0])
+        info_list.append(category_appearances[1])
+        info_list.append(category_appearances[2])
+        info_list.append(category_appearances[3])
+
+        df_info[name] = info_list
+
+    df = pd.DataFrame(df_info)
+    to_csv("analysis/cookie_summary_data.csv")
+
+
+def calc_num_appearances_by_cat(cookie_name, websites):
+    sites_by_category = {
+        "luxury_clothing_sites" : websites[:25],
+        "fast_fashion_sites" : websites[25:50],
+        "tech_sites" : websites[50:75],
+        "vehicle_sites" : websites[75:]
+    }
+
+    appears_on = []
+    
+    for category, websites in sites_by_category.items():
+        cat_count = websites.count(cookie_name)
+        appears_on.append(cat_count)
+    
+    return appears_on
 
 def summary_statistics():
     results = RESULTS
-    summary_stats = results.describe())
+    summary_stats = results.describe()
+    summary_stats.to_csv("analysis/summary_statistics.csv")
 
 def correlation_matrix(column1, column2):
     results = RESULTS
     corr_matrix = results[[column1, column2]].corr()
+
+def main():
+    pages_per_website()
+    cookies_per_website()
+    avg_pages_cookies_by_category()
+    pages_cookies_by_category()
+    page_cookie_correlation()
+    mixed_content()
+    num_dnsmpi_links()
+    cookies_to_dnsmpi_links()
+    cookies_with_http_only_tf()
+    cookies_all_websites()
+    cookie_domains_all_websites()
+    percent_secure_cookies_by_category()
+    percent_http_only_cookies_by_category()
+    percent_cookies_that_do_not_expire_by_category()
+
+    summary_statistics()
+    cookie_datatable()
