@@ -11,6 +11,8 @@ You will need the following libraries to generate visualizations for the data:<u
 <li>matplotlib
 <li>numpy
 <li>statistics
+<li>scipy
+<li>adjustText
 </ul>
 
 Make the following directories inside HtmlToPlaintext: <code>./ext/html_policies</code> and <code>./ext/plaintext_policies</code> <br><br>

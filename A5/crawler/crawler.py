@@ -7,6 +7,7 @@ from playwright.sync_api import sync_playwright
 import csv
 import matplotlib.pyplot as plt
 
+
 USER_HEADERS = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"
 EXTRA_HEADERS = {
     "Accept-Language": "en-US,en;q=0.9",
@@ -264,7 +265,6 @@ def main():
         hyperlinks_in_url = {}
         privacy_page_hyperlinks = {}
         link = link.strip()
-        print(link)
         mixed_results = check_mixed_content(link)
         policies_result = check_policites(link)
 
@@ -290,9 +290,6 @@ def main():
                             testFile.write(f"{current_page_index}\n")
                             if priv_policy_page in dnsmpi_links.get(website):
                                 dnsmpi_content.append(pol_content)
-                        else: 
-                            with open('links_that_donot_work.txt', "w+") as bad:
-                                bad.write(website + "\n")
 
                 nDNSMPI = num_dnsmpi_links[website]
                 if nDNSMPI > 0:
