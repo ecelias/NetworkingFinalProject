@@ -128,7 +128,7 @@ def scrape_homepages_for_privacy_policy_pages(filename):
 
 def scrape_for_priv_policy(homepage, policypage, current_policy_page):
     page_name = homepage + policypage
-    if "https" in policypage:
+    if "http" in policypage:
         page_name = policypage
     try:
         with sync_playwright() as p:
@@ -251,7 +251,7 @@ def check_policites(link):
     
     
 def main():
-    file = open('raw_website_links.txt', 'r+')
+    file = open('crawler/car.txt', 'r+')
     #test
     testFile = open("testFile.txt", "a")
     csvResults = []
@@ -262,6 +262,7 @@ def main():
         hyperlinks_in_url = {}
         privacy_page_hyperlinks = {}
         link = link.strip()
+        print(link)
         mixed_results = check_mixed_content(link)
         policies_result = check_policites(link)
 
@@ -305,14 +306,15 @@ def main():
 
             json_filename = "analysis/privacy_policy_data.json"
             # Dump the dictionary to a JSON file
-            with open(json_filename, 'w') as json_file:
+            with open(json_filename, 'a') as json_file:
                 json.dump(privacy_policy_content, json_file, indent=4)  # Use indent for pretty formatting
 
     testFile.close()
     if csvResults:
-        with open("data/csvData.csv", "w", newline="") as file:
+        with open("data/csvData.csv", "a", newline="") as file:
             writer = csv.writer(file)
-            writer.writerow(["Website", "Number of Pages", "Number of Cookies", "Contains DNSMPI-associated Content?", "DNSMPI Content", "Cookie Information", "HTTP/HTTPS Policies Category", "Mixed Content"])
+            if file.tell() == 0:  # Check if file is empty to write the header row only once
+                writer.writerow(["Website", "Number of Pages", "Number of Cookies", "Contains DNSMPI-associated Content?", "DNSMPI Content", "Cookie Information", "HTTP/HTTPS Policies Category", "Mixed Content"])
             writer.writerows(csvResults)
     else:
         print("No results to write to the CSV file.")
