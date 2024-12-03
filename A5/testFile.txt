@@ -618,3 +618,146 @@ https://www.jimmychoo.com
 4
 5
 Written on csv form: https://www.jimmychoo.com, 5, 26
+https://www.cadillac.com/
+Written on csv form: https://www.cadillac.com/, 0, 26
+https://www.rolls-roycemotorcars.com/en_US/home.html
+1
+2
+3
+4
+Written on csv form: https://www.rolls-roycemotorcars.com/en_US/home.html, 4, 3
+https://www.fiat.com/
+1
+2
+3
+Written on csv form: https://www.fiat.com/, 3, 4
+https://www.lexus.com/
+Written on csv form: https://www.lexus.com/, 0, 0
+https://shop.mango.com/us/en
+1
+2
+3
+4
+5
+Written on csv form: https://shop.mango.com/us/en, 5, 6
+https://www.bershka.com/us/
+Written on csv form: https://www.bershka.com/us/, 0, 7
+https://www.pullandbear.com/us/
+1
+Written on csv form: https://www.pullandbear.com/us/, 1, 14
+https://www.yesstyle.com/en/
+1
+2
+Written on csv form: https://www.yesstyle.com/en/, 2, 31
+https://www.stradivarius.com/us/
+Written on csv form: https://www.stradivarius.com/us/, 0, 15
+https://charlotterusse.com/
+Written on csv form: https://charlotterusse.com/, 0, 28
+https://www.rolls-roycemotorcars.com/en_US/home.html
+1
+2
+3
+4
+Written on csv form: https://www.rolls-roycemotorcars.com/en_US/home.html, 4, 3
+https://www.fiat.com/
+1
+2
+3
+Written on csv form: https://www.fiat.com/, 3, 4
+https://www.miniusa.com/
+1
+Written on csv form: https://www.miniusa.com/, 1, 19
+https://www.peugeot.com/en/
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Written on csv form: https://www.peugeot.com/en/, 10, 5
+https://suzuki.com/
+Written on csv form: https://suzuki.com/, 0, 3
+https://www.alfaromeousa.com/
+1
+2
+Written on csv form: https://www.alfaromeousa.com/, 2, 19
+https://www.pullandbear.com/us/
+1
+Written on csv form: https://www.pullandbear.com/us/, 1, 14
+https://www.yesstyle.com/en/
+1
+2
+Written on csv form: https://www.yesstyle.com/en/, 2, 29
+https://us.peppermayo.com/
+1
+2
+Written on csv form: https://us.peppermayo.com/, 2, 43
+https://www.lulus.com/
+1
+2
+3
+4
+5
+6
+Written on csv form: https://www.lulus.com/, 6, 44
+https://www.showpo.com/us/
+1
+2
+3
+Written on csv form: https://www.showpo.com/us/, 3, 37
+https://www.glassons.com/
+1
+2
+3
+4
+Written on csv form: https://www.glassons.com/, 4, 35
+https://www.moncler.com/en-us/
+1
+2
+3
+4
+5
+6
+Written on csv form: https://www.moncler.com/en-us/, 6, 16
+https://www.oscardelarenta.com/
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+Written on csv form: https://www.oscardelarenta.com/, 18, 29
+https://www.therow.com/
+1
+2
+3
+4
+5
+6
+Written on csv form: https://www.therow.com/, 6, 14
+https://www.driesvannoten.com/en-us
+1
+2
+3
+4
+5
+6
+7
+8
+Written on csv form: https://www.driesvannoten.com/en-us, 8, 17

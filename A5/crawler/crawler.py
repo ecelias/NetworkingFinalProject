@@ -251,7 +251,7 @@ def check_policites(link):
     
     
 def main():
-    file = open('crawler/car.txt', 'r+')
+    file = open('crawler/lux.txt', 'r+')
     #test
     testFile = open("testFile.txt", "a")
     csvResults = []
