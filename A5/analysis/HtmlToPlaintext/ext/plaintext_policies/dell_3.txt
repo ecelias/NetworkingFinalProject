@@ -194,7 +194,7 @@ Community
 Deals
 Back 
 Deals
-Black Friday Deals
+Cyber Monday Deals 
 Laptop Deals
 Desktop Deals
 Gaming PC Deals
@@ -226,7 +226,7 @@ US/EN
 Back 
 How can we help you?
 Chat with a LIVE sales agent 24 hours all weekdays (Mon-Fri) 
-7 a.m. to 11 p.m. USA CT ; weekends (Sat-Sun)
+7 a.m. to 11 p.m. USA CT; weekends (Sat-Sun)
 Call sales: 1-877-275-3355 Home: 8 a.m. to 10 p.m. USA CT, (Mon-Sat) 
 Business: 7 a.m. to 8 p.m. USA CT, (Mon-Sat) 
 Technical support
@@ -236,7 +236,7 @@ Contact Us Contact Us
 Computers, Monitors & Technology Solutions
 WHY BUY DIRECT FROM DELL
 Smarter Shopping Starts Here
-Shop confidently. If our price goes lower, we'll match it. Get 2x in Dell Rewards, plus free shipping and extended returns during the holiday season.
+Shop confidently. If our price goes lower, we'll match it. Plus, free shipping and extended returns during the holiday season.
 Dell Price Guarantee. ** For more information about Dell Rewards."]" smrt-close-label="Close">
 Shop Now Learn More 
 1/3
@@ -248,14 +248,14 @@ Explore AI Solutions
 1/3
 Pause
 LOWEST PRICES OF THE YEAR
-Black Friday Deals Are Now Live
+Cyber Monday Deals Continue
 Save up to $845 with limited-time deals on PCs, monitors & more. Plus, Dell Rewards members receive 2x (6%) rewards.
 PC Deals Monitor Deals 
 1/3
 Pause
 WHY BUY DIRECT FROM DELL
 Smarter Shopping Starts Here
-Shop confidently. If our price goes lower, we'll match it. Get 2x in Dell Rewards, plus free shipping and extended returns during the holiday season.
+Shop confidently. If our price goes lower, we'll match it. Plus, free shipping and extended returns during the holiday season.
 Dell Price Guarantee. ** For more information about Dell Rewards."]" smrt-close-label="Close">
 Shop Now Learn More 
 1/3
@@ -267,14 +267,14 @@ Explore AI Solutions
 1/3
 Pause
 LOWEST PRICES OF THE YEAR
-Black Friday Deals Are Now Live
+Cyber Monday Deals Continue
 Save up to $845 with limited-time deals on PCs, monitors & more. Plus, Dell Rewards members receive 2x (6%) rewards.
 PC Deals Monitor Deals 
 1/3
 Pause
 WHY BUY DIRECT FROM DELL
 Smarter Shopping Starts Here
-Shop confidently. If our price goes lower, we'll match it. Get 2x in Dell Rewards, plus free shipping and extended returns during the holiday season.
+Shop confidently. If our price goes lower, we'll match it. Plus, free shipping and extended returns during the holiday season.
 Dell Price Guarantee. ** For more information about Dell Rewards."]" smrt-close-label="Close">
 Shop Now Learn More 
 1/3
@@ -289,26 +289,26 @@ Data Storage
 Dell APEX Multicloud & aaS 
 Dell Technologies Showcase
 Featured Products and Solutions
-NEW XPS 13 LAPTOP
-Effortless Mobility. Powerful AI*.
-XPS 13 with Intel Core Ultra processors Series 2 enables multi-day battery life up to 26 hours.
-Shop Now 
+COPILOT+ PCS
+A New Era of AI PCs
+Get exceptional performance with Snapdragon X Series and on-device AI.
+Shop Now Learn More 
 LATITUDE LAPTOPS
 AI-Enhanced Productivity
 Unlock next-level computing with AI PCs and Intel Core Ultra processors.
 Shop Now Learn More 
-BLACK FRIDAY
-Biggest Sale of The Year
+CYBER MONDAY
+Lowest Prices of The Year
 Save up to 20% with limited-time deals on top branded electronics, monitors & more.
 Monitor Deals Accessories Deals 
-BLACK FRIDAY
-Biggest Gaming Sale of The Year
+CYBER MONDAY
+Lowest Gaming Prices of The Year
 Game smarter, not harder with our latest high-performance gear and accessories.
 Monitor Deals Accessories Deals 
-POWEREDGE
-Powerful Servers For Diverse Workloads
-Experience breakthrough performance with the latest PowerEdge Servers.
-Shop Now Learn More 
+STORAGE, SERVERS, NETWORKING
+Flexible, Scalable IT Solutions
+Power transformation with server, storage and network solutions that adapt and scale to your business needs.
+Shop Servers Shop Storage 
 WE'VE GOT YOU COVERED
 We Have More Than Just PCs
 Equip your home and workspace with the right accessories.
@@ -348,8 +348,8 @@ Discover how we're shaping a better future today
 Pause 
 Latest from Dell Technologies
 What's Happening
-Harness the full potential of AI at Dell Technologies Forum
-Register Now 
+What We Do
+Learn More 
 Four Keys to Optimal Outcomes with Generative AI
 Learn More 
 Building your innovation muscle in the era of AI
@@ -359,7 +359,7 @@ Learn More
 View Newsroom Visit Blog 
 DELL REWARDS
 Limited Time 2X Rewards
-Black Friday deals are now live. Plus, Dell Rewards members get 2X rewards (6%) until November 27th.
+Dell Rewards members get 2X rewards (6%) until December 9th.
 Learn More
 US/EN
 Site Map 

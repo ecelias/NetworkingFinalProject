@@ -1,0 +1,192 @@
+Skip To Main
+Want to see what we're up to? Get updates from Rivian.
+R1S
+R1T
+R2
+R3
+Rivian full brand logo in white text
+Demo Drive
+Sign In
+Sign In
+Rivian full brand logo in white text
+Privacy Hub
+Your personal data guide
+Data Privacy Notice
+Data underpins our differentiated technology and enables us to provide a superior customer experience. We collect and use this data to provide our products and make continuous improvements, such as increasing the range and reliability of Rivian vehicles and identifying opportunities to make customer journeys even safer.
+Our customers trust us with this information. We view that trust as incredibly important to Rivian's mission. We also understand the great responsibility that comes with this data, especially where it is personal.
+Introduction
+Privacy Hub
+Introduction
+Privacy Principles
+Data collection and use
+Recent privacy updates
+FAQ
+Data Privacy Notices
+Your privacy rights
+Support
+Rivian's Privacy Principles
+Our principles serve as the foundation to building and maintaining trust with our customers
+Take ownership
+Privacy is a shared responsibility of all Rivian employees.
+We are stewards of the personal data that we collect and process. We view strong data privacy controls as essential to building and maintaining the trust of our customers.
+Design thoughtfully
+Privacy is foundational to our mission and our products.
+We consider privacy early and often throughout the product development process. We strive to meet or exceed consumer expectations and build for the future of privacy. 
+Inform and empower
+Customers and employees deserve meaningful transparency and choice for personal data.
+We are transparent regarding our personal data practices. We give customers choice commensurate with data sensitivity and use so they are in the driver's seat with respect to their personal data. 
+Treat data responsibly
+We are intentional in our collection, use, and sharing of personal data.
+We collect, use, and retain the minimum amount of personal data required to accomplish the specific purpose. We do not sell personal data to third parties. 
+Protect personal data
+Privacy depends on our implementation of effective data safeguards.
+From the design stage forward, cybersecurity is considered, implemented and updated through a robust combination of hardware and software protections.
+Rivian's personal data collection and use
+The data we collect and use depends on how individuals interact with us, the products they use, and the privacy choices they make. Explore each of our major products and services below to understand more about how we use personal data.
+Vehicles
+Charging
+Mobile App
+Website and Other Interactions
+Recent privacy updates
+We are working hard to set a high bar for privacy in the automotive space. Read about some of our recent efforts below.
+key
+key
+key
+key
+key
+key
+key
+key
+Gear Guard Live Streaming
+Sep 25, 2024. Rivian launched a new Gear Guard Live Cam feature to stream video from the vehicle to the Rivian Mobile App with built-in privacy and security protections.
+Read the full update
+key
+key
+key
+key
+key
+key
+key
+key
+Welcome to the 
+Privacy Hub
+Sep 16, 2024. Rivian published the "Privacy Hub," a centralized place to provide information to customers regarding Rivian's personal data practices.
+Read the full update
+key
+key
+key
+key
+key
+key
+key
+key
+Allons-y! Deliveries 
+Begin in Quebec
+June 13, 2024. Rivian began deliveries of R1 vehicles to customers in Quebec with a localized privacy experience in the vehicle and on the web.
+Read the full update
+key
+key
+key
+key
+key
+key
+key
+key
+Gen 2 Vehicles 
+Launched
+June 6, 2024. Rivian introduced the second-generation of its flagship vehicles, which include new privacy controls for exterior and interior cameras.
+Read the full update
+Frequently asked questions
+What choices do I have regarding my vehicle cameras? 
+Interior Camera: Vehicles built for model year 2025 and onward are equipped with an interior camera in the rearview mirror. If you choose to enable data sharing from the interior camera, images of the vehicle cabin and data derived from these images will be shared with Rivian to improve and develop vehicle safety systems, including machine-learning models and the driver monitoring system, which can help detect driver distraction and drowsiness. Vehicles built before model year 2025 have an interior camera that was previously disabled with an OTA software update.
+Exterior Cameras: The vehicle's exterior cameras can capture images for Gear Guard, product improvement, and in the event of a crash. For model year 2025 and onward, you may choose to opt out of sharing these images for product improvement purposes. See the "Data and Privacy" screen of the vehicle's Settings menu for more information and to adjust these settings. Images are not captured for this purpose from vehicles built before model year 2025.
+See our Data Privacy Notice, Vehicles, Your Privacy Choices for more information.
+Do you share my data with insurance companies? 
+Rivian shares information with insurance companies only as directed by customers or as required by law (e.g., when we receive a subpoena, which may come from law enforcement or an insurance company). For example, Rivian's Insurance team periodically reviews a limited set of customer driving data and contacts the customers who may qualify for an insurance discount based on this data. If the driver is interested in understanding the potential discount, and explicitly requests that Rivian share their data with our insurance partner, then we share the limited driving data with the partner. 
+Rivian does not share data with telematic exchange companies, such as LexisNexis or Verisk. 
+Can I access my vehicle data?
+We provide two options to obtain certain data from your vehicle: vehicle Data Summary Report: We can provide a summary report that contains key data and metrics for the vehicle on a daily basis, such as the vehicle's end-of-day odometer, battery state-of-charge, and approximate location. This report should cover the last twelve months or the length of time you have owned the vehicle, whichever is less. 
+We provide two options to obtain certain data from your vehicle: incident/Event Report: We can provide data from your vehicle for a specific date and time (maximum 1 hour window), e.g., data from the time of a collision. The data provided is subject to Rivian's discretion and availability and may change at any time. 
+Vehicle owners can request either of the above by completing Rivian's Vehicle Data Request form at rivn.co/vdr. 
+In the event of a collision, data may be recorded on the vehicle's Event Data Recorder, which is a sort of "black box" that is physically located on the vehicle. Rivian does not access this data without explicit customer consent. To access your own EDR data following a collision, please reach out to Rivian Service and request a mobile service visit for this purpose. Due to our vehicles' weight classification, we do not provide a commercially available tool for retrieving or interpreting EDR data. 
+Members of law enforcement should see our guidance on Law Enforcement Data Requests. Legal representatives should see our guidance on Civil Service of Process and Third-Party Data Requests. 
+Can I disable all data collection from my vehicle? 
+Vehicle connectivity is a core feature of Rivian vehicles. If you choose to disable all vehicle connectivity, it will prevent data from leaving the vehicle, but it will also limit or disable certain functionality in the vehicle (e.g., navigation, lane keeping assistance, and over-the-air updates, which provide new features, better performance, safety enhancements, and bug fixes). 
+To disable all cellular connectivity of the vehicle in Canadian vehicles, use the toggle in the "Data and Privacy" screen of the vehicle's Settings menu. For non-Canadian vehicles, you may reach out to Rivian Service to request that we disable the eSIM card in the vehicle through a service appointment. Note that disabling connectivity will have no impact on any Rivian subscriptions you may have (e.g., Connect+) -- those will need to be cancelled separately. 
+What data does Rivian share with vehicle charging partners?
+Rivian shares a limited amount of data with third-party plug and charge partners to enable seamless charging without needing extra authentication. Both Rivian and the third-party partner can see session details, such as the charging location, total energy consumed, and session cost, but the third-party partner receives only an encoded EMAID (E-Mobility Authentication Identifier). The third party does not receive your VIN, name, email, etc. Rivian does not share your contact details with the third-party partner, though the third party may already have them if you provided them directly, such as through their mobile app registration.
+If you choose to link your Rivian account with your third-party charging company account, Rivian will search for your Rivian account email address in the third-party's account database. If no matching email is found, Rivian will create an account for you with the third party and provide your Rivian-registered email, first name, last name, and primary address to the third party. Both Rivian and the third-party charging partner will have access to session details, including the charging location, total energy consumed, and session cost. 
+What privacy choices do I have for the Rivian app? 
+You have choices such as whether to allow the Rivian app to collect and use real-time information about your device's location (needed in most cases to use your Rivian app as a key to your Rivian), whether you want to receive notifications, and whether to allow the collection of usage data for the improvement of the app. Visit "Manage account, Data and privacy " in the Settings menu of the Rivian app and the Location/Notification settings in your device's operating system to adjust these settings. 
+Does Rivian use cookies and other tracking technologies on its website? 
+Yes. We use cookies and other tools, such as pixel tags (also known as clear GIFs, web bugs, or web beacons) (collectively, "cookies") through Google Analytics, session replay tools, and similar technologies to automatically collect certain information about your equipment, browsing actions, and patterns when you use our Sites or services. We also utilize Google's integrated services that require Google Analytics to collect data for advertising purposes, including the collection of data via advertising cookies and identifiers. You can opt out of this activity by visiting our Cookie Notice and clicking "Manage Preferences" at the top. 
+How do I unsubscribe from Rivian emails and text messages? 
+If you receive an unwanted marketing email from us, you can click "Preferences" at the bottom of the email and update your preferences or unsubscribe from future mailings. Note that you will continue to receive transaction-related emails regarding products or services you have requested. You may opt out of receiving text messages from us by following the instructions in the text message you have received from us or by contacting us. Note that you may still receive communications from Rivian regarding safety issues, such as vehicle recall notifications, even if you have opted out. Please see additional terms here. For any questions on the above, please contact Customer Service. 
+Does Rivian sell personal data? 
+No. We do not sell personal data or personal information.
+We do share limited personal data with third-party advertisers for Rivian's targeted advertising or marketing purposes (also known as "cross-context behavioral advertising"). You may opt out of this activity by: visiting our Privacy Rights Request form and submitting an "Do Not Sell/Share My Personal Information" request and 
+We do share limited personal data with third-party advertisers for Rivian's targeted advertising or marketing purposes (also known as "cross-context behavioral advertising"). You may opt out of this activity by: visiting our Cookie Notice, clicking "Manage Preferences," and opting out of Targeted Advertising Cookies. 
+View all FAQ in Support Center
+Data Privacy Notices
+We strive to be transparent regarding our personal data practices. Our data privacy notices describe how we collect, use, and disclose personal data from consumers and job candidates.
+Consumers
+Data Privacy Notice
+Our personal data practices for Rivian products, services, applications, and websites
+Cookie Notice
+Our personal data practices for Rivian products, services, applications, and websites
+GLBA Financing Privacy Notice
+How Rivian shares the information it gets when you obtain financial services products from Rivian Financial Services
+GLBA Insurance Privacy Notice
+How Rivian Insurance Services shares your information when you shop for insurance products
+Autonomy Vehicle Public Filming Data Privacy Notice
+How we use data from Rivian-owned or -operated vehicles to enhance vehicle safety features
+Candidates
+Candidate Privacy Notice
+Details about the collection and use of personal information by Rivian from job applicants.
+Avis de confidentialité des données des candidat
+Les pratiques de Rivian en matière de traitement des données personnelles pour les candidats et postulants à un emploi
+Obaveštenje o privatnosti za kandidate za posao (Srbija)
+Rivianove prakse obrade podataka o ličnosti, za kandidate za posao
+Rivian 针对中国求职人员和应聘人员的, 个人数据处理方案
+Your privacy rights
+In addition to privacy choices within our products, you may be entitled to certain privacy rights as provided by applicable laws. We will acknowledge and coordinate these requests in a timely manner. We will not discriminate against you for exercising any of your privacy rights. Visit our webform to exercise your privacy rights.
+Privacy support
+Still need help? Please contact us.
+key
+key
+Never miss an adventure, get updates, offers and invites.
+Email
+ZIP Code
+By submitting, I agree to receive future communications from Rivian and I have read and agree to Rivian's Terms and acknowledge the Data Privacy Notice.
+R1T
+R1S
+R2
+Spaces
+Gear Shop
+Our Company
+Stories
+Fleet
+Education
+Purchasing
+Charging
+Insurance
+Service
+Company
+Investors
+Resources
+Support
+US
+2024 Rivian. All Rights Reserved.
+Terms
+Privacy
+Cookies
+Legal
+Recalls
+Accessibility
+Your privacy choices
+Chat
+First Name
+Last Name
+Email
+Chats are transcribed for customer service and quality assurance purposes. Please see the Rivian Privacy Policy for more information.
+Next

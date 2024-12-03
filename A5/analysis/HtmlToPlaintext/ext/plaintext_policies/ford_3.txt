@@ -1,123 +1,14 @@
-Video Player is loading.
-Play Video
-Play. Enter or spacebar to toggle. Skip BackwardSkip Forward
-Unmute
-Current Time 0:00
-Duration 0:00
-Loaded: 0%
-Stream Type LIVE
-Seek to live, currently behind liveLIVE
-Remaining Time -0:00
-1x
-Playback Rate
-Chapters
-Chapters
-Descriptions
-descriptions off, selected
-Captions. Alt plus q to toggle.
-captions settingsCaptions. Alt plus q to toggle.
-captions offCaptions. Alt plus q to toggle.
-Audio Track
-Picture-in-PictureFullscreen
-This is a modal window.
-Beginning of dialog window. Escape will cancel and close the window.
-TextColorOpacityText BackgroundColorOpacityCaption Area BackgroundColorOpacity
-Font SizeText Edge StyleFont Family
-ResetDone
-Close Modal Dialog
-End of dialog window.
-Close Modal Dialog
-This is a modal window. This modal can be closed by pressing the Escape key or activating the close button.
-View Offers 
-Offer Details
-Optional equipment, features and extra cost colors shown throughout. Customer can defer first payment up to 90 days. Not all buyers will qualify for Ford Credit limited-term financing. 60 months at $17.48 per month per $1,000 financed, regardless of down payment. For APRs other than 0%, finance charges continue to accrue during deferral period. Deferred first payment not allowed in Pennsylvania on APR higher than 0%. For all offers take new retail delivery from an authorized Ford Dealer's stock by 1/2/25. See dealer for qualifications and details.
-Build & Price
-Build & Price
-Personalize your new vehicle.
-Get a Quote
-Get a Quote
-See pricing from your local dealer.
-Search Inventory
-Search Inventory
-Find your Ford Vehicle.
-Welcome Back. Now, Where Were We?
-2. 
-Vehicle Details
-Extra-cost color option shown. 
-Based on S&P Global Mobility 1946-current U. S. Total New Cumulative Registrations, for all vehicles identified as SUVs. Available for retail order now. Arriving early 2025. See dealer for details.
-America's Best-Selling SUV* Updated and Reimagined
-The 2025 Ford Explorer has been redesigned inside and includes some exterior updates too. From unique grilles and wheels to seating and interior colors....less
-Search Inventory 
-Meet the 2025 Explorer
-Support on the Road to Recovery
-The SupportBelt is the first seat belt accessory designed by a U. S. automaker to help mastectomy patients travel comfortably after surgery....less
-Important Details
-Learn More 
-Get Yours 
-The Power is Yours 
-Get pumped up. Get plugged in. Or do a little bit of both. While finding your next Ford vehicle, one thing's more important than the power you choose: What you choose to do with it....less
-Choose Your Power
-Gas, EcoBoost 
-Hybrid
-Electric
-Diesel
-Choose Your Power
-How Will You Power Up?
-Pick a Powertrain 
-Vehicle Details
-Optional equipment shown.
-Gas, EcoBoost 
-Gas Power
-Explore Gas, Ecoboost 
-Vehicle Details
-2024 Ford Mustang with optional equipment in extra-cost color Yellow Splash Metallic Tri-Coast option shown.
-Hybrid
-Hybrid Versatility
-Explore Hybrid Power 
-Vehicle Details
-When properly equipped. Max towing varies based on cargo, vehicle configuration, accessories, and number of passengers.
-Electric
-All-Electric
-Explore EV Power 
-Vehicle Details
-Available at Ford EV-certified dealers only. 2023 Ford Mustang Mach-E Premium with optional equipment and extra cost color shown.
-Diesel
-Diesel Muscle
-Explore Super Duty
-Vehicle Details
-When properly equipped. Max towing varies based on cargo, vehicle configuration, accessories, and number of passengers.
-127 
-.","metrics":{}}" data-overlay-theme="mediaOverlay" data-overlay-defaultstage="detailStateOne" tabindex="0" role="button" data-fgx-keypress="true" data-fd-metrics-click="{"id":"action0020","app":"Brand","variables":{"onclick_onclickLinkName":"{($sitePrefix)}:home:content:action","onclick_onclick":"hp content:photo click","onclick_contentType":"hp:none:features"}}">
-Hands-Free Highway Driving
-Experience the magic of hands-free highway driving on 97% of controlled access highways in U. S. and Canada.127 
-..less
-Explore BlueCruise 
-Ford Connected Services
-Available features you can add-on to your Ford vehicle post-purchase to enrich your ownership experience....less
-Explore Connected Services 
-Complimentary Pickup & Delivery
-Let your Ford Dealer come to you for routine maintenance....less
-Learn More 
-2. 
-Thrilling. Liberating. Hardworking. Iconic. 
-Vehicle Details
-24MY EcoBoost with optional Bronze Appearance Package in Vapor Blue (extra cost color).
-Mustang 
-Raising heart rates for 60 years. Tailor the perfect Mustang for you, whether it's a workday or track day....less
-Explore Mustang 
-Vehicle Details
-Optional equipment and available Ford accessories shown. 
-Always consult the Owner's Manual before off-road driving, know your terrain and trail difficulty, and use appropriate safety gear.
-Bronco
-The trail awaits. So take off the doors, strap in, and unleash the SUV that's synonymous with adventure....less
-Explore Bronco 
-F-150
-If there's work to be done or weekend fun to be had, just look around. A Ford F-150 truck is probably there....less
-Explore F-150 
-2. 
-Send Me Ford Updates 
-Don't miss out. Get the latest on our newest vehicles, offers, product updates and more....less
-Sign Up 
+Your Privacy Choices
+For all visitors to a Ford website, this page describes how you may opt out of the disclosure and use of personal information we collect through certain cookies or other online advertising technologies (collectively, "Cookies"), including opting out of Sales and Sharing for residents of California and Sales and Targeted Advertising for residents of Colorado, Connecticut, Montana, Oregon, Texas, Utah, and Virginia (as those Capitalized terms are defined by each state's law). 
+For residents of California, this page describes how you can also opt out of Sales or Sharing of Personal Information other than through Cookies. 
+For residents of Colorado, Connecticut, Montana, Oregon, Texas, Utah, and Virginia, this page describes how you can also opt out of offline Sales or Targeted Advertising.
+Opting out of Cookies
+All users to our websites can opt out of disclosures we make to certain advertising and analytics partners by setting your Cookie preferences, which you can access by clicking on the "Cookie Settings" link at the bottom of this website. Note that this opt-out will apply only to the device or browser you are using when submitting the request. You may also opt out of these disclosures by using the Global Privacy Control, which is designed to recognize opt-out preference signals. To send your request through an opt-out preference signal, you must use a browser or extension supporting the preference signal and must turn it on for each browser and each device you use.
+Additional opt-out rights for residents of California
+California residents may direct Ford not to Sell or Share your Personal Information through Cookies by using the Cookie Settings link, as described above, or through the Global Privacy Control, which is designed to recognize opt-out preference signals. To process your request through an opt-out preference signal, you must use a browser or extension supporting the preference signal. If you choose to use an opt-out preference signal, you will need to turn it on for each browser and each device you use. In addition, residents of California may direct Ford not to Sell or Share your Personal Information through activities other than Cookies by submitting a Do Not Sell or Share My Personal Information request through this form.
+Additional opt-out rights for residents of Colorado, Connecticut, Montana, Oregon, Texas, Utah, and Virginia
+In addition to opting out of Targeted Advertising through the Cookie Settings link in the footer of this page, residents of Colorado, Connecticut, Montana, Oregon, Texas, Utah, and Virginia may exercise the following additional rights: opt Out of the Sale of Personal Data: You may direct Ford not to Sell your Personal Data through activities other than Cookies by submitting an opt-out request through this form.
+In addition to opting out of Targeted Advertising through the Cookie Settings link in the footer of this page, residents of Colorado, Connecticut, Montana, Oregon, Texas, Utah, and Virginia may exercise the following additional rights: opt Out of Targeted Advertising: You may direct Ford not to use your Personal Data for Targeted Advertising through activities other than Cookies by submitting an opt-out request through this form. 
 close
 close Zip Code
 Select location 

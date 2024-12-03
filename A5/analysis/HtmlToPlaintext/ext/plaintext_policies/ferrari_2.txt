@@ -1,0 +1,30 @@
+Welcome to the CCPA Privacy Web Form
+You can use this form to submit a request regarding your personal information. Please complete this form and we will respond as soon as possible.
+For more details and information about how we use and protect your personal information, please visit our Privacy Policy.
+If you want to object to your data processing and if you want us to update your data, please use the GDPR privacy Web Form.
+Thank you!
+I am submitting this information on behalf of: 
+Myself 
+Someone else 
+In case you are submitting the request on behalf of someone else, please attach a delegation signed. 
+In case you are submitting the request on behalf of someone else, please attach a delegation signed. 
+Select the Right You Want to Exercise: 
+Access My Information 
+Delete My Information 
+Do Not Sell My Information 
+First Name 
+Enter the first name of the data subject 
+Enter the first name of the data subject
+Last Name 
+Enter the last name of the data subject 
+Enter the last name of the data subject
+Email 
+Enter email for correspondence with the data request. 
+Enter email for correspondence with the data request.
+Request Details 
+Enter any additional information in this section that will help us process your request. Please refrain from entering any personal information. 
+Enter any additional information in this section that will help us process your request. Please refrain from entering any personal information.
+0/ 5000 You have entered 0 of 5000 characters 
+Select a File 
+Files larger than 4 MB are not supported.
+Submit

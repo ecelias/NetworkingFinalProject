@@ -91,3 +91,40 @@ Please enter a valid ZIP Code.
 Use my current location
 Confirm
 Ask HeyHyundai
+Welcome to Hyundai!
+By using our websites, you agree to our use of cookies and Terms of Use. For more information or to manage cookie preferences, read our Privacy Policy or click Cookie Preferences. 
+Cookie Preferences Accept
+Privacy Preference Center
+When you visit our website, we use cookies and similar technologies ("cookies"), which may collect browsing and usage information. Some of these cookies may be provided by third parties. We and these third parties use the information collected via cookies to operate and improve the website and our business, provide you with more personalized experiences, deliver advertising, understand how users interact with the website and other websites, secure our website and online services, and identify and prevent fraud. You can opt out of most cookies on our website, other than those that are necessary to effectively operate and secure our website and online services. 
+Opt out of targeted advertising: our website includes Targeting Cookies that enable us and third parties to collect and use information about your device, browser and online activity for purposes of targeted advertising, on behalf of us and others. You may opt out of these on our website by turning off Targeting Cookies below. Your opt out is browser specific. So, if you come back to this website from a different device or use a different browser on the same device, you will need to opt out Targeting Cookies for that browser and device as well. Please review our Privacy Policy for more information about your privacy rights and choices regarding our information practices. 
+More information
+Allow All
+Manage Consent Preferences
+Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details 
+Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Performance Cookies
+Switch Label label
+Cookies Details 
+Targeting Cookies
+Targeting Cookies
+These cookies collect information that is shared with third parties that may use the information for their own purposes. These cookies support business purposes such as marketing and market research, targeted advertising, and managing social media connections. If you disable Targeting Cookies, we may continue to present generic or contextual advertising to you.
+Targeting Cookies
+Switch Label label
+Cookies Details 
+Back Button
+Cookie List
+Search Icon
+Filter Icon
+Clear
+checkbox label label
+Apply Cancel
+Consent Leg. Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Confirm My Choices

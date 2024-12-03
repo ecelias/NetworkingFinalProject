@@ -1,0 +1,464 @@
+Skip To Main
+Want to see what we're up to? Get updates from Rivian.
+R1S
+R1T
+R2
+R3
+Rivian full brand logo in black text
+Demo Drive
+Sign In
+Sign In
+Rivian full brand logo in black text
+Data Privacy Notice
+Our data practices for Rivian products, services, applications, and websites
+As we move together into an increasingly connected and sustainable automotive future, Rivian is committed to using data responsibly to deliver products and services that keep the world adventurous forever while respecting your privacy and keeping your information safe. We work hard to protect your privacy and put you in the driver's seat with respect to your personal data (also referred to as personal information). 
+This Data Privacy Notice is meant to provide a comprehensive description of our online and offline practices regarding the collection, use, disclosure, and retention of data when you use our products and services, mobile applications, and websites (the "Site") such as rivian.com, or otherwise interact with us. The Notice also provides information regarding your privacy rights and choices. 
+This Notice includes the following sections: SCOPE OF THIS NOTICE
+This Notice includes the following sections: PERSONAL DATA WE COLLECT AND HOW WE USE IT
+VEHICLES 
+CHARGING 
+MOBILE APP 
+WEBSITE AND OTHER INTERACTIONS WITH US
+LEGAL GROUNDS FOR PROCESSING OF YOUR PERSONAL DATA
+OUR DISCLOSURE OF YOUR PERSONAL DATA
+DATA RETENTION
+DATA SECURITY
+INTERNATIONAL DATA TRANSFERS
+YOUR PRIVACY RIGHTS
+CHILDREN'S DATA
+U. S. STATE PRIVACY DISCLOSURES
+CHANGES TO THIS NOTICE
+CONTACT US
+SCOPE OF THIS NOTICE
+This Notice uses the Terms "Rivian," "we," "us," or "our," which refers to Rivian Automotive, LLC or its affiliate ("Rivian" or "Company") that offers the relevant product or service you have used, with which you have interacted, with which you have entered into a contract, or that has otherwise collected and processed your personal data (also referred to as personal information in some jurisdictions). This legal entity is the applicable Data Controller within the meaning of applicable privacy laws and may be found here. For questions regarding the scope of this Notice, please contact us as set forth in Section 12 ("Contact Us").
+Additional Notices
+Rivian maintains separate data privacy notices for different types of data processing. For example, this Notice does not apply to personal Data We Process under Commercial Agreements. Any processing of your personal data (including the information described in this Notice) that we perform for a commercial customer (e.g., if you are a driver for a company that uses Rivian vehicles) is governed by the agreements that we execute with that customer. Rivian acts as a "processor" or "service provider" (as defined under applicable law) with respect to such personal data, processing this data pursuant to our commercial customers' instructions. These customers' respective privacy notices describe their collection and processing of your personal data and their disclosure of the data to us, and any questions or requests relating to this personal data should be directed to those parties. 
+Rivian maintains separate data privacy notices for different types of data processing. For example, this Notice does not apply to personal Data Captured During ADAS Vehicle Public Filming. Any processing of personal data (e.g., image, license plate) that may occur when we capture live public video footage and images using non-customer-owned Rivian vehicles (e.g., Rivian-owned fleet vehicles) for the purpose of improving our Advanced Driver Assistance Systems ("ADAS") and the vehicles' safety features is governed by our ADAS Vehicle Public Filming Data Privacy Notice. 
+Rivian maintains separate data privacy notices for different types of data processing. For example, this Notice does not apply to personal Data Captured through CCTV. Any processing of your personal data through video surveillance ("CCTV") systems on the premises and in the buildings we utilize is governed by our CCTV Data Privacy Notice. 
+Rivian maintains separate data privacy notices for different types of data processing. For example, this Notice does not apply to personal Data of Candidates or Job Applicants. Any processing of your personal data as a job applicant/candidate is governed by our Candidate Data Privacy Notice. 
+Rivian maintains separate data privacy notices for different types of data processing. For example, this Notice does not apply to personal Data of our Workforce. Any processing of your personal data as a Rivian employee, temporary worker, contingent worker, or independent contractor is governed by the Workforce Data Privacy Notice that we maintain and make available to these workforce members. 
+Rivian maintains separate data privacy notices for different types of data processing. For example, this Notice does not apply to non-Personal Data. Any processing of data that cannot be linked to an identifiable or identified individual (i.e., non-personal-data) is not governed by this Notice. Rivian reserves the right to process this data for any legitimate business purpose. 
+Rivian also maintains other data privacy notices that are specific to a particular Rivian affiliate, product, or service. These other notices govern our processing of personal data for those affiliates, products, or services, unless the notice is marked as supplemental to this Notice, and can be located on our website or are presented to you when you use a particular product or service. 
+This Notice does not address, and we are not responsible for, the privacy, information, or other practices of any third parties, including any third party operating any website or service to which our products or services link. The inclusion of a link within our products or services does not imply endorsement of the linked site or service by us or by our affiliates.
+In addition, we are not responsible for the information collection, use, disclosure, or security policies or practices of other organizations, such as Facebook, Apple, Google, Microsoft, or any other app developer, app provider, social media platform provider, operating system provider, wireless service provider, or device manufacturer, including with respect to any personal data you disclose to other organizations through or in connection with the Rivian Mobile App or our social media pages.
+Rivian may provide functionality allowing you to make payments to us using third-party payment services. When you use such a service to make a payment to us, your full payment card information will be collected by such third party and not by us, and your payment information will be subject to the third party's privacy policy. We have no control over, and are not responsible for, this third party's collection, use, and disclosure of your personal data.
+PERSONAL DATA WE COLLECT AND HOW WE USE IT
+We collect and use personal data for a number of purposes, including to provide and continuously improve our products and services, such as increasing the range and reliability of Rivian vehicles and identifying opportunities to make your journey even safer. The information we collect, and how that information is used, depends on how you interact with us, the products or services you use, and the choices you make. This data also depends on the type of relationship we have with you. If you disclose any personal data relating to other people to us or to our service providers in connection with our products and services, you represent that you have the authority to do so and to permit us to use the information in accordance with this Notice.
+We may collect personal data about you from different sources and in various ways, including directly from you. Through your relationship with us, such as when you provide data to us directly on the Site, via email, or through your online or offline/in-person interactions with us. Unless we request it, we ask that you not send us, and you not disclose, any sensitive personal data (e.g., information related to racial or ethnic origin, political opinions, religion or other beliefs, health, biometrics or genetic characteristics, or criminal background) to us. 
+We may collect personal data about you from different sources and in various ways, including indirectly from you. From your use of our vehicles or other products, services, mobile applications, or software. 
+We may collect personal data about you from different sources and in various ways, including from third-party sources. From our service providers, public agencies (e.g., the DMV), relevant parties (e.g., your bank or insurance company), and public sources, including public forums and social media or networking sites. We may also collect or acquire personal data about you from third-party data providers, including demographic, lifestyle, financial, and other activity and interest data that we use to tailor our communications and promotional materials to you. 
+When we use data to improve and develop features, products, and services, we take steps to minimize the data collected and to apply privacy-enhancing techniques, such as de-identification or pseudonymization, so the data is not directly associated with you or your vehicle. Where we conduct such activities on an identifiable basis, we do so with your consent, consistent with reasonable consumer expectations, or where there are compelling and legitimate interests for such processing (e.g., improving vehicle or public safety). This approach to product improvement and development applies across all of our products and services.
+We do not "sell" personal data or personal information, as this term is defined by applicable privacy regulations. We do "share" personal information as defined by Cal. Civ. Code §1798.140(ah) with third-party advertisers, as explained in Section 10 ("U. S. State Privacy Disclosures") below.
+We describe the personal data we collect, how we use it, and the privacy choices available to you for each of our major products or services below.
+VEHICLES
+Rivian vehicles were designed from the ground up to provide a seamless connected driving experience to help you get wherever you're going safely, efficiently, and enjoyably. Rivian collects vehicle data such as vehicle usage, operation, and performance data; vehicle service and repair information; crash and roadside service information; and information related to our Advanced Driver Assist System (ADAS or driver assistance) features. We use this data to provide vehicle features and services, to assess vehicle performance and operation, for vehicle repair and safety, and for reliability improvements and future product development, among other purposes.
+What We Collect or Process
+Identifying and contact information, such as:
+Name, signature, address, date of birth
+Unique Rivian ID associated with your Rivian account
+Social security number or other national registration number
+Sales information, such as the vehicle purchase agreement, proof of insurance, copies of identification documents (e.g., driver's license) used for purchase, title and registration documents
+Demographic, lifestyle, financial, and other activity and interest data for vehicle order holders or owners, collected directly or indirectly or acquired from third parties
+Business information (if a business is a co-applicant for a loan, business name, tax ID, address, and phone number) 
+Financial and payment information, such as:
+Income and employment information
+Account transactions, wire transfer instructions, checking account information
+Payment type and method, credit and debit card information, billing address
+Creditworthiness information, such as financial statements, tax returns, bank statements, credit history, FICO score 
+Vehicle and feature usage information, such as:
+Vehicle identification number (VIN), license plate number
+Odometer statement, title
+Vehicle feature usage, including ADAS usage, voice command usage, and signal usage
+Vehicle telltales/indicators (e.g., warning lights)
+Infotainment and navigation system usage, analytics, and preferences (e.g., radio, in-vehicle apps, and phone pairing) 
+Note: We do not collect your mobile phone contacts and call history, and they are displayed in your vehicle only when your mobile phone is connected to the vehicle. We also do not collect information related to other applications you may have installed on your device. 
+Vehicle operation and performance information, such as:
+Vehicle telemetry and log data, such as vehicle state (e.g., sleep, standby, ready, go/drive), direction (heading), odometer reading and miles traveled, vehicle dynamics and torque, tire pressure
+Speed, braking, acceleration, and steering events
+Battery usage and operational information, charging statistics, current charge state, thermal information, energy storage and efficiency
+Hardware and software functionality information, seat belt settings, driver and passenger presence in seat, electrical system functionality, stability control or anti-lock braking system events
+Vehicle cellular connectivity (e.g., strength, band), Wi-Fi connection status, data transfer measurements, connection availability, network provider details
+Vehicle service history, diagnostic trouble codes, sensor data, vehicle noise and vibration recordings (not speech), security/theft alerts
+ADAS sensor data, including ultrasonic and radar sensor data 
+Vehicle service and repair history information, such as:
+Details regarding services and repairs performed on the vehicle
+Photos and videos associated with the vehicle condition or repair
+Recall information 
+Vehicle connectivity information, such as:
+Account and rate plan information
+SIM card information, including the SIM status, status changes
+Non-precise location during connectivity sessions
+Connectivity usage, such as data usage, voice usage for eCall/SOS, and signal strength/quality 
+Vehicle precise location information, such as:
+The vehicle's current and historical precise location, as captured through the vehicle's GPS device
+Recent and favorite destinations, as entered into the vehicle's navigation system
+Flags for locations that you designate, such as home or work 
+Driver profile and preference information, such as:
+Driver profile preferences, Wi-Fi data including SSID
+In-vehicle feedback provided by you (if you choose to do so) 
+Safety and crash information, which is collected automatically upon defined triggers including collision, airbag deployment, automatic emergency braking, forward collision warning, and specific user commands, such as:
+Notifications for incidents such as collisions/crashes, including time of crash, crash details indicating severity of crash, sensor data, and precise location where the impact occurred
+Airbag deployments, safety system status, and other safety and crash related information concerning the vehicle
+Vehicle diagnostics data
+Signals and status of the vehicle and certain hardware for a defined period before and after the trigger
+Video from the vehicle's exterior cameras for a short period before and after the trigger
+Event data recorder ("EDR") data 
+Note: The above information is collected and shared with us automatically, except for EDR data. We will not retrieve data from the EDR on the vehicle without your or your authorized representative's consent or as permitted by applicable law. 
+Roadside service and eCall/SOS services information, such as:
+Vehicle location
+Safety and crash details, as described above
+Information regarding SOS calls made from your Rivian vehicle or under your Rivian account such as the time, date, and duration of your call; VIN; reason for service or emergency call; where the vehicle is being transported for service or storage; and other related information. We may also record your call for quality control purposes. 
+Interior vehicle camera information, such as head and eye gaze directional data and images of the driver and vehicle cabin 
+Vehicles built for model year 2025 and onward are equipped with an interior camera in the rearview mirror. When you enable data sharing from the interior camera, images of the vehicle cabin and data derived from these images will be shared with Rivian to improve and develop vehicle safety systems, including machine-learning models and the driver monitoring system, which can help detect driver distraction and drowsiness. Images will be occasionally captured based on certain triggers, such as the driver's head or eye movements or at specific time intervals. These images will be processed inside the vehicle, to help define and improve these triggers, and shared with Rivian when you've opted into sharing interior camera images. We also take steps to protect your privacy. See "Your Privacy Choices" below for more information, including how to enable or disable data sharing from the interior camera.
+Some vehicles built before model year 2025 have an interior camera that was disabled with an OTA software update. Interior cameras in these vehicles remain inactive and the option for interior camera data sharing will not appear in the "Data and Privacy" screen of the vehicle's Settings menu. 
+Exterior vehicle camera and sensor information, such as images of the driving environment to capture road markings and signage. See "Your Privacy Choices" below for more information, including how to enable or disable data sharing from the exterior camera. 
+Top of page
+How We Use It
+To provide the core functionality of our vehicles and support vehicle ownership 
+To provide features and services using vehicle location, such as to:
+Determine the nearest charging stations for your use of our charging trip planning feature and to determine where to install new charging stations
+Enable navigation functionality and to show your current vehicle location on the infotainment map and the Rivian Mobile App
+Save the settings you choose for features such as charge schedule and one-touch garage door, based on location flags you have set
+Dispatch emergency services for roadside and eCall/SOS services
+Enable ADAS/autonomy features (including our Highway Assist feature) to know which type of road you are on and for lane positioning 
+To manage vehicle connectivity, such as to:
+Enable wireless voice and data use through the vehicle's cellular connection
+Support remote diagnostics to identify and notify you regarding potential safety issues with the vehicle
+Continually improve your driving experience through over-the-air updates, including through new features, better performance, safety enhancements, and bug fixes
+Maintain and analyze use of the cellular account tied to the vehicle's SIM card 
+To provide vehicle repair, safety, warranty, collision, and maintenance support and services, such as to:
+Enable ADAS/driver assistance or active safety features, such as the use of exterior vehicle cameras for driving assist and active safety assist features
+Service the vehicle
+Assist you in connection with our services, including roadside, eCall/SOS and emergency services or to configure the remote vehicle key fob
+Contact you regarding actual or potential safety concerns regarding the vehicle, including vehicle recalls, customer satisfaction campaigns, technical service bulletins, and engineering investigations
+Analyze video and sensor data from an incident to provide emergency services and roadside assistance, and to support any regulatory reporting, investigations, or legal defense
+Deliver an over-the-air software update to the vehicle or repair faults of which we have been notified by the vehicle (e.g., OTA failure) 
+To enable ongoing vehicle and feature reliability improvements, such as to:
+Analyze the operation, performance, and use of Rivian vehicles (e.g., aggregating vehicle data with data from other Rivian vehicles to predict and troubleshoot potential vehicle failures or understand causes leading to a vehicle failure)
+Contact you regarding non-safety-related issues that may impair the vehicle's stability or functionality
+Identify and address bugs or improvement opportunities with key features such as the infotainment system and related apps or functionality
+Develop and improve vehicle diagnostic, repair, and maintenance strategies
+Collect feedback and product improvement suggestions from you through the in-vehicle Rivian App (if you choose to provide them) 
+To train and improve our ADAS algorithms and image recognition (AI), which increases safety for all vehicles, drivers, and pedestrians, such as to:
+Improve recognition of road markings and signage, designed to increase road safety by reducing the risk of traffic accidents
+Improve vehicle safety and convenience features, including collision avoidance brake assistance, lane keep assistance, and distance keeping features
+Develop new ADAS/driver assistance features
+Develop maps and other driver assistance safety features specific to each jurisdiction 
+To allow us to improve our vehicles, other vehicle software and hardware, and related products and services, such as through research and development, which includes analyzing and assessing vehicle performance, functionality, and safety to evaluate and further our business, products, and services. 
+To provide core insurance products and services, if you choose to use Rivian insurance services, such as to: 
+Authenticate your identity
+Confirm your eligibility or evaluate your application (where you have asked us to do so), such as to view your current insurance coverage or check your insurance score
+Provide you with a quote for insurance products and services 
+Support you as your agent, if you choose to use our insurance services
+Process payment for insurance products and services
+Enroll you in the Driving Assistance Discount program, if you are eligible and request to be considered 
+To provide financial products and services, if you choose to use Rivian financing services, such as to: 
+Authenticate your identity
+Provide you with a quote for financial products and services 
+Process payment/contracts for financial products and services
+Send billing statements and account information 
+To communicate with you, such as to provide you information or correspond with you regarding your purchases; insurance or financing inquiries, policies, and other business-related interactions; or potential new products or services, including insurance quotes. We may also use the information to tailor our communications and promotional materials to you. 
+To analyze and use for legitimate business purposes, such as to:
+Process vehicle trade-ins
+Participate in voluntary or required federal, state, local or utility incentive or credit programs related to environmental goals, credit programs, or accelerating transportation electrification, and to comply with federal, state or local requirements or regulations, such as reporting certain personal information to the Internal Revenue Service for the processing of vehicle tax credits
+Personalize our products, services, offers, and advertisements
+Detect and address fraud and vehicle tampering
+Prevent and address vehicle hacking and other safety and security threats
+Respond to a valid legal demand, comply with our legal obligations, and as otherwise required or permitted by law
+Conduct analysis of vehicle crashes or other incidents, including for Rivian's defense against potential legal claims 
+Top of page
+Your Privacy Choices
+You have choices regarding the collection and use of certain data associated with your vehicle, such as those described below. These privacy choices will apply to all drivers of your vehicle. Because of this, we rely on you to inform anyone else driving your Rivian vehicle of this Notice and the privacy choices you have made. If you are (or work for or on behalf of) a commercial customer, your choices may be governed by the contract executed between Rivian and that company or organization, as permitted by applicable law.
+Interior Camera. Vehicles built for model year 2025 and onward are equipped with an interior camera in the rearview mirror. If you choose to enable data sharing from the interior camera, images of the vehicle cabin and data derived from these images will be shared with Rivian to improve and develop vehicle safety systems, including machine-learning models and the driver monitoring system, which can help detect driver distraction and drowsiness. You may exercise this choice using the toggle in the vehicle's "Data and Privacy" page. Toggling off this data sharing will not affect driver assistance functionality. To protect your privacy, we:
+Do not associate these images with you or your vehicle for product improvement or development. 
+Collect images only while your vehicle is in Drive (not while in Park).
+Analyze or use interior camera data on a de-identified or pseudonymized basis, except: where you have requested our review (e.g., for service or support) or provided your consent; or to comply with a legal obligation, such as regulatory reporting or litigation. 
+Some vehicles built before model year 2025 have an interior camera that was disabled with an OTA software update. Interior cameras in these vehicles remain inactive and the option for interior camera data sharing will not appear in the "Data and Privacy" screen of the vehicle's Settings menu.
+If you choose to install your own cameras or similar driver monitoring devices, we are not responsible for this data collection or processing. 
+Exterior Cameras. The vehicle's exterior cameras can capture images, as described below. 
+Gear Guard. You may choose to capture images through the exterior cameras located on the vehicle while driving, during an incident or other triggering events, such as the use of the horn or hazard lights, or while the vehicle is parked or stationary. You control the collection and use of these images, which may be stored in the vehicle's internal memory or on an external storage device that you provide, and we do not access or process these images without your consent.
+Product Improvement. Drivers of vehicles built for model year 2025 and onward may choose whether images are shared with Rivian to improve driver assistance safety features like Highway Assist and Automatic Emergency Braking. (Images are not captured for this purpose from vehicles built before model year 2025.) If you toggle off the privacy control for sharing these images, the exterior cameras will process images solely in the vehicle to provide these driver assistance safety features. You may exercise this choice using the toggle in the vehicle's "Data and Privacy" page. Toggling off this data sharing will not affect driver assistance functionality. To protect your privacy, we:
+Do not associate these images with you or your vehicle for product improvement or development.
+Blur faces and license plates before being viewed. (Unblurred images may be used in computer simulations or similar analyses but will not be viewed by an individual.)
+Do not use the first and last three minutes of your drive to protect privacy at your home, work, and other starting or ending locations.
+Associate precise location with the images if you have agreed to location data sharing for driver assistance. This allows us to understand and diagnose driver assistance issues that can occur at a particular location, based on road segment features such as lane markings or signage. 
+Exterior images will be shared with Rivian automatically in the event of a crash and associated with your VIN regardless of your choices above to enable crash investigation and regulatory reporting. 
+Precise Location. You may choose to stop sharing your precise location data with Rivian and our service providers for navigation, Highway Assist, the Rivian Mobile App, Alexa, and data analytics purposes. If you turn off this sharing, certain functionality may be limited or disabled. Note: Your precise location will still be shared with us for critical safety purposes, such as eCall/SOS and for incidents. Your general location, about a 7-mile radius, will still be shared with us regardless of your in-vehicle precise location settings. Additional information may be found in the "Data and Privacy" screen of the vehicle's Settings menu. 
+Third-Party Vehicle Apps. You may choose whether to use third-party applications in the vehicle (e.g., Spotify, Alexa) and thus whether these apps collect personal data from you. We recommend you review the terms and conditions, privacy policies, and settings for any third-party app or service to which you subscribe to and use in your Rivian vehicle. A third party may ask you to grant certain permissions, for example, information about the vehicle's location. If you choose to use these third-party apps, we are not responsible for the data you share, which is subject to the third party's privacy policies. 
+Vehicle Connectivity. Vehicle connectivity is a core feature of Rivian vehicles and allows us to deliver many of the amazing features in the vehicle, such as navigation using real-time data, key safety features such as lane keeping assistance, and remote diagnostics. Vehicle connectivity also allows us to continually improve your driving experience through remote service and support and over-the-air updates, which provide new features, better performance, safety enhancements, and bug fixes. You may, however, choose to disable all cellular connectivity of the vehicle. For Canadian vehicles, you may exercise this choice using the toggle in the vehicle's "Data and Privacy" page. For non-Canadian vehicles, you may reach out to Rivian Service to request that we disable the eSIM card in the vehicle through a service appointment. Note that disabling all vehicle connectivity will limit vehicle features and advantages. 
+Insurance Services. If you choose to use Rivian insurance services, we collect and use personal data gathered in connection with your application for, and use of, these services. Your personal data is not shared with our insurance partners unless you have consented to such sharing. Rivian's Insurance team may occasionally review a limited set of driving data for customer-owned vehicles to determine if they might qualify for an insurance discount based on this data. You may opt out of this internal analysis and insurance remarketing through our Privacy Rights Request form (select "Other" request type). Only if the driver is interested in understanding the potential discount, and explicitly consents to Rivian sharing their data, do we share this limited driving information with our insurance provider. We do not share data with telematic exchange companies. You may access our GLBA-required privacy notice for insurance on our website. 
+Financing Services. If you choose to use Rivian financing services, we collect and use personal data gathered in connection with your application for, and use of, these services. Your personal data is not shared with our financial partners unless you have consented to such sharing. You may also access our GLBA-required privacy notice for financing on our website. 
+Vehicle Resale. If you sell your Rivian vehicle, you are responsible for deleting any information saved on the vehicle (e.g., recent destinations in the vehicle's Navigation system, Gear Guard videos) prior to making the vehicle available to the new owner and notifying us of the sale. You may do so using the "Clear Settings" feature in the vehicle. If you do not delete this information, it may be visible to the new owner. You may also remove the vehicle from your account using the Rivian Mobile App. Please see additional information here. If you buy a Rivian vehicle from a party other than Rivian, you should ensure that the seller removes the vehicle from their account using the Rivian Mobile App and notifies Rivian of the sale so that the seller's vehicle access is removed. You are also responsible for submitting the required paperwork to Rivian so that we may verify the authenticity of the transaction and complete the ownership transfer process. Please see additional guidance on private party transactions here. 
+Top of page
+CHARGING
+Rivian collects and uses personal data gathered in connection with your access and use of Rivian charging devices and equipment, including the Rivian Adventure Network, Rivian Waypoints, and other Rivian energy solutions, as well as third party and fleet charging devices for our commercial customers, to keep your vehicle charged up and on the move. This information includes charging consumption details, charging session data and records, and financial information, such as billing information for charging costs. Whether you are on the way to your parents' house, a hike in a national park, or delivering an important package, we want to make sure that you get there sustainably, economically, and with plenty of range to spare.
+What We Collect or Process
+Charging device and equipment details, such as:
+Charging device location
+Charging device identifier, IP address
+Charging device status (e.g., online, connected to Wi-Fi), error codes, faults, failure modes 
+Charging session data and records, such as:
+Charging device ID, Rivian ID, vehicle identification number, E-Mobility Authentication Identifier (EMAID), and other similar identifiers, including the location of the charging device
+Consumption details, including session cost and total energy consumed
+Speed of charge, session start, stop, and unlatch times, idle times
+Network consumption and usage, which may include type of charger you use, where it is located 
+Other vehicle data, such as make, model, software version 
+Financial information, such as payment type and method or other payment or billing information, if you provide it to us to facilitate your charging activities 
+Top of page
+How We Use It
+To provide our charging products and services, such as to:
+Allow you to charge the vehicle on our partner network sites, such as Tesla's Supercharger network
+Assign a price to a charging session
+Process payment for that session
+Reduce your charging costs
+Share charging tips and recommendations with you 
+To allow us to improve our charging products and services, such as through research and development, which includes:
+Analyzing, developing, and improving our battery technology, charging devices, and networks
+Identifying and mitigating potential safety hazards and risks
+Determining where to place future charging locations
+Performing research, security, and data analysis, which includes addressing potential issues with our charging network 
+To analyze and use for legitimate business purposes, such as to evaluate charger operation status, participate in state and federal government incentive and credit programs, detect and address fraud and tampering, prevent and address security threats, comply with our legal obligations, and as otherwise required or permitted by law. Rivian may also participate in voluntary or required federal, state, local, or utility incentive or credit programs related to environmental goals or accelerating transportation electrification. The terms of some programs may require disclosing vehicle data and charging information, which could include the vehicle identification number and where the vehicle was charged. 
+Top of page
+MOBILE APP
+The Rivian Mobile App works with the vehicle to make driving and owning your Rivian simple. For example, you can use your phone as a key, manage charging sessions, view the vehicle's location, send remote commands, and tap into support. If you choose to use the Mobile App, we will collect and use your personal data gathered in connection with your access and use of the Mobile App and its associated services ("Mobile App Services"), as described below. This information includes identifying and contact information, Mobile App access and usage information, and device information, including information collected through automatic information collection technologies. 
+What We Collect or Process
+Profile and contact information, such as your name, Rivian ID, email address, and telephone number 
+Photographs or video clips (e.g., pictures of the vehicle for the purpose of repair or service), if you choose to share them with us. We will not otherwise access or view photographs, audio or video stored on your device. 
+Access and usage information, such as:
+Details regarding your access and use of the Mobile App and the Mobile App Services, including screens viewed, viewing time, Mobile App navigation, features utilized, remote commands
+Vehicle charging usage, including session length, location, energy added per session, cost breakdown, and network information
+Details of transactions you carry out through the Mobile App
+Mobile App bug and crash information
+Data associated with use of the Mobile App Services, including remote commands sent or vehicle entry commands (e.g., unlocking door, sharing a destination address for navigation), service scheduling, and inquiries 
+Device information, such as:
+Real-time, precise location of your device, if you grant permission through the device operating system (OS)
+Device information, such as model/type, device OS, OS version, device category (e.g., phone, tablet), device unique identifier
+Type of browser, browser version, and app version 
+We use certain technologies for automatic information collection in our App, such as google Firebase. The Mobile App integrates with Google Firebase using their Software Development Kit in order to capture analytics that, for example, enable us to assess how the Mobile App is interacted with, if and how certain features are being used, and to collate usage statistics such as Daily and Monthly Active users and average Mobile App session lengths. 
+We use certain technologies for automatic information collection in our App, such as apple Developer Console and Google Play Console. Rivian uses App Store Connect and Google Play Console to distribute the app on the iOS and Android platforms respectively. Data in connection with downloads, source countries, crash analytics, devices, and operating system versions are all collected and shared with Apple and Google upon download of the app from the App Store or Google Play Store. 
+Top of page
+How We Use It
+To provide core functionality and services for the app, such as using the vehicle's location to enable you to:
+Use the Mobile App as a key to the vehicle (Bluetooth requires location be enabled for the Mobile App in the OS)
+Find a nearby charging station
+Find the vehicle 
+To communicate with you, such as to:
+Provide you with the Mobile App and Mobile App Services and their contents, and any other information, products or services that you request from us
+Present notifications regarding the vehicle status or other elements of your Rivian experience via channels such as SMS or Push Notification, where you have given permission
+Notify you when Mobile App updates are available and of changes to any products or services we offer or provide though it 
+To carry out our rights and obligations arising from any contracts entered into between you and us, including the Terms of Use for the Mobile App and Mobile App Services 
+To fulfill the purpose for which you provide it. For example, if you provide us with a picture in connection with a repair or service call through the Mobile App, we will use it for that purpose. 
+To improve the Mobile App and Mobile App Services. The Mobile App usage information we collect helps us to improve our Mobile App and to deliver a better and more personalized experience by enabling us to improve its usability based upon data which shows a feature is not intuitive or to deliver new features where our usage information highlights a gap in functionality. 
+To analyze and use for legitimate business purposes, such as to detect and address fraud, prevent and address security threats, comply with our legal obligations, and as otherwise required or permitted by law. 
+Top of page
+Your Privacy Choices
+Location Information. You can choose whether or not to allow the Mobile App to collect and use real-time information about your device's location during the onboarding process or at any time via the device's privacy settings for the Mobile App. If you disable the use of location information, however, some parts of the Mobile App may become inaccessible or not function properly. For example, you will not be able to use the Mobile App as a key for your Rivian vehicle if your mobile device's operating system requires location to be enabled for Bluetooth functionality. 
+Push Notifications. You can choose whether or not you wish to receive push notifications from Rivian regarding the vehicle both at onboarding or via your device settings. If you block the use of push notifications, some information we may communicate to you such as charging session state may only be available when the app is opened on your device. 
+Updating Personal Data. You may update your first name, last name, email address, phone number, and payment methods via the Mobile App within the Manage Account section. 
+WEBSITE AND OTHER INTERACTIONS WITH US
+Rivian collects, uses, and discloses personal data gathered in connection with your relationship and interactions with us, such as your use of the Site, purchases on the Gear Shop, calls or messages exchanged with Customer Service, attendance at Rivian events or activities (e.g., test drives), and use of applications to provide information to Rivian for purposes of your commercial relationship. This information includes identifying and contact information, customer service information, preferences, and device information, which may be collected through automatic information collection technologies.
+What We Collect or Process
+Identifying and contact information, such as:
+Full name, signature, date of birth
+Home address, email address, telephone number
+Driver's license number, social security number or other national registration number, IP address, vehicle identification number (VIN), license plate number, and unique Rivian ID associated with your Rivian account 
+Customer service information, such as:
+Chat transcripts
+Call records and recordings, logs and copies of your interactions
+Correspondence and other messages or communications, including your feedback, questions, and comments 
+Financial and payment information, such as payment type and method, credit and debit card information, bank account and routing number, and other payment or billing information, if you provide it to us. 
+Interests and preferences, such as:
+Communication preferences
+Details about you and your interests, demographics, purchasing habits, income, census data, and other interests to help provide a better customer experience, including tailoring communications and promotional material to you
+Language, time zone, or other regional identifiers such as U. S. or metric measurements 
+Security and authentication information, such as username, password, security questions, and authentication tokens when you create an account with us 
+Device information, such as:
+Computer or mobile phone make, model, operating system (OS), type of browser, browser version, and app version
+Device unique identifier, internet protocol address, MAC ID 
+Automatically collected information. We use cookies and other tools, such as pixel tags (also known as clear GIFs, web bugs, or web beacons) (collectively, "cookies") through Google Analytics, session replay tools, and similar technologies to automatically collect certain information about your equipment, browsing actions, and patterns when you use our Sites or services. We also utilize Google's integrated services that require Google Analytics to collect data for advertising purposes, including the collection of data via advertising cookies and identifiers. You can learn about Google's practices by going to website_url_lnk and exercise the opt-out provided by Google by downloading the Google Analytics opt-out browser add-on, available at website_url_lnk You can also opt out of this activity by visiting our Cookie Notice and clicking "Manage Preferences" at the top. For additional information on our use of cookies, please visit our Cookie Notice. 
+Invisible reCAPTCHA. We use Google's invisible reCAPTCHA application on our Services to protect against spam and other automated abuse. The reCAPTCHA tool may make use of cookies, as well as other information like IP address, date, time, language, screen size and resolution, and mouse movements. The use of the reCAPTCHA tool and any information collected through the tool are subject to Google's privacy policy, available at website_url_lnk and Google's terms of service, available at website_url_lnk 
+Top of page
+How We Use It
+To provide our products and services, such as to:
+Present our Site and its content to you
+Notify you about changes to our Site or any products or services we offer or provide through it
+Facilitate and configure Rivian vehicle pre-orders, facilitate your title, registration, and delivery
+Pay our service providers that support our business operations and delivery of our products and services 
+To communicate with you and provide customer support, such as to:
+Investigate and respond to your inquiries
+Communicate updates concerning the vehicle
+Contact you as necessary to fulfill orders or reservations you have placed for Rivian products, services, demonstration drives, or home installation
+Ask for your feedback about a product, service, or event
+Monitor and improve our responses 
+To send you promotional material, facilitate further marketing and advertising activities (including interest-based advertising) and fulfill your requests, such as to send you updates, advertisements, newsletters, surveys, or other information regarding Rivian contests, events, and other Rivian products or services that may be of interest to you based upon information you have provided to us. Promotional materials may be conveyed in emails or, if you have provided your consent, by SMS/text message. If you no longer wish to receive these materials via email and text message, you may opt out by contacting us as set forth in "Your Privacy Choices" below. To opt out of interest-based advertising, please refer to the instructions set forth in Section 8 ("Your Privacy Rights") below. 
+To allow us to improve our Site, Mobile App, and other products and services. 
+To fulfill our own legitimate business interests, such as to:
+Conduct security and fraud analysis and monitoring
+Respond to a valid legal demand, comply with our legal obligations, and as otherwise required or permitted by law
+Facilitate a vehicle recall
+Carry out our rights and obligations arising from any contracts entered between you and us or Rivian and a third-party, including for billing and collection 
+Top of page
+Your Privacy Choices
+Email and Telephone Communications. If you receive an unwanted email from us, you can click "Preferences" at the bottom of the email and update your preferences or unsubscribe from future mailings. Note that you will continue to receive transaction-related emails regarding products or services you have requested. We may also send you certain non-promotional communications regarding us and our services, and you will not be able to opt out of those communications (e.g., communications regarding our services or updates to our Terms or this Notice). We process requests to be placed on do-not-mail, do-not-phone, and do-not-contact lists as required by applicable law. 
+Text/SMS Messages. You may opt out of receiving text messages from us by following the instructions in the text message you have received from us or by contacting us. Note that you may still receive communications from Rivian regarding safety issues, such as vehicle recall notifications, even if you have opted out. 
+To exercise the above choices, please contact Customer Service. 
+Cookies. Most browsers accept Cookies until you change your browser settings. If you do not wish for the Site to collect your information using Cookies, you can typically disable the use of Cookies (or disallow the use of Cookies on specific websites) by changing your browser settings. However, if you remove or reject our Cookies, it could affect how the Site works for you. Please note you must separately opt out in each browser and on each device. Please see our Cookie Notice for more information. 
+"Do Not Track." Do Not Track ("DNT") is a privacy preference that you can set in your web browsers, which allows you to opt out of tracking by websites and online services. Please note that we do not respond to or honor DNT signals or similar mechanisms transmitted by web browsers. For more information about DNT, please see eff.org/issues/do-not-track. 
+"Global Privacy Control." Some browsers and browser extensions support the Global Privacy Control ("GPC") that can send a signal to the websites you visit indicating your choice to opt-out from certain types of data processing, including the "sharing" of your personal information. When we detect such a signal, we will make reasonable efforts to respect your choices indicated by a GPC setting. 
+Top of page
+LEGAL GROUNDS FOR PROCESSING OF YOUR PERSONAL DATA
+Rivian uses, retains and otherwise processes personal data that is subject to this Notice for different purposes, dependent on the specific use-case, as described in Section 1 ("Scope of this Notice"). These purposes include where you have provided consent, where such processing is necessary for the performance of a contract that we have with you, to comply with our legal obligations, or for our legitimate business interests. We process personal data only to the extent that we are legally permitted to do so.
+Learn More
+Rivian will typically collect and use the personal data it collects from you based on the following legal grounds: consent. You have given consent to the processing of your personal data for one or more specific purposes, e.g., to identify the vehicle or driver location using the vehicle GPS, to use certain ADAS features designed for driver and pedestrian safety which must process sensitive personal data to work properly, to record phone calls. 
+Rivian will typically collect and use the personal data it collects from you based on the following legal grounds: performance of a Contract. The processing is necessary for the performance of a contract or to take steps to enter into a contract with you, e.g., providing a vehicle warranty or vehicle repair services. 
+Rivian will typically collect and use the personal data it collects from you based on the following legal grounds: compliance with our Legal Obligations. The processing is necessary for compliance with our legal obligations, e.g., to respond to a valid legal demand, comply with statutory obligations for record keeping, for mandatory incident or other governmental reporting. 
+Rivian will typically collect and use the personal data it collects from you based on the following legal grounds: legitimate Interests. The processing is necessary for the purposes of our legitimate interests or for the purposes of the legitimate interests of a third party which are not overridden by your interests or fundamental rights and freedoms which require protection of personal data. We may, for example, have a legitimate interest to improve our ADAS driving features, the infotainment systems, or other features of our vehicles and our software. We may also have a legitimate interest to communicate with specific drivers of vehicles under our customer's control. We may also have a legitimate interest to investigate a crash, near miss, or defect allegation. We may also have a legitimate interest to help our customers locating their vehicles (e.g., in case of theft or misuse of vehicles) or to present driver behavior and usage data as well as operation and performance data to help our customers comply with applicable laws (such as road traffic regulations). 
+Where Rivian processes information relating to special categories of personal data requiring higher levels of protection, the processing of such special categories of personal data will typically take place only if you have given explicit consent to the processing of such data for one or more specified purposes where such consent is required by applicable law. 
+Top of page
+OUR DISCLOSURE OF YOUR PERSONAL DATA
+We disclose personal data to our affiliates and with the categories of third parties set forth below for legitimate business purposes, which also includes when you direct us to disclose it to others, or as necessary to complete your transactions or provide the products or services you have requested or authorized.
+Learn More
+We may disclose the above information to the following parties: rivian Affiliates. Rivian-branded companies related by common ownership or control, such as Rivian LLC, Rivian Automotive LLC, and Rivian Insurance LLC, for everyday business purposes and to develop new and improve existing products and services. For example, Rivian Automotive LLC may disclose your personal data to Rivian Insurance Services LLC to determine if you would qualify for one or more insurance products, unless you have opted out of such disclosure. You can view the list of Rivian affiliates here. 
+We may disclose the above information to the following parties: service Providers. Companies who process consumers' personal information on our behalf for a business purpose, pursuant to a written agreement. The contract or other agreement we execute with our service providers describes the purpose and requires the service provider to keep that personal data confidential consistent with this Notice. 
+Technology and Other Service Providers. With software, IT, customer relationship management, cellular/telecom, mapping, data analytics, data providers, cybersecurity, charging, cloud service, consultants, financial, legal, and other similar providers we use to support our business. 
+Emergency Service and Roadside Providers. With our third-party connected vehicle software provider and emergency service providers, third-party call centers, roadside assistance providers (e.g., tow truck operator), law enforcement, and EMS personnel in connection with our roadside and eCall/SOS service offerings. 
+Third Parties. Any other category of organization, beyond "service providers" and "affiliates." 
+Advertising Partners. We may share personal information with marketing and advertising third parties to deliver personalized content and tailored advertising for Rivian products and services, where you have not opted out of such processing. These partners may also use technologies such as cookies, along with information they collect about your online use, to recognize you across the devices you use to display targeted advertisements based on information relating to your access to and use of our products and services and other websites or online services on any of your devices, as well as on information received from third parties. 
+Business Partners and Other Authorized Parties. With parties where you have elected to receive a service from them, authorized them to receive data from Rivian, or directed us to disclose your personal data to them. For example, you may direct us to disclose certain vehicle information to a vehicle usage-based insurance provider for your insurance purposes, or to disclose your personal data to an electric utility or charging installer in connection with your Rivian product or service. We may also disclose your information to repair and collision shops and insurance companies to allow us or an authorized party to service, maintain and repair the vehicle. We do not disclose individual consumer driving and charging activity to Amazon. We do not participate in third-party telemetry exchanges. 
+Law Enforcement and Other Public Authorities. We may disclose your personal data when legally required or when we deem advisable to do so, such as in response to a valid legal demand. In addition, we may disclose your personal data if we believe disclosure is necessary or appropriate to protect the rights, property, or safety of others or Rivian. 
+Governmental Agencies and Non-Profit Verifiers. Rivian may also participate in voluntary or required federal, state, local, or utility incentive or credit programs related to environmental goals or accelerating transportation electrification. The terms of some programs may require disclosing vehicle data and charging information, which could include the vehicle identification number and where the vehicle was charged. Additionally, Rivian is required to report certain personal information when you purchase a vehicle, including your social security number (for U. S. purchasers), to the Internal Revenue Service for the U. S. government's processing of vehicle tax credits. Note: you can choose to not provide your SSN, but you will not be able to claim an EV tax credit, even if you would otherwise qualify. 
+Corporate Transactions. In connection with, during, or upon completion of a merger, acquisition, asset sale, or other business transaction that involves some, or all, of Rivian's assets, data you have provided to Rivian may be transferred to a third party such as a successor or purchaser as part of a transaction. 
+We may also disclose your personal information to other third parties if you authorize us to do so as well as reasonably de-identified information in accordance with applicable law without restriction for legitimate business purposes. 
+Top of page
+DATA RETENTION
+We generally retain your personal data only as long as necessary to fulfill the purposes we collected it for, as required to satisfy any legal, accounting, or reporting requirements, as necessary to resolve disputes, as otherwise requested by you, or as required or permitted by applicable law. In some cases, we may only process the personal data and do not store or retain it.
+Under some circumstances we may anonymize or reasonably de-identify your personal data so that it can no longer be reasonably associated with or used to identify you. We reserve the right to retain and use such information for any legitimate business purpose without further notice to you or your consent, unless required by law.
+Learn More
+To determine the appropriate retention period for personal data, we consider our legal obligations (for example, certain laws require us to keep records of your transactions for a certain period of time before we can delete them)
+To determine the appropriate retention period for personal data, we consider whether retention is advisable in light of our legal position (such as in regard to applicable statutes of limitations, litigation, or regulatory investigations)
+To determine the appropriate retention period for personal data, we consider the amount, nature, and sensitivity of the personal data
+To determine the appropriate retention period for personal data, we consider the length of time we have an ongoing relationship with you and provide our products and services to you (for example, for as long as you have a Rivian vehicle or otherwise keep using our products and services)
+To determine the appropriate retention period for personal data, we consider the potential risk of harm from unauthorized use or disclosure of your personal data
+To determine the appropriate retention period for personal data, we consider the purposes for which we process your personal data, and whether we can achieve those purposes through other means 
+This duration varies based on data type and use, but we have recorded the durations in our internal records and information management policy and schedule.
+DATA SECURITY
+We have in place appropriate security measures intended to prevent your personal data from being accidentally lost or used or accessed in an unauthorized way, including encryption of this information in transit and at rest and the implementation of controls designed to limit access to your personal data to those Rivian personnel who have a genuine business need to know it. Those Rivian personnel who process your personal data are required to do so only in an authorized manner and are subject to confidentiality.
+Despite our implementation of these measures, posting or transmission of personal data via the internet, by email, or by other electronic means is not completely secure and it is possible that third parties may unlawfully intercept or access such data. We cannot guarantee that personal data will be totally secure.
+We have procedures in place to deal with any suspected data security breach. We will notify you and any applicable regulator of a suspected data security breach where we are legally required to do so in accordance with any legally prescribed timeframes. 
+INTERNATIONAL DATA TRANSFERS
+Rivian is based in the United States, and as such your personal data may be processed in the United States. We may transfer your personal data or store it internationally, including to or in countries that do not have data protection laws equivalent to those in the country where you reside or where your personal data is collected, for the purposes described above.
+By using the Site, the App, the vehicle, and our products and services, or by otherwise providing us with your personal data, you agree to the collection, transfer, storage, and other processing of your personal data to countries outside of your country of residence. Personal data transferred or stored internationally will be subject to the laws of the jurisdictions where it is transferred or stored, and may be accessible to foreign courts, regulatory agencies, law enforcement, and national security authorities in those jurisdictions.
+Learn More
+For transfers from the European Economic Area ("EEA") Member States or UK to countries for which the European Union ("EU") Commission or the United Kingdom ("UK") Information Commissioner's Office has issued an adequacy decision saying the level of data protection is equivalent to the level within the EU or UK, we can rely on those adequacy decisions; this applies, for example, for data transfers between the UK and EEA Member States. The full list of these countries is available here for the EEA and here for the UK. 
+For transfers from the EEA or UK to countries without an adequacy decision, Rivian has implemented appropriate safeguards to provide the necessary level of data protection, primarily by entering into appropriate data transfer arrangements based on approved standard contractual clauses. 
+Personal data about Canadians or that is collected in Canada may be transferred or stored outside of Canada, including to/in the United States, the United Kingdom, the European Union, and Serbia, and may be subject to the laws and accessible to the courts, regulatory agencies, law enforcement and national security authorities of such jurisdictions. Please contact our Canadian Privacy Office and Quebec Privacy Officer as listed in Section 12 ("Contact Us") below if you wish to ask a question or obtain written information about our policies and practices with respect to service providers and other members of the Rivian group of entities outside of Canada who may process or store personal data. 
+YOUR PRIVACY RIGHTS
+In addition to the privacy choices described in Section 2 ("Personal Data We Collect and How We Use It") above, you may request to exercise your privacy rights as described below, which may be limited by applicable laws and regulations. We will acknowledge and coordinate these requests as timely as possible. We will not discriminate against you for exercising any of your privacy rights.
+Your Privacy Rights
+Access/Know. Request confirmation from us as to whether or not your personal data is being processed by Rivian and, if so, access to such data and the more detailed circumstances of the data processing. 
+Correction/Rectification. Request that we correct any inaccurate personal data relating to you without undue delay. In this context, taking into account the purposes of the processing, you may also have the right to request the completion of incomplete personal data, also by means of a supplementary declaration. If you signed up for an account with Rivian, you may update the information associated with your account at any time by contacting us or logging into your account. 
+Deletion/Erasure. Request that your personal data be deleted without undue delay. In certain circumstances, it may not be possible for us to accept your request, for example, when the processing is necessary to comply with a legal obligation, or if the processing is necessary for the performance of a contract. 
+Opt-Out of Targeted Advertising. Request that Rivian not use personal data for cross-context behavioral advertising with unaffiliated parties or disclose, disseminate, or transfer your personal data to a third party for cross-context behavioral advertising purposes. You may opt out of this activity by: 
+Visiting our Privacy Rights Request form and submitting an "Opt Out of Targeted Advertising" request and 
+Visiting our Cookie Notice, clicking "Manage Preferences," and opting out of Targeted Advertising Cookies. 
+Additional information on how to opt out of targeted advertising in your browser on a specific device is available at website_url_lnk and website_url_lnk 
+Portability. Request that we provide a copy of the personal data concerning you that you have provided to us in a structured, commonly used and machine-readable format, and transfer this data to another controller without hindrance from us, where feasible. 
+Restriction of Processing. Request that we restrict processing of your personal data. In certain circumstances, it may not be possible for us to accept your request, for example, when the processing is necessary to comply with a legal obligation, or if we can demonstrate compelling legitimate grounds otherwise. 
+Object to Processing. Object, on grounds relating to your particular situation, to our processing of personal data concerning you which is necessary for the performance of a task carried out in the public interest, carried out in the exercise of official authority vested in us, or processed by us on the basis of our legitimate interest. In this case, where applicable, we will no longer process the personal data unless we can demonstrate compelling legitimate grounds for the processing which override your interests, rights and freedoms, or the processing serves to assert, exercise, or defend legal claims. 
+Consent Withdrawal. Withdraw your consent that you have previously provided for Rivian's collection, use or disclosure of your personal data, subject to reasonable notice and any contractual or legal exceptions. Note that this will not affect the lawfulness of our processing of your personal data based on consent before its withdrawal. 
+Automated Individual Decision-Making. Not be subject to a decision based solely on automated processing, including profiling, which produces legal effects concerning you or similarly significantly affects you. Note that this right shall not apply if such a decision is necessary as part of a contract we have with or want to conclude with you, we have your consent, or we are permitted by law to engage in such automated decision making. In these cases, we will implement measures to safeguard your rights and freedoms and legitimate interests and you may contest the decision by contacting us as set forth in Section 12 ("Contact Us") below. 
+Complaints. Lodge a complaint with a supervisory authority at any time if you are of the opinion that the processing of personal data relating to you violates applicable law. 
+If you are located in the EU or UK, you can lodge a complaint with a supervisory authority in particular in the Member State of your place of residence, your place of work or the place of the alleged infringement. You may identify the applicable supervisory authority based on your location on the European Data Protection Board website or, if in the UK, the Information Commissioner's Office. 
+If you are located in Canada, you can lodge a complaint by contacting us as set forth in Section 12 ("Contact Us") below. If you are not satisfied with Rivian's response to your complaint, you can lodge a complaint with your provincial privacy regulator if you reside in the following provinces: the Commission d'accès à l'information in Quebec, the Office of the Information and Privacy Commissioner of Alberta, or the Office of the Information and Privacy Commissioner for British Columbia. Outside these three provinces, you may lodge a complaint with the Office of the Privacy Commissioner of Canada. 
+Limit Use and Disclosure of Certain Sensitive Personal Information. Direct us to limit our use of certain sensitive personal data to that use which is necessary to perform the services or provide the goods reasonably expected by an average consumer. Rivian provides vehicle owners with the option to limit the use of their precise geolocation within the privacy settings of their Rivian vehicle. Rivian does not otherwise use sensitive personal information beyond what is necessary to perform the services or provide the goods that have been requested of us. 
+Appeal. Appeal our refusal to take action on your request within a reasonable period after you have received notice of the refusal. You may file an appeal by contacting us as described in Section 12 ("Contact Us"). 
+Top of page
+Exercise Your Privacy Rights
+To exercise the above privacy rights, please visit our Privacy Rights Request form or contact Customer Service.
+If an agent would like to make a request on your behalf as permitted under applicable law, the agent may use the submission methods noted in this section. We will process the agent's request consistent with applicable law. As part of our verification process, we may request that the agent provide, as applicable, proof concerning their status as an authorized agent. In addition, we may require that you verify your identity and confirm that you provided the agent permission to submit the request. If you use an authorized agent to submit a request to exercise your rights, please have the authorized agent take the following steps in addition to the steps described above: mail a copy of your signed written declaration authorizing the authorized agent to act on your behalf to privacy@rivian.com; and
+If an agent would like to make a request on your behalf as permitted under applicable law, the agent may use the submission methods noted in this section. We will process the agent's request consistent with applicable law. As part of our verification process, we may request that the agent provide, as applicable, proof concerning their status as an authorized agent. In addition, we may require that you verify your identity and confirm that you provided the agent permission to submit the request. If you use an authorized agent to submit a request to exercise your rights, please have the authorized agent take the following steps in addition to the steps described above: provide any information we request in our response to your email to verify your identity. The information requested will depend on your prior interactions with us and the sensitivity of the personal information at issue.
+If an agent would like to make a request on your behalf as permitted under applicable law, the agent may use the submission methods noted in this section. We will process the agent's request consistent with applicable law. As part of our verification process, we may request that the agent provide, as applicable, proof concerning their status as an authorized agent. In addition, we may require that you verify your identity and confirm that you provided the agent permission to submit the request. If you use an authorized agent to submit a request to exercise your rights, please have the authorized agent take the following steps in addition to the steps described above: if you provide an authorized agent with power of attorney pursuant to Probate Code sections 4121 to 4130, it may not be necessary to perform these steps and we will respond to any request from such authorized agent in accordance with the CCPA. 
+If we cannot comply with a request or cannot fulfill a request within the standard timeframe, we will generally provide you with the reason for this. We may request specific information from you to help us confirm your identity and your rights. Applicable laws may allow or require us to refuse to provide you with access to some or all of the personal data that we hold about you, or we may have destroyed, erased, or made your personal data anonymous in accordance with our record retention obligations and practices. If we cannot provide you with access to your personal data, we will generally inform you of the reasons why, subject to any legal or regulatory restrictions. 
+Top of page
+CHILDREN'S DATA
+Rivian's products and services are not directed to children under 13 (or other age as required by local law), and we do not knowingly collect personal data from children. If you are a parent or guardian and believe that your child has provided us with personal data, please contact us as set forth in Section 12 ("Contact Us"). If we become aware that we have collected the personal data of a child, we will take steps to promptly delete such information.
+U. S. STATE PRIVACY DISCLOSURES
+Several U. S. states have passed data privacy laws over the past few years, such as the California Consumer Privacy Act, as amended ("CCPA"). This section describes additional disclosures that we are required to make under these state-specific privacy laws. We will update this section periodically as new laws and requirements are passed.
+Personal Information Collection, Use, and Disclosure
+We have collected the following categories of personal information specified within the CCPA from or about California consumers and disclosed such personal data for a business purpose within the last twelve months as described in Section 4 ("Our Disclosure of Your Personal Data") above, depending on the nature of your relationship with us (for example, whether you have purchased a vehicle and financing or insurance products from us): category. Examples. Collected. Disclosed for a Business Purpose. Shared for Rivian's Cross-Context Behavioral Advertising
+Identifiers. A real name, alias, postal address, unique personal identifier (e.g., employee ID), online identifier, Internet Protocol address, email address, driver's license number, passport number or other similar identifiers.. ✔. ✔., 
+Personal information categories listed in the California Customer Records statute (Cal. Civ. Code § 1798.80(e)). A name, signature, Social Security number, address, telephone number, passport number, driver's license or state identification card number, insurance policy number, education, employment, employment history, financial information, medical information, or health insurance information. Some personal information included in this category may overlap with other categories.. ✔. ✔. 
+Protected classification characteristics under California or federal law. Age (40 years or older), citizenship (identification documents for vehicle purchase), marital status. ✔. ✔., 
+Commercial information. Records of personal property, products or services purchased, obtained, or considered, or other purchasing or consuming histories or tendencies.. ✔. ✔. 
+Biometric information. Genetic, physiological, behavioral, and biological characteristics, or activity patterns used to extract a template or other identifier or identifying information, such as, fingerprints, faceprints, and voiceprints, iris or retina scans, keystroke, gait, or other physical patterns, and sleep, health, or exercise data... 
+Internet or other similar network activity. Browsing history, information on a consumer's interaction with a website, application, or advertisement.. ✔. ✔., 
+Geolocation data. Physical location or movement.. ✔. ✔., 
+Sensory data. Audio, electronic, visual, thermal, olfactory, or similar information.. ✔. ✔. 
+Professional or employment-related information. Current or past job history or performance evaluations.. ✔. ✔. 
+Non-public education information (per the Family Educational Rights and Privacy Act (20 U. S. C. Section 1232g, 34 C. F. R. Part 99)). Education records directly related to a student maintained by an educational institution or party acting on its behalf, such as grades, transcripts, class lists, student schedules, student identification codes, student financial information, or student disciplinary records.... 
+Inferences drawn from other personal information. Profile reflecting a person's preferences, characteristics, psychological trends, predispositions, behavior, attitudes, intelligence, abilities, and aptitudes.. ✔. ✔., 
+Sensitive Information. Government identifiers (social security, driver's license, state identification card, or passport number); complete account access credentials (usernames, account numbers, or card numbers combined with required access/security code or password); precise geolocation; racial or ethnic origin; mail, email, or text message contents. ✔. ✔. 
+Sources and Uses of Personal Information. We collect and use the categories of personal information listed above as described in Section 2 ("Personal Data We Collect and How We Use It"). 
+Disclosure of Personal Information. We may disclose your personal information as set forth in Section 4 ("Our Disclosure of Your Personal Data"). In the preceding twelve months, Rivian has disclosed each of the personal information categories as shown in the table above for a business purpose. 
+Access to Personal Information. 
+You can request the categories of personal information we collected about you and the categories of sources from which we collected such personal information; the business or commercial purpose for collecting or "sharing" personal information about you; the categories of personal information about you that we "shared" and the categories of third parties to whom we "shared" such personal information; and the categories of personal information about you that we otherwise disclosed, and the categories of third parties to whom we disclosed such personal information. We have made this information available to you without having to request it by including it in this Notice. 
+Up to two times each year, you can request that we disclose the categories and specific pieces of personal information that we collect, use, disclose, and may sell. 
+Correction of Personal Information. You have the right to have inaccurate personal information corrected. 
+Deletion of Personal Information. You can ask us to delete the personal information that we have collected from you, subject to certain exceptions such as to complete a transaction for you, to exercise our rights, or to comply with a legal obligation. 
+Sales of Personal Information. In the preceding twelve months, Rivian has not "sold" personal information as this term is defined in the CCPA. 
+"Sharing" of Personal Information. The CCPA defines "sharing" as disclosing, disseminating, or transferring a consumer's personal information to a third party for cross-context behavioral advertising. In the preceding twelve months, Rivian has shared certain categories of personal information (identified in the above table) with third-party advertisers in order to tailor ads to consumers' interests. You have the right to opt out of your personal information being shared for targeted advertising. 
+Right to Limit Use and Disclosure of Sensitive Personal Information. You have the right to direct us to limit our use of your sensitive personal information to that use which is necessary to perform the services or provide the goods reasonably expected by an average consumer. Accordingly, Rivian provides vehicle owners with the option to limit the use of their precise geolocation within the privacy settings of their Rivian vehicle. Rivian does not otherwise use sensitive personal information beyond what is necessary to perform the services or provide the goods that have been requested of us. 
+No Retaliation. You are entitled to exercise the rights described above free from retaliation as prohibited by the CCPA. 
+To exercise your California privacy rights, please see the information in Section 8 ("Your Privacy Rights"). 
+Top of page
+Additional Information for California Residents
+Authorized Agent. Only you, or someone legally authorized to act on your behalf, may make a request to know or delete related to your personal information. You can designate an authorized agent to make a request under the CCPA on your behalf as described in Section 8 ("Your Privacy Rights"). 
+Identity Verification. You may only submit a request to know twice within a 12-month period. Your request must provide sufficient information about you (which may include personal data such as your name and other personal identifiers) and your relationship, if any, with us that allows us to reasonably verify you are the person about whom we collected personal information or an authorized representative and describe your request with sufficient detail that allows us to properly understand, evaluate, and respond to it. We cannot respond to your request or provide you with personal information if we cannot verify your identity or authority to make the request and confirm the personal information relates to you. We will only use personal information provided in the request to verify the requestor's identity or authority to make it. 
+Financial Incentives. We may offer you certain financial incentives permitted by the CCPA that can result in different prices, rates, or quality levels. Any CCPA-permitted financial incentive we offer will reasonably relate to your personal information's value and contain written terms that describe the program's material aspects. Participation in a financial incentive program requires your prior opt-in consent, which you may revoke at any time. 
+Top of page
+CHANGES TO THIS NOTICE
+It is our policy to post any changes we make to this Notice on our Site. If we make material changes to how we treat our users' personal data, we will notify you by email to the primary email address specified in your account or through a notice on the Site home page. You are responsible for ensuring we have an up-to-date active and deliverable email address for you, and for periodically visiting our Site and this Notice to check for any changes. Your continued use of our Site or any products, services, or solutions following the posting of changes constitutes your acceptance of such changes.
+Last Updated: November 1, 2024
+View our previous Data Privacy Notice
+CONTACT US
+If you have any questions or concerns about our processing of your personal data or this Notice, please contact us as specified below based on your location u. S./Other: By email at privacy@rivian.com, by telephone at (888) RIVIAN1 (748-4261), or by mail at Attn: Privacy Office, 14600 Myford Road, Irvine, CA 92606. 
+If you have any questions or concerns about our processing of your personal data or this Notice, please contact us as specified below based on your location canada: Attn: Privacy Office and Quebec Privacy Officer, by email at privacy@rivian.com, by telephone at (844) RIVIAN1 (748-4261) or by mail at 1038 Homer Street, Vancouver, BC V6B 2W9. 
+If you have any questions or concerns about our processing of your personal data or this Notice, please contact us as specified below based on your location eU/UK: By email at privacy@rivian.com or dpo@rivian.com or by mail at Herengracht 433, Unit and 2.02, 1017 BR Amsterdam, The Netherlands. You may identify the applicable Data Controller that processes your personal data here.
+key
+key
+Never miss an adventure, get updates, offers and invites.
+Email
+ZIP Code
+By submitting, I agree to receive future communications from Rivian and I have read and agree to Rivian's Terms and acknowledge the Data Privacy Notice.
+R1T
+R1S
+R2
+Spaces
+Gear Shop
+Our Company
+Stories
+Fleet
+Education
+Purchasing
+Charging
+Insurance
+Service
+Company
+Investors
+Resources
+Support
+US
+2024 Rivian. All Rights Reserved.
+Terms
+Privacy
+Cookies
+Legal
+Recalls
+Accessibility
+Your privacy choices
+Chat
+First Name
+Last Name
+Email
+Chats are transcribed for customer service and quality assurance purposes. Please see the Rivian Privacy Policy for more information.
+Next

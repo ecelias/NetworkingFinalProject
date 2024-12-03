@@ -9,6 +9,11 @@ Privacy
 Privacy
 Third-party ad settings
 Share my data with third parties for personalized adsWhen this setting is on, you will see ads that are more personalized, and data will be shared with third parties about your activities associated with Microsoft services, websites, and apps. When this setting is off, the ads you see on third-party sites will not be personalized using data shared by Microsoft with third parties.
+This page can help you learn more about personalized ads and choose whether you want to see ads on third-party sites that interest you.
+Share my data with third parties for personalized ads
+When this setting is on, you will see ads that are more personalized, and data will be shared with third parties about your activities associated with Microsoft services, websites, and apps. When this setting is off, the ads you see on third-party sites will not be personalized using data shared by Microsoft with third parties.
+On
+Sign in to Microsoft to manage your interests, your searches, and other online activity associated with your Microsoft accountWe may share data from your activities associated with Microsoft services, websites, and apps with third parties to provide ads that are more personalized on third-party sites (defined as cross-contextual behavioral advertising in California). Some companies may provide "do not sell" or "do not share" choices and communicate those choices to Microsoft. Microsoft recognizes that the expected result of exercising either of these choices is to exclude third parties from accessing your data for personalized advertising on third-party sites. As a result, we will receive both signals as a valid opt-out triggering this control. Any user who opts out of all personalization also opts out of third-party data sharing. This setting is available to signed-in users who set their country to the United States. If you are not signed in, you can turn off this setting regardless of your geographic location. To stop sharing data, turn off the Share my data with third parties for personalized ads setting on this page. To turn off all personalized ads, go to the personalized ad settings page.
 Questions?
 What are personalized ads?
 Why does Microsoft show personalized ads?

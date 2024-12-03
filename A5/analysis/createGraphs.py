@@ -249,6 +249,42 @@ def num_dnsmpi_links():
     plt.savefig("analysis/ImageFiles/number_of_dnsmpi_links.png", dpi=300)
     plt.close()
 
+def percent_websites_per_category_with_dnsmpi_links():
+    results = RESULTS
+
+    websites = results["Website"].to_list()
+    dnsmpi_content = results["Contains DNSMPI-associated Content?"].to_list()
+
+    percent_dnsmpi = []
+
+    categories = ["Luxury Clothing Brands", "Fast Fashion Clothing Brands", "Technology Brands", "Vehicle Brands"]
+    
+    sites_by_category ={
+        "luxury_clothing_sites" : websites[:25],
+        "fast_fashion_sites" : websites[25:50],
+        "tech_sites" : websites[50:75],
+        "vehicle_sites" : websites[75:]
+    }
+
+    for cat in sites_by_category:
+        num_dnsmpi = 0
+        tot = 25
+        for site in cat.values():
+            dnsmpi_content = results.loc[site, "Contains DNSMPI-associated Content"]
+            if dnsmpi_content == "Yes":
+                num_dnsmpi +=1
+
+        percent = (num_dnsmpi / tot) * 100
+        percent_dnsmpi.append(percent)
+
+    fig, ax = plt.subplots()
+    ax.pie(percent_dnsmpi, labels=categories, autopct='%1.3f%%', colors =["lightgreen","orchid","slateblue","goldenrod"])
+    plt.title("Percent Websites with DNSMPI links by Category")
+    plt.ylabel("")
+    plt.xlabel("")
+    plt.savefig("analysis/ImageFiles/percent_by_cat_w_dnsmpi.png", dpi=300)
+    plt.close()
+
 def cookies_to_dnsmpi_links():
     results = RESULTS
 
@@ -625,6 +661,7 @@ def main():
     percent_secure_cookies_by_category()
     percent_http_only_cookies_by_category()
     percent_cookies_that_do_not_expire_by_category()
+    percent_websites_per_category_with_dnsmpi_links()
 
     summary_statistics()
     cookie_datatable()

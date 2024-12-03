@@ -53,13 +53,13 @@ Global, English
 SEARCH HISTORY
 Quick Links 
 Phone
+Huawei HiSuite
+Mate XT
 Watch
+Huawei Health
 Tablet
 Laptop
-Huawei HiSuite
-Huawei Health
-HUAWEI AppGallery
-Huawei Mobile Services
+Router
 Privacy Policy
 Huawei Technologies Co. Ltd and its affiliates (collectively, "Huawei", "we", "us", and "our") respect your privacy. Please read the following to learn more about our Privacy Policy ("this Policy"). This Policy applies to Huawei websites, products, and services that display or provide links to this Policy.
 This Policy describes how Huawei processes your personal data, but it may not address all possible data processing scenarios. Huawei may inform you of product- or service-specific data collection through supplementary policies or notices provided before collection.

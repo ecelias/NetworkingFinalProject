@@ -198,3 +198,11 @@ Some items in the cart are not purchasable
 The items in the cart are not purchasable
 Error
 Confirm
+Cookie notice
+This Site uses cookies and similar technologies, including third-party cookies, to function properly, perform statistical analysis, offer you a better experience and send our online advertising messages in line with your preferences. Consult the Cookie Policy to find out more, to know which cookies are used and how to disable them and to withhold your consent. 
+By clicking on "Accept all" you consent to all cookies. By clicking on "Reject all", the cookies for which consent is required will not be stored on your device. 
+You can choose which types of cookies you would like to accept or disable and manage your preferences by clicking on "Cookie setting". 
+Accept all
+Cookie setting
+continue without accepting 
+Reject all

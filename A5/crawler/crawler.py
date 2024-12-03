@@ -85,13 +85,15 @@ def filter_for_privacy_page(hyperlink_dictionary):
                     "privacy notice", "privacy policy", "privacy cookies", "ccpa", "dnsmpi", 
                     "do not sell my personal information", "do not sell my information", 
                     "do not sell my info", "do not sell my personal info", "do not sell or share my personal information", 
+                    "do not sell / share my personal information", "do not sell/share my personal information",
                     "do not sell or share my information", "do not sell or share my info", 
                     "do not sell or share my personal info", "California Consumer Privacy Act", 
                     "Your California privacy rights","CCPA rights","California privacy disclosures", "Do not share my data",
                     "California opt-out"]
     
     dnsmpi_terms = ["ccpa", "dnsmpi", "do not sell my personal information", "do not sell my information", 
-                    "do not sell my info", "do not sell my personal info", "do not sell or share my personal information", 
+                    "do not sell my info", "do not sell my personal info", "do not sell or share my personal information",
+                    "do not sell / share my personal information", "do not sell/share my personal information", 
                     "do not sell or share my information", "do not sell or share my info", 
                     "do not sell or share my personal info", "California Consumer Privacy Act", 
                     "Your California privacy rights","CCPA rights","California privacy disclosures", "Do not share my data",

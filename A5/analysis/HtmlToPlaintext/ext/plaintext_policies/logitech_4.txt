@@ -51,7 +51,6 @@ To see an explanation of the options, select the Help button (question mark).
 Note: If you want to see which websites store cookies on your computer, select the Manage Website Data button.
 If you set Safari to block cookies, you may need to temporarily accept cookies to open a page. Repeat the above steps, selecting Never. When you're done with the page, block cookies again, and then remove the page's cookies.
 For more on cookie preferences in Safari refer to Safari Help.
-Available Offers Offers
 Cart
 Free shipping on orders over $29 & free returns
 Item Subtotal: (Not Including Tax or Shipping)

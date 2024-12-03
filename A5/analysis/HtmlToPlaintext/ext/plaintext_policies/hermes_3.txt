@@ -82,9 +82,9 @@ Experiment with A/B testing to deploy template variations, measure consent, and 
 Extend your consent options 
 Extend cookie consent to Mobile App Consent and OTT & CTV Consent, managing all user consent and preferences through the OneTrust platform.
 CONSENT & PREFERENCES
-December 04, 2024
-The strategic imperative of operationalizing Consent & Preferences in modern marketing
-Discover how shifting regulations and market dynamics are reshaping marketing. Learn how first-party data, consent management, and personalization drive brand success and ROI.
+December 18, 2024
+The ROI of consent & preference data: A good, better, best view of how organizations win with personalization
+Marketing leaders must adapt to a new era where first-party data and consent management drive personalized experiences, ROI, and success amid evolving regulations and market shifts.
 Read more
 Related products
 Clear Filters
@@ -107,9 +107,9 @@ Consent & Preferences
 Third-Party Management
 Training & Certifications
 Resources
-The strategic imperative of operationalizing Consent & Preferences in modern marketing
-Virtual Lunch & Learn: A deep dive into OneTrust's Third Party Management capabilities
-The complete guide to third-party management
+How to handle opt-outs for tracking pixels under Australian privacy law
+Understanding the NIS 2 Directive: Compliance insights and best practices
+Data Discovery Israel: How to create value and demonstrate trust through your data?
 Platform
 Why OneTrust
 Platform

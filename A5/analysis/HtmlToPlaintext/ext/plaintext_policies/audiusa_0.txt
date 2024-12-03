@@ -1,4 +1,3 @@
-Home
 Menu
 Terms of service. Audi USA
 Terms of service
@@ -404,35 +403,6 @@ Intellectual Property
 The Service is protected by the United States and international copyright laws and may be subject to other intellectual property protections, including patent and trademark rights. You may not (or permit or cause any other party to) reproduce, copy, distribute, modify, make derivative works from, perform, broadcast, display, transmit, reuse, re-post, use (except as expressly permitted herein), or claim any right in any aspect of the Service, including the content, text, images, audio, and video, without our express, prior written permission.
 Trademarks. 
 Any trademarks, logos, and service marks (collectively "Marks") displayed in connection with the Services are the registered and unregistered trademarks of Volkswagen Group of America, Inc. or other third parties. Nothing contained in these Terms of Service or the Services should be construed as granting, by implication, estoppel, or otherwise, any license or right to use or display any Mark or any variation thereof without the written permission of Volkswagen Group of America, Inc. or the other owner thereof. Your use of Volkswagen Group of America, Inc.'s Marks is strictly prohibited. 
-myAudi, Complimentary Charging with Electrify America 
-By clicking "Submit" below, you agree to receive complimentary charging credit (the "Promotion") from Audi on Electrify America's network of electric vehicle DC fast charging stations, made available to you through the myAudi services, including the myAudi mobile app. There is no additional fee, purchase, or subscription required for your access to this Promotion. You can redeem this credit during your initiation of a charging session at any Electrify America charging station, by entering the charging station ID number into the myAudi screen when prompted. 
-Participation requires a myAudi account and app. Your mobile carrier's normal messaging, data, and other rates and fees will apply to your use of the myAudi app. 
-By submitting your mobile phone number to Audi in connection with this Promotion, you consent to receive information about your charging session status from Audi through SMS or other text messaging. Audi will not share or use this mobile phone number for any other purpose without your permission. Standard SMS, texting, or mobile data rates from your mobile network carrier may apply to these status communications. 
-To view the specific Promotion that is included with your vehicle, log into the myAudi app and click on the "Electrify America energy usage" link. The complimentary charging Promotion will be available for a specified period of time or fixed kWh of energy. You can see the expiration date for the Promotion or the remaining kWh for the Promotion in the myAudi app on the "Electrify America energy usage" screen. After you have consumed all of your charging under the Promotion at Electrify America charging stations, you will not be able to reload or add more credit to your account. In addition, after this promotional period ends, you will not be able to access or use the remaining kWh credit on your account from this Promotion (if any). Audi may provide you with a link or other information about creating an Electrify America account so that you can continue charging your vehicle on the Electrify America network, but you have no obligation to do so. 
-The credit provided under this Promotion is not returnable or redeemable for any cash value, and may not be sold, loaned, or otherwise distributed to any third party. You may not transfer any portion of the credit to any other myAudi account. 
-You acknowledge that your use of the myAudi services is subject to the myAudi Terms of Service available at website_url_lnk and that your use of the myAudi mobile app is subject to the Terms of Use accessible by selecting "About" under the "User" tab of the mobile app menu, then navigating to "Legal Information" and selecting "Terms of Use & Privacy Statement." You agree to comply with all applicable laws and regulations when using myAudi, and when charging your vehicle at Electrify America charging stations. Audi will not be responsible to you for any damage, injury, or liability resulting from your use of any electric vehicle charging station. 
-Subject to the restrictions below, there is no limit on the number of eligible charging sessions during the Promotion or the kWh amount of charging available in each session. However, please be aware that frequent and consecutive charging can permanently decrease battery capacity, which may not be covered your vehicle's warranty. 
-","articleWidth":false,"legalData":{"wltpKeys":[],"additionalText":""},"links":[]},"additionalModules":[]}">
-Promotion Terms and Conditions
-By clicking "Submit" below, you agree to receive complimentary charging credit (the "Promotion") from Audi on Electrify America's network of electric vehicle DC fast charging stations, made available to you through the myAudi services, including the myAudi mobile app. There is no additional fee, purchase, or subscription required for your access to this Promotion. You can redeem this credit during your initiation of a charging session at any Electrify America charging station, by entering the charging station ID number into the myAudi screen when prompted. 
-Participation requires a myAudi account and app. Your mobile carrier's normal messaging, data, and other rates and fees will apply to your use of the myAudi app. 
-By submitting your mobile phone number to Audi in connection with this Promotion, you consent to receive information about your charging session status from Audi through SMS or other text messaging. Audi will not share or use this mobile phone number for any other purpose without your permission. Standard SMS, texting, or mobile data rates from your mobile network carrier may apply to these status communications. 
-To view the specific Promotion that is included with your vehicle, log into the myAudi app and click on the "Electrify America energy usage" link. The complimentary charging Promotion will be available for a specified period of time or fixed kWh of energy. You can see the expiration date for the Promotion or the remaining kWh for the Promotion in the myAudi app on the "Electrify America energy usage" screen. After you have consumed all of your charging under the Promotion at Electrify America charging stations, you will not be able to reload or add more credit to your account. In addition, after this promotional period ends, you will not be able to access or use the remaining kWh credit on your account from this Promotion (if any). Audi may provide you with a link or other information about creating an Electrify America account so that you can continue charging your vehicle on the Electrify America network, but you have no obligation to do so. 
-The credit provided under this Promotion is not returnable or redeemable for any cash value, and may not be sold, loaned, or otherwise distributed to any third party. You may not transfer any portion of the credit to any other myAudi account. 
-You acknowledge that your use of the myAudi services is subject to the myAudi Terms of Service available at website_url_lnk and that your use of the myAudi mobile app is subject to the Terms of Use accessible by selecting "About" under the "User" tab of the mobile app menu, then navigating to "Legal Information" and selecting "Terms of Use & Privacy Statement." You agree to comply with all applicable laws and regulations when using myAudi, and when charging your vehicle at Electrify America charging stations. Audi will not be responsible to you for any damage, injury, or liability resulting from your use of any electric vehicle charging station. 
-Subject to the restrictions below, there is no limit on the number of eligible charging sessions during the Promotion or the kWh amount of charging available in each session. However, please be aware that frequent and consecutive charging can permanently decrease battery capacity, which may not be covered your vehicle's warranty. 
-You may only use this Plan for charging the Audi vehicle associated with this Promotion. No other vehicle is eligible to receive charging under this Promotion through your account, whether owned by you or others. 
-This Plan is not available for any vehicles in commercial use, such as ridesharing or taxi services. 
-You must follow all instructions and heed all warnings contained in all product, vehicle, safety, and technical documentation included with your Audi vehicle and follow all instructions and safety recommendations posted at the Electrify America charging station when charging. Please see your Owner's Manual for additional information. 
-Audi reserves the right to withhold, revoke, reduce, terminate, or suspend your access to all or any portion of this Promotion without notice if Audi determines or suspects, in its sole discretion, that you: are in violation of the myAudi Terms of Service, the myAudi mobile app Terms of Use, these Promotion Terms and Conditions, or any other contract between you and Audi; have incurred costs (including without limitation any parking or idle fees) during a charging session that are excessive, fraudulent, or otherwise indicate an unauthorized or unintended use this f Promotion; or have engaged in any illegal, fraudulent, tortious, injurious, harmful, or abusive conduct in your use of the myAudi service, the myAudi mobile app, or an Electrify America charging station. 
-Audi reserves the right to end this Promotion at any time before its automatic termination date for any reason, in its sole discretion, with or without notice to you. Following the termination or expiration of this Promotion for any reason, your access to the credit under this Promotion will immediately cease, and you may not use or redeem any remaining portion of the credit (if any). 
-","articleWidth":false,"legalData":{"wltpKeys":[],"additionalText":""},"links":[]},"additionalModules":[]}">
-PLEASE NOTE THE FOLLOWING IMPORTANT LIMITATIONS ON YOUR USE OF THIS PLAN:
-You may only use this Plan for charging the Audi vehicle associated with this Promotion. No other vehicle is eligible to receive charging under this Promotion through your account, whether owned by you or others. 
-This Plan is not available for any vehicles in commercial use, such as ridesharing or taxi services. 
-You must follow all instructions and heed all warnings contained in all product, vehicle, safety, and technical documentation included with your Audi vehicle and follow all instructions and safety recommendations posted at the Electrify America charging station when charging. Please see your Owner's Manual for additional information. 
-Audi reserves the right to withhold, revoke, reduce, terminate, or suspend your access to all or any portion of this Promotion without notice if Audi determines or suspects, in its sole discretion, that you: are in violation of the myAudi Terms of Service, the myAudi mobile app Terms of Use, these Promotion Terms and Conditions, or any other contract between you and Audi; have incurred costs (including without limitation any parking or idle fees) during a charging session that are excessive, fraudulent, or otherwise indicate an unauthorized or unintended use this f Promotion; or have engaged in any illegal, fraudulent, tortious, injurious, harmful, or abusive conduct in your use of the myAudi service, the myAudi mobile app, or an Electrify America charging station. 
-Audi reserves the right to end this Promotion at any time before its automatic termination date for any reason, in its sole discretion, with or without notice to you. Following the termination or expiration of this Promotion for any reason, your access to the credit under this Promotion will immediately cease, and you may not use or redeem any remaining portion of the credit (if any). 
 Back to top
 Explore
 Models
@@ -493,36 +463,12 @@ website_url_lnk
 Version
 0
 Build
-20241112062131
+20241128061033
 Frontend
 0
 Rendertime
-20241123111155
+20241202083220
 StaticVersion
-20410
+20500
 Activated Scopes
 Context Scopes
-As described in our Privacy Statement., we use cookies and other tracking technologies to gather information about you, your device, and how you interact with our website. We use and make such information available to third parties for purposes such as analytics, security, and advertising. In certain cases, you can modify how these technologies are used in our Preference Center by clicking the button below. 
-Cookies Settings
-Privacy Preference Center
-We use cookies and other tracking technologies, such as web beacons, pixels, and tags, to gather information about you, your device, and how you interact with our website. Although we do not "sell" this information for money, we engage in routine online activities with third parties in ways that could be considered a "sale," "sharing," or "targeted advertising" as defined under applicable law. You can opt-out of such disclosures by both: submitting an Opt-Out of Sale/Sharing/Targeted Advertising request through our Privacy Portal.. and disabling the "Sale/Sharing/Targeted Advertising" toggle below.
-Disabling the "Sale/Sharing/Targeted Advertising" toggle below will place a cookie on your browser signaling that you have opted out of such online activities. Please note the opt-out cookie only applies to this website and only to the browser and device you are using at the time you make the selection. You will also need to disable the "Sale/Sharing/Targeted Advertising" toggle on each browser on each device you use, and on each Volkswagen Group website you access.
-Disabling the "Sale/Sharing/Targeted Advertising" toggle below will place a cookie on your browser signaling that you have opted out of such online activities. Please note if you clear cookies on your browser, you will need to disable the "Sale/Sharing/Targeted Advertising" toggle in the Preference Center from that browser again. 
-Disabling the "Sale/Sharing/Targeted Advertising" toggle below will place a cookie on your browser signaling that you have opted out of such online activities. Please note if you have blocked cookies through your browser settings, we will be unable to comply with your Preference Center opt out request.
-More information
-Allow All
-Manage Consent Preferences
-Sale/Sharing/Targeted Advertising
-Sale/Sharing/Targeted Advertising
-Back Button
-Cookie List
-Search Icon
-Filter Icon
-Clear
-checkbox label label
-Apply Cancel
-Consent Leg. Interest
-checkbox label label
-checkbox label label
-checkbox label label
-Confirm My Choices

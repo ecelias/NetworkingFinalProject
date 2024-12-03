@@ -53,13 +53,13 @@ Global, English
 SEARCH HISTORY
 Quick Links 
 Phone
+Huawei HiSuite
+Mate XT
 Watch
+Huawei Health
 Tablet
 Laptop
-Huawei HiSuite
-Huawei Health
-HUAWEI AppGallery
-Huawei Mobile Services
+Router
 How Huawei Uses Cookies and Similar Technologies
 What are cookies and similar technologies?
 A cookie is a text file stored by a web server on a computer or mobile device, and the content of a cookie can be retrieved and read only by the server that created the cookie. Cookies are unique to the browser or mobile application you are using. The text in a cookie often consists of identifiers, site names, and some numbers and characters.
