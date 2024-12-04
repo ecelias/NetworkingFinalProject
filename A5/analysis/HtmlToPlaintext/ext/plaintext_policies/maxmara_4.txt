@@ -1,0 +1,388 @@
+Cookie Policy of us.maxmara.com ca.maxmara.com 
+This document informs Users about the technologies that help this Application to achieve the purposes described below. Such technologies allow the Owner to access and store information (for example by using a Cookie) or use resources (for example by running a script) on a User's device as they interact with this Application. 
+For simplicity, all such technologies are defined as "Trackers" within this document, unless there is a reason to differentiate. 
+For example, while Cookies can be used on both web and mobile browsers, it would be inaccurate to talk about Cookies in the context of mobile apps as they are a browser-based Tracker. For this reason, within this document, the term Cookies is only used where it is specifically meant to indicate that particular type of Tracker. 
+Some of the purposes for which Trackers are used may also require the User's consent. Whenever consent is given, it can be freely withdrawn at any time following the instructions provided in this document.
+This Application uses Trackers managed directly by the Owner (so-called "first-party" Trackers) and Trackers that enable services provided by a third-party (so-called "third-party" Trackers). Unless otherwise specified within this document, third-party providers may access the Trackers managed by them. 
+The validity and expiration periods of Cookies and other similar Trackers may vary depending on the lifetime set by the Owner or the relevant provider. Some of them expire upon termination of the User's browsing session. 
+In addition to what's specified in the descriptions within each of the categories below, Users may find more precise and updated information regarding lifetime specification as well as any other relevant information, such as the presence of other Trackers, in the linked privacy policies of the respective third-party providers or by contacting the Owner.
+How this Application uses Trackers
+Necessary 
+This Application uses so-called "technical" Cookies and other similar Trackers to carry out activities that are strictly necessary for the operation or delivery of the Service.
+Trackers managed by third parties
+Akamai Content Delivery Network (Akamai Technologies, Inc.) 
+Akamai is a hosting service provided by Akamai Technologies, Inc.
+Personal Data processed: Tracker and Usage Data.
+Place of processing: United States, Privacy Policy. 
+New Relic (New Relic) 
+New Relic is a monitoring service provided by New Relic Inc. 
+The way New Relic is integrated means that it filters all traffic of this Application, i.e., communication between the Application and the User's browser or device, while also allowing analytical data on this Application to be collected.
+Personal Data processed: Tracker, Usage Data and various types of Data as specified in the privacy policy of the service.
+Place of processing: United States, Privacy Policy. 
+Storage duration: 
+NRREFL: 3 months
+NRREFP: 2 months
+_newrelic_ui_session: 1 day
+login_service_login_newrelic_com_tokens: 21 years
+nr_secure: 1 day
+nr_zd_logged_in: 1 day
+Other Trackers
+Tealium IQ tag Management 
+Tealium IQ tag Management è un servizio di gestione dei tag fornito da Tealium Inc.
+BrandLock 
+BrandLock helps eCommerce brands preserve the intended online shopper experience by disabling any external scripts from altering the functionality of this website. 
+Place of processing: United States, Privacy Policy. 
+Storage duration: 
+_blka_ruab: 1 year 
+__blka_ts: duration of the session 
+_blka_engage: duration of the session
+Experience 
+This Application uses Trackers to improve the quality of the user experience and enable interactions with external content, networks and platforms.
+Trackers managed by third parties
+Facebook Comments (Facebook, Inc.) 
+Facebook Comments is a content commenting service provided by Facebook, Inc. enabling the User to leave comments and share them on the Facebook platform.
+Personal Data processed: Cookies and Usage Data.
+Place of processing: United States, Privacy Policy. 
+Hotjar Poll & Survey widgets (Hotjar Ltd.) 
+The Hotjar Poll & Survey widgets are services that enable interaction with the Hotjar platform provided by Hotjar Ltd. 
+Hotjar honors generic "Do Not Track" headers. This means the browser can tell its script not to collect any of the User's data. This is a setting that is available in all major browsers. Find Hotjar's opt-out information here.
+Personal Data processed: Trackers, Usage Data and various types of Data.
+Place of processing: Malta, Privacy Policy, Opt Out. 
+Storage duration: 
+_hjAbsoluteSessionInProgress: 30 minutes
+_hjCachedUserAttributes: duration of the session
+_hjClosedSurveyInvites: 1 year
+_hjDonePolls: 1 year
+_hjFirstSeen: duration of the session
+_hjIncludedInSessionSample: 30 minutes
+_hjLocalStorageTest: duration of the session
+_hjMinimizedPolls: 1 year
+_hjSession*: 30 minutes
+_hjSessionRejected: duration of the session
+_hjSessionResumed: duration of the session
+_hjSessionTooLarge: 1 hour
+_hjSessionUser*: 1 year
+_hjSessionUser_*: 2 years
+_hjShownFeedbackMessage: 1 year
+_hjTLDTest: duration of the session
+_hjUserAttributesHash: duration of the session
+_hjViewportId: duration of the session
+_hjid: 1 year
+Measurement 
+This Application uses Trackers to measure traffic and analyse User behaviour to improve the Service.
+Trackers managed by third parties
+Google Analytics (Universal Analytics) (Google Ireland Limited) 
+Google Analytics (Universal Analytics) is a web analysis service provided by Google Ireland Limited ("Google"). Google utilizes the Data collected to track and examine the use of this Application, to prepare reports on its activities and share them with other Google services. 
+Google may use the Data collected to contextualize and personalize the ads of its own advertising network.
+In order to understand Google's use of Data, consult Google's partner policy.
+Personal Data processed: Cookies and Usage Data.
+Place of processing: Ireland, Privacy Policy, Opt Out. 
+Storage duration: 
+AMP_TOKEN: 1 hour
+_ga: 2 years
+_gac*: 3 months
+_gat: 1 minute
+_gid: 1 day
+Omniconvert Explore 
+Website optimisation tool that can be used to gather qualitative data with the help of online surveys, to showcase personalised messages at the right time to the right audience and to easily create and run A/B tests.
+Target2sell 
+This type of service allows us to display to the User the most relevant order of the products on category pages depending on his previous navigation and purchase history on Max Mara e-commerce website. Some examples of the type of information collected are: the products previously seen, the searches carried out, the previous purchases, the products added to the basket or to the wishlist, etc.
+XGen Ai 
+XGen Ai is a technology designed to help curate the products that you are most likely to be interested in through understanding your interests shown as you browse the Max Mara website. It uses only anonymized data from Max Mara, never storing personal information or sharing information between brands. The data that XGen Ai collects is exclusively on-site behaviour, such as page views, scrolls, searches, adds to cart, purchases, etc. 
+Hotjar Heat Maps & Recordings (Hotjar Ltd.) 
+Hotjar is a session recording and heat mapping service provided by Hotjar Ltd. 
+Hotjar honors generic "Do Not Track" headers. This means the browser can tell its script not to collect any of the User's data. This is a setting that is available in all major browsers. Find Hotjar's opt-out information here.
+Personal Data processed: Trackers, Usage Data and various types of Data as specified in the privacy policy of the service.
+Place of processing: Malta, Privacy Policy, Opt Out. 
+Storage duration: 
+_hjAbsoluteSessionInProgress: 30 minutes
+_hjCachedUserAttributes: duration of the session
+_hjClosedSurveyInvites: 1 year
+_hjDonePolls: 1 year
+_hjFirstSeen: duration of the session
+_hjIncludedInSessionSample: 30 minutes
+_hjLocalStorageTest: duration of the session
+_hjLocalStorageTest: duration of the session
+_hjMinimizedPolls: 1 year
+_hjSession*: 30 minutes
+_hjSessionRejected: duration of the session
+_hjSessionResumed: duration of the session
+_hjSessionTooLarge: 1 hour
+_hjSessionUser*: 1 year
+_hjSessionUser_*: 2 years
+_hjShownFeedbackMessage: 1 year
+_hjTLDTest: duration of the session
+_hjUserAttributesHash: duration of the session
+_hjViewportId: duration of the session
+_hjid: 1 year
+Marketing 
+This Application uses Trackers to deliver personalized ads or marketing content, and to measure their performance.
+Trackers managed by third parties
+Microsoft Advertising (Microsoft Corporation) 
+Microsoft Advertising is an advertising service provided by Microsoft Corporation.
+Personal Data processed: Cookies and Usage Data.
+Place of processing: United States, Privacy Policy, Opt Out. 
+Storage duration: 
+MUID: 2 years
+_uetmsclkid: 3 months
+_uetmsclkid: indefinite
+_uetsid: 1 day
+_uetsid: indefinite
+_uetvid: 2 years
+_uetvid: indefinite
+Criteo (Criteo SA) 
+Criteo is an advertising service provided by Criteo SA.
+Personal Data processed: Cookies and Usage Data.
+Place of processing: France, Privacy Policy, Opt Out. 
+Storage duration: 
+criteo_fast_bid: 7 days
+criteo_fast_bid_expires: 7 days
+cto_bundle: 2 years
+cto_bundle: indefinite
+cto_optout: 5 years
+cto_optout: indefinite
+optout: 5 years
+uid: 2 years
+Google Ad Manager (Google Ireland Limited) 
+Google Ad Manager is an advertising service provided by Google Ireland Limited that allows the Owner to run advertising campaigns in conjunction with external advertising networks that the Owner, unless otherwise specified in this document, has no direct relationship with. In order to opt out from being tracked by various advertising networks, Users may make use of Youronlinechoices. In order to understand Google's use of data, consult Google's partner policy. 
+This service uses the "DoubleClick" Cookie, which tracks use of this Application and User behavior concerning ads, products and services offered. 
+Users may decide to disable all the DoubleClick Cookies by going to: Google Ad Settings.
+Personal Data processed: Cookies and Usage Data.
+Place of processing: Ireland, Privacy Policy. 
+Storage duration: 
+Conversion: 3 months
+DSID: 14 days
+FCNEC: 1 year
+FLC: 10 seconds
+FPAU: 3 months
+FPGCLAW: 3 months
+FPGCLDC: 3 months
+FPGCLGB: 3 months
+GCL_AW_P: 3 months
+GED_PLAYLIST_ACTIVITY: duration of the session
+IDE: 2 years
+NID: 6 months
+RUL: 1 year
+__gads: 2 years
+__gpi: 2 years
+__gpi_optout: 2 years
+__gsas: 2 years
+_gac_: 3 months
+_gac_gb_: 3 months
+_gcl_ag: 3 months
+_gcl_au: 3 months
+_gcl_aw: 3 months
+_gcl_dc: 3 months
+_gcl_gb: 3 months
+_gcl_gf: 3 months
+_gcl_gs: 3 months
+_gcl_ha: 3 months
+ar_debug: 3 months
+id: 2 years
+receive-cookie-deprecation: 6 months
+test_cookie: 15 minutes
+Facebook Audience Network (Facebook, Inc.) 
+Facebook Audience Network is an advertising service provided by Facebook, Inc. In order to understand Facebook's use of Data, consult Facebook's data policy.
+This Application may use identifiers for mobile devices (including Android Advertising ID or Advertising Identifier for iOS, respectively) and technologies similar to cookies to run the Facebook Audience Network service. One of the ways Audience Network shows ads is by using the User's ad preferences. The User can control this in the Facebook ad settings.
+Users may opt-out of certain Audience Network targeting through applicable device settings, such as the device advertising settings for mobile phones or by following the instructions in other Audience Network related sections of this privacy policy, if available.
+Personal Data processed: Cookies, unique device identifiers for advertising (Google Advertiser ID or IDFA, for example) and Usage Data.
+Place of processing: United States, Privacy Policy, Opt Out. 
+Meta ads conversion tracking (Meta pixel) (Meta Platforms, Inc.) 
+Meta ads conversion tracking (Meta pixel) is an analytics service provided by Meta Platforms, Inc. that connects data from the Meta Audience Network with actions performed on this Application. The Meta pixel tracks conversions that can be attributed to ads on Facebook, Instagram and Meta Audience Network.
+Personal Data processed: Trackers and Usage Data.
+Place of processing: United States, Privacy Policy, Opt out. 
+Storage duration: 
+_fbc: 3 months
+_fbp: 3 months
+fr: 3 months
+Facebook Lookalike Audience (Facebook, Inc.) 
+Facebook Lookalike Audience is an advertising and behavioral targeting service provided by Facebook, Inc. that uses Data collected through Facebook Custom Audience in order to display ads to Users with similar behavior to Users who are already in a Custom Audience list on the base of their past use of this Application or engagement with relevant content across the Facebook apps and services. 
+On the base of these Data, personalized ads will be shown to Users suggested by Facebook Lookalike Audience.
+Users can opt out of Facebook's use of cookies for ads personalization by visiting this opt-out page.
+Personal Data processed: Cookies and Usage Data.
+Place of processing: United States, Privacy Policy, Opt Out. 
+Storage duration: 
+_fbp: 3 months
+Google Campaign Manager 360 (Google Ireland Limited) 
+Google Campaign Manager 360 is an advertising service provided by Google Ireland Limited that allows the Owner to run advertising campaigns in conjunction with external advertising networks that the Owner, unless otherwise specified in this document, has no direct relationship with. Google Campaign Manager 360 also allows the Owner to measure the campaign's performance, to set up placements, ads, and creatives, and to verify tag implementations (such as errors in the ad's formatting). This Application is collecting and transmitting Data from the User through Google Campaign Manager 360 to media buyers bidding to purchase its inventory. These buyers may collect and store such Data and use such Data for retargeting or other advertising purposes.
+Users may decide to disable all the ad personalization Trackers by going to: Google Ad Settings.
+In order to understand Google's use of Data, consult Google's partner policy.
+Personal Data processed: geographic position, Tracker and Usage Data.
+Place of processing: Ireland, Privacy Policy. 
+Storage duration: 
+Conversion: 3 months
+DSID: 14 days
+FCNEC: 1 year
+FLC: 10 seconds
+FPAU: 3 months
+FPGCLAW: 3 months
+FPGCLDC: 3 months
+FPGCLGB: 3 months
+GCL_AW_P: 3 months
+GED_PLAYLIST_ACTIVITY: duration of the session
+IDE: 2 years
+NID: 6 months
+RUL: 1 year
+__gads: 2 years
+__gpi: 2 years
+__gpi_optout: 2 years
+__gsas: 2 years
+_gac_: 3 months
+_gac_gb_: 3 months
+_gcl_ag: 3 months
+_gcl_au: 3 months
+_gcl_aw: 3 months
+_gcl_dc: 3 months
+_gcl_gb: 3 months
+_gcl_gf: 3 months
+_gcl_gs: 3 months
+_gcl_ha: 3 months
+ar_debug: 3 months
+id: 2 years
+receive-cookie-deprecation: 6 months
+test_cookie: 15 minutes
+Teads (Teads SA) 
+Teads is an advertising service provided by Teads SA.
+Personal Data processed: Tracker and Usage Data.
+Place of processing: Luxembourg, Privacy Policy, Opt out. 
+Storage duration: 
+tt_bluekai: 1 day
+tt_dar: 1 day
+tt_emetriq: 1 day
+tt_exelate: 1 day
+tt_liveramp: 1 day
+tt_neustar: 1 day
+tt_retargetly: 1 day
+tt_salesforce: 1 day
+tt_skp: 1 day
+tt_viewer: 1 year
+Rakuten Privacy Policy (including CCPA Compliance) 
+Rakuten Advertising ("Rakuten"), our advertising services partner, may collect and use personal information when you interact with our websites, including IP addresses, digital identifiers, information about your web browsing and application usage and how you interact with our websites and advertisements for a variety of purposes, including personalization of offers and advertisements and providing analytics about how you engage with our websites and advertisements, as well as for other commercial purposes. 
+Solely for purposes of the foregoing, Max Mara USA is the data controller under applicable law. 
+For additional information about Rakuten's collection and use of your personal data and your privacy rights, please use the following links: 
+Rakuten's Privacy Policy (including the rights of California residents under the California Consumer Privacy Act): 
+Privacy Policy 
+Rakuten's Privacy Rights Request Form: 
+Services Privacy Rights Request Form. Rakuten Advertising 
+TikTok conversion tracking (TikTok Inc.) 
+TikTok conversion tracking is an analytics and behavioral targeting service provided by TikTok Inc. that connects data from the TikTok advertising network with actions performed on this Application. The TikTok pixel tracks conversions that can be attributed to TikTok ads and enables to target groups of Users on the base of their past use of this Application.
+Personal Data processed: Trackers.
+Place of processing: United States, Privacy Policy. 
+MNTN 
+MNTN is one of our service providers. To the extent that MNTN uses, collects, stores, records, organizes, adapts, alters, transfers, retrieves, consults, discloses, disseminates, combines, or otherwise processes your "personal information" or "personal data" as a "data processor" or "service provider" as those terms are defined under applicable Privacy Laws (collectively, "Processing"), the processing of such information is also subject to the MNTN Data Processing Addendum, which is incorporated by reference into MNTN's Terms & Conditions.
+Hotjar Form Analysis & Conversion Funnels (Hotjar Ltd.) 
+Hotjar is an analytics service provided by Hotjar Ltd. 
+Hotjar honors generic Do Not Track headers. This means your browser can tell its script not to collect any of your data. This is a setting that is available in all major browsers. Find Hotjar's opt-out information here.
+Personal Data processed: Trackers and Usage Data.
+Place of processing: Malta, Privacy Policy, Opt Out. 
+Storage duration: 
+_hjAbsoluteSessionInProgress: 30 minutes
+_hjCachedUserAttributes: duration of the session
+_hjClosedSurveyInvites: 1 year
+_hjDonePolls: 1 year
+_hjFirstSeen: duration of the session
+_hjIncludedInSessionSample: 30 minutes
+_hjLocalStorageTest: duration of the session
+_hjMinimizedPolls: 1 year
+_hjSession*: 30 minutes
+_hjSessionRejected: duration of the session
+_hjSessionResumed: duration of the session
+_hjSessionTooLarge: 1 hour
+_hjSessionUser*: 1 year
+_hjSessionUser_*: 2 years
+_hjShownFeedbackMessage: 1 year
+_hjTLDTest: duration of the session
+_hjUserAttributesHash: duration of the session
+_hjViewportId: duration of the session
+_hjid: 1 year
+Snapchat 
+Snap Inc., our advertising services partner, may collect and use personal information when you interact with our website, including IP addresses, digital identifiers, and information about your web browsing and application usage, to monitor site performance, and improve site performance, our services, and user experience. These cookies are used to deliver advertisements, to make them more relevant and meaningful to consumers, and to track the efficiency of advertising campaigns. The cookies serve a variety of purposes, including personalization of offers and advertisements and providing analytics about how you engage with our websites and advertisements, as well as for other commercial purposes. Processing is subject to Snap Inc.'s Cookie Policy and Privacy Policy.
+Google Enhanced Conversion 
+Google Enhanced Conversion is a service that enables the improvement of the measurement of effective conversions of potential customers on this website by monitoring our marketing campaigns. 
+This takes place with the help of so-called monitoring tags of conversions via Google Ads tags. 
+Specifically, where the user makes a conversion on our website, we can collect some personal data. This personal data is used as so-called identifiers, acquired in the conversion monitoring tags, subject to hashing and sent to Google in this format, to then be used to improve the measurement of conversions. 
+Google will use this data to associate the actions of the user and the purchases on this website to their Google account, provided that they have logged in with Google when they interacted with one of our ads. 
+Personal data processed: [email address] 
+Processing location: Ireland
+Facebook Remarketing (Facebook, Inc.) 
+Facebook Remarketing is a remarketing and behavioral targeting service provided by Facebook, Inc. that connects the activity of this Application with the Facebook advertising network.
+Personal Data processed: Cookies and Usage Data.
+Place of processing: United States, Privacy Policy, Opt Out. 
+Storage duration: 
+_fbp: 3 months
+Facebook Custom Audience (Facebook, Inc.) 
+Facebook Custom Audience is a remarketing and behavioral targeting service provided by Facebook, Inc. that connects the activity of this Application with the Facebook advertising network.
+Users can opt out of Facebook's use of cookies for ads personalization by visiting this opt-out page.
+Personal Data processed: Cookies and email address.
+Place of processing: United States, Privacy Policy, Opt Out. 
+Storage duration: 
+_fbp: 3 months
+Salesforce Marketing Cloud (Salesforce.com, inc.) 
+Salesforce Marketing Cloud is a User database management service provided by salesforce.com, inc.
+Personal Data processed: Trackers and various types of Data as specified in the privacy policy of the service.
+Place of processing: United States, Privacy Policy. 
+Trackers that do not fit the above categorizations 
+Fit Finder 
+Snap provides "Size and Style Solutions" for shoppers looking to purchase clothes and shoes, including our Fit Finder (accessible through wording such as 'Find my size,' 'Fit Finder,' or 'Size Finder'), 2D Try On, and Style Finder services. These technologies use cutting-edge machine learning algorithms based on fit and size information provided by shoppers, purchase and return data provided by shops, and shopper browsing observations to provide size and style recommendations and personalized ads. 
+Privacy Notice 
+Salecycle 
+Used to track use of the website in order to understand which products and services are of interest to you and to collect certain personal information such as name, email address, phone number, and a unique identifier associated with your device. This information is then used to assist you in the buying process including by contacting you from time to time (either by email or SMS) or to personalise advertising displayed to you online. Please see the SaleCycle Service Privacy Notice for more details regarding the cookies used by SaleCycle on our website. 
+How to manage preferences and provide or withdraw consent on this Application 
+Whenever the use of Trackers is based on consent, users can provide or withdraw such consent by setting or updating their preferences via the relevant privacy choices panel available on this Application. 
+With regard to any third-party Trackers, Users can manage their preferences via the related opt-out link (where provided), by using the means indicated in the third party's privacy policy, or by contacting the third party.
+How to control or delete Cookies and similar technologies via your device settings
+Users may use their own browser settings to see what Cookies or other similar technologies have been set on the device.
+Users may use their own browser settings to block Cookies or similar technologies.
+Users may use their own browser settings to clear Cookies or similar technologies from the browser.
+The browser settings, however, do not allow granular control of consent by category.
+Users can, for example, find information about how to manage Cookies in the most commonly used browsers at the following addresses: google Chrome
+Users can, for example, find information about how to manage Cookies in the most commonly used browsers at the following addresses: mozilla Firefox
+Users can, for example, find information about how to manage Cookies in the most commonly used browsers at the following addresses: apple Safari
+Users can, for example, find information about how to manage Cookies in the most commonly used browsers at the following addresses: microsoft Internet Explorer
+Users can, for example, find information about how to manage Cookies in the most commonly used browsers at the following addresses: microsoft Edge
+Users can, for example, find information about how to manage Cookies in the most commonly used browsers at the following addresses: brave
+Users can, for example, find information about how to manage Cookies in the most commonly used browsers at the following addresses: opera
+Users may also manage certain categories of Trackers used on mobile apps by opting out through relevant device settings such as the device advertising settings for mobile devices, or tracking settings in general (Users may open the device settings and look for the relevant setting).
+How to opt out of interest-based advertising
+Notwithstanding the above, Users may follow the instructions provided by YourOnlineChoices (EU and UK), the Network Advertising Initiative and the Digital Advertising Alliance (US), DAAC (Canada), DDAI or other similar services. Such initiatives allow Users to select their tracking preferences for most of the advertising tools. The Owner thus recommends that Users make use of these resources in addition to the information provided in this document. 
+The Digital Advertising Alliance offers an application called AppChoices that helps Users to control interest-based advertising on mobile apps. 
+Consequences of denying the use of Trackers
+Users are free to decide whether or not to allow the use of Trackers. However, please note that Trackers help this Application to provide a better experience and advanced functionalities to Users (in line with the purposes outlined in this document). Therefore, if the User chooses to block the use of Trackers, the Owner may be unable to provide related features.
+Owner and Data Controller 
+Max Mara Fashion Group S.r.l. Unipersonale 
+Via Pietro Giannone 10, 10121 Torino 
+P. IVA 05839750014/ C. F.: 00678310350 
+Uffici/Sede amministrativa: Via Giulia Maramotti, 4, 42124 Reggio Emilia 
+Codice SDI SN4CSRI 
+PEC: maxmarafashiongroup@legalmail.it
+Owner contact email: info@maxmarafashiongroup.com
+Since the use of third-party Trackers through this Application cannot be fully controlled by the Owner, any specific references to third-party Trackers are to be considered indicative. In order to obtain complete information, Users are kindly requested to consult the privacy policies of the respective third-party services listed in this document.
+Given the objective complexity surrounding tracking technologies, Users are encouraged to contact the Owner should they wish to receive any further information on the use of such technologies by this Application.
+Definitions and legal references 
+Personal Data (or Data)
+Any information that directly, indirectly, or in connection with other information, including a personal identification number, allows for the identification or identifiability of a natural person.
+Usage Data
+Information collected automatically through this Application (or third-party services employed in this Application), which can include: the IP addresses or domain names of the computers utilized by the Users who use this Application, the URI addresses (Uniform Resource Identifier), the time of the request, the method utilized to submit the request to the server, the size of the file received in response, the numerical code indicating the status of the server's answer (successful outcome, error, etc.), the country of origin, the features of the browser and the operating system utilized by the User, the various time details per visit (e.g., the time spent on each page within the Application) and the details about the path followed within the Application with special reference to the sequence of pages visited, and other parameters about the device operating system and the User's IT environment.
+User
+The individual using this Application who, unless otherwise specified, coincides with the Data Subject.
+Data Subject
+The natural person to whom the Personal Data refers.
+Data Processor (or Processor)
+The natural or legal person, public authority, agency or other body which processes Personal Data on behalf of the Controller, as described in this privacy policy.
+Data Controller (or Owner)
+The natural or legal person, public authority, agency or other body which, alone or jointly with others, determines the purposes and means of the processing of Personal Data, including the security measures concerning the operation and use of this Application. The Data Controller, unless otherwise specified, is the Owner of this Application.
+This Application
+The means by which the Personal Data of the User is collected and processed.
+Service
+The service provided by this Application as described in the relative terms (if available) and on this site/application.
+European Union (or EU)
+Unless otherwise specified, all references made within this document to the European Union include all current member states to the European Union and the European Economic Area.
+Cookie
+Cookies are Trackers consisting of small sets of data stored in the User's browser.
+Tracker
+Tracker indicates any technology, e.g Cookies, unique identifiers, web beacons, embedded scripts, e-tags and fingerprinting, that enables the tracking of Users, for example by accessing or storing information on the User's device.
+Legal information
+This privacy policy relates solely to this Application, if not stated otherwise within this document.
+Latest update: November 15, 2024 
+iubenda hosts this content and only collects the Personal Data strictly necessary for it to be provided. 
+Show the complete Privacy Policy

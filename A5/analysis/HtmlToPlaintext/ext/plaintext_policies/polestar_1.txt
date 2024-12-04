@@ -1,0 +1,134 @@
+Skip to the main content
+Polestar 2
+Polestar 3
+Polestar 4
+Shopping tools
+More
+Polestar 2
+Discover Polestar 2Test driveOffers
+Shop available carsConfigurePre-owned cars
+Polestar 3
+Discover Polestar 3Test driveOffers
+Shop available carsConfigure
+Polestar 4
+Discover Polestar 4ConfigureKeep in touch
+Shopping tools
+Fleet & BusinessFinancing optionsHow to buy
+OffersAvailable carsConfigurePre-owned cars
+ExtrasAdditionalsExperiences
+More
+SupportService locationsRange & ChargingOwnership
+LocationsAbout PolestarSustainabilityNewsNewsletter sign-up 
+LegalPrivacy
+Cookie policy
+Privacy
+Index
+Introduction
+Cookies and similar technologies
+Sharing of your personal data
+Your rights
+Contacts
+Cookie policy
+v2.0
+2024
+Download as PDF
+Introduction
+This cookie policy covers by Polestar Performance AB's ("Polestar", "we", "us") processing of personal data collected via cookies or similar technologies when you visit our web site; see the contact details below.
+Our website uses cookies and similar technologies to improve your browsing experience, personalize content and ads, provide social media features, and analyze our traffic.
+This policy is updated continuously to reflect the measures that Polestar takes in relation to your personal data.
+Cookies and Pixels
+Cookies may store information about you, your preferences, or your device, but they do not usually directly identify you. We use strictly necessary cookies for the website to function properly. For an optimal experience and personalized content, we use functional, performance, targeting and advertising cookies with your consent. You can choose not to allow some types of cookies, but it may affect your site experience.
+Cookies are small text files stored on your device that help us enhance your user experience and learn what interests you. We have a cookie privacy manager that allows you to decide how cookies are used. We use a cookie to remember your choices, so you will need to update them if you delete all your cookies or use a different device or browser.
+We also use Pixel tags, which are small graphic files loaded from the servers of the respective service provider when a user accesses our website.
+First-party cookies
+First-party cookies are cookies that we, or contracted service providers, place on the website and with which you interact if you continue to use our website.
+Third-party cookies
+Third-party cookies are created by domains other than the website you're interacting with, allowing other companies to collect information about your online activities across multiple websites.
+Local storage
+Local storage is a file created by a website on your device. Local storage has the same function as a cooky. In contrast to cookies, local storage does not have an expiration date, and the data will persist until manually cleared by the user or the website. Local storage data can be deleted through your browser settings. Information stored in local storage can only be accessed by scripts on the same domain.
+Cookie Consent Management Platform
+Cookies and similar technologies
+Some cookies are strictly necessary for the website to work; these are always on when you visit our website. The legal grounds for using strictly necessary cookies is our legitimate interest in providing you with a functioning website. We classify other cookies into functional, performance, targeting, and advertising cookies; for these, we rely on your consent, and you can choose to turn them on or off.
+We process your geolocation data in the form of your IP address to ensure that we can provide you with the services closest to your current location. This functionality is used throughout our website.
+You have the right to withdraw your consent to cookies at any time which you do in the Cookie Consent Management Platform
+Should you wish to contact us about this data or other personal data that we process in relation to you, please fill in our webform.
+Strictly necessary
+These cookies are necessary in order for the website to function correctly. These cookies are saved automatically when the website or a particular function is requested, unless you have disabled cookies in your browser settings.
+Related Cookies
+Polestar
+Aelia
+CloudFlare
+Drupal
+Microsoft
+OneTrust
+SalesForce
+Sprinklr
+Volvo Cars
+Functional
+These cookies are used to personalize your end-user browsing experience. These cookies are anonymous and don't track browsing activity across other websites.
+Related Cookies
+Polestar
+Amazon Web Services
+Microsoft
+SalesForce
+Performance
+These cookies are used to see how you interact with our website, which helps us improve performance and adapt the content to your interests. To do this, we use the services of third-party providers that receive information about your use of our website and may, for their own purposes, also combine this with other data that they have received from you and possibly from elsewhere.
+Related Cookies
+Datadog
+Google Analytics
+Hotjar
+Microsoft
+Optimizely
+Targeting & advertising
+These cookies can be set by our advertising partners, via our website, and may be used to create a user profile based on your behavior on our website in order to show you relevant advertisements on other websites. They work by clearly identifying your browser or your end device. If you do not allow these cookies, you will not experience our targeted advertising on other websites (but you may still see non-targeted advertising).
+Related Cookies
+Polestar
+Meta
+Google
+LinkedIn
+Microsoft
+Outbrain
+Pinterest
+Sharing of your personal data
+How we share your personal data and who we share it with
+To provide our services and to comply with laws and regulations, we need to share your personal data with others, including other companies within the Polestar Group and third parties assisting us in various parts of our business and helping us to deliver our services. In the tables above you will find information about the third-party cookies we use, and you can also find the categories of recipients listed below.
+IT providers: g., companies that manage the necessary operation, technical support and maintenance of our IT solutions,
+Polestar affiliates,
+Subcontractors: chat services, banks and payment service providers, providers of analytics services,
+Authorities, e.g. the police, regulatory authorities, public courts, enforcement agencies,
+Business partners, e.g, law firms, advertising companies, and
+Providers of social media platforms.
+Processing of your personal data outside the EU/EEA
+We strive to process your personal data within the EU/EEA area. However, your personal data collected via cookies or similar technologies on Polestar's websites will be transferred outside the EU/EEA in some situations, such as when we share your information with a business partner or subcontractor operating outside the EU/EEA.
+We transfer personal data to the following countries outside of the EU/EEA: the United States and the United Kingdom. Our business partners have servers in different countries, and depending on the number of website users and other factors, the services that use cookies may come from any of these countries.
+We always ensure that the same high level of protection applies to your personal data according to the GDPR, even when the data is transferred outside of the EU/EEA. As regards the United Kingdom, the Commission has decided that it ensures an adequate level of protection (article 45 of the GDPR). Regarding transfers to the United States or other third countries, we have entered into EU Model Clauses with relevant third parties (article 46 of the GDPR), or they are certified under the EU-U. S. Data Privacy Framework, the UK Extension to the EU-U. S Data Privacy Framework and the Swiss-U. S. Data Privacy Framework with the U. S. Department of Commerce. In addition, we take additional technical and organizational security measures when needed, such as encryption and pseudonymization.
+Google
+We use Googles Analytics to create a better customer service, to effectively use our resources and to build empathy for our customers' needs. When using Google Analytics, we use a server-side setup for improved privacy control.
+The configuration of Google Analytics at Polestar governance: All possible online tracking services added to any part of polestar.com are added through Google Tag Manager ("GTM" is loaded on the website and does not carry out any tracking of its own; it just exists to centralize management of any tracking from any vendor). There are retention limits for user-level data (i.e. non-aggregate) set up in Google Analytics so that user-level data older than 14 months is deleted.
+The configuration of Google Analytics at Polestar obeying users' choice in tracking: All tags in GTM go through a test/QA procedure that make sure they abide by the user's cookie consent settings and that the Google Analytics cookies are only activated after the user has accepted the cookies in the cookie banner.
+The configuration of Google Analytics at Polestar anonymization: We are anonymizing customer data before it gets to Google's servers. This is done in a number of ways. First, the configuration of Google Analytics on the Polestar website is set up to not send any user IDs or personal data (in tracking packets or accidentally in URLs), and to not retain or process meta data such as IP addresses. Second, Polestar sends the Google Analytics data from a user's browser to a proxy server first (a server-side GTM system under Polestar's control) before it reaches Google Analytics. This allows us to remove information before it is sent to Google Analytics. Included in this is the semi-anonymization of IP addresses: we remove the second half of an IP address to allow us to analyze geographic data on a country scale, but severely reduce Google's ability to fingerprint individual users for other purposes.
+The processing locations for Google Analytics are the United Kingdom, based on an adequacy decision, and USA, based on certification under the EU-U. S. Data Privacy Framework, the Swiss-U. S. Data Privacy Framework and the UK Extension to the EU-U. S Data Privacy Framework with the U. S. Department of Commerce.
+Meta
+A Facebook Ads Pixel is a piece of code provided by Meta that allows us to track and measure the effectiveness of our advertising campaigns on Meta platforms. It helps us understand how users interact with our website after seeing our ads on Facebook, enabling us to optimize our marketing efforts and deliver more relevant content to our audience. Additionally, the data collected through the Facebook Ads Pixel is used for targeting purposes, allowing us to tailor our advertising based on users' behavior and preferences.
+The types of personal data that the Facebook Ads Pixel collects includes device Information (device type, operating system, and unique device identifiers), IP address and cookie data (unique cookie ID).
+When a Facebook user has previously clicked on one of our ad campaigns and later returns to our website and fills in any of our forms, personal data is collected to give precise data on the number of users who have been exposed to certain ad campaigns on Facebook and who have converted as a result. The data collected when filling out forms may include name, e-mail address, phone number, geographic data such as town/city, county/region, postal code, and country, and date of birth and external ID.
+The processing locations for Facebook Ads Pixels are within the European Union and in the USA based on certification under the EU-U. S. Data Privacy Framework and the Swiss-U. S. Data Privacy Framework with the U. S. Department of Commerce.
+Your rights
+You have the right to withdraw your consent to functional, performance or targeting and advertising cookies at any time which you do in the Cookie Consent Management Platform
+Stored cookies can also be deleted at any time in the system settings of your device and Internet browser. Local Storage data can be deleted through your browser settings. Please note that the functionality and range of functions may be limited if you block cookies or similar technologies or do not give your consent to their use. For more information on your rights in relation to our processing of your personal data and contact details for further information and complaints, as well as contact details to our Data Protection Officer, please visit our Customer Privacy Policy.
+Contacts
+Polestar Performance AB is a Swedish legal entity with company registration number 556653-3096, whose mailing address is Assar Gabrielssons Väg 9, 405 31 Gothenburg, Sweden and whose address for visitors is Polestar HQ, Assar Gabrielssons Väg 9, 418 78 Gothenburg.
+Stay up to date on all the latest Polestar news
+Subscribe
+HomePolestar 1Polestar 2Polestar 3Polestar 4Polestar 5Polestar 6Polestar 2 BST 230Test driveConfigureShop available carsPre-ownedFleet & BusinessPolestar Fleet PortalPolestar locations
+Shop
+ExtrasAdditionalsExperiences
+Support
+How to buyPolestar Financial ServicesOwnershipChargingService pointsSupport
+About
+EventsNewsSustainabilityAbout PolestarCareersDesign ContestMediaInvestor RelationsVulnerability disclosureRecall information
+Social
+InstagramFacebookYouTubeLinkedInX TikTokPolestar CommunityDesign Community
+Polestar 2024 All rights reserved
+LegalEthicsPrivacyCookiesAccessibility statementDo Not Sell My Personal Information
+United States

@@ -1,0 +1,405 @@
+Product
+Solutions
+Why Dynamic Yield
+Company
+Learning Center
+Connect with us
+Product
+Experience OS
+Get an overview of Dynamic Yield's product and see why we're known as the Experience OS. Learn more →
+Core Capabilities
+DiscoverIdentify, build, and analyze audiences
+TargetPersonalize content and offers to each customer
+RecommendAlgorithmically predict customers' interests
+EngageReach customers at critical moments
+OptimizeExperiment anywhere on your digital properties
+Made for Scale
+ElementA groundbreaking new dimension of hyper-personalization
+AI & AutomationIncrease automation, lower operational costs, and drive more revenue with a holistic AI personalization system
+Experience APIsGive developers the tools they need to build the best customer experiences
+Enterprise solutionsScale with security, privacy, and compliance, made for the enterprise
+Meet Shopping Muse: Conversational commerce meets cutting-edge personalization. Learn more →
+Solutions
+Industries
+eCommerce
+Financial Services
+Restaurants
+Grocery
+B2B eCommerce
+Travel
+iGaming
+Media
+Channels
+WebCreate customer-centric web experiences
+EmailPersonalize emails with a no-code builder
+AppsOptimize mobile app experiences
+AdsImprove customer acquisition results
+Why Dynamic Yield
+Proven impact and success services
+Select customers
+Case studies
+Customer success services
+Built for scale
+Enterprise-grade solutions
+AI Technology
+GDPR and data privacy
+Security
+Compliance
+Robust partner network
+Partner library
+Partnership program
+Tech Partners and Integrations
+Extensive product resources
+Knowledge Base
+Academy & Certification
+Community
+API documentation
+The Personalization Awards Celebrating customers and partners setting the gold-standard for personalization Learn more →
+Company
+About us
+Blog
+DY Labs
+Careers
+Events
+Press
+Awards
+Contact us
+Request a demo
+Learning Center
+Take your knowledge to exponential levels
+XP2 HubTake your knowledge to exponential levels
+Learning PathsCurated courses on key skill areas
+TalksEngaging discussions taking place in CX
+ArticlesAn expansive collection of in-depth playbooks
+EncyclopediaA glossary of experience optimization terms
+Inspiration LibraryPersonalization examples from real brands
+Personalization MaturityHow global businesses prioritize personalization
+Guides & reportsComprehensive topic-specific materials
+BenchmarksIndustry performance metrics and insights
+Rooted Personalizationnew Learn a scalable methodology for building an audience-based personalization program. Find out more →
+Connect with us
+en
+English
+Español
+Deutsch
+Français
+Talk to sales Open Nav 
+DYNAMIC YIELD 
+PRIVACY NOTICE
+Effective Date: January 4th, 2024.
+This Privacy Notice (the "Notice") is provided by Dynamic Yield Ltd. ("Dynamic Yield," "DY", "we," or "us"). Dynamic Yield respects your privacy.
+Personal Information We May Collect 2. How We May Use Your Personal Information 3. How We Share Your Personal Information 4. Your Rights and Choices 5. How We Protect Your Personal Information 6. Data Transfers 7. Features and Links to Other Websites 8. Children's Data Policy 9. California Resident Privacy Policy 10. Updates to This Privacy Notice 11. How to Contact Us
+This Notice describes the types of Personal Information we collect, the purposes for which we process that Personal Information, the parties with whom we may share it and the measures we take to protect its security. It also tells you about your rights and choices with respect to your Personal Information, and how you can contact us about our privacy practices.
+Please note that we also act on behalf of and under the instructions of merchants and other partners which act as data controllers. Please refer to their respective privacy policies for more information regarding the processing of your Personal Information in these contexts. DY has recently been acquired by Mastercard. For more information about Mastercard's privacy practices in other contexts, please visit Mastercard's Global Privacy Notice at website_url_lnk
+Personal Information We May Collect
+We may collect the following types of Personal Information: registration Information.
+We may collect the following types of Personal Information: other information you choose to provide.
+We may collect the following types of Personal Information: device Information.
+We may collect the following types of Personal Information: usage Information.
+Learn More +
+For the purpose of this Notice, unless otherwise specified, "Personal Information" means any information relating to an identified or identifiable individual. In connection with the provision of our product and services, including our website website_url_lnk (the "Website"), we obtain Personal Information relating to you from the various sources described below.
+If you do not provide your Personal Information when requested, you may not be able to use our Website if that Personal Information is necessary to provide you with our Website or if we are legally required to collect it. Where required by applicable law, we indicate whether and why you must provide us with your Personal Information, as well as the consequences of failing to do so.
+Personal Information Provided by You
+Registration Information. As part of our registration process (e.g., when requesting a demo), we collect your phone number, full name, e-mail address, and details regarding the company you work for if required to provide you with our product and services.
+Other information you choose to provide. You may choose to provide us with other information. We collect your Personal Information when you purchase our services (including financial information), respond to communications from us, contact our support, communicate with us via email, our Website and through any online platform. We may also record telephone conversations, subject to the consent of the participants in the call.
+Personal Information We Obtain from Your Interaction with our Website
+Device Information. We collect Personal Information from your device, such as IP address and other online identifiers (i.e., online data collected from your devices, applications and protocols which leave traces which may be used to identify you).
+Usage Information. We collect information that we or our technology providers may automatically collect when you visit, access, or use the Website, such as your internet service provider, domain server, type of computer, browser type and language, referring and exit pages and URLs, date and time, amount of time spent on particular pages, what sections/features of our Website you visit/utilize, number of links you click while on the Website, search terms, and operating system. We may also collect statistical and other data related to your use of our Website or other services as well as information on Website usage patterns.
+To collect the above information, we may use session identifiers, web beacons, cookies, JavaScript tags, and other tracking technologies. A cookie is a piece of data stored on your hard drive that contains information about your online behavior, as well as your device. You can learn more on the cookies we use and control your preferences through our Website's cookie management tool, Cookie Settings.
+We use this information to improve our online products and services by assessing how many users access or use our online products and services, which content, products and features of our online products and services most interest our visitors, what types of offers our customers like to see and how our online products and services perform from a technical point of view.
+We, our service providers and partners may also collect information about you in connection with our marketing activities. The information collected for these purposes may include identifiers and your contact information (e.g., name, email address, telephone number), device information (e.g., username, password, IP address), Internet or other electronic network activity information, geolocation data, and inferences drawn from Personal Information.
+We, our service providers and partners may also collect information about you to provide you with content and advertising tailored to your individual interests based on inferences drawn from Personal Information. The information collected for these purposes may include Internet or other electronic network activity information, such as details about things like the particular pages you view on our Website and the actions you take on our Website.
+We, our service providers and partners may collect certain information about you via automated means such as social media tools to connect you to your social media accounts. These features may allow you to sign in through your social media account, share a link or post directly to your social media account. When you visit a website that contains such tools, the social media or other service provider may learn of your visit. However, your interactions with these tools are governed by the privacy policies of the corresponding social media platforms. As we do not control these third-parties' data handling practices, we recommend that you review their privacy policies, terms or use and license agreements (if any). For further details, please consult Section 7 ("Features and Links to Other Websites") of this Privacy Notice.
+View Summary -
+How We May Use Your Personal Information
+We may use your Personal Information to operate our Website.
+We may use your Personal Information to complete your registration.
+We may use your Personal Information to deidentify and aggregate your Personal Information.
+We may use your Personal Information to communicate with you and to keep you informed of our latest updates, including for marketing, promotion, and advertising purposes.
+We may use your Personal Information to perform research or to conduct analytics in order to improve our products and services.
+We may use your Personal Information to deliver content tailored to your interests.
+We may use your Personal Information to respond to your queries.
+We may use your Personal Information to support and troubleshoot our Website.
+We may use your Personal Information to investigate violations and enforce our policies, and as required by law, regulation or other governmental authority, or to comply with a subpoena or similar legal process or respond to a government request.
+We may use your Personal Information to manage our customer, vendor and partner relationships.
+Learn More +
+We set out below the purposes for which we process Personal Information. We indicate the categories of Personal Information per processing purpose. Depending on the country in which you are located, we will will only process your Personal Information, where permitted under applicable laws and when we have a legal basis for the processing as identified in the table below. However, please note that even though the chart below does not list consent as a legal basis for each processing activity, in some countries consent is the only or most appropriate legal basis for the processing of Personal Information, and in those countries, we rely on consent.
+Processing purpose. Legal basis. Categories of Personal Information 
+To operate our Website. 
+You consented to the use of your Personal Information; or
+The processing is necessary for entering into, or performance of a contract to which you are a party; or
+The processing is necessary for compliance with a legal or regulatory obligation; or
+We have a legitimate interest in using your Personal Information for the purpose of operating our Website.
+Registration Information
+Other information you choose to provide
+Device Information
+Usage Information
+To complete your registration, create and manage any accounts you may have with us, verify your identity, provide our services, and respond to your queries. 
+You consented to the use of your Personal Information; or
+The processing is necessary for entering into, or performance of a contract to which you are a party; or
+The processing is necessary for compliance with a legal or regulatory obligation; or
+We have a legitimate interest in using your Personal Information for the purpose of completing your registration, creating and managing accounts and verifying your identity, and responding to your inquiries.
+Registration Information
+Sensory Information
+Other information you choose to provide
+To deidentify and aggregate your Personal Information. 
+We have a legitimate interest in using your Personal Information for the purposes of anonymizing Personal Information and preparing and furnishing aggregated data reports; or
+The processing is undertaken for statistical and research purposes (in jurisdictions where this legal ground is available) and training our AI.
+To the extent we maintain or otherwise process deidentified or anonymized information, we will maintain and use the information in deidentified or anonymized form and will not attempt to reidentify the information unless otherwise permitted by applicable law.
+Registration Information
+Other information you choose to provide
+Device Information
+Usage Information
+To communicate with you and to keep you informed of our latest updates, including for marketing, promotion, and advertising purposes. 
+You consented to the use of your Personal Information; or
+The processing is necessary for entering into, or performance of a contract to which you are a party; or
+We have a legitimate interest in using your Personal Information for the purpose of promoting our business.
+When we send electronic direct marketing communications, or when we tailor our advertising, we will obtain individuals' prior consent if required in accordance with applicable laws.
+Registration Information
+Device Information
+Other information you choose to provide
+To perform research or to conduct analytics in order to improve our products and services. 
+You consented to the use of your Personal Information; or
+The processing is necessary for entering into, or performance of a contract to which you are party; or
+We have a legitimate interest in using your Personal Information for the purposes of improving our products or services.
+Registration Information
+Device Information
+Usage Information
+To deliver content tailored to your interests. 
+You consented to the use of your Personal Information; or
+The processing is necessary for entering into, or performance of a contract to which you are party; or
+We have a legitimate interest in using your Personal Information for the purposes of providing you personalized services and recommendations.
+When we are required by applicable law, we will obtain your consent to tailor content to your interests.
+Registration Information
+Device Information
+Usage Information
+Other information you choose to provide
+To support and troubleshoot our Website. 
+The processing is necessary for compliance with a legal or regulatory obligation; or
+We have a legitimate interest in ensuring the safety, security and performance of our Website.
+Registration Information
+Device Information
+Usage Information
+To investigate violations and enforce our policies, and as required by law, regulation or other governmental authority, or to comply with a subpoena or similar legal process or respond to a government request. 
+The processing is necessary for compliance with a legal or regulatory obligation; or
+We have a legitimate interest in using your Personal Information for the purpose of enforcing our policies.
+Registration Information
+Device Information
+Usage Information
+To manage our customer, vendor and partner relationships (which may include business contact information). 
+You consented to the use of your Personal Information; or
+The processing is necessary for entering into, or performance of a contract to which you are a party; or
+We have a legitimate interest in using your Personal Information for the purpose of managing our customer, supplier and vendor relationships.
+Registration Information
+Other information you choose to provide
+View Summary -
+How We Share Your Personal Information
+We may share Personal Information with mastercard's headquarters in the U. S., our affiliates and other entities within Mastercard's group of companies.
+We may share Personal Information with third-Party Business Partners.
+We may share Personal Information with social Networks.
+We may share Personal Information with as Required By Law.
+We may share Personal Information with in the event of a sale or transfer of our business or assets.
+We may share Personal Information with third-Party Service Providers.
+Learn More +
+We may share your Personal Information with the following recipients for the purposes set out below: subsidiaries and Affiliates. We share your Personal Information with our subsidiaries and affiliates that are part of the Mastercard group of companies, for the purposes described in this Notice.
+We may share your Personal Information with the following recipients for the purposes set out below: third-Party Business Partners. We partner with a variety of businesses to market or sell our products or services (for example we can disclose your Personal Information to advertising partners, analytics providers). If you have opted out of our ability to use your e-mail address, we may share your decision to opt out with third parties to comply with your decision.
+We may share your Personal Information with the following recipients for the purposes set out below: social Networks. Our Website may include links to other third-party websites, social media tools, widgets or plug-ins, permitting us to share web content with Social Networks when you directly engage with those platforms. For further details, please consult Section 7 (Features and Links to Other Websites).
+We may share your Personal Information with the following recipients for the purposes set out below: as Required By Law. We share your Personal Information if required by law in order to prevent, investigate, or take action regarding illegal activities or to respond to legal process, court orders, subpoenas, or to establish or exercise our legal rights or defend against legal claims. We also disclose your Personal Information to any government or law enforcement authority or regulatory agency in response to lawful requests by applicable local law enforcement agencies or regulatory agencies, or agencies with responsibility to oversee and enforce national security.
+We may share your Personal Information with the following recipients for the purposes set out below: sale of Business. We share your Personal Information as part of or in connection with a corporate merger, consolidation, restructuring, the sale of substantially all of our shares or stock and assets or other corporate change, including, during the course of any due diligence process.
+We may share your Personal Information with the following recipients for the purposes set out below: third-Party Service Providers. For the purpose of providing and operating the Website and other services, we share your Personal Information with trusted third-party service providers that require access to such data for the purpose of providing the related services to us, such as ISPs, OS/platform, storage and analytics providers.
+View Summary -
+Your Rights and Choices
+Depending on your country, you may have the right to access your Personal Information, receive a copy of it, rectify it, restrict or object to its processing, request its deletion, or transmit it to another company.
+Depending on your country, you may have the right to withdraw any consent provided.
+Depending on your country, you may have the right to opt-out from receiving marketing communications.
+Depending on your country, you may have the right to where applicable, lodge a complaint with your relevant supervisory authority.
+Learn More +
+Subject to applicable law, you have the right to request access to and receive information about the Personal Information we maintain about you, to update and correct inaccuracies in your Personal Information, to restrict or to object to the processing of your Personal Information, to have the information anonymized or deleted, as appropriate, or to exercise your right to data portability to easily transfer information to another company.
+Subject to applicable law, you have the right to withdraw any consent you previously provided to us regarding the processing of your Personal Information, at any time and free of charge. We will apply your preferences going forward and this will not affect the lawfulness of the processing before your consent withdrawal.
+Subject to applicable law, you have the right to opt-out from receiving marketing communications by clicking on the unsubscribe link contained in such communications.
+Subject to applicable law, you have the right to lodge a complaint with a supervisory authority, including in your country of residence, place of work or where an incident took place.
+Those rights may be limited in some circumstances by local law requirements.
+If you reside in the United States, you may have additional rights as described in our "U. S. Privacy Addendum".
+To update your preferences, ask us to remove your information from our mailing lists or submit a request to exercise your rights under applicable law, contact us as specified in the "How To Contact Us" section below.
+View Summary -
+How We Protect Your Personal Information
+We maintain appropriate security safeguards to protect your Personal Information and only retain it for a limited period of time.
+Learn More +
+We maintain appropriate administrative, technical and physical safeguards to protect Personal Information against accidental or unlawful destruction, accidental loss, unauthorized alteration, unauthorized disclosure or access, misuse, and any other unlawful form of processing of the Personal Information in our possession. The types of measures we take vary depending on the type of data, and how it is collected and stored. We restrict access to Personal Information about you to those employees who need to know that information to provide products or services to you.
+We will retain your Personal Information for as long as necessary to operate our Website and to provide our products and services, and as necessary to comply with our legal obligations, resolve disputes, and enforce our policies. We also take measures to delete your Personal Information or keep it in a form that does not permit identifying you when this information is no longer necessary for the purposes for which we process it, unless we are required by law to keep this information for a longer period. When determining the retention period, we take into account various criteria, such as the type of products and services requested by or provided to you, the nature and length of our relationship with you, possible re-enrolment with our products or services, the impact on the services we provide to you if we delete some information from or about you, mandatory retention periods provided by law and the statute of limitations.
+View Summary -
+Data Transfers
+We may transfer your Personal Information outside of your country, including to the United States, in compliance with the Mastercard Binding Corporate Rules and other data transfer mechanisms.
+Learn More +
+We are a global business. We may transfer the Personal Information we collect about you to recipients in countries other than your country, including the United States. These countries may not have the same data protection laws as the country in which you initially provided the information. When we transfer your Personal Information to other countries, we will protect that information as described in this Privacy Notice, or as disclosed to you at the time of data collection.
+We comply with applicable legal requirements, including obtaining consent where required, when transferring Personal Information to countries other than the country where you are located. In particular, we have established and implemented Binding Corporate Rules ("BCRs") that have been recognized by EEA data protection authorities as providing an adequate level of protection to the Personal Information we process globally. A copy of our EEA BCRs is available here (website_url_lnk We equally rely on UK BCRs to transfer Personal Information outside of the United Kingdom. A copy of our UK BCRs is available here. (website_url_lnk
+We may also transfer Personal Information to countries for which adequacy decisions have been issued (see list of countries for which the European Commission has issued an adequacy decision here (website_url_lnk see list of countries which the Swiss Federal Council has determined to provide for adequate data protection legislation here (website_url_lnk use contractual protections for the transfer of Personal Information to third parties, such as the European Commission's Standard Contractual Clauses or their equivalent under applicable law, or rely on other data transfer mechanisms where applicable. Depending on your country, you may contact us as specified in the "How to Contact Us" section below to obtain a copy of the safeguards we use to transfer Personal Information outside of your jurisdiction.
+When we conduct international transfers of Personal Information, we will always ensure to comply with requirements stipulated under applicable laws.
+View Summary -
+Features and Links to Other Websites
+Our Website may display links to the sites of other companies, including those of our enterprise clients. We are not responsible for their privacy practices.
+Learn More +
+Our Website may display links to the sites of other companies, including those of our enterprise clients. We are not responsible for their privacy practices. We encourage you to learn about the privacy policies of those companies by visiting their respective websites, apps, etc.
+View Summary -
+Children's Data Policy
+We do not knowingly collect Personal Information from children under the age of 16. If you are under 16, please do not give us any Personal Information. We encourage parents and legal guardians to monitor their children's Internet usage and to help enforce our Notice by instructing their children never to provide Personal Information through the Website without their permission. If a parent or guardian becomes aware that their child has provided us with Personal Information without their consent, you should contact us as specified in the "How to Contact Us" section below. If we become aware that a child under the age of 16 has provided us with Personal Information, we will delete such information from our files.
+U. S. Privacy Addendum
+This U. S. Privacy Addendum section supplements the information contained in the Notice. This U. S. Privacy Addendum applies to residents in the United States whose states have passed state specific privacy laws.
+Additional disclosure for California residents: The remainder of this section applies when we collect Personal Information as a business under the California Consumer Privacy Act of 2018 (California Civil Code §§ 1798.100 to 1798.199) and its implementing regulations, as amended (including as amended by the California Privacy Rights Act of 2020) or superseded from time to time ("CCPA"). This Notice does not apply to Personal Information we collect when we are acting as a service provider to process Personal Information on behalf of our business customers to whom we provide services.
+Additional disclosures for U. S. residents, other than California Residents: If you are a U. S. resident from whom we collect Personal Data as a controller, you may have certain rights under an applicable U. S. state privacy law. You may rely on the disclosures in the Notice regarding how we collect, use, and disclose your personal information as well as the choices you can make related to your personal information. You (or, where permitted by law, your authorized agent) can exercise your rights by submitting a request as described in Section e. ("Your Privacy Rights") below. Please refer to Section e. ("Your Privacy Rights") below for more information on exercises these rights.
+Learn More +
+Personal Information Collection and Disclosure
+For the purposes of this notice, "Personal Information" means information that identifies, relates to, describes, is reasonably capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular consumer or household, or as otherwise defined by the CCPA. Personal Information does not include information that is publicly available, deidentified, or aggregated (as those terms are defined in the CCPA) or otherwise excluded from the scope of the CCPA
+Personal Information does not include information that is lawfully made available from government records.
+Personal Information does not include information that is deidentified or aggregated.
+Personal Information does not include information that is otherwise excluded from the scope of the CCPA.
+The chart below provides the categories of Personal Information (as defined by the CCPA) we have collected and disclosed for a business purpose in the preceding twelve months since this notice was last updated. The examples of Personal Information provided for each category reflect each category's statutory definition and may not reflect all of the specific types of Personal Information associated with each category.
+Category 
+Identifiers
+Examples: Name, alias, postal address, unique personal identifier, online identifier, internet protocol address, email address, account name, social security number, driver's license number, passport number, or other similar identifiers. 
+Categories of Personal Information in Cal. Civ. Code Section 1798.80
+Examples: Name, signature, social security number, physical characteristics or description, address, telephone number, passport number, driver's license or state identification card number, insurance policy number, education, employment, employment history, bank account number, credit card number, debit card number, or any other financial information, medical information, or health insurance information. 
+Commercial Information
+Examples: Records of personal property, products or services purchased, obtained, or considered, or other purchasing or consuming histories or tendencies. 
+Internet or Other Electronic Network Activity Information
+Examples: Browsing history, search history, IP address, browser type, operating system and information regarding a consumer's interaction with an internet website, application or advertisement. 
+Geolocation Data
+Example: General location data such as your city, state, country or IP Address. 
+Sensory Information
+Examples: Audio, electronic, visual, thermal, olfactory, or similar information. 
+Inferences Drawn from Personal Information
+Examples: Preferences or other consumer characteristics and interests. 
+Use of Personal Information
+We collect, use, and disclose your Personal Information in accordance with the specific business and commercial purposes below Providing Services: Providing our services.
+We collect, use, and disclose your Personal Information in accordance with the specific business and commercial purposes below Communicating: Communicating with you, providing you with updates and other information relating to our services and products, providing information that you request, responding to comments and questions, and otherwise providing support.
+We collect, use, and disclose your Personal Information in accordance with the specific business and commercial purposes below Marketing: Marketing purposes, such as developing and providing promotional and advertising materials that may be useful, relevant, valuable or otherwise of interest to you.
+We collect, use, and disclose your Personal Information in accordance with the specific business and commercial purposes below Personalization: Personalizing your experience on our services, such as presenting tailored content.
+We collect, use, and disclose your Personal Information in accordance with the specific business and commercial purposes below Facilitating Payments: Facilitating transactions and payments.
+We collect, use, and disclose your Personal Information in accordance with the specific business and commercial purposes below Deidentification and Aggregation: Deidentifying and aggregating information collected through our services and using it for lawful purposes.
+We collect, use, and disclose your Personal Information in accordance with the specific business and commercial purposes below Safety Issues: Responding to trust and safety issues that may arise.
+We collect, use, and disclose your Personal Information in accordance with the specific business and commercial purposes below Compliance: For compliance purposes, including enforcing our Terms of Service or other legal rights, or as may be required by applicable laws and regulations or requested by any judicial process or governmental agency.
+We collect, use, and disclose your Personal Information in accordance with the specific business and commercial purposes below Auditing Interactions: Auditing related to your interaction with our services and concurrent transactions, including, but not limited to, counting ad impressions to unique visitors, verifying positioning and quality of ad impressions, and auditing compliance with other standards.
+We collect, use, and disclose your Personal Information in accordance with the specific business and commercial purposes below Fraud and Incident Prevention: Detecting security incidents, protecting against malicious, deceptive, fraudulent, or illegal activity, and prosecuting those responsible for that activity.
+We collect, use, and disclose your Personal Information in accordance with the specific business and commercial purposes below Debugging: Debugging to identify and repair errors that impair existing intended functionality.
+We collect, use, and disclose your Personal Information in accordance with the specific business and commercial purposes below Transient Use: Short-term, transient use.
+We collect, use, and disclose your Personal Information in accordance with the specific business and commercial purposes below Contracting Vendors: Contracting with vendors and service providers to perform services on our behalf or on their behalf, including maintaining or servicing accounts, providing customer service, processing or fulfilling orders and transactions, verifying customer information, processing payments, providing financing, providing advertising or marketing services, providing analytics services, or providing similar services on behalf of the business or service provider.
+We collect, use, and disclose your Personal Information in accordance with the specific business and commercial purposes below Research: Undertaking internal research for technological development and demonstration.
+We collect, use, and disclose your Personal Information in accordance with the specific business and commercial purposes below Improving Our Services: Undertaking activities to verify or maintain the quality or safety of our services, and to improve, upgrade, or enhance our services.
+We collect, use, and disclose your Personal Information in accordance with the specific business and commercial purposes below Enabling Transactions: Otherwise enabling or effecting, directly or indirectly, a commercial transaction.
+We collect, use, and disclose your Personal Information in accordance with the specific business and commercial purposes below Notified Purpose: For other purposes for which we provide specific notice at the time the information is collected.
+Collection of Personal Information
+In the preceding twelve months since this notice was last updated, we have collected Personal Information from the following categories of sources: you/Your Devices: You or your devices directly.
+In the preceding twelve months since this notice was last updated, we have collected Personal Information from the following categories of sources: users: Other users of our services.
+In the preceding twelve months since this notice was last updated, we have collected Personal Information from the following categories of sources: affiliates.
+In the preceding twelve months since this notice was last updated, we have collected Personal Information from the following categories of sources: advertising Networks.
+In the preceding twelve months since this notice was last updated, we have collected Personal Information from the following categories of sources: iSPs: Internet service providers.
+In the preceding twelve months since this notice was last updated, we have collected Personal Information from the following categories of sources: analytics Providers.
+In the preceding twelve months since this notice was last updated, we have collected Personal Information from the following categories of sources: oS/Platform Provider: Operating systems and platforms.
+In the preceding twelve months since this notice was last updated, we have collected Personal Information from the following categories of sources: social Networks.
+Disclosures of Personal Information
+In the preceding twelve months since this notice was last updated, we disclosed Personal Information to the following categories of third parties: Advertising Providers: Advertising technology companies, such as advertising networks.
+In the preceding twelve months since this notice was last updated, we disclosed Personal Information to the following categories of third parties: personal Information we share: Identifiers; Device Information; Categories of Personal Information in Cal. Civ. Code Section 1798.80(e); Internet or Other Electronic Network Activity Information; Geolocation Data.
+ISPs: Internet service providers.
+Personal Information we share: Identifiers; Device Information; Internet or Other Electronic Network Activity Information; Geolocation Data.
+Analytics Providers.
+Personal Information we share: Identifiers; Device Information; Internet or Other Electronic Network Activity Information; Geolocation Data.
+OS/Platform Providers: Operating systems and platforms.
+Personal Information we share: Identifiers; Categories of Personal Information in Cal. Civ. Code Section 1798.80(e); Information or Other Electronic Network Activity Information.
+Social Networks.
+Personal Information we share: Identifiers; Device Information; Categories of Personal Information in Cal. Civ. Code Section 1798.80(e); Information or Other Electronic Network Activity Information.
+Affiliates.
+Personal Information we share: Identifiers, Categories of Personal Information in Cal. Civ. Code Section 1798.80(e); Information or Other Electronic Network Activity Information; Geolocation Data; Sensory Information.
+Vendors: Vendors and service providers.
+Personal Information we share: Identifiers; Categories of Personal Information in Cal. Civ. Code Section 1798.80(e); Information or Other Electronic Network Activity Information; Geolocation Data; Sensory Information.
+Third Parties in Merger/Acquisition: Third parties in connection with a merger, sale, or asset transfer.
+Personal Information we share: Identifiers, Categories of Personal Information in Cal. Civ. Code Section 1798.80(e); Information or Other Electronic Network Activity Information; Geolocation Data; Sensory Information.
+Your Privacy Rights
+If you are a California resident, you may exercise the following rights.
+Right to Know and Access. You may submit a verifiable request for information regarding the: categories of Personal Information collected, sold, or disclosed by us; purposes for which categories of Personal Information are collected or sold by us; categories of sources from which we collect Personal Information; categories of third parties with whom we disclosed or sold Personal Information; and specific pieces of Personal Information we have collected about you during the past twelve months.
+Right to Delete. Subject to certain exceptions, you may submit a verifiable request that we delete Personal Information about you that we have collected from you.
+Verification. Requests for access to or deletion of Personal Information are subject to our ability to reasonably verify your identity in light of the information requested and pursuant to relevant CCPA requirements, limitations, and regulations. To verify your access or deletion request, please provide us with your email address.
+Right to Opt Out. In some circumstances, you may opt out of the sale of your Personal Information. We do not sell your Personal Information or "share" Personal Information with third parties for targeted advertising, and we do not have actual knowledge that we sell or share the Personal Information of consumers under 16 years of age.
+Right to Equal Service and Price. You have the right not to receive discriminatory treatment for the exercise of your CCPA privacy rights, subject to certain limitations.
+Submit Requests. To exercise your rights under the CCPA, please send an email to privacy@dynamicyield.com or through the contact page: website_url_lnk
+Authorizing an Agent. If you are acting as an authorized agent to make a request to know, delete, or opt out on behalf of a California resident, please send an email to privacy@dynamicyield.com and attach a written authorization signed by the resident.
+View Summary -
+Updates to This Privacy Notice
+This Notice may be updated periodically to reflect changes in our privacy practices.
+Learn More +
+This Notice may be updated periodically to reflect changes in our Personal Information practices. We will notify you of any significant changes to our Privacy Notice and indicate at the top of the notice when it was most recently updated. If we update this Privacy Notice, in certain circumstances, we may seek your consent.
+View Summary -
+How to Contact Us
+If you have questions about this Notice, or your privacy rights, please contact us via e-mail at privacy@dynamicyield.com with "PRIVACY NOTICE" or "PRIVACY RIGHTS" in the subject line or at the contact information on our Contact Us page at website_url_lnk
+Learn More +
+If you have questions about this Notice, or your privacy rights, please contact us via e-mail at privacy@dynamicyield.com with "PRIVACY NOTICE" or "PRIVACY RIGHTS" in the subject line, or
+If you have questions about this Notice, or your privacy rights, please contact us at the contact information on our Contact Us page at website_url_lnk or
+If you have questions about this Notice, or your privacy rights, please contact us via letter to our physical address: Dynamic Yield Ltd., Data Privacy Matters, One Tower, Abba Hillel Silver Rd 21, Ramat Gan, Israel, 5252213,
+If you are located in the EEA, UK, or Switzerland, Dynamic Yield Ltd. is the entity responsible (i.e., data controller) for the processing of your Personal Information. You can contact us as described above
+The EU Representative of Dynamic Yield Ltd. is dynamic Yield GmbH
+c/o MAZARS Tax GmbH 
+Theodor-Stern Kai 1 
+60596 Frankfurt am Main 
+Germany 
+View Summary -
+Make hyper-personalization a reality
+Transform simple customer transactions into enduring relationships and unlock a new horizon of growth
+Contact Sales Watch a product demo
+Key Capabilities
+Discover
+Target
+Recommend
+Engage
+Optimize
+Industries
+eCommerce
+Financial Services
+Restaurants
+Grocery
+B2B eCommerce
+Travel
+iGaming
+Media
+Why Dynamic Yield
+Industry-Leading Services
+Global Scale
+Real Impact
+Personalization AI
+Rich Partner Network
+Enterprise-Grade Security
+Company
+About Us
+Events
+Press
+Blog
+Contact
+Become a Partner
+Request Demo
+We're hiring!
+Take your knowledge to exponential levels
+Articles
+Learning Paths
+Rooted Personalization
+Personalization Examples
+Guides
+Talks
+Encyclopedia
+Benchmarks
+Recommended Guides:
+Personalization
+A/B Testing
+Conversion Rate Optimization
+Shopping Cart Abandonment
+Product Recommendations
+Omnichannel Retailing
+eCommerce Conversion Rate Optimization
+Personalization Statistics
+Checkout Optimization
+eCommerce Personalization
+Omnichannel Personalization
+Shopping Cart Abandonment Rate
+en
+English
+Español
+Deutsch
+Français
+Manage Cookies Privacy Notice Terms of use 2024 Dynamic Yield by Mastercard

@@ -1,0 +1,38 @@
+Welcome to the GDPR Privacy Web Form
+You can use this form to submit a request regarding your personal information. Please complete this form and we will respond as soon as possible.
+For more details and information about how we use and protect your personal information, please visit our Privacy Policy.
+Thank you!
+I am submitting this information on behalf of: 
+Myself 
+Someone else 
+In case you are submitting the request on behalf of someone else, please attach a delegation signed. 
+In case you are submitting the request on behalf of someone else, please attach a delegation signed. 
+Select the Right You Want to Exercise: 
+Update Data 
+This rights refers to the right to obtain the update of inaccurate and incomplete Data 
+This rights refers to the right to obtain the update of inaccurate and incomplete Data 
+Data Deletion 
+This right refers to the right to obtain the erasure of Data when the request is legitimate 
+This right refers to the right to obtain the erasure of Data when the request is legitimate 
+Access or Give me my information 
+This right refers to the right to know from the Company whether your Data is being processed and, where applicable, to have access to it 
+This right refers to the right to know from the Company whether your Data is being processed and, where applicable, to have access to it 
+Object to Processing or Restrict Processing 
+This right refers to the right to object to the processing of the Data when the request is legitimate, including when the Data is processed for marketing or profiling purposes, if applicable 
+This right refers to the right to object to the processing of the Data when the request is legitimate, including when the Data is processed for marketing or profiling purposes, if applicable 
+First Name 
+Enter the first name of the data subject 
+Enter the first name of the data subject
+Last Name 
+Enter the last name of the data subject 
+Enter the last name of the data subject
+Email 
+Enter email for correspondence with the data request. 
+Enter email for correspondence with the data request.
+Request Details 
+Enter any additional information in this section that will help us process your request. Please refrain from entering any personal information. 
+Enter any additional information in this section that will help us process your request. Please refrain from entering any personal information.
+0/ 5000 You have entered 0 of 5000 characters 
+Select a File 
+Files larger than 4 MB are not supported.
+Submit

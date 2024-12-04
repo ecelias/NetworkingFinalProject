@@ -1,0 +1,191 @@
+Our Concierge team are here to help on 0800 042 2255(Mon, Fri 9am, 6pm, Sat, 9am, 5pm) 
+...","buttons":[{"textUnderline":false,"textBold":false,"iconLeft":"","position":"","iconRight":"","size":"","ctaText":"Call us ","href":"tel:+08000422255","target":"_self","priority":"","textHideOnDesktop":false,"showTextOnHover":false,"scrollTo":"","hideOnMobile":false,"authoredClassName":"","ariaLabel":"","analytics":{"dataGtmEvent":"","dataGtmEventCategory":"","dataGtmEventAction":"","dataGtmEventLabel":"","analyticsEngine":"google"}},{"textUnderline":false,"textBold":false,"iconLeft":"","position":"","iconRight":"","size":"","ctaText":"Request a callback","href":"website_url_lnk a driving experience","description":"
+Try it for yourself and discover the allure of Peugeot 
+.
+.","buttons":[{"textUnderline":false,"textBold":false,"iconLeft":"","position":"","iconRight":"","size":"","ctaText":"Book a test drive","href":"website_url_lnk a retailer","href":"/tools/find-a-retailer.html","target":"_self","priority":"primary","textHideOnDesktop":true,"showTextOnHover":false,"scrollTo":"","hideOnMobile":false,"authoredClassName":"","ariaLabel":"","analytics":{"dataGtmEvent":"uaevent","dataGtmEventCategory":"","dataGtmEventAction":"Redirection:Internal","dataGtmEventLabel":"Find a retailer","analyticsEngine":"google"}},"name":"iconlinkwhitelabel"},{"showOnMobileHeader":true,"showOnDesktopHeader":true,"disableHoverEffect":false,"cta":{"textUnderline":false,"textBold":false,"iconLeft":"O-MultiDevice","position":"","iconRight":"","size":"","ctaText":"Aftersales appointment","href":"website_url_lnk appointment","analyticsEngine":"google"}},"name":"iconlinkwhitelabel"}]}}" wl-data-comp-rendered="">
+PEUGEOT COOKIES POLICY
+This page explains what cookies are and how they are used across our websites. It will also tell you how to manage and remove them if you choose to. 
+What are cookies? 
+Cookies are small files that are sent from our website to your computer or mobile phone to improve your user experience. They do this by remembering you and your personal preferences, such as your location. 
+And don't worry, only we can read cookies that are served from our website and will never share this information with any third parties. 
+How do we use cookies? 
+We use cookies in a number of different ways Anonymous Analytical Cookies
+The analytical cookies that we use store anonymous information about which pages people visit, how long they are on the site, how they got there and what they click on. Information supplied by these cookies help us to analyse the profile of our visitors, make sure our websites are meeting your needs and how we could provide you with an improved experience. Anonymous analytical cookies do not collect or store your personal information (for example, names or addresses), so this information cannot be used to identify you. However, when a user books an online test drive, we may match the personal details they enter for the test drive with analytical cookies and compare this combined information with our new vehicle customer database to help us understand the online journey of our new vehicle customers. This allows us to optimise our online customer offering. Even here, we won't share the combined information with third parties. 
+Profile Management (as used on our MyPeugeot website) 
+Cookies are used here to remember the details of your log-in. This saves you having to re-enter information and makes sure that we always tailor our website to your preferences. 
+Customer Feedback Questionnaires 
+We value your opinion so from time to time we ask for feedback on our websites via online surveys. Cookies are used here to make sure that you don't get repeat invitations to take part. 
+Third Party Cookies 
+Most of the Peugeot advertising that you see on other websites is put there by third parties. Anonymous cookies are used in these instances to track how many and how often people see a particular ad. Any information found by these cookies may be used to target ads to you on other websites. Since these ads are not on Peugeot's websites, we are unable to read or write the cookies used. 
+Peugeot Motor Company uses other third-party cookies to analyse customer journeys on Groupe Stellantis websites and advertising banners. These cookies are sent by Peugeot Motor Company or by its technical service providers to assess who accesses the content and sections of our website, in order to evaluate them and improve their organisation, in terms of content and categories. Where applicable, these cookies also detect navigation problems and so allow us to make our services easier to use. These cookies only produce anonymous statistics and number of visits, and do not include any personal data. These cookies will also be used to personalise this site and also other websites and advertising banners of the Stellantis Groupe. The service life of these assessment cookies does not exceed 90 days. To disable these cookies, visit website_url_lnk 
+How to manage cookies 
+If your browser preferences allow it, most websites will send cookies to your computer or mobile phone. However, you can change these settings. How you do this varies with each browser, though more often than not it will be through the 'Options' or 'Preferences' tab. 
+For the best possible experience of Peugeot online, we strongly recommend you leave cookies on. 
+Cookies used by Peugeot and by Third Parties
+Performance 
+Partner. Cookie. Term. Description 
+Google Analytics. -. -. These cookies are used by Google Analytics to measure the performance of our platform. Google Analytics identifies every user on the website and saves information such as session duration and pages viewed. Personal data used for profiling might be combined with information from other Google services and be processed or stored outside of the European Union, including the USA. 
+Hotjar. -. -. Hotjar is a powerful tool that reveals the online behavior and voice of your users. By combining both Analysis and Feedback tools, Hotjar gives you the 'big picture' of how to improve your site's user experience and performance/conversion rates. 
+Krux. -. -. Salesforce DMP helps more than 200 leading marketers and media companies deliver more relevant, thus more valuable, consumer experiences by capturing, unifying, and activating data signatures across every device (desktop, mobile, tablet, set-top) and every channel (display, social, search, video), in real time. E 
+Livechat. -. -. LiveChat is online customer service software with live support and a built-in support and web analytics ticket system. The platform allows communication with website visitors in real time. 
+SessionCam. -. -. SessionCam is an industry leader in Visible Web Analytics, Session Replay and Heatmap technology. Our many clients have been using SessionCam to gain previously unseen and unrivalled insights into their customers' on-line behaviour. 
+Sophus. -. -. We help our clients understand the present so they can create their future. We unify consumer behaviour throughout the digital journey. Because of this unique capability, we're able to deliver trusted, independent metrics as well as experiences that are richer, more interactive and more engaging than ever before. 
+Usabilla. -. -. At Usabilla, we believe in the power of continuous, visual live user feedback. We develop online tools that help our clients test, measure, and improve both the usability and the UX of their websites. 
+Glassbox. -. -. Glassbox is a digital experience platform that captures, visualizes and analyses billions of digital journeys. The VOC feature enables website surveys which allow us to gain insights to our customers' opinions and experiences when using our digital services. 
+YEXT. Yext click tracking pixel. -. Analytics/Understanding the clicks made by website visitors when interacting with the Yext search experience during their session / visit to our website 
+Advertising 
+Partner. Cookie. Term. Description 
+[m]Platform. -. 13m. This GroupM platform will improve advertisers' ability to use audience-defining insights from hundreds of data sources to find and communicate with their consumers across all media. [m]PLATFORM makes it possible for media planners at GroupM agencies to use the most detailed consumer data to achieve results for their clients. 
+Amazon. -. -. Amazon is a DSP managed by GroupM Trading Desk. Amazon is not getting any personal data. Only put conversion pixel to count conversions. Also exist the possibility to implement retargeting pixels. Amazon put cookies to the PSA users to choose the best ads based in their navgation into of the PSA webpage and count conversions to statistics proposes 
+Bing. -. -. These cookies will measure clicks and actions / conversions on this website to optimize advertising campaigns. These online advertisement tracking cookies show you relevant online advertisements based on what you have viewed, what you have clicked on and which website pages you have visited. 
+Campaign Manager. -. -. Campaign Manager is a web-based ad management system for advertisers and agencies. It helps you manage your digital campaigns across websites and mobile. This includes a robust set of features for ad serving, targeting, verification, and reporting. 
+Dynamic Yield. _dy_c_exps, _dycnst, _dycst, _dy_geo, _dyjsession, _dy_lu_ses, _dy_df_geo, _dy_toffset, _dy_soct, _dyfs, _dyid, ,_dy_ses_load_seq, dy_fs_page. 13months. Dynamic Yield only collects data which may be used to analyze user behavior and to provide personalized experiences. Dynamic Yield does not combine any customer collected data with data collected from other customers, does not determine the purpose of processing, and does not share data with third parties except where required to by law. 
+_dy_csc_ses 
+Glance. -. -., 
+Google Ads. -. -. Google Ads is Google's advertising system in which advertisers bid on certain keywords in order for their clickable ads to appear in Google's search results. Since advertisers have to pay for these clicks, this is how Google makes money from search. Online ad tracking cookies will track engagement with campaigns and show you relevant online advertising based on what you have viewed and clicked, as well as pages of our website that you have visited 
+Ignition One. -. -. The IgnitionOne Customer Intelligence Platform processes real-time customer data to enable personalized engagement across your marketing channels. 
+Ozone. -. -. The Ozone Project is the UK's leading High Attention digital advertising environment. Ozone Financial Technology Limited uses Cookies to improve your experience of using the Website and to improve our range of products and services. Ozone Financial Technology Limited has carefully chosen these Cookies and has taken steps to ensure that your privacy is protected and respected at all times. All Cookies used by this Website are used in accordance with current UK and EU Cookie Law. 
+Salesforce. -. -., 
+Treasure Data. _td_global, _td. 400 days. Treasure Data is a customer data platform that uses cookies to differentiate requests from different browsers and to store helpful information that an application can use later. They are also be used to associate browsing information to customer records. In particular, it uses cookies to anonymously define new visitors, help analyze clickstream data, and track historical activity on the website 
+Verizon Media. -. -. A media and advertising subsidiary of the American telecommunications group Verizon, Verizon Media is the result of the merger of Yahoo and AOL and of a partnership with Microsoft. 
+Xaxis. -. -. Xaxis is The Outcome Media Company. It combines advanced artificial intelligence with proprietary data and proven expertise to optimize programmatic media investments and achieve improved, verifiable results for its clients. Xaxis offers managed programmatic services in 47 markets including North America, Europe, Asia Pacific, Latin America, the Middle East, and Africa. 
+Psyma. Psyma_participation. 30 days. The cookie prevents multiple survey invitations within 30 days. Additionally allows us to carry out market research. 
+Epsilon. DotomiStatus. 5 Years. Used to honor device-level opt-out preferences. Cookie Placed for Epsilon for the below purposes. More information is available website_url_lnk, Storing and access information on a device; Selecting basic Ads; Creating a Personalised Ads profile; Selecting Personalised Ads, Creating a personalised content profile, Selecting personalised content, Measuring ad performance, Applying market research to generate audience insights; Developing and improving products, Ensuring security, preventing fraud and debugging, Technically delivering Ads or content You can withdraw your consent directly with Epsilon at any time by following this link: website_url_lnk 
+Epsilon. DotomiSync. 12 Months. Used to identify which sync pixels we set on users via registration tags. Cookie Placed for Epsilon for the below purposes. More information is available website_url_lnk, Storing and access information on a device; Selecting basic Ads; Creating a Personalised Ads profile; Selecting Personalised Ads, Creating a personalised content profile, Selecting personalised content, Measuring ad performance, Applying market research to generate audience insights; Developing and improving products, Ensuring security, preventing fraud and debugging, Technically delivering Ads or content You can withdraw your consent directly with Epsilon at any time by following this link: website_url_lnk 
+Epsilon. DotomiTest. 1 Day. "Test", used to check the browser's ability to accept third party cookies. Cookie Placed for Epsilon for the below purposes. More information is available website_url_lnk, Storing and access information on a device; Selecting basic Ads; Creating a Personalised Ads profile; Selecting Personalised Ads, Creating a personalised content profile, Selecting personalised content, Measuring ad performance, Applying market research to generate audience insights; Developing and improving products, Ensuring security, preventing fraud and debugging, Technically delivering Ads or content You can withdraw your consent directly with Epsilon at any time by following this link: website_url_lnk 
+Epsilon. DotomiTestSession. Session. TestSession", used to ensure only one DotomiTest cookie is set per session to check browser's ability to accept cookies. Cookie Placed for Epsilon for the below purposes. More information is available website_url_lnk, Storing and access information on a device; Selecting basic Ads; Creating a Personalised Ads profile; Selecting Personalised Ads, Creating a personalised content profile, Selecting personalised content, Measuring ad performance, Applying market research to generate audience insights; Developing and improving products, Ensuring security, preventing fraud and debugging, Technically delivering Ads or content You can withdraw your consent directly with Epsilon at any time by following this link: website_url_lnk 
+Epsilon. dtm_consent. 13 Months. GDPR/ePrivacy consent grant solicited from user. Cookie Placed for Epsilon for the below purposes. More information is available website_url_lnk, Storing and access information on a device; Selecting basic Ads; Creating a Personalised Ads profile; Selecting Personalised Ads, Creating a personalised content profile, Selecting personalised content, Measuring ad performance, Applying market research to generate audience insights; Developing and improving products, Ensuring security, preventing fraud and debugging, Technically delivering Ads or content You can withdraw your consent directly with Epsilon at any time by following this link: website_url_lnk 
+Epsilon. dtm_token. 13 Months. Manage cookie level profile, freq. cap, retargeting. Cookie Placed for Epsilon for the below purposes. More information is available website_url_lnk, Storing and access information on a device; Selecting basic Ads; Creating a Personalised Ads profile; Selecting Personalised Ads, Creating a personalised content profile, Selecting personalised content, Measuring ad performance, Applying market research to generate audience insights; Developing and improving products, Ensuring security, preventing fraud and debugging, Technically delivering Ads or content You can withdraw your consent directly with Epsilon at any time by following this link: website_url_lnk 
+Epsilon. dtm_token_sc. 13 Months. Epsilon cookie set via headers on registration tags.. Cookie Placed for Epsilon for the below purposes. More information is available website_url_lnk, Storing and access information on a device; Selecting basic Ads; Creating a Personalised Ads profile; Selecting Personalised Ads, Creating a personalised content profile, Selecting personalised content, Measuring ad performance, Applying market research to generate audience insights; Developing and improving products, Ensuring security, preventing fraud and debugging, Technically delivering Ads or content You can withdraw your consent directly with Epsilon at any time by following this link: website_url_lnk 
+Epsilon. dtm_user_id. 13 Months. Used to identify users registration. Cookie Placed for Epsilon for the below purposes. More information is available website_url_lnk, Storing and access information on a device; Selecting basic Ads; Creating a Personalised Ads profile; Selecting Personalised Ads, Creating a personalised content profile, Selecting personalised content, Measuring ad performance, Applying market research to generate audience insights; Developing and improving products, Ensuring security, preventing fraud and debugging, Technically delivering Ads or content You can withdraw your consent directly with Epsilon at any time by following this link: website_url_lnk 
+Epsilon. dtm_user_id sc. 13 Months. Used to identify users registration. Cookie Placed for Epsilon for the below purposes. More information is available website_url_lnk, Storing and access information on a device; Selecting basic Ads; Creating a Personalised Ads profile; Selecting Personalised Ads, Creating a personalised content profile, Selecting personalised content, Measuring ad performance, Applying market research to generate audience insights; Developing and improving products, Ensuring security, preventing fraud and debugging, Technically delivering Ads or content You can withdraw your consent directly with Epsilon at any time by following this link: website_url_lnk 
+Comfort 
+Partner. Cookie. Term. Description 
+LinkedIn. -. 13 Months. LinkedIn, a professional networking site, allows its members to create business connections, search for jobs, and find potential clients. 
+Twitter. -. 13 Months. Twitter is an American microblogging and social networking service on which users post and interact with messages known as tweets. 
+TikTok. Pageview. 1yr. TikTok is a video-focused social networking platform 
+In order to enjoy the best possible experience of peugeot.co.uk we recommend that you leave your cookies settings as they are. What do I do now? 
+To find out more about cookies and what they do, visit website_url_lnk 
+To disable these cookies, visit website_url_lnk
+Partner. Cookie. Term. Description 
+Google Analytics. -... 
+These cookies are used by Google Analytics to measure the performance of our platform. Google Analytics identifies every user on the website and saves information such as session duration and pages viewed. Personal data used for profiling might be combined with information from other Google services and be processed or stored outside of the European Union, including the USA.
+Hotjar..... 
+Hotjar is a powerful tool that reveals the online behavior and voice of your users. By combining both Analysis and Feedback tools, Hotjar gives you the 'big picture' of how to improve your site's user experience and performance/conversion rates.
+Krux..... 
+Salesforce DMP helps more than 200 leading marketers and media companies deliver more relevant, thus more valuable, consumer experiences by capturing, unifying, and activating data signatures across every device (desktop, mobile, tablet, set-top) and every channel (display, social, search, video), in real time.
+Livechat..... 
+LiveChat is online customer service software with live support and a built-in support and web analytics ticket system. The platform allows communication with website visitors in real time.
+SessionCam..... 
+SessionCam is an industry leader in Visible Web Analytics, Session Replay and Heatmap technology. Our many clients have been using SessionCam to gain previously unseen and unrivalled insights into their customers' on-line behaviour.
+Sophus..... 
+We help our clients understand the present so they can create their future. We unify consumer behaviour throughout the digital journey. Because of this unique capability, we're able to deliver trusted, independent metrics as well as experiences that are richer, more interactive and more engaging than ever before.
+Usabilla..... 
+At Usabilla, we believe in the power of continuous, visual live user feedback. We develop online tools that help our clients test, measure, and improve both the usability and the UX of their websites.
+Glassbox..... 
+Glassbox is a digital experience platform that captures, visualizes and analyses billions of digital journeys. The VOC feature enables website surveys which allow us to gain insights to our customers' opinions and experiences when using our digital services.
+YEXT. 
+Yext click 
+tracking pixel
+Analytics/Understanding the clicks made by website visitors when interacting with the Yext search experience during their session / visit to our website
+[m]Platform... 13m. 
+This GroupM platform will improve advertisers' ability to use audience-defining insights from hundreds of data sources to find and communicate with their consumers across all media. [m]PLATFORM makes it possible for media planners at GroupM agencies to use the most detailed consumer data to achieve results for their clients.
+Amazon..... 
+Amazon is a DSP managed by GroupM Trading Desk. Amazon is not getting any personal data. Only put conversion pixel to count conversions. Also exist the possibility to implement retargeting pixels. Amazon put cookies to the PSA users to choose the best ads based in their navgation into of the PSA webpage and count conversions to statistics proposes
+Bing..... 
+These cookies will measure clicks and actions / conversions on this website to optimize advertising campaigns. These online advertisement tracking cookies show you relevant online advertisements based on what you have viewed, what you have clicked on and which website pages you have visited.
+Campaign Manager..... 
+Campaign Manager is a web-based ad management system for advertisers and agencies. It helps you manage your digital campaigns across websites and mobile. This includes a robust set of features for ad serving, targeting, verification, and reporting.
+Dynamic Yield. 
+_dy_c_exps,
+_dycnst,
+_dycst,
+_dy_geo,
+_dyjsession,
+_dy_lu_ses,
+_dy_df_geo,
+_dy_toffset,
+_dy_soct,
+_dyfs,
+_dyid,
+_dy_ses_load,
+_seq,
+dy_fs_page,
+_dy_csc_ses,
+13months. 
+Dynamic Yield only collects data which may be used to analyze user behavior and to provide personalized experiences. Dynamic Yield does not combine any customer collected data with data collected from other customers, does not determine the purpose of processing, and does not share data with third parties except where required to by law.
+Glance...... 
+Google Ads..., 
+Google Ads is Google's advertising system in which advertisers bid on certain keywords in order for their clickable ads to appear in Google's search results. Since advertisers have to pay for these clicks, this is how Google makes money from search. Online ad tracking cookies will track engagement with campaigns and show you relevant online advertising based on what you have viewed and clicked, as well as pages of our website that you have visited
+Ignition One..... 
+The IgnitionOne Customer Intelligence Platform processes real-time customer data to enable personalized engagement across your marketing channels.
+Ozone..... 
+The Ozone Project is the UK's leading High Attention digital advertising environment. Ozone Financial Technology Limited uses Cookies to improve your experience of using the Website and to improve our range of products and services. Ozone Financial Technology Limited has carefully chosen these Cookies and has taken steps to ensure that your privacy is protected and respected at all times. All Cookies used by this Website are used in accordance with current UK and EU Cookie Law.
+Salesforce... 
+Treasure Data. _td_global, _td. 400 days. 
+Treasure Data is a customer data platform that uses cookies to differentiate requests from different browsers and to store helpful information that an application can use later. They are also be used to associate browsing information to customer records. In particular, it uses cookies to anonymously define new visitors, help analyze clickstream data, and track historical activity on the website 
+Verizon Media..... 
+A media and advertising subsidiary of the American telecommunications group Verizon, Verizon Media is the result of the merger of Yahoo and AOL and of a partnership with Microsoft.
+Xaxis..... 
+Xaxis is The Outcome Media Company. It combines advanced artificial intelligence with proprietary data and proven expertise to optimize programmatic media investments and achieve improved, verifiable results for its clients. Xaxis offers managed programmatic services in 47 markets including North America, Europe, Asia Pacific, Latin America, the Middle East, and Africa.
+Psyma. Psyma_participation. 30 days. 
+The cookie prevents multiple survey invitations within 30 days. Additionally allows us to carry out market research.
+Epsilon. DotomiStatus. 5 Years. 
+Used to honor device-level opt-out preferences. Cookie Placed for Epsilon for the below purposes. More information is available website_url_lnk, Storing and access information on a device; Selecting basic Ads; Creating a Personalised Ads profile; Selecting Personalised Ads, Creating a personalised content profile, Selecting personalised content, Measuring ad performance, Applying market research to generate audience insights; Developing and improving products, Ensuring security, preventing fraud and debugging, Technically delivering Ads or content You can withdraw your consent directly with Epsilon at any time by following this link: website_url_lnk
+Epsilon. DotomiSync. 12 Months. 
+Used to identify which sync pixels we set on users via registration tags. Cookie Placed for Epsilon for the below purposes. More information is available website_url_lnk, Storing and access information on a device; Selecting basic Ads; Creating a Personalised Ads profile; Selecting Personalised Ads, Creating a personalised content profile, Selecting personalised content, Measuring ad performance, Applying market research to generate audience insights; Developing and improving products, Ensuring security, preventing fraud and debugging, Technically delivering Ads or content You can withdraw your consent directly with Epsilon at any time by following this link: website_url_lnk
+Epsilon. DotomiTest. 1 Day. 
+"Test", used to check the browser's ability to accept third party cookies. Cookie Placed for Epsilon for the below purposes. More information is available website_url_lnk, Storing and access information on a device; Selecting basic Ads; Creating a Personalised Ads profile; Selecting Personalised Ads, Creating a personalised content profile, Selecting personalised content, Measuring ad performance, Applying market research to generate audience insights; Developing and improving products, Ensuring security, preventing fraud and debugging, Technically delivering Ads or content You can withdraw your consent directly with Epsilon at any time by following this link: website_url_lnk
+Epsilon. DotomiTestSession. Session. 
+TestSession", used to ensure only one DotomiTest cookie is set per session to check browser's ability to accept cookies. Cookie Placed for Epsilon for the below purposes. More information is available website_url_lnk, Storing and access information on a device; Selecting basic Ads; Creating a Personalised Ads profile; Selecting Personalised Ads, Creating a personalised content profile, Selecting personalised content, Measuring ad performance, Applying market research to generate audience insights; Developing and improving products, Ensuring security, preventing fraud and debugging, Technically delivering Ads or content You can withdraw your consent directly with Epsilon at any time by following this link: website_url_lnk
+Epsilon. dtm_consent. 13 Months. 
+GDPR/ePrivacy consent grant solicited from user. Cookie Placed for Epsilon for the below purposes. More information is available website_url_lnk, Storing and access information on a device; Selecting basic Ads; Creating a Personalised Ads profile; Selecting Personalised Ads, Creating a personalised content profile, Selecting personalised content, Measuring ad performance, Applying market research to generate audience insights; Developing and improving products, Ensuring security, preventing fraud and debugging, Technically delivering Ads or content You can withdraw your consent directly with Epsilon at any time by following this link: website_url_lnk
+Epsilon. dtm_token. 13 Months. 
+Manage cookie level profile, freq. cap, retargeting. Cookie Placed for Epsilon for the below purposes. More information is available website_url_lnk, Storing and access information on a device; Selecting basic Ads; Creating a Personalised Ads profile; Selecting Personalised Ads, Creating a personalised content profile, Selecting personalised content, Measuring ad performance, Applying market research to generate audience insights; Developing and improving products, Ensuring security, preventing fraud and debugging, Technically delivering Ads or content You can withdraw your consent directly with Epsilon at any time by following this link: website_url_lnk
+Epsilon. dtm_token_sc. 13 Months. 
+Epsilon cookie set via headers on registration tags.. Cookie Placed for Epsilon for the below purposes. More information is available website_url_lnk, Storing and access information on a device; Selecting basic Ads; Creating a Personalised Ads profile; Selecting Personalised Ads, Creating a personalised content profile, Selecting personalised content, Measuring ad performance, Applying market research to generate audience insights; Developing and improving products, Ensuring security, preventing fraud and debugging, Technically delivering Ads or content You can withdraw your consent directly with Epsilon at any time by following this link: website_url_lnk
+Epsilon. dtm_user_id. 13 Months. 
+Used to identify users registration. Cookie Placed for Epsilon for the below purposes. More information is available website_url_lnk, Storing and access information on a device; Selecting basic Ads; Creating a Personalised Ads profile; Selecting Personalised Ads, Creating a personalised content profile, Selecting personalised content, Measuring ad performance, Applying market research to generate audience insights; Developing and improving products, Ensuring security, preventing fraud and debugging, Technically delivering Ads or content You can withdraw your consent directly with Epsilon at any time by following this link: website_url_lnk
+Epsilon. dtm_user_id sc. 13 Months. 
+Used to identify users registration. Cookie Placed for Epsilon for the below purposes. More information is available website_url_lnk, Storing and access information on a device; Selecting basic Ads; Creating a Personalised Ads profile; Selecting Personalised Ads, Creating a personalised content profile, Selecting personalised content, Measuring ad performance, Applying market research to generate audience insights; Developing and improving products, Ensuring security, preventing fraud and debugging, Technically delivering Ads or content You can withdraw your consent directly with Epsilon at any time by following this link: website_url_lnk
+LinkedIn... 13 Months. 
+LinkedIn, a professional networking site, allows its members to create business connections, search for jobs, and find potential clients.
+Twitter... 13 Months. 
+Twitter is an American microblogging and social networking service on which users post and interact with messages known as tweets.
+TikTok. Pageview. 1yr. 
+TikTok is a video-focused social networking platform
+In order to enjoy the best possible experience of peugeot.co.uk we recommend that you leave your cookies settings as they are. What do I do now? 
+To find out more about cookies and what they do, visit website_url_lnk 
+To disable these cookies, visit website_url_lnk
+Questions? powered by Velaro live chat 
+As of 30/06/23, we have changed our customer data management, click here to know more.
+null 
+Google Tag Manager
+Google Tag Manager helps make tag management simple, easy and reliable by allowing marketers and webmasters to deploy website tags all in one place.
+null 
+Google Tag Manager
+Google Tag Manager helps make tag management simple, easy and reliable by allowing marketers and webmasters to deploy website tags all in one place.
+null 
+Google Tag Manager
+Google Tag Manager helps make tag management simple, easy and reliable by allowing marketers and webmasters to deploy website tags all in one place.
+null 
+null
+x
+WELCOME TO PEUGEOT
+We use cookies to ensure that we give you the best experience on our website. Cookies enable us to provide you core functionalities such as security, network management and accessibility. They improve usability and performance through various features such as language recognition, search results and thereby improve what we offer to you. Our website could use also third parties cookies to send advertising that is more relevant to you. Some cookies may be processed by third parties located in countries outside of the European Economic Area who may not yet have an adequacy decision from the relevant European data protection authorities. In this case the transfer is based on your consent (Art. 49.1a GDPR). 
+If you want to find out more about the cookies we use and how to manage them, you can access to our Cookie policy or click on 'Manage my settings' button.
+MANAGE MY SETTINGSACCEPT ALLREFUSE ALL
+Technically necessary 
+These cookies are essential for websites and their features to work properly. E.g.: authentication cookies.
+Performance 
+Performance 
+These cookies collect information about how you use websites. Performance cookies help us, for example, to identify especially popular areas of our website. In this way, we can adapt the content of our websites more specifically to your needs and thereby improve what we offer you.
+Advertising 
+Advertising 
+These cookies are used to send advertising and promotional information that is relevant to you, e.g. based on the web pages you visited.
+Comfort 
+Comfort 
+These cookies enable us to improve comfort and usability of websites and to provide various features. E.g.: comfort cookies can be used to store search results, language, character dimensions.
+null
+null
+CANCEL AND RETURNSAVE MY SETTINGS

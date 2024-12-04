@@ -1,0 +1,104 @@
+This site uses cookies. By continuing to browse the site you are agreeing to our use of cookies. Read our privacy policy
+Corporate Worldwide
+Back to Main Menu 
+Huawei Websites
+Corporate 
+Corporate news and information 
+Consumer 
+Phones, laptops, tablets, wearables & other devices 
+Enterprise 
+Enterprise products, solutions & services 
+Carrier 
+Products, solutions & services for carrier networks 
+Huawei Cloud 
+Cloud products, solutions & services 
+Select a Country or Region
+Australia, English 
+Brazil, Português
+Canada, English 
+China, 简体中文
+Europe, English
+France, Français
+Germany, Deutsch
+Ireland, English
+Italy, Italiano
+Japan, 日本語
+Kazakhstan, Қазақ тілі
+Kazakhstan, Pусский
+Kenya, English
+Korea, 한국어
+Malaysia, English
+Mexico, Español
+Mongolia, Mонгол
+New Zealand, English
+Netherlands, Nederlands
+Poland, Polski
+Romania, Română
+Russia, Pусский
+Singapore, English 
+South Africa, English 
+Spain, Español
+Switzerland, Deutsch 
+Switzerland, Français 
+Switzerland, Italiano 
+Switzerland, English 
+Thailand, ภาษาไทย
+Turkiye, Türkçe
+Ukraine, Українська 
+United Kingdom, English 
+Uzbekistan, Pусский 
+Uzbekistan, O'zbek 
+Vietnam, Tiếng Việt
+Global, English
+SEARCH HISTORY
+Quick Links 
+Phone
+Huawei HiSuite
+Mate XT
+Watch
+Huawei Health
+Tablet
+Laptop
+Router
+How Huawei Uses Cookies and Similar Technologies
+What are cookies and similar technologies?
+A cookie is a text file stored by a web server on a computer or mobile device, and the content of a cookie can be retrieved and read only by the server that created the cookie. Cookies are unique to the browser or mobile application you are using. The text in a cookie often consists of identifiers, site names, and some numbers and characters.
+Similar to cookies, local shared objects (also called "Flash cookies") and HTML5 local storage store information on your device and can record some information about your activities and preferences. 
+In addition to cookies, we also use web beacons and pixel tags on this website. A web beacon is usually an electronic graphic image embedded into a website or email to identify your device cookies when you browse the website or email. Pixel tags allow us to send emails in a way that is readable to you and find out whether you opened the email or not. For example, when you receive an email from Huawei, it may contain a click-through URL which links to a Huawei web page. If you click the link, Huawei will track your visit to help us learn about your preferences for products and services and improve our customer service. You can unsubscribe from our emails if you do not want to be tracked via emails.
+Huawei uses the following types of cookies on this website
+Essential cookies
+What are essential cookies and can I reject them?
+These cookies are necessary for the website to function and cannot be switched off without affecting the use of the site. These cookies are usually only set in response to specific actions you take on the site, such as filling in forms or setting your cookie preferences. We use these cookies as we believe it is in both our and your legitimate interests to enable the site to function properly. You can set your browser to block or alert you to these cookies, but some parts of the website will not work without them. To learn how to set your browser to block or alert you to these cookies, see here: Internet Explorer, Google Chrome, Mozilla Firefox, Safari, Opera.
+Why do we use essential cookies?
+Typically we use these cookies to fulfill a specific function on the website, for example, retaining search results where you use an internal search function so that if you click on search result links you can then return back to the retained search results.
+What data do essential cookies collect and use?
+Essential cookies seldom collect and use any personal data, though they may contain an ID code which allows the website to distinguish you as an individual visitor from all other visitors on the website at the same time. These types of unique ID code are used to maintain a server session to enable functions you have requested, such as using internal search.
+How long do we retain this data?
+Essential cookies are typically session cookies and only retain data for the duration of your visit to the website, but sometimes not, for example, we use the cookie to save your choices regarding cookie consent, then the data is stored for longer.
+Analytic cookies
+What are analytic cookies and can I reject them?
+These cookies, also known as "performance cookies", "measurement cookies" or "statistical cookies", allow us to count visits and visitor sources, so we can measure and improve the performance of our site. They help us know which pages are the most and least popular and see how visitors move around the site. The data Huawei receives from these cookies is aggregated and anonymous, it is not personal data. However, the third parties providing these statistical services, Google Analytics does process personal data about you in order to provide us with aggregated data about our website visitors.
+We use these cookies to understand how visitors interact with our website, for example, to see if users are abandoning certain pages or experiencing issues. We use these cookies as it is in our legitimate interests to monitor the performance of the website. You can reject analytic cookies at any time by changing your Cookie Settings.
+Why do we use analytic cookies?
+We use analytic cookies to enable measurement and analytics. These cookies enable us to, for example, understand which websites people visit before landing on our website, for example, whether the visitor came directly to our website, or whether they clicked on a link from a search engine or a social media post
+We use analytic cookies to enable measurement and analytics. These cookies enable us to, for example, understand which are the most and least popular pages on our website, how long visitors spend on each page and each part of the page, which links and buttons they click on
+We use analytic cookies to enable measurement and analytics. These cookies enable us to, for example, understand information about the device you are using to access our site, for example, device brand and model, which browser or operating system you are using, and
+We use analytic cookies to enable measurement and analytics. These cookies enable us to, for example, understand demographic information about visitors to our site, for example, statistics about what percentage of our web visitors are male or female, their age range, and their interests, for example, photography and technology.
+What data do analytic cookies collect and use?
+The cookies themselves will normally just record an ID code. However, this ID code links to Google analytics servers, enabling Google to build a profile of how you browse the website. Browser details are also processed as a result of the cookie being read, including technical details of the device used to access the site as well as its location.
+Huawei does not collect any personal data through statistical cookies. We only receive aggregated data about our website visitors in general. However, Google does process your personal data in order to provide these aggregated statistics to us. Further, as other websites also use Google Analytics, Google doesn't just have a profile of how you use our website, but also how you use many other websites which also use Google Analytics. Google may also link your cookie information with your account information, if you are logged in to your Google account while browsing, to build an even more detailed profile about you. To learn more about how Google processes your personal data, please refer to Google's Privacy Policy. 
+How long do we retain this data?
+The retention period of analytic cookies varies from 24 hours to 24 months, depending on the purpose of the cookie. For example, some cookies only store information for 24 hours, to remember you as a unique visitor to the website on that day. Others may last as long as 24 months. For example, we might publish two versions of the same webpage to see which works better and is more popular, then a cookie will remember whether you visited version a or version b of the page, and ensure that you see the same version on subsequent return visits, so we obtain clear data results on the a/b testing.
+Online Services
+Consumer Products
+Gobal Service Hotline
+Local Website
+Huawei Cloud
+Sales: +852-800-931-122
+Chatbot
+Enterprise
+Global Service Hotline
+Pricing/Info
+Carrier Network
+Global Service Hotline
+All Contacts

@@ -1,0 +1,71 @@
+Cookie Policy and Settings. Logitech
+COOKIES, WEB BEACONS AND OTHER TECHNOLOGIES
+This Logitech website uses cookies which are essentially small text files placed on your computer, tablet, mobile phone, or other devices ("Devices"). We use cookies and similar technologies to record certain information whenever you visit our website or interact with our sites, services, applications, messaging, and tools, and to recognize you across devices. 
+Web beacons (sometimes called transparent GIFs, clear GIFs, or web bugs) are small strings of code that provide a way for us to deliver a small graphic image (usually invisible) on a web page or in an email. Web beacons can recognize certain types of information on your computer such as cookies, the time and date a page is viewed, and a description of the page where the web beacon is placed.
+Other technologies, including Web storage and identifiers associated with your device, may be used for similar purposes. In this notice, we say "cookies" to discuss all of these technologies. Our websites may include web beacons, pixels, cookies, or similar technologies set by third-party service providers on our behalf.
+Because cookies are used throughout our websites, disabling them may prevent you from using certain parts of the sites.
+How We Use Cookies
+Like most providers of online services, Logitech uses cookies for a number of reasons, like helping us see which features are most popular, counting visitors to a page, improving our users' experience, keeping our services secure, and just generally providing you with a better, more intuitive, and satisfying experience. The cookies we use generally fall into one of the following categories
+How Third Parties Use Cookies
+You may encounter cookies from third parties who also collect information through cookies, web beacons, and other similar technologies about your online activities, either on our services or across the Internet, for reasons like those noted above. (For example, our shopping cart platform is provided by our third-party merchant of record, Digital River, there may be a cookie placed by them to manage the check-out process). These companies may also deliver ads and otherwise track user behavior.
+Manage Your Cookies
+You can specify how cookies are handled by clicking the button below.
+Cookie settings
+Please note that changing your preferences will not delete existing cookies. If you would like to delete cookies in your browser, please do so in your browser settings or preferences sections. The steps below outline the general procedure for some of the most popular browsers.
+Chrome
+On your computer, open Chrome.
+At the top left, select the Chrome menu and then Preferences.
+At the bottom, select Advanced.
+Under "Privacy and security," choose Content settings.
+Click Cookies.
+In the Cookies section, make desired changes to cookies settings such as:
+Delete cookies
+Block cookies by default
+Allow cookies by default
+Keep cookies and site data by default until you quit your browser
+Make exceptions for cookies from specific websites or domains
+For more on cookie preferences in Chrome refer to Google Chrome Help.
+Mozilla Firefox
+On your computer, open Firefox.
+At the top left, select the Firefox menu and choose Preferences.
+Under the "Privacy & Security", choose Cookies.
+You can select the following settings:
+Disable cookies
+Enable cookies for the originating web site only
+Enable all cookies
+Warn me before storing a cookie
+For more on cookie preferences in Firefox refer to Mozilla Firefox Help.
+Internet Explorer
+On your computer, open Internet Explorer.
+Tap or click Tools, then select Internet options.
+Tap or click the Privacy tab.
+Under Settings, move the slider to the top to block all cookies or the bottom to allow all cookies.
+Tap or click OK.
+For more on cookie preferences in Internet Explorer refer to Internet Explorer Help.
+Safari
+On your computer, open Safari.
+Tap or select Preferences.
+Select Privacy.
+In the Block cookies section, specify if and when Safari should accept cookies from websites.
+To see an explanation of the options, select the Help button (question mark).
+Note: If you want to see which websites store cookies on your computer, select the Manage Website Data button.
+If you set Safari to block cookies, you may need to temporarily accept cookies to open a page. Repeat the above steps, selecting Never. When you're done with the page, block cookies again, and then remove the page's cookies.
+For more on cookie preferences in Safari refer to Safari Help.
+Cart
+Free shipping on orders over $29 & free returns
+Item Subtotal: (Not Including Tax or Shipping)
+Enter Promo Code Promo Code Apply
+msg
+flash
+By checking this box, I agree to the Privacy Policy and the Terms of Sale of DR globalTech Inc. See our Privacy Policy.
+Or
+CHECKOUT
+Checkout with ESW: Clicking "Checkout" takes you to the ESW checkout, where payment is made and your order is processed by ESW, Logitech's partner for international sales. 
+Your cart is currently empty. Begin shopping now Close
+NOTIFY ME 
+We'll email you when this product becomes available for purchase
+SUBMIT
+Get the latest from Logitech
+I want personalized marketing from Logitech. You can unsubscribe anytime. See our privacy policy
+Success!
+Thank you for signing up.

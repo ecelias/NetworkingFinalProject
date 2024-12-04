@@ -1,0 +1,110 @@
+fr
+es
+en
+TUTORIELS
+Start
+TUTORIELS
+Nouveau 3008
+Nouveau 5008
+SITES INTERNATIONAUX
+Start
+SITES INTERNATIONAUX
+STELLANTIS
+Diplomates
+Peugeot Open Europe
+Peugeot Sport
+Peugeot Sport Media Center
+Musée de l'Aventure Peugeot
+PEUGEOT DANS LE MONDE
+CODES SOURCE OSS
+PAGE 404
+PEUGEOT 404 
+La page que vous demandez n'existe pas. 
+ALLEZ SUR LA PAGE D'ACCUEIL 
+DÉCOUVREZ LA GAMME PEUGEOT 
+Questions? powered by Velaro live chat 
+As of 30/06/23, we have changed our customer data management, click here to know more.
+null 
+Google Tag Manager
+Google Tag Manager helps make tag management simple, easy and reliable by allowing marketers and webmasters to deploy website tags all in one place.
+Google Analytics
+These cookies are used by Google Analytics to measure the performance of our platform. It identifies every user on the website and saves information such as session duration and pages viewed. Personal data are used for profiling, storage location in the US and might be combined with information from other Google services.
+AB Tasty
+Our mission To provide the most simple, intuitive and effective solutions, so that you can bring your own optimisation ideas to life and measure their impact, before mobilising technical resources for their final implementation. To offer cross-device, open testing and personalisation solutions to provide your users with a seamless browsing experience, whatever kind of screen they are using, for effortless integration of third party solutions (e.g. web analytics solutions, tag management systems, data management platforms, etc.) To offer local support so that you get the most from our solution throughout our collaboration, by providing you with testing ideas, by planning your roadmap, by ensuring its compliance and assisting you technically, if needed
+Salesforce Audience Studio (analytics)
+Salesforce.com, Inc. is an American cloud-based software company headquartered in San Francisco, California. It provides customer-relationship management service and also sells a complementary suite of enterprise applications focused on customer service, marketing automation, analytics, and application development 
+Dynamic Yield
+Dynamic Yield is a technology company that provides digital customer experience services to businesses. Dynamic Yield's provide personalization, recommendations and optimize user experience.
+Hotjar
+Hotjar is a powerful tool that reveals the online behavior and voice of your users. By combining both Analysis and Feedback tools, Hotjar gives you the 'big picture' of how to improve your site's user experience and performance/conversion rates.
+null 
+Google Tag Manager
+Google Tag Manager helps make tag management simple, easy and reliable by allowing marketers and webmasters to deploy website tags all in one place.
+Encore Digital Media
+ATG Commerce
+Oracle's ATG Web Commerce is the industry's top-ranked e-Commerce solution that powers the world's best brands, and delivers a consistent, personalized cross-channel customer experience. ATG Web Commerce enables you to deliver a personalized customer buying experience across all customer touch points, including the web, contact center, mobile devices, social media, physical stores, and more
+IginitionOne (Netmining)
+IgnitionOne is a global provider of audience optimization solutions that are proven to increase conversion rates across websites, online advertising and email programs. With a real-time audience profiling engine that calculates each individual's True Interests and buying propensity, IgnitionOne enables brands and their agencies to deliver highly relevant and personalized interactions across the entire customer lifecycle that drive superior marketing performance. IgnitionOne solutions are used by marketers, system integrators and agencies across Europe, Asia and North America. Learn more about IgnitionOne at website_url_lnk
+Solocal Xchange
+Solocal Xchange is the Solocal Group's audience targeting solution. We are specialised in distributing online advertisements based on centres of interest and profiles. Hence we enable advertisers to capture their ideal audiences via demographic, behaviou
+Yahoo
+The Yahoo Ad Network, operated by Yahoo! Inc., a leading global Internet brand and one of the most trafficked Internet destinations worldwide, is focused on powering our community of users, advertisers, publishers, and developers by creating indispensable advertising experiences built on trust. Please visit the Yahoo! Privacy Centre to learn more about Yahoo!'s commitment to privacy across its diverse products and services.
+Metrigo
+metrigo is a technology company that supports our partners in providing their potential as well as their existing customers with relevant display advertising. By utilizing anonymously aggregated information gathered on our partner sites, metrigo's solution provides dynamically targeted product recommendations and real time special offers and reduces the amount of non-relevant display banners for the internet users. We take privacy protection very seriously.
+Ozone
+MaxPoint
+MaxPoint is an industry-leading consumer targeting technology company. We help retailers and brands reach the right online audience to drive in-store sales. Our digital retail advertising platform enables retailers and brands to execute highly efficient and effective digital advertising that does more than grab attention, it drives foot traffic and in-store sales. This easy-to-use platform offers advanced neighborhood-level targeting with national scalability and reach.
+OpenX
+OpenX provides a comprehensive platform for digital publishers that includes one of the first and largest programmatic ad exchanges, supply side platform technology, and fully featured ad serving.
+Xaxis
+Xaxis offers a range of Services (through the collection and use of Non-PII data) to allow advertisers to show you the most useful and relevant online advertisements across numerous websites and to prevent excessive or repeated deliveries of the same advertisements. For example, if we think that a user is interested in clothing options, then our Services may help our clients deliver interest-based online advertisements to you about a particular type of clothing. We may collect Non-PII regarding your web browsing, usage or interactions with advertisements we manage on behalf of our clients. We do this to better customize the sort of advertisements you see on various websites and for other purposes such as research and analysis. Non-PII may include information such as the type of Internet browser used by an online user, the type of computer operating system used, the domain name of the websites visited before and after viewing an advertisement, as well as information related to websites and web pages a user is viewing when an advertisement is shown.
+AppNexus
+To measure conversion. This anonymous information is used to determine value of an ad partner and to set the account with the ad partner
+SessionCam
+SessionCam is an industry leader in Visible Web Analytics, Session Replay and Heatmap technology. Our many clients have been using SessionCam to gain previously unseen and unrivalled insights into their customers' on-line behaviour.
+Sophus3
+We help our clients understand the present so they can create their future. We unify consumer behaviour throughout the digital journey. Because of this unique capability, we're able to deliver trusted, independent metrics as well as experiences that are richer, more interactive and more engaging than ever before.
+Quantcast
+Quantcast provides services to online marketers and media companies that helps them better understand their audiences and deliver advertising to groups of people based on broad demographic, geographic or interest-based insights. The company's innovative and privacy-friendly direct-measurement approach generates publically available traffic and audience profiles for millions of Web destinations. It was the first online syndicated traffic measurement solution to receive MRC (Media Ratings Council) accreditation for compliance with IAB (Internet Advertising Bureau) measurement standards. Quantcast also provides solutions that help manage the delivery of advertising in real-time so that advertisers can reach relevant audiences with a projected set of characteristics across the Web. Participants in the Quantcast measurement and ad delivery services are required to include appropriate notification in their privacy policies.
+Salesforce Audience Studio
+Salesforce.com, Inc. is an American cloud-based software company headquartered in San Francisco, California. It provides customer-relationship management service and also sells a complementary suite of enterprise applications focused on customer service, marketing automation, analytics, and application development.
+Switch
+Switch Concepts Ltd. provides targeted advertising services for our advertiser clients ("Advertisers") placed on the websites of our publishing clients`. When you visit a website operated by a Publisher or a third party site where we could serve an ad to you, we may collect some or all of the data described in this Privacy Notice. We use both first and third party pixels as well as Cookies to obtain anonymous usage information which does not identify a user individually Non Personal Identifiable Information.
+Adyoulike
+ADYOULIKE specializes in the diffusion (creation, programming) of native advertising respecting your user journey. You consume the content that you have come to look for before viewing the advertisement (remuneration source of the publisher sites) that is integrated in your navigation or in the contextual flow of the publisher site. Thus by the view of the advertisement, you allow the publisher site to be paid and to continue to present you with quality content.
+Nextperformance
+Nextperformance is one of the top of retargeting company in Europe. The group delivers high value retargeting and audience targeting services for brands and large retailers using its own, unique and flexible algorithms. The group employs 60 people and operates in 10 countries around the world (France, United Kingdom, Germany, Spain, Swiss, Austria, Brazil, Portugal, Italy, Belgium).
+4w MarketPlace
+4w MarketPlace is a Multi-screen Performance Marketing Solution company in the market of performance online advertising, offering publishers and advertisers web, mobile and social solutions to optimize inventories and investments through networks of the major Italian publishers.
+Bidswitch
+mPlatform
+Public-Idees
+Public-Idees offers innovative services covering the whole affiliate marketing value chain: strategic consultancy and decision-making assistance, network management and results measurement. Our tools allow us to target your interests more accurately.
+null 
+Google Tag Manager
+Google Tag Manager helps make tag management simple, easy and reliable by allowing marketers and webmasters to deploy website tags all in one place.
+YouTube
+These cookies are used to load YouTube videos.
+Twitter
+null 
+null
+x
+CONTINUE WITHOUT ACCEPTING →
+WELCOME TO PEUGEOT
+We use cookies to ensure that we give you the best experience on our website. Cookies enable us to provide you core functionalities such as security, network management and accessibility. They improve usability and performance through various features such as language recognition, search results and thereby improve what we offer to you. Our website could use also third parties cookies to send advertising that is more relevant to you. Some cookies may be processed by third parties located in countries outside of the European Economic Area who may not yet have an adequacy decision from the relevant European data protection authorities. In this case the transfer is based on your consent (Art. 49.1a GDPR). 
+If you want to find out more about the cookies we use and how to manage them, you can access to our Cookie policy or click on 'Manage my settings' button.
+MANAGE MY SETTINGSACCEPT ALL
+Technically necessary 
+These cookies are essential for websites and their features to work properly. E.g.: authentication cookies.
+Performance 
+Performance 
+These cookies collect information about how you use websites. Performance cookies help us, for example, to identify especially popular areas of our website. In this way, we can adapt the content of our websites more specifically to your needs and thereby improve what we offer you.
+Advertising 
+Advertising 
+These cookies are used to send advertising and promotional information that is relevant to you, e.g. based on the web pages you visited.
+Comfort 
+Comfort 
+These cookies enable us to improve comfort and usability of websites and to provide various features. E.g.: comfort cookies can be used to store search results, language, character dimensions.
+null
+null
+CANCEL AND RETURNSAVE MY SETTINGS

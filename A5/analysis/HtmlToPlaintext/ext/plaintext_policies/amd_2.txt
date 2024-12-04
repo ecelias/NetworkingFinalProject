@@ -1,0 +1,188 @@
+AMD Website Accessibility Statement
+Introducing AMD ROCm 6.3, Supercharge Your AI and HPC Workflows
+Read about the top 5 key enhancements that make ROCm transformative. 
+Read the Blog
+AMD Accelerates Exascale Computing to New Heights
+The El Capitan supercomputer, powered by AMD Instinct MI300A APUs, is now the fastest in the world. 
+Faster Data Flow, Unlocked Insights
+Introducing AMD Versal Premium Series Gen 2 adaptive SoCs. 
+AMD Vivado and Vitis 2024.2 Software Now Available
+Simplify your design projects with the latest adaptive SoC development software from AMD. 
+ROCm Software v6.3 El Capitan Supercomputer Versal Premium Series Gen 2 2024.2 Software Release
+Advancing Enterprise AI
+AI Platforms from Cloud to Edge to Endpoints 
+Explore AI Solutions
+Performance and Efficiency for Enterprise AI 
+AMD EPYC 9005 series processors are purpose-built to accelerate data center, cloud, and AI workloads.
+Discover EPYC for Enterprise AI 
+Leadership Inference Performance 
+AMD Instinct MI325X GPU accelerators deliver high performance and efficiency for training and inference.
+Discover Instinct for AI 
+Revolutionize Your AI Infrastructure 
+Maximize network efficiency with accelerated and effective throughput with the AMD Pensando Pollara 400 NIC.
+Discover Pensando for AI Infrastructure 
+Leading the AI PC Era 
+AMD Ryzen AI is the world's first dedicated AI engine with x86 processors, bringing the power of AI closer to you.
+Discover Ryzen AI for PCs 
+Advance AI Development with AMD ROCm Software 
+Optimize AI applications on AMD GPUs with the help of the ROCm open software stack. 
+Discover ROCm 
+Featured Solutions
+Database and Analytics
+Accelerating queries and transactions to transform data into actionable insights
+Learn More 
+Supercomputing and Research
+Harnessing the potential of AI and Exascale-class supercomputing to advance scientific research
+Learn More 
+Financial Services
+Delivering highly performant and efficient solutions to support core and AI-powered FSI workloads
+Learn More 
+Product Design
+Integrating AI and accelerating CAE simulations for better product designs and more timely results
+Learn More 
+HCI and Virtualization
+Empowering enterprises to capture the full benefits of HCI
+Learn More 
+Database and Analytics
+Accelerating queries and transactions to transform data into actionable insights
+Learn More 
+Supercomputing and Research
+Harnessing the potential of AI and Exascale-class supercomputing to advance scientific research
+Learn More 
+Financial Services
+Delivering highly performant and efficient solutions to support core and AI-powered FSI workloads
+Learn More 
+Product Design
+Integrating AI and accelerating CAE simulations for better product designs and more timely results
+Learn More 
+Financial Services Product Design HCI and Virtualization Database and Analytics Supercomputing and Research
+Featured Products
+Unlock Magical AI Experiences
+AMD Ryzen Desktop Processors
+Find Retailers
+Unlock Peak Performance Only With AMD
+Browse preconfigured systems from our partners.
+Learn More
+Breakthrough Performance
+AMD Radeon RX 7000 Series graphics cards
+Find Retailers
+Unlock Magical AI Experiences
+AMD Ryzen Desktop Processors
+Buy on AMD.com
+Find Retailers
+Unlock Peak Performance Only With AMD
+Browse preconfigured systems from our partners.
+Learn More
+Breakthrough Performance
+AMD Radeon RX 7000 Series graphics cards
+Buy on AMD.com
+Find Retailers
+Cambia tu forma de jugar
+Procesadores para computadoras de escritorio AMD Ryzen serie 7000
+Compra en AMD.com
+Encuentra distribuidores
+Desbloquea el máximo rendimiento solo con AMD
+Conoce los sistemas preconfigurados de nuestros socios.
+Obtén más información
+Rendimiento revolucionario
+Tarjetas gráficas AMD Radeon RX serie 7000
+Compra en AMD.com
+Encuentra distribuidores
+Mude a maneira como você joga
+Processadores para desktop AMD Ryzen Série 7000
+Compre em AMD.com
+Buscar varejistas
+Aproveite o desempenho máximo com a AMD
+Navegue por sistemas pré-configurados de nossos parceiros.
+Saiba mais
+Desempenho revolucionário
+Placas de vídeo AMD Radeon Série RX 7000
+Compre em AMD.com
+Buscar varejistas
+Unlock Magical AI Experiences
+AMD Ryzen Desktop Processors
+Buy on AMD.com
+Find Retailers
+Unlock Peak Performance Only With AMD
+Browse preconfigured systems from our partners.
+Learn More
+Breakthrough Performance
+AMD Radeon RX 7000 Series graphics cards
+Buy on AMD.com
+Find Retailers
+Unlock Magical AI Experiences
+AMD Ryzen Desktop Processors
+Buy on AMD.com
+Find Retailers
+Unlock Peak Performance Only With AMD
+Browse preconfigured systems from our partners.
+Learn More
+Breakthrough Performance
+AMD Radeon RX 7000 Series graphics cards
+Buy on AMD.com
+Find Retailers
+Gaming revolutioniert
+AMD Ryzen 7000-Serie Desktop-Prozessoren
+Auf AMD.com kaufen
+Händler finden
+Unlock Peak Performance, Nur mit AMD
+Vorkonfigurierte Systeme unserer Partner ansehen.
+Mehr erfahren
+Bahnbrechende Performance
+AMD Radeon RX 7000-Serie Grafikkarten
+Auf AMD.com kaufen
+Händler finden
+Changez votre façon de jouer
+Processeurs pour PC de bureau AMD Ryzen Série 7000
+Acheter sur AMD.com
+Trouver des détaillants
+Profitez de performances optimales uniquement avec AMD
+Découvrez les systèmes préconfigurés de nos partenaires.
+En savoir plus
+Performances révolutionnaires
+Cartes graphiques AMD Radeon RX Série 7000
+Acheter sur AMD.com
+Trouver des détaillants
+Unlock Magical AI Experiences
+AMD Ryzen Desktop Processors
+Buy on AMD.com
+Find Retailers
+Unlock Peak Performance Only With AMD
+Browse preconfigured systems from our partners.
+Learn More
+Breakthrough Performance
+AMD Radeon RX 7000 Series graphics cards
+Buy on AMD.com
+Find Retailers
+together we advance_
+AMD is pushing the limits of innovation to tackle some of the world's toughest challenges with our partners.
+Learn More
+Case Studies
+View All
+Financial Services
+Emirates NBD Boosts Performance and Lowers Licensing Costs
+Read the Case Study
+Media and Entertainment
+Respawn Entertainment Builds Star Wars Jedi: Survivor with AMD
+Watch the Video
+Design & Manufacturing
+STMicroelectronics Boosts Chip Design Speed with AMD EPYC CPUs
+Read the Case Study
+Transportation
+JR Kyushu, TAI Use AMD AI to Inspect Bullet Train Tracks
+Read the Case Study
+Latest News
+Newsroom
+AMD Announces Upcoming Events for the Financial Community
+AMD Announces Upcoming Events for the Financial Community 
+November 19, 2024 
+AMD Accelerates Exascale Computing to New Heights Powering the Fastest Supercomputer Ever, El Capitan
+AMD Accelerates Exascale Computing to New Heights Powering the Fastest Supercomputer Ever, El Capitan 
+November 18, 2024 
+AMD Announces Versal Premium Series Gen 2 Enabling New Levels of System Acceleration to Meet the Demands of Data-Intensive Workloads
+AMD Announces Versal Premium Series Gen 2 Enabling New Levels of System Acceleration to Meet the Demands of Data-Intensive Workloads 
+November 12, 2024 
+AMD and Fujitsu to Begin Strategic Partnership to Develop More Sustainable Computing Infrastructure Intended to Accelerate Open-Source AI Initiatives
+AMD and Fujitsu to Begin Strategic Partnership to Develop More Sustainable Computing Infrastructure Intended to Accelerate Open-Source AI Initiatives 
+November 01, 2024 
+Cookie Settings to watch this video. Please refresh the page after enabling all cookies.">
