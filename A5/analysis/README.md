@@ -13,6 +13,7 @@ You will need the following libraries to generate visualizations for the data:<u
 <li>statistics
 <li>scipy
 <li>adjustText
+<li> ast
 </ul>
 
 Make the following directories inside HtmlToPlaintext: <code>./ext/html_policies</code> and <code>./ext/plaintext_policies</code> <br><br>
@@ -26,6 +27,13 @@ In the terminal run, <code>sudo ./run.sh </code><br><br>
 All HTML files should now be located in <code>./ext/plaintext_policies</code> as plaintext files.
 
 <h5>Running HtmlToPlaintext</h5>
+
+<h5> Run createGraphs:</h5>
+<ul>
+<li> Make sure you installed all  libraries above, by doing pip install {library}
+<li> Then run the code <code> python3 analysis/createGraphs.py <code> in the command line 
+<li> Graphs should then appear under ImageFiles 
+</ul>
 
 <h5> Data Description:</h5>
 <ul>
