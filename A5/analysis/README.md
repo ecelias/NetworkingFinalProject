@@ -26,7 +26,6 @@ In the terminal run, <code>sudo ./build.sh </code><br><br>
 In the terminal run, <code>sudo ./run.sh </code><br><br>
 All HTML files should now be located in <code>./ext/plaintext_policies</code> as plaintext files.
 
-<h5>Running HtmlToPlaintext</h5>
 
 <h5> Run createGraphs:</h5>
 <ul>
