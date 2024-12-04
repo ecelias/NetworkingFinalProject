@@ -1,5 +1,4 @@
 <h1><strong>CS3640 Assignment 5</strong></h1> <br>
-
 <h2>To run <code>crawler.py</code></h2>
 
 <h4>Activate the environment</h4> 
