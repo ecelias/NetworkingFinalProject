@@ -1,5 +1,4 @@
 <h1><strong>CS3640 Assignment 5</strong></h1> <br>
-<h4><strong>Instructions for running assignment 5:</strong></h4> <br>
 
 <h2>To run <code>crawler.py</code></h2>
 
@@ -51,7 +50,6 @@ All HTML files should now be located in <code>./ext/plaintext_policies</code> as
 <ul>
 <li>[HtmlToPlaintext](https://github.com/benandow/HtmlToPlaintext)
 <li>[Docker Installation](https://docs.docker.com/engine/install/ubuntu/)
-<li>
 </ul>
 
 <h4><strong>Group Members</strong></h4>
