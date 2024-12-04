@@ -101,7 +101,7 @@ Maria Gauna (mgauna) contributions:<br>
 
 
 
-<h4> Data <h4>
+<h5> Data <h5>
 <ul>
 <li> DNSMPI_Files (gives all the DSNMPI files for the websites) and html_policies (gives all the html_policies) are under data folder in A5 and give the data we scraped from the websites privacy policies information.
 <li>csvData.csv is a running csv file that updates after each crawler.py call with all the information scraped from our crawler.py.
