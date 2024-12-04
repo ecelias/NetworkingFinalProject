@@ -68,22 +68,50 @@ All HTML files should now be located in <code>./ext/plaintext_policies</code> as
 <h4><strong>Group Member Contributions</strong></h4><br>
 
 Madeline Harbaugh (mharbaugh) contributions:<br>
-Madeline read and created presentation slides concerning research papers one and two.
+<ul>
+<li>Madeline read and created presentation slides concerning research papers one and two.
+<li>Madeline created and read out introduction presentation slide
+</ul>
+ 
+
 
 
 Kristin To (kto) contributions:<br>
-Kristin read and created presentation slides concerning research paper three.
+<ul>
+<li>Kristin read and created presentation slides concerning research paper three.
+<li>Kristin created and read out researd question 1 presentation slide 
+</ul>
+
+
 
 
 Elizabeth Elias (ecelias) contributions:<br>
-Liz read and created presentation slides concerning research paper four.
+<ul>
+<li>Liz read and created presentation slides concerning research paper four.
+<li>Liz created and read out researd question 2 presentation slide 
+</ul>
 
 
 Maria Gauna (mgauna) contributions:<br>
-Maria read and created presentation slides concerning research paper five.
+<ul>
+<li>Maria read and created presentation slides concerning research paper five.
+<li>Maria created and read out researd question 3 presentation slide 
+<li>Wrote A5/README.md
+</ul>
 
 
 
+<h4> Data <h4>
+<ul>
+<li> DNSMPI_Files (gives all the DSNMPI files for the websites) and html_policies (gives all the html_policies) are under data folder in A5 and give the data we scraped from the websites privacy policies information.
+<li>csvData.csv is a running csv file that updates after each crawler.py call with all the information scraped from our crawler.py.
+<li> FinalTableData.csv is a final csv file that we ran from our crawler that we based all out statistics and analysis off of.
+<ul>
+<li> It sorts all the information into eight categories, titled: Website,Number of Pages,Number of Cookies,Contains DNSMPI-associated Content?,DNSMPI Content,Cookie Information,HTTP/HTTPS Policies Category,Mixed Content
+</ul>
+<li> a5-video.mp4 gives the video presentation of our reserach questions and findings from the papers 
+
+</ul>
 
 <h4><strong>Credit Reel:</strong></h4> <br>
 <ul>
