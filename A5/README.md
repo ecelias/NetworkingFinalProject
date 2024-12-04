@@ -79,7 +79,7 @@ Madeline Harbaugh (mharbaugh) contributions:<br>
 Kristin To (kto) contributions:<br>
 <ul>
 <li>Kristin read and created presentation slides concerning research paper three.
-<li>Kristin created and read out researd question 1 presentation slide 
+<li>Kristin created and read out research question 1 presentation slide 
 </ul>
 
 
@@ -88,14 +88,14 @@ Kristin To (kto) contributions:<br>
 Elizabeth Elias (ecelias) contributions:<br>
 <ul>
 <li>Liz read and created presentation slides concerning research paper four.
-<li>Liz created and read out researd question 2 presentation slide 
+<li>Liz created and read out research question 2 presentation slide 
 </ul>
 
 
 Maria Gauna (mgauna) contributions:<br>
 <ul>
 <li>Maria read and created presentation slides concerning research paper five.
-<li>Maria created and read out researd question 3 presentation slide 
+<li>Maria created and read out research question 3 presentation slide 
 <li>Wrote A5/README.md
 </ul>
 
@@ -120,5 +120,4 @@ Data:<br>
 <li> - Assigned readings from class - 
 <li>[Analysis Paper Context Information](https://www.pewresearch.org/short-reads/2023/11/22/online-shopping-has-grown-rapidly-in-u-s-but-most-sales-are-still-in-stores/)
 <li>[Data Modeling](https://www.w3schools.com/python/matplotlib_pyplot.asp)
-<li>
 </ul>
