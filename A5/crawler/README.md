@@ -18,6 +18,33 @@ Install requests with <code>pip install requests</code>.
 <h4>Run Crawler.py</h4> 
 Navigate to the <code>cd ~/cs3640/A5</code> directory and <code>python3 crawler/crawler.py</code> in the terminal.
 
+<h4><strong>Group Member Contributions</strong></h4><br>
+
+Madeline Harbaugh (mharbaugh) contributions:<br>
+<ul>
+<li> Wrote code for scrape_hyperlinks(url) and inspect_homepage_html(html_file) methods
+</ul>
+
+
+Kristin To (kto) contributions:<br>
+<ul>
+<li> Wrote code for filter_for_privacy_page(hyperlink_dictionary) and the main() methods
+</ul>
+
+
+Elizabeth Elias (ecelias) contributions:<br>
+<ul>
+<li> Wrote code for inspect_privacy_policy_html(html_file), scrape_homepages_for_privacy_policy_pages(filename), and ndscrape_for_priv_policy(homepage, policypage, current_policy_page) methods
+</ul>
+
+
+Maria Gauna (mgauna) contributions:<br>
+<ul>
+<li> Wrote code for check_mixed_content(link) and check_policites(link) methods
+<li> Wrote crawler/README.md file 
+</ul>
+
+
 
 <h4>Resources</h4>
 <ul>
