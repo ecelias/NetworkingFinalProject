@@ -31,7 +31,7 @@ All HTML files should now be located in <code>./ext/plaintext_policies</code> as
 <h5> Run createGraphs:</h5>
 <ul>
 <li> Make sure you installed all  libraries above, by doing pip install {library}
-<li> Then run the code <code> python3 analysis/createGraphs.py <code> in the command line 
+<li> Then run the code in the command line <code> python3 analysis/createGraphs.py </code>
 <li> Graphs should then appear under ImageFiles 
 </ul>
 
