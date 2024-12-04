@@ -731,7 +731,7 @@ def main():
     # avg_pages_cookies_by_category()
     # pages_cookies_by_category()
     # page_cookie_correlation()
-    # mixed_content()
+    mixed_content()
     # num_dnsmpi_links()
     # percent_websites_per_category_with_dnsmpi_links()
 
@@ -743,7 +743,7 @@ def main():
     percent_http_only_cookies_by_category()
     percent_cookies_that_do_not_expire_by_category()
     percent_websites_per_category_with_dnsmpi_links()
-    protocol_content()
+    #protocol_content()
     
 
     summary_statistics()
