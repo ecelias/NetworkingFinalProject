@@ -254,9 +254,7 @@ def check_policites(link):
     
     
 def main():
-    file = open('crawler/lux.txt', 'r+')
-    #test
-    testFile = open("testFile.txt", "a")
+    file = open('raw_website_links.txt', 'r+')
     csvResults = []
     websites = []
     number_of_pages = []
@@ -278,7 +276,6 @@ def main():
 
             for website, priv_policy_pages in privacy_page_urls.items():
                 dnsmpi_content = []
-                testFile.write(f"{website}\n")
                 current_page_index = 0;
                 for page_info in priv_policy_pages:
                     for category, priv_policy_page in page_info.items():
@@ -297,7 +294,6 @@ def main():
                 else:
                     has_dnsmpi = "No"
 
-                testFile.write(f"Written on csv form: {website}, {current_page_index}, {cookie_num}\n")
                 csvResults.append([website, current_page_index, cookie_num, has_dnsmpi, dnsmpi_content, cookie_string, policies_result, mixed_results])
                 websites.append(website)
                 number_of_pages.append(current_page_index)
@@ -308,7 +304,6 @@ def main():
             with open(json_filename, 'a') as json_file:
                 json.dump(privacy_policy_content, json_file, indent=4)  # Use indent for pretty formatting
 
-    testFile.close()
     if csvResults:
         with open("data/csvData.csv", "a", newline="") as file:
             writer = csv.writer(file)

@@ -11,6 +11,7 @@ import ast
 RESULTS = pd.read_csv('data/FinalTableData.csv', index_col=0)
 COMPANY_NAMES = [site.split(".")[1] for site in RESULTS.index]
 
+
 def pages_per_website():
     results = RESULTS
 
@@ -207,6 +208,7 @@ def mixed_content():
     websites = results.index.to_list()
     mixed_content = results["Mixed Content"].to_list()
 
+    
     mixed_pages = [num_pages[i] for i in range(len(mixed_content)) if mixed_content[i] == "True"]
     not_mixed_pages = [num_pages[i] for i in range(len(mixed_content)) if mixed_content[i] == "False"]
 
@@ -228,7 +230,7 @@ def mixed_content():
         significance = "*"
     else:
         significance = "n.s."  # not significant
-
+    
     plt.figure(figsize=(10, 6))
     bars = plt.bar(categories, counts, color=["mediumseagreen", "orchid", "silver"])
 
@@ -238,13 +240,43 @@ def mixed_content():
     plt.plot([x1, x1, x2, x2], [y, y + h, y + h, y], color="black")
     plt.text((x1 + x2) / 2, y + h * 1.2, f"p = {p_value:.3e} ({significance})", ha='center', fontsize=12)
 
-    plt.title("Websites that use HTTP, HTTPS, or Mixed Content")
+    plt.title("Websites that use Mixed Content")
     plt.xlabel("Website")
     plt.ylabel("Content Type (Mixed, Not Mixed, or Unavailable)")
     plt.xticks(rotation=90, ha='center', fontsize=8)
     plt.ylim(0, max_y * 1.2)
     plt.tight_layout()
     plt.savefig("analysis/ImageFiles/mixed_content_significance.png", dpi=300)
+    plt.close()
+
+def protocol_content():
+    results = RESULTS
+    
+    websites = results.index.to_list()
+    protocol_content = results["HTTP/HTTPS Policies Category"].to_list()
+
+    http = protocol_content.count("HTTP-Only")
+    https = protocol_content.count("HTTPS-Only")
+    both = protocol_content.count("both")
+    neither = protocol_content.count("Neither")
+
+    categories = ["HTTPS-Only","HTTP-Only","both", "Unavailable"]
+    counts = [https,http,both,neither]
+
+    plt.figure(figsize=(10, 6))
+    bars = plt.bar(categories, counts, color=["silver", "mediumseagreen", "darkseagreen", "paleturquoise"])
+
+    max_y = max(counts)
+    x1, x2,= 0, 1  # Positions of the first two bars
+    y, h = max_y * 1.05, max_y * 0.03  # Height of the line and text
+
+
+    plt.title("Websites that use HTTPS,HTTP, or both")
+    plt.xlabel("Website")
+    plt.ylabel("Content Type (HTTP-Only, HTTPS-Only, Both, or Neither)")
+    plt.xticks(rotation=90, ha='center', fontsize=8)
+    plt.tight_layout()
+    plt.savefig("analysis/ImageFiles/protocol_significance.png", dpi=300)
     plt.close()
 
 def num_dnsmpi_links():
@@ -711,6 +743,8 @@ def main():
     percent_http_only_cookies_by_category()
     percent_cookies_that_do_not_expire_by_category()
     percent_websites_per_category_with_dnsmpi_links()
+    protocol_content()
+    
 
     summary_statistics()
     cookie_datatable()
