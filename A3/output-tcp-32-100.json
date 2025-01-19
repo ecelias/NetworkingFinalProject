@@ -1,8 +1,0 @@
-{
-      "tcp_test": "tcp",
-      "tcp_bottleneck_bw": 32,
-      "tcp_other_bw": 100,
-      "tcp_bytes_sent": "168951808",
-      "tcp_bytes_received": "168427520",
-      "tcp_seconds": "60"
-}

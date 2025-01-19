@@ -1,7 +1,0 @@
-{
-      "udp_test": "udp",
-      "udp_bottleneck_bw": 32,
-      "udp_other_bw": 100,
-      "udp_bytes_transmitted": "70551039",
-      "udp_seconds": "60"
-}
