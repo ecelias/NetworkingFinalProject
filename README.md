@@ -33,9 +33,15 @@ Install requests with <code>pip install requests</code>.
 Navigate to the <code>cd ~/cs3640/A5/crawler</code> directory and run <code>python3 crawler.py</code> in the terminal. <br>Alternatively, you can run <code>python3 crawler/crawler.py</code> in the terminal from the <code>~/cs3640/A5</code> directory.
 
 <h4>Resources</h4>
-[Using BeautifulSoup](https://oxylabs.io/blog/beautiful-soup-parsing-tutorial)
-[BeautifulSoup findall method](https://scrapeops.io/python-web-scraping-playbook/python-beautifulsoup-findall/) 
-[Using Playwright](https://www.roborabbit.com/blog/web-scraping-with-playwright-in-python/) 
+<ul>
+ <li><a href="https://github.com/benandow/HtmlToPlaintext" target="_blank">HTMLtoPlaintext</a></li>
+ <li><a href="https://docs.docker.com/engine/install/ubuntu/" target="_blank">Docker Installation Guide</a></li>
+ <li><a href="https://oxylabs.io/blog/beautiful-soup-parsing-tutorial" target="_blank">Using BeautifulSoup</a></li>
+  <li><a href="https://scrapeops.io/python-web-scraping-playbook/python-beautifulsoup-findall/" target="_blank">BeautifulSoup findall method</a></li>
+  <li><a href="https://www.roborabbit.com/blog/web-scraping-with-playwright-in-python/" target="_blank">Using Playwright</a></li>
+ <li><a href="https://www.pewresearch.org/short-reads/2023/11/22/online-shopping-has-grown-rapidly-in-u-s-but-most-sales-are-still-in-stores/" target="_blank"> Analysis Paper Context Information</a></li>
+ <li><a href="https://www.w3schools.com/python/matplotlib_pyplot.asp" target="_blank"> Data Modeling</a></li>
+</ul>
 
 
 <h2>Instructions for converting the data</code></h2>
@@ -56,12 +62,6 @@ In the terminal run, <code>sudo ./run.sh </code><br><br>
 All HTML files should now be located in <code>./ext/plaintext_policies</code> as plaintext files.
 
 
-<h5>Resources</h5>
-
-[HtmlToPlaintext](https://github.com/benandow/HtmlToPlaintext)
-[Docker Installation](https://docs.docker.com/engine/install/ubuntu/)
-
-
 <h4><strong>Group Member Contributions</strong></h4><br>
 Elizabeth Elias wrote a majority of the inital code for this project which was subsequently built on by her additional group members to add more specific functionality. 
 Elizabeth was chiefly responsible for developing the web scraper and deciding which software to use for the project and produced a functional web scraper that returned 
@@ -77,12 +77,4 @@ Data:<br>
 <li> It sorts all the information into eight categories, titled: Website,Number of Pages,Number of Cookies,Contains DNSMPI-associated Content?,DNSMPI Content,Cookie Information,HTTP/HTTPS Policies Category,Mixed Content
 </ul>
 
-</ul>
-
-<h4><strong>Credit Reel:</strong></h4> <br>
-<ul>
-<li> - Resources listed above -
-<li> - Assigned readings from class - 
-<li>[Analysis Paper Context Information](https://www.pewresearch.org/short-reads/2023/11/22/online-shopping-has-grown-rapidly-in-u-s-but-most-sales-are-still-in-stores/)
-<li>[Data Modeling](https://www.w3schools.com/python/matplotlib_pyplot.asp)
 </ul>
