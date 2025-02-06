@@ -33,11 +33,10 @@ Install requests with <code>pip install requests</code>.
 Navigate to the <code>cd ~/cs3640/A5/crawler</code> directory and run <code>python3 crawler.py</code> in the terminal. <br>Alternatively, you can run <code>python3 crawler/crawler.py</code> in the terminal from the <code>~/cs3640/A5</code> directory.
 
 <h4>Resources</h4>
-<ul>
-<li>[Using BeautifulSoup](https://oxylabs.io/blog/beautiful-soup-parsing-tutorial)
-<li>[BeautifulSoup find_all method](https://scrapeops.io/python-web-scraping-playbook/python-beautifulsoup-findall/)
-<li>[Using Playwright](https://www.roborabbit.com/blog/web-scraping-with-playwright-in-python/)
-</ul>
+[Using BeautifulSoup](https://oxylabs.io/blog/beautiful-soup-parsing-tutorial)
+[BeautifulSoup findall method](https://scrapeops.io/python-web-scraping-playbook/python-beautifulsoup-findall/) 
+[Using Playwright](https://www.roborabbit.com/blog/web-scraping-with-playwright-in-python/) 
+
 
 <h2>Instructions for converting the data</code></h2>
 
@@ -58,10 +57,9 @@ All HTML files should now be located in <code>./ext/plaintext_policies</code> as
 
 
 <h5>Resources</h5>
-<ul>
-<li>[HtmlToPlaintext](https://github.com/benandow/HtmlToPlaintext)
-<li>[Docker Installation](https://docs.docker.com/engine/install/ubuntu/)
-</ul>
+
+[HtmlToPlaintext](https://github.com/benandow/HtmlToPlaintext)
+[Docker Installation](https://docs.docker.com/engine/install/ubuntu/)
 
 
 <h4><strong>Group Member Contributions</strong></h4><br>
